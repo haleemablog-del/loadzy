@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
+
 const locations = [
   "Chennai",
   "Bangalore",
@@ -30,10 +30,7 @@ const locations = [
   "Kolkata",
   "Ahmedabad",
 ];
-  setOptions({
-  key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
-  v: "weekly",
-});
+  
 
 
 export default function Home() {
@@ -49,59 +46,8 @@ const [phone, setPhone] = useState("");
 const [loadType, setLoadType] = useState("");
 const [pickupDate, setPickupDate] = useState("");
 
-useEffect(() => {
-  const setupGooglePlaces = async () => {
-    
+  
 
-    const { PlaceAutocompleteElement } =
-      await importLibrary("places");
-
-    if (pickupRef.current) {
-    const pickupAutocomplete = new PlaceAutocompleteElement({
-  includedRegionCodes: ["in"],
-});
-
-pickupAutocomplete.style.border = "1px solid #cbd5e1";
-pickupAutocomplete.style.borderRadius = "0.75rem";
-
-pickupAutocomplete.placeholder = "Enter pickup location";
-
-pickupAutocomplete.addEventListener("gmp-select", async (event: any) => {
-  const place = event.placePrediction.toPlace();
-
-  await place.fetchFields({
-    fields: ["formattedAddress"],
-  });
-
-  setPickup(place.formattedAddress || "");
-});
-}
-    if (deliveryRef.current) {
-      const deliveryAutocomplete = new PlaceAutocompleteElement({
-  includedRegionCodes: ["in"],
-});
-deliveryAutocomplete.style.border = "1px solid #cbd5e1";
-deliveryAutocomplete.style.borderRadius = "0.75rem";
-
-      deliveryAutocomplete.placeholder = "Enter delivery location";
-
-      deliveryAutocomplete.addEventListener("gmp-select", async (event: any) => {
-        const place = event.placePrediction.toPlace();
-
-        await place.fetchFields({
-          fields: ["formattedAddress"],
-        });
-
-        setDelivery(place.formattedAddress || "");
-      });
-
-      deliveryRef.current.innerHTML = "";
-      deliveryRef.current.appendChild(deliveryAutocomplete);
-    }
-  };
-
-  setupGooglePlaces();
-}, []);
 
   function checkAvailability() {
   if (
@@ -117,13 +63,25 @@ deliveryAutocomplete.style.borderRadius = "0.75rem";
     return;
   }
 
-  setMessage(
-    "✅ Booking Request Received! LOADZY will contact you shortly."
-  );
+  const message = `🚚 LOADZY Booking Request
+
+Customer Name: ${customerName}
+Phone: ${phone}
+Pickup: ${pickup}
+Delivery: ${delivery}
+Load Type: ${loadType}
+Truck: ${truck}
+Pickup Date: ${pickupDate}`;
+
+const whatsappUrl = `https://wa.me/919019499448?text=${encodeURIComponent(message)}`;
+
+if (typeof window !== "undefined") window.open(whatsappUrl, "_blank");
+
+setMessage("✅ Booking details are ready. Opening WhatsApp...");
 }
 
   function bookNow() {
-    window.location.href =
+   if (typeof window !== "undefined") window.location.href =
       "tel:+919019499448";
   }
 
