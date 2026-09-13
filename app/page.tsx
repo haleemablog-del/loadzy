@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 const locations = [
   "Chennai",
   "Bangalore",
@@ -34,6 +34,8 @@ const locations = [
 export default function Home() {
   const [pickup, setPickup] = useState("");
 const [delivery, setDelivery] = useState("");
+const pickupRef = useRef<HTMLDivElement>(null);
+const deliveryRef = useRef<HTMLDivElement>(null);
 const [truck, setTruck] = useState("");
 const [message, setMessage] = useState("");
 
@@ -41,6 +43,62 @@ const [customerName, setCustomerName] = useState("");
 const [phone, setPhone] = useState("");
 const [loadType, setLoadType] = useState("");
 const [pickupDate, setPickupDate] = useState("");
+
+useEffect(() => {
+  const setupGooglePlaces = async () => {
+    setOptions({
+      key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
+      v: "weekly",
+    });
+
+    const { PlaceAutocompleteElement } =
+      await importLibrary("places");
+
+    if (pickupRef.current) {
+      const pickupAutocomplete = new PlaceAutocompleteElement({
+  includedRegionCodes: ["in"],
+});
+
+      pickupAutocomplete.placeholder = "Enter pickup location";
+
+      pickupAutocomplete.addEventListener("gmp-select", async (event: any) => {
+        const place = event.placePrediction.toPlace();
+
+        await place.fetchFields({
+          fields: ["formattedAddress"],
+        });
+
+        setPickup(place.formattedAddress || "");
+      });
+
+      pickupRef.current.innerHTML = "";
+      pickupRef.current.appendChild(pickupAutocomplete);
+    }
+
+    if (deliveryRef.current) {
+      const deliveryAutocomplete = new PlaceAutocompleteElement({
+  includedRegionCodes: ["in"],
+});
+
+      deliveryAutocomplete.placeholder = "Enter delivery location";
+
+      deliveryAutocomplete.addEventListener("gmp-select", async (event: any) => {
+        const place = event.placePrediction.toPlace();
+
+        await place.fetchFields({
+          fields: ["formattedAddress"],
+        });
+
+        setDelivery(place.formattedAddress || "");
+      });
+
+      deliveryRef.current.innerHTML = "";
+      deliveryRef.current.appendChild(deliveryAutocomplete);
+    }
+  };
+
+  setupGooglePlaces();
+}, []);
 
   function checkAvailability() {
   if (
@@ -244,54 +302,42 @@ const [pickupDate, setPickupDate] = useState("");
             <div className="mt-8">
               <label className="font-bold">
                 Pickup location
+
               </label>
 
               <div className="relative">
-  <input
-    value={pickup}
-    onChange={(e) => setPickup(e.target.value)}
-    placeholder="Enter city or location"
-    className="mt-2 w-full rounded-xl border px-4 py-3"
-  />
+  <div
+    ref={pickupRef}
+    className="mt-2 w-full"
+  ></div>
 
   {pickup &&
-  !locations.some(
-    (location) =>
-      location.toLowerCase() === pickup.trim().toLowerCase()
-  ) && (
-    <div className="absolute left-0 right-0 top-full z-50 mt-1 rounded-xl border bg-white shadow-lg">
-      {locations
-        .filter((location) =>
-          location.toLowerCase().includes(pickup.toLowerCase())
-        )
-        .slice(0, 5)
-        .map((location) => (
-          <button
-            key={location}
-            type="button"
-            onClick={() => setPickup(location)}
-            className="block w-full px-4 py-3 text-left hover:bg-gray-100"
-          >
-            📍 {location}
-          </button>
-        ))}
-    </div>
-  )}
-</div>
+    !locations.some(
+      (location) =>
+        location.toLowerCase() === pickup.trim().toLowerCase()
+    ) && (
+ <div
+  ref={pickupRef}
+  className="mt-2 w-full"
+></div>
+   
+
+  
+)}
             </div>
 
             {/* Delivery */}
             <div className="mt-5">
               <label className="font-bold">
                 Delivery location
+                
+
               </label>
 
-              <input
-                value={delivery}
-                onChange={(e) => setDelivery(e.target.value)}
-                placeholder="Enter destination"
-                className="mt-2 w-full rounded-xl border border-slate-300 p-4 outline-none focus:border-blue-600"
-              />
+              <div
+  ref={deliveryRef}
+  className="mt-2 w-full"
+></div>
             </div>{delivery &&
   !locations.some(
     (location) =>
@@ -404,6 +450,7 @@ const [pickupDate, setPickupDate] = useState("");
           </div>
 
         </div>
+        </div>
       </section>
 
       {/* Truck Types */}
@@ -495,10 +542,12 @@ const [pickupDate, setPickupDate] = useState("");
             }
             className="mt-8 rounded-xl bg-blue-600 px-8 py-4 font-black text-white hover:bg-blue-700"
           >
+
             Find Available Loads →
           </button>
 
         </div>
+       
       </section>
 
       {/* Routes */}
