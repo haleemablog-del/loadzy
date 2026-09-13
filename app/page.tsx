@@ -9,7 +9,8 @@ const locations = [
   "Salem",
   "Madurai",
   "Tirupattur",
-  "Vellore",
+"Vaniyambadi",
+"Vellore",
   "Hosur",
   "Krishnagiri",
   "Tirunelveli",
@@ -29,6 +30,10 @@ const locations = [
   "Kolkata",
   "Ahmedabad",
 ];
+  setOptions({
+  key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
+  v: "weekly",
+});
 
 
 export default function Home() {
@@ -46,39 +51,37 @@ const [pickupDate, setPickupDate] = useState("");
 
 useEffect(() => {
   const setupGooglePlaces = async () => {
-    setOptions({
-      key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
-      v: "weekly",
-    });
+    
 
     const { PlaceAutocompleteElement } =
       await importLibrary("places");
 
     if (pickupRef.current) {
-      const pickupAutocomplete = new PlaceAutocompleteElement({
+    const pickupAutocomplete = new PlaceAutocompleteElement({
   includedRegionCodes: ["in"],
 });
 
-      pickupAutocomplete.placeholder = "Enter pickup location";
+pickupAutocomplete.style.border = "1px solid #cbd5e1";
+pickupAutocomplete.style.borderRadius = "0.75rem";
 
-      pickupAutocomplete.addEventListener("gmp-select", async (event: any) => {
-        const place = event.placePrediction.toPlace();
+pickupAutocomplete.placeholder = "Enter pickup location";
 
-        await place.fetchFields({
-          fields: ["formattedAddress"],
-        });
+pickupAutocomplete.addEventListener("gmp-select", async (event: any) => {
+  const place = event.placePrediction.toPlace();
 
-        setPickup(place.formattedAddress || "");
-      });
+  await place.fetchFields({
+    fields: ["formattedAddress"],
+  });
 
-      pickupRef.current.innerHTML = "";
-      pickupRef.current.appendChild(pickupAutocomplete);
-    }
-
+  setPickup(place.formattedAddress || "");
+});
+}
     if (deliveryRef.current) {
       const deliveryAutocomplete = new PlaceAutocompleteElement({
   includedRegionCodes: ["in"],
 });
+deliveryAutocomplete.style.border = "1px solid #cbd5e1";
+deliveryAutocomplete.style.borderRadius = "0.75rem";
 
       deliveryAutocomplete.placeholder = "Enter delivery location";
 
@@ -305,26 +308,35 @@ useEffect(() => {
 
               </label>
 
-              <div className="relative">
-  <div
-    ref={pickupRef}
-    className="mt-2 w-full"
-  ></div>
+             <div className="relative mt-2 w-full">
+  <input
+    type="text"
+    value={pickup}
+    onChange={(e) => setPickup(e.target.value)}
+    placeholder="Enter pickup location"
+    className="w-full rounded-xl border border-slate-300 px-4 py-3"
+  />
 
-  {pickup &&
-    !locations.some(
-      (location) =>
-        location.toLowerCase() === pickup.trim().toLowerCase()
-    ) && (
- <div
-  ref={pickupRef}
-  className="mt-2 w-full"
-></div>
-   
-
-  
-)}
-            </div>
+  {pickup && !locations.some((location) => location.toLowerCase() === pickup.trim().toLowerCase()) && (
+    <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
+      {locations
+        .filter((location) =>
+          location.toLowerCase().includes(pickup.toLowerCase())
+        )
+        .slice(0, 5)
+        .map((location) => (
+          <button
+            key={location}
+            type="button"
+            onClick={() => setPickup(location)}
+            className="block w-full px-4 py-3 text-left hover:bg-slate-100"
+          >
+            {location}
+          </button>
+        ))}
+    </div>
+  )}
+</div>
 
             {/* Delivery */}
             <div className="mt-5">
@@ -334,10 +346,13 @@ useEffect(() => {
 
               </label>
 
-              <div
-  ref={deliveryRef}
-  className="mt-2 w-full"
-></div>
+              <input
+  type="text"
+  value={delivery}
+  onChange={(e) => setDelivery(e.target.value)}
+  placeholder="Enter delivery location"
+  className="w-full rounded-xl border border-slate-300 px-4 py-3"
+/>
             </div>{delivery &&
   !locations.some(
     (location) =>
