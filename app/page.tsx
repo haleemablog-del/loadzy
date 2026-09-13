@@ -97,21 +97,13 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
       <nav className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
-          <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-400 text-2xl">
-              🚚
-            </div>
-
-            <div>
-              <div className="text-2xl font-black tracking-tight text-blue-950">
-                LOAD<span className="text-yellow-400">ZY</span>
-              </div>
-
-              <div className="text-[10px] font-semibold tracking-[0.2em] text-slate-500">
-                LOAD IT. TRACK IT. DELIVER IT.
-              </div>
-            </div>
-          </div>
+          <div className="flex items-center">
+  <img
+    src="/loadzy-logo.png"
+    alt="LOADZY"
+    className="h-14 w-auto max-w-[220px] object-contain"
+  />
+</div>
 
           <div className="hidden gap-8 font-semibold md:flex">
             <a href="#book" className="hover:text-blue-600">
