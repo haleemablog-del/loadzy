@@ -258,9 +258,9 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     className="mt-2 w-full rounded-xl border px-4 py-3"
   />
 </div>
-            <div className="mt-8">
+            <div className="mt-8 relative">
               <label className="font-bold">
-                Pickup location
+                
 </label>
 
 <input
@@ -275,7 +275,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 />
 
   {pickup && !locations.some((location) => location.toLowerCase() === pickup.trim().toLowerCase()) && (
-    <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
+    <div className="absolute left-0 top-full w-full z-50 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
       {locations
         .filter((location) =>
           location.toLowerCase().includes(pickup.toLowerCase())
