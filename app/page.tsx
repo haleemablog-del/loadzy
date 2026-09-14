@@ -36,6 +36,12 @@ const locations = [
 export default function Home() {
   const [pickup, setPickup] = useState("");
 const [delivery, setDelivery] = useState("");
+
+const [pickupIndex, setPickupIndex] = useState(-1);
+const [deliveryIndex, setDeliveryIndex] = useState(-1);
+const pickupSuggestions = locations.filter((location) =>
+  location.toLowerCase().includes(pickup.toLowerCase())
+).slice(0, 5);
 const pickupRef = useRef<HTMLDivElement>(null);
 const deliveryRef = useRef<HTMLDivElement>(null);
 const [truck, setTruck] = useState("");
@@ -255,17 +261,18 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
             <div className="mt-8">
               <label className="font-bold">
                 Pickup location
+</label>
 
-              </label>
-
-             <div className="relative mt-2 w-full">
-  <input
-    type="text"
-    value={pickup}
-    onChange={(e) => setPickup(e.target.value)}
-    placeholder="Enter pickup location"
-    className="w-full rounded-xl border border-slate-300 px-4 py-3"
-  />
+<input
+  type="text"
+  value={pickup}
+  onChange={(e) => {
+    setPickup(e.target.value);
+    setPickupIndex(-1);
+  }}
+  placeholder="Enter pickup location"
+  className="w-full rounded-xl border border-slate-300 px-4 py-3"
+/>
 
   {pickup && !locations.some((location) => location.toLowerCase() === pickup.trim().toLowerCase()) && (
     <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
@@ -327,7 +334,8 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
           ))}
       </div>
     </div>
-  )}
+    )}
+  
 
             {/* Truck */}{/* Load Type */}
 <div className="mt-5">
@@ -415,7 +423,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
           </div>
 
         </div>
-        </div>
+        
       </section>
 
       {/* Truck Types */}
