@@ -65,9 +65,15 @@ const [pickupDate, setPickupDate] = useState("");
     !truck ||
     !pickupDate
   ) {
-    setMessage("Please fill all the details.");
-    return;
-  }
+    
+  setMessage("Please fill all the details.");
+  return;
+}
+
+if (!/^\d{10}$/.test(phone)) {
+  setMessage("Please enter a valid 10-digit phone number.");
+  return;
+}
 
   const message = `🚚 LOADZY Booking Request
 
@@ -260,7 +266,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 </div>
             <div className="mt-8 relative">
               <label className="font-bold">
-                
+    Pickup location            
 </label>
 
 <input
@@ -296,7 +302,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 </div>
 
             {/* Delivery */}
-            <div className="mt-5">
+            <div className="mt-5 relative">
               <label className="font-bold">
                 Delivery location
                 
