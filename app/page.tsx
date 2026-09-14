@@ -107,7 +107,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
   <img
     src="/loadzy-logo.png"
     alt="LOADZY"
-    className="h-14 w-auto max-w-[220px] object-contain"
+   className="h-20 w-auto max-w-[280px] object-contain"
   />
 </div>
 
@@ -135,7 +135,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 
           <button
             onClick={bookNow}
-            className="rounded-xl bg-blue-600 px-6 py-3 font-bold text-white shadow-lg hover:bg-blue-700"
+            className="rounded-xl bg-teal-500 px-6 py-3 font-bold text-white shadow-lg hover:bg-teal-600"
           >
             📞 Book Now
           </button>
@@ -397,7 +397,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 </div>
             <button
               onClick={checkAvailability}
-              className="mt-7 w-full rounded-xl bg-blue-600 py-4 text-lg font-black text-white shadow-lg hover:bg-blue-700"
+              className="mt-7 w-full rounded-xl bg-teal-500 py-4 text-lg font-black text-white shadow-lg hover:bg-teal-600"
             >🚚 Submit Booking
                →
             </button>
@@ -513,7 +513,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
                 "Load matching will be connected here."
               )
             }
-            className="mt-8 rounded-xl bg-blue-600 px-8 py-4 font-black text-white hover:bg-blue-700"
+            className="mt-8 rounded-xl hover:bg-teal-600 px-8 py-4 font-black text-white hover:bg-teal-600"
           >
 
             Find Available Loads →
