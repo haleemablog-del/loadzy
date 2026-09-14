@@ -152,7 +152,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
       {/* Hero / Booking */}
       <section
         id="book"
-        className="bg-blue-950 px-6 py-16 text-white"
+       className="bg-gradient-to-br from-[#062B55] via-[#064A78] to-[#021B36] px-6 py-16 text-white"
       >
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
 
@@ -167,12 +167,12 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
               Move your load.
               <br />
 
-              <span className="text-yellow-400">
+              <span className="text-[#12E6D3]">
                 Move your business.
               </span>
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
+            <p className="mt-6 max-w-xl text-lg leading-8 text-text-[#B8FFF6]">
               Book the right truck for your load, find return loads,
               and move goods across India with LOADZY.
             </p>
@@ -181,7 +181,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 
               <a
                 href="#book"
-                className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-blue-950 hover:bg-yellow-300"
+                className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 hover:bg-[#FFE66D]"
               >
                 Book a Truck →
               </a>
