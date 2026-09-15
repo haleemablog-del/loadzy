@@ -595,10 +595,11 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     </a>
   </div>
 </section>
-      {/* Routes */}
-        <section
-        className="px-6 py-20"
-      >
+     {/* Routes */}
+<section
+  id="routes"
+  className="px-6 py-20"
+>
         <div className="mx-auto max-w-7xl">
 
           <div className="text-center">
