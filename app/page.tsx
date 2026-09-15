@@ -519,7 +519,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
                 "Load matching will be connected here."
               )
             }
-            className="mt-8 rounded-xl hover:bg-teal-600 px-8 py-4 font-black text-white hover:bg-teal-600"
+            className="mt-8 rounded-xl bg-teal-500 px-8 py-4 font-black text-white shadow-lg hover:bg-teal-600"
           >
 
             Find Available Loads →
@@ -529,9 +529,74 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
        
       </section>
 
+      {/* Why Choose LOADZY */}
+<section className="px-6 py-20 bg-white">
+  <div className="mx-auto max-w-7xl text-center">
+    <div className="font-bold text-teal-600">
+      WHY CHOOSE LOADZY
+    </div>
+
+    <h2 className="mt-2 text-4xl font-black text-blue-950">
+      Transport made simple, reliable and affordable
+    </h2>
+
+    <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+      LOADZY helps load owners find suitable trucks and move goods
+      across India with a simple booking experience.
+    </p>
+
+    <div className="mt-12 grid gap-6 md:grid-cols-4">
+      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+        <div className="text-3xl">🚚</div>
+        <h3 className="mt-4 text-xl font-bold text-blue-950">
+          Reliable Trucks
+        </h3>
+        <p className="mt-2 text-sm text-slate-600">
+          Find suitable truck options for different load requirements.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+        <div className="text-3xl">💰</div>
+        <h3 className="mt-4 text-xl font-bold text-blue-950">
+          Affordable Freight
+        </h3>
+        <p className="mt-2 text-sm text-slate-600">
+          Compare your transport needs and choose a suitable option.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+        <div className="text-3xl">📍</div>
+        <h3 className="mt-4 text-xl font-bold text-blue-950">
+          Pan India Service
+        </h3>
+        <p className="mt-2 text-sm text-slate-600">
+          Connect routes and move loads across cities and states.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+        <div className="text-3xl">⚡</div>
+        <h3 className="mt-4 text-xl font-bold text-blue-950">
+          Simple Booking
+        </h3>
+        <p className="mt-2 text-sm text-slate-600">
+          Enter your load details and quickly send your booking request.
+        </p>
+      </div>
+    </div>
+
+    <a
+      href="#book"
+      className="mt-10 inline-block rounded-xl bg-teal-500 px-8 py-4 font-bold text-white shadow-lg hover:bg-teal-600"
+    >
+      Book Your Truck →
+    </a>
+  </div>
+</section>
       {/* Routes */}
-      <section
-        id="routes"
+        <section
         className="px-6 py-20"
       >
         <div className="mx-auto max-w-7xl">
