@@ -152,7 +152,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
       {/* Hero / Booking */}
       <section
         id="book"
-       className="bg-gradient-to-br from-[#062B55] via-[#064A78] to-[#021B36] px-6 py-16 text-white"
+       className="bg-gradient-to-br from-[#063B66] via-[#075985] to-[#021B36] px-6 py-16 text-white"
       >
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
 
@@ -223,17 +223,17 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
           </div>
 
           {/* Booking Card */}
-          <div className="rounded-3xl bg-white p-8 text-slate-900 shadow-2xl">
+          <div className="rounded-3xl bg-white p-8 text-[#062B55] shadow-2xl ring-1 ring-slate-200">
 
-            <div className="text-sm font-black tracking-widest text-blue-600">
+            <div className="text-sm font-black tracking-widest text-[#00C9B7]">
               GET STARTED
             </div>
 
-            <h2 className="mt-2 text-4xl font-black text-blue-950">
+            <h2 className="mt-2 text-4xl font-black text-[#062B55]">
               Book a Truck
             </h2>
 
-            <p className="mt-2 text-slate-500">
+            <p className="mt-2 text-[#496A85]">
               Tell us where your load needs to go.
             </p>
 
@@ -247,7 +247,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     value={customerName}
     onChange={(e) => setCustomerName(e.target.value)}
     placeholder="Enter your name"
-    className="mt-2 w-full rounded-xl border px-4 py-3"
+    className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
   />
 </div>
 
@@ -261,7 +261,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     value={phone}
     onChange={(e) => setPhone(e.target.value)}
     placeholder="Enter mobile number"
-    className="mt-2 w-full rounded-xl border px-4 py-3"
+    className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
   />
 </div>
             <div className="mt-8 relative">
@@ -277,7 +277,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     setPickupIndex(-1);
   }}
   placeholder="Enter pickup location"
-  className="w-full rounded-xl border border-slate-300 px-4 py-3"
+  className="w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
 />
 
   {pickup && !locations.some((location) => location.toLowerCase() === pickup.trim().toLowerCase()) && (
@@ -314,7 +314,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
   value={delivery}
   onChange={(e) => setDelivery(e.target.value)}
   placeholder="Enter delivery location"
-  className="w-full rounded-xl border border-slate-300 px-4 py-3"
+  className="w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
 />
             </div>{delivery &&
   !locations.some(
@@ -352,7 +352,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
   <select
     value={loadType}
     onChange={(e) => setLoadType(e.target.value)}
-    className="mt-2 w-full rounded-xl border px-4 py-3"
+    className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
   >
     <option value="">Select load type</option>
     <option value="Furniture">Furniture</option>
@@ -369,7 +369,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
               <select
                 value={truck}
                 onChange={(e) => setTruck(e.target.value)}
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white p-4 outline-none focus:border-blue-600"
+                className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
               >
                 <option value="">
                   Choose truck type
