@@ -354,7 +354,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     onChange={(e) => setLoadType(e.target.value)}
     className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
   >
-    <option value="House Shifting">House Shifting</option>
+    <option value="" disabled>Select Load Type</option>
 <option value="Packers & Movers">Packers & Movers</option>
 <option value="Furniture">Furniture</option>
 <option value="Industrial">Industrial</option>
