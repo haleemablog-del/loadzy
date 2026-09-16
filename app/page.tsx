@@ -223,18 +223,18 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
           </div>
 
           {/* Booking Card */}
-          <div className="rounded-3xl bg-white p-8 text-[#062B55] shadow-2xl ring-1 ring-slate-200">
+         <div className="rounded-3xl bg-white p-8 text-[#062B55] shadow-2xl ring-1 ring-slate-200 lg:p-10">
 
-            <div className="text-sm font-black tracking-widest text-[#00C9B7]">
-              GET STARTED
-            </div>
+            <div className="text-sm font-black tracking-[0.2em] text-[#00A896]">
+  GET STARTED
+</div>
 
             <h2 className="mt-2 text-4xl font-black text-[#062B55]">
-              Book a Truck
+              Get Your Truck Quote
             </h2>
 
             <p className="mt-2 text-[#496A85]">
-              Tell us where your load needs to go.
+              Enter your load details and route to get started.
             </p>
 
             {/* Customer Name */}
@@ -266,7 +266,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
 </div>
             <div className="mt-8 relative">
               <label className="font-bold">
-    Pickup location            
+    Pickup Location            
 </label>
 
 <input
@@ -304,7 +304,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
             {/* Delivery */}
             <div className="mt-5 relative">
               <label className="font-bold">
-                Delivery location
+                Delivery Location
                 
 
               </label>
@@ -354,16 +354,18 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
     onChange={(e) => setLoadType(e.target.value)}
     className="mt-2 w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
   >
-    <option value="">Select load type</option>
-    <option value="Furniture">Furniture</option>
-    <option value="Household">Household</option>
-    <option value="Industrial">Industrial</option>
-    <option value="Other">Other</option>
+    <option value="House Shifting">House Shifting</option>
+<option value="Packers & Movers">Packers & Movers</option>
+<option value="Furniture">Furniture</option>
+<option value="Industrial">Industrial</option>
+<option value="Fruits & Vegetables">Fruits & Vegetables</option>
+<option value="Commercial Goods">Commercial Goods</option>
+<option value="Other">Other</option>
   </select>
 </div>
             <div className="mt-5">
               <label className="font-bold">
-                Select truck
+                Truck Type
               </label>
 
               <select
@@ -404,7 +406,7 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
             <button
               onClick={checkAvailability}
               className="mt-7 w-full rounded-xl bg-teal-500 py-4 text-lg font-black text-white shadow-lg hover:bg-teal-600"
-            >🚚 Submit Booking
+            >🚚 Get Truck Quote
                →
             </button>
 
@@ -514,11 +516,9 @@ setMessage("✅ Booking details are ready. Opening WhatsApp...");
           </p>
 
           <button
-            onClick={() =>
-              setMessage(
-                "Load matching will be connected here."
-              )
-            }
+          onClick={() => {
+  window.location.href = "/truck-owner#load-search";
+}}
             className="mt-8 rounded-xl bg-teal-500 px-8 py-4 font-black text-white shadow-lg hover:bg-teal-600"
           >
 
