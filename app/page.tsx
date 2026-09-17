@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { supabase } from "./lib/supabase";
 
 const locations = [
   "Chennai",
@@ -55,7 +56,7 @@ const [pickupDate, setPickupDate] = useState("");
   
 
 
-  function checkAvailability() {
+  async function checkAvailability() {
   if (
     !customerName ||
     !phone ||
@@ -65,15 +66,33 @@ const [pickupDate, setPickupDate] = useState("");
     !truck ||
     !pickupDate
   ) {
-    
-  setMessage("Please fill all the details.");
-  return;
-}
+    setMessage("Please fill all the details.");
+    return;
+  }
 
-if (!/^\d{10}$/.test(phone)) {
-  setMessage("Please enter a valid 10-digit phone number.");
-  return;
-}
+  if (!/^\d{10}$/.test(phone)) {
+    setMessage("Please enter a valid 10-digit phone number.");
+    return;
+  }
+
+  const { error } = await supabase.from("bookings").insert([
+    {
+      customer_name: customerName,
+      phone: phone,
+      pickup: pickup,
+      delivery: delivery,
+      load_type: loadType,
+      truck: truck,
+      pickup_date: pickupDate,
+      status: "new",
+    },
+  ]);
+
+  if (error) {
+    console.error("Booking save error:", error);
+    setMessage("Unable to save booking. Please try again.");
+    return;
+  }
 
   const message = `🚚 LOADZY Booking Request
 
@@ -85,11 +104,11 @@ Load Type: ${loadType}
 Truck: ${truck}
 Pickup Date: ${pickupDate}`;
 
-const whatsappUrl = `https://wa.me/919019499448?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/919019499448?text=${encodeURIComponent(message)}`;
 
-if (typeof window !== "undefined") window.open(whatsappUrl, "_blank");
+  if (typeof window !== "undefined") window.open(whatsappUrl, "_blank");
 
-setMessage("✅ Booking details are ready. Opening WhatsApp...");
+  setMessage("✅ Booking saved successfully. Opening WhatsApp...");
 }
 
   function bookNow() {
