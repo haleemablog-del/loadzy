@@ -1,18 +1,26 @@
 import type { MetadataRoute } from "next";
+import { loadzyRoutes } from "./lib/routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const staticPages: MetadataRoute.Sitemap = [
     {
-      url: "https://loadzyinfra.in",
+      url: "https://www.loadzyinfra.in",
       lastModified: new Date(),
     },
     {
-      url: "https://loadzyinfra.in/truck-owner",
+      url: "https://www.loadzyinfra.in/truck-owner",
       lastModified: new Date(),
     },
     {
-      url: "https://loadzyinfra.in/truck-rates",
+      url: "https://www.loadzyinfra.in/truck-rates",
       lastModified: new Date(),
     },
   ];
+
+  const routePages: MetadataRoute.Sitemap = loadzyRoutes.map((route) => ({
+    url: `https://www.loadzyinfra.in/routes/${route.fromSlug}/${route.toSlug}`,
+    lastModified: new Date(),
+  }));
+
+  return [...staticPages, ...routePages];
 }

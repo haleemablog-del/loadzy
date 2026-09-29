@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   title: "LOADZY | Truck Booking & Transport Services in India",
   description:
     "Book trucks for house shifting, packers & movers, commercial loads and freight transport across South India with LOADZY.",
-metadataBase: new URL("https://loadzyinfra.in"),
+metadataBase: new URL("https://www.loadzyinfra.in"),
 openGraph: {
   title: "LOADZY | Truck Booking & Transport Services in India",
   description:
     "Book trucks for house shifting, packers & movers, commercial loads and freight transport across South India with LOADZY.",
-  url: "https://loadzyinfra.in",
+  url: "https://www.loadzyinfra.in",
   siteName: "LOADZY",
   type: "website",
 images: [

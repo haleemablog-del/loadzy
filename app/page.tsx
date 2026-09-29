@@ -93,7 +93,23 @@ const [pickupDate, setPickupDate] = useState("");
     setMessage("Unable to save booking. Please try again.");
     return;
   }
+const { error: leadError } = await supabase.from("leads").insert([
+  {
+    customer_name: customerName,
+    phone: phone,
+    pickup: pickup,
+    delivery: delivery,
+    load_type: loadType,
+    truck_type: truck,
+    pickup_date: pickupDate,
+    source: "booking_form",
+    status: "new",
+  },
+]);
 
+if (leadError) {
+  console.error("Lead save error:", leadError);
+}
   const message = `🚚 LOADZY Booking Request
 
 Customer Name: ${customerName}
@@ -206,11 +222,11 @@ Pickup Date: ${pickupDate}`;
               </a>
 
               <a
-                href="#loads"
-                className="rounded-xl border border-blue-300 bg-blue-900 px-7 py-4 font-bold text-white hover:bg-blue-800"
-              >
-                Find a Load
-              </a>
+  href="/load-search"
+  className="rounded-xl border border-blue-300 bg-blue-900 px-7 py-4 font-bold text-white hover:bg-blue-800"
+>
+  Find a Load
+</a>
 
             </div>
 
@@ -249,11 +265,11 @@ Pickup Date: ${pickupDate}`;
 </div>
 
             <h2 className="mt-2 text-4xl font-black text-[#062B55]">
-              Get Your Truck Quote
+              Get Your Transport Price
             </h2>
 
             <p className="mt-2 text-[#496A85]">
-              Enter your load details and route to get started.
+              Enter your load details and route to get your transport price.
             </p>
 
             {/* Customer Name */}
@@ -425,7 +441,7 @@ Pickup Date: ${pickupDate}`;
             <button
               onClick={checkAvailability}
               className="mt-7 w-full rounded-xl bg-teal-500 py-4 text-lg font-black text-white shadow-lg hover:bg-teal-600"
-            >🚚 Get Truck Quote
+            >🚚 Get Transport Price 
                →
             </button>
 
