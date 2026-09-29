@@ -17,10 +17,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const routePages: MetadataRoute.Sitemap = loadzyRoutes.map((route) => ({
-    url: `https://www.loadzyinfra.in/routes/${route.fromSlug}/${route.toSlug}`,
-    lastModified: new Date(),
-  }));
+  const routePages: MetadataRoute.Sitemap = Array.from(
+  new Map(
+    loadzyRoutes.map((route) => {
+      const url = `https://www.loadzyinfra.in/routes/${route.fromSlug}/${route.toSlug}`;
+
+      return [url, { url, lastModified: new Date() }] as const;
+    })
+  ).values()
+);
 
   return [...staticPages, ...routePages];
 }
