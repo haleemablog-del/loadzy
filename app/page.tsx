@@ -215,7 +215,7 @@ Pickup Date: ${pickupDate}`;
             <div className="mt-8 flex flex-wrap gap-4">
 
               <a
-                href="#book"
+               href="#book-form"
                 className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 hover:bg-[#FFE66D]"
               >
                 Book a Truck →
@@ -258,7 +258,10 @@ Pickup Date: ${pickupDate}`;
           </div>
 
           {/* Booking Card */}
-         <div className="rounded-3xl bg-white p-8 text-[#062B55] shadow-2xl ring-1 ring-slate-200 lg:p-10">
+        <div
+  id="book-form"
+  className="rounded-3xl bg-white p-8 text-[#062B55] shadow-2xl ring-1 ring-slate-200 lg:p-10"
+>
 
             <div className="text-sm font-black tracking-[0.2em] text-[#00A896]">
   GET STARTED
