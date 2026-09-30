@@ -702,6 +702,105 @@ Pickup Date: ${pickupDate}`;
             name: "Hosur → Chennai",
             href: "/routes/hosur/chennai",
           },
+          {
+  name: "Bangalore → Chennai",
+  href: "/routes/bangalore/chennai",
+},{
+  name: "Chennai → Bangalore",
+  href: "/routes/chennai/bangalore",
+},
+{
+  name: "Bangalore → Chennai",
+  href: "/routes/bangalore/chennai",
+},
+{
+  name: "Chennai → Hyderabad",
+  href: "/routes/chennai/hyderabad",
+},
+{
+  name: "Hyderabad → Chennai",
+  href: "/routes/hyderabad/chennai",
+},
+{
+  name: "Bangalore → Hyderabad",
+  href: "/routes/bangalore/hyderabad",
+},
+{
+  name: "Hyderabad → Bangalore",
+  href: "/routes/hyderabad/bangalore",
+},
+{
+  name: "Chennai → Coimbatore",
+  href: "/routes/chennai/coimbatore",
+},
+{
+  name: "Coimbatore → Chennai",
+  href: "/routes/coimbatore/chennai",
+},
+{
+  name: "Coimbatore → Bangalore",
+  href: "/routes/coimbatore/bangalore",
+},
+{
+  name: "Bangalore → Coimbatore",
+  href: "/routes/bangalore/coimbatore",
+},
+{
+  name: "Chennai → Madurai",
+  href: "/routes/chennai/madurai",
+},
+{
+  name: "Madurai → Chennai",
+  href: "/routes/madurai/chennai",
+},
+{
+  name: "Chennai → Salem",
+  href: "/routes/chennai/salem",
+},
+{
+  name: "Salem → Chennai",
+  href: "/routes/salem/chennai",
+},
+{
+  name: "Chennai → Tirupattur",
+  href: "/routes/chennai/tirupattur",
+},
+{
+  name: "Tirupattur → Chennai",
+  href: "/routes/tirupattur/chennai",
+},
+{
+  name: "Chennai → Hosur",
+  href: "/routes/chennai/hosur",
+},
+{
+  name: "Hosur → Chennai",
+  href: "/routes/hosur/chennai",
+},
+{
+  name: "Chennai → Kochi",
+  href: "/routes/chennai/kochi",
+},
+{
+  name: "Kochi → Chennai",
+  href: "/routes/kochi/chennai",
+},
+{
+  name: "Bangalore → Kochi",
+  href: "/routes/bangalore/kochi",
+},
+{
+  name: "Kochi → Bangalore",
+  href: "/routes/kochi/bangalore",
+},
+{
+  name: "Chennai → Vijayawada",
+  href: "/routes/chennai/vijayawada",
+},
+{
+  name: "Vijayawada → Chennai",
+  href: "/routes/vijayawada/chennai",
+},
         ].map((route) => (
           <a
             key={route.href}
@@ -890,7 +989,86 @@ Pickup Date: ${pickupDate}`;
 </div>
         </div>
       </section>
+      
 
+      {/* Reviews */}
+      <section className="bg-white px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+
+          <div className="text-center">
+            <div className="font-bold text-[#08c9bd]">
+              CUSTOMER REVIEWS
+            </div>
+
+            <h2 className="mt-3 text-4xl font-black text-blue-950">
+              What our customers say
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+              Real experiences from customers who used LOADZY for their
+              transport requirements.
+            </p>
+          </div>
+
+          {reviews.length > 0 ? (
+            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {reviews.map((review) => (
+                <div
+                  key={review.id}
+                  className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <div className="flex items-center justify-between gap-4">
+                    <div className="font-black text-blue-950">
+                      {review.name}
+                    </div>
+
+                    <div className="text-yellow-500">
+                      {"★".repeat(Math.max(0, Math.min(5, review.rating)))}
+                    </div>
+                  </div>
+
+                  <p className="mt-4 leading-7 text-slate-600">
+                    "{review.review_text}"
+                  </p>
+
+                  <div className="mt-5 text-sm font-semibold text-slate-400">
+                    LOADZY Customer
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-slate-200 bg-slate-50 p-8 text-center">
+              <div className="text-4xl">⭐</div>
+
+              <h3 className="mt-4 text-xl font-black text-blue-950">
+                Be the first to review LOADZY
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Share your experience and help other customers discover LOADZY.
+              </p>
+            </div>
+          )}
+
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <a
+              href="/reviews"
+              className="rounded-xl bg-teal-500 px-7 py-3 font-bold text-white shadow-lg transition hover:bg-teal-600"
+            >
+              View All Reviews →
+            </a>
+
+            <a
+              href="/reviews"
+              className="rounded-xl bg-yellow-400 px-7 py-3 font-bold text-blue-950 shadow-lg transition hover:bg-yellow-300"
+            >
+              ⭐ Share Your Experience
+            </a>
+          </div>
+
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-slate-950 px-6 py-10 text-white">
