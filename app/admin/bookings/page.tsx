@@ -107,49 +107,69 @@ export default function BookingsPage() {
    * 5. Pickup date must match when booking has one
    */
    function getMatchingLoads(booking: Booking) {
-    const normalize = (value: string | null) =>
-      (value || "").trim().toLowerCase();
+  const normalize = (value: string | null) =>
+    (value || "").trim().toLowerCase().replace(/\s+/g, " ");
 
-    const bookingPickup = normalize(booking.pickup);
-    const bookingDelivery = normalize(booking.delivery);
-    const bookingLoadType = normalize(booking.load_type);
-    const bookingTruck = normalize(booking.truck);
-    const bookingDate = booking.pickup_date || "";
+  const normalizeLoadType = (value: string | null) => {
+    const text = normalize(value);
 
-    return availableLoads.filter((load) => {
-      const loadPickup = normalize(load.pickup);
-      const loadDelivery = normalize(load.delivery);
-      const loadType = normalize(load.load_type);
-      const loadTruck = normalize(load.truck);
-      const loadDate = load.pickup_date || "";
+    if (
+      text === "packer & movers" ||
+      text === "packer and movers" ||
+      text === "packers and movers"
+    ) {
+      return "packers & movers";
+    }
 
-      // Route must match exactly
-      if (loadPickup !== bookingPickup) {
-        return false;
-      }
+    return text;
+  };
 
-      if (loadDelivery !== bookingDelivery) {
-        return false;
-      }
+  const normalizeTruckType = (value: string | null) => {
+    return normalize(value)
+      .replace(/\s+/g, "")
+      .replace(/truck$/i, "");
+  };
 
-      // Load type must match if booking specifies one
-      if (bookingLoadType && loadType !== bookingLoadType) {
-        return false;
-      }
+  const bookingPickup = normalize(booking.pickup);
+  const bookingDelivery = normalize(booking.delivery);
+  const bookingLoadType = normalizeLoadType(booking.load_type);
+  const bookingTruck = normalizeTruckType(booking.truck);
+  const bookingDate = booking.pickup_date || "";
 
-      // Truck type must match if booking specifies one
-      if (bookingTruck && loadTruck !== bookingTruck) {
-        return false;
-      }
+  return availableLoads.filter((load) => {
+    const loadPickup = normalize(load.pickup);
+    const loadDelivery = normalize(load.delivery);
+    const loadType = normalizeLoadType(load.load_type);
+    const loadTruck = normalizeTruckType(load.truck);
+    const loadDate = load.pickup_date || "";
 
-      // Pickup date must match if booking specifies one
-      if (bookingDate && loadDate !== bookingDate) {
-        return false;
-      }
+    // Pickup and delivery must match
+    if (loadPickup !== bookingPickup) {
+      return false;
+    }
 
-      return true;
-    });
-  }
+    if (loadDelivery !== bookingDelivery) {
+      return false;
+    }
+
+    // Load type must match when booking specifies one
+    if (bookingLoadType && loadType !== bookingLoadType) {
+      return false;
+    }
+
+    // Truck type must match when booking specifies one
+    if (bookingTruck && loadTruck !== bookingTruck) {
+      return false;
+    }
+
+    // Pickup date must match when booking specifies one
+    if (bookingDate && loadDate !== bookingDate) {
+      return false;
+    }
+
+    return true;
+  });
+}
 
   async function assignLoad(bookingId: number) {
     const selectedLoadId = selectedLoadIds[bookingId];
