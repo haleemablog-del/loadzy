@@ -228,30 +228,10 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "nellore",
     toSlug: "chennai",
   },
-  {
-    from: "Chennai",
-    to: "Hyderabad",
-    fromSlug: "chennai",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Chennai",
-    fromSlug: "hyderabad",
-    toSlug: "chennai",
-  },
-  {
-    from: "Bangalore",
-    to: "Hyderabad",
-    fromSlug: "bangalore",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Bangalore",
-    fromSlug: "hyderabad",
-    toSlug: "bangalore",
-  },
+  
+  
+  
+  
   {
     from: "Chennai",
     to: "Warangal",
@@ -384,293 +364,98 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "kannur",
     toSlug: "bangalore",
   },
+    
+  {
+    from: "Tirupati",
+    to: "Bangalore",
+    fromSlug: "tirupati",
+    toSlug: "bangalore",
+  },
+  {
+    from: "Bangalore",
+    to: "Nellore",
+    fromSlug: "bangalore",
+    toSlug: "nellore",
+  },
+  {
+    from: "Nellore",
+    to: "Bangalore",
+    fromSlug: "nellore",
+    toSlug: "bangalore",
+  },
+  {
+    from: "Bangalore",
+    to: "Kurnool",
+    fromSlug: "bangalore",
+    toSlug: "kurnool",
+  },
+  {
+    from: "Kurnool",
+    to: "Bangalore",
+    fromSlug: "kurnool",
+    toSlug: "bangalore",
+  },
+  {
+    from: "Bangalore",
+    to: "Anantapur",
+    fromSlug: "bangalore",
+    toSlug: "anantapur",
+  },
+  {
+    from: "Anantapur",
+    to: "Bangalore",
+    fromSlug: "anantapur",
+    toSlug: "bangalore",
+  },
+  {
+    from: "Bangalore",
+    to: "Warangal",
+    fromSlug: "bangalore",
+    toSlug: "warangal",
+  },
+  {
+    from: "Warangal",
+    to: "Bangalore",
+    fromSlug: "warangal",
+    toSlug: "bangalore",
+  },
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     {
-    from: "Bangalore",
-    to: "Tirupati",
-    fromSlug: "bangalore",
-    toSlug: "tirupati",
-  },
-  {
-    from: "Tirupati",
-    to: "Bangalore",
-    fromSlug: "tirupati",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Nellore",
-    fromSlug: "bangalore",
-    toSlug: "nellore",
-  },
-  {
-    from: "Nellore",
-    to: "Bangalore",
-    fromSlug: "nellore",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Kurnool",
-    fromSlug: "bangalore",
-    toSlug: "kurnool",
-  },
-  {
-    from: "Kurnool",
-    to: "Bangalore",
-    fromSlug: "kurnool",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Anantapur",
-    fromSlug: "bangalore",
-    toSlug: "anantapur",
-  },
-  {
-    from: "Anantapur",
-    to: "Bangalore",
-    fromSlug: "anantapur",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Warangal",
-    fromSlug: "bangalore",
-    toSlug: "warangal",
-  },
-  {
-    from: "Warangal",
-    to: "Bangalore",
-    fromSlug: "warangal",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Hyderabad",
-    fromSlug: "bangalore",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Bangalore",
-    fromSlug: "hyderabad",
-    toSlug: "bangalore",
-  },
-    {
-    from: "Bangalore",
-    to: "Tirupati",
-    fromSlug: "bangalore",
-    toSlug: "tirupati",
-  },
-  {
-    from: "Tirupati",
-    to: "Bangalore",
-    fromSlug: "tirupati",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Nellore",
-    fromSlug: "bangalore",
-    toSlug: "nellore",
-  },
-  {
-    from: "Nellore",
-    to: "Bangalore",
-    fromSlug: "nellore",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Kurnool",
-    fromSlug: "bangalore",
-    toSlug: "kurnool",
-  },
-  {
-    from: "Kurnool",
-    to: "Bangalore",
-    fromSlug: "kurnool",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Anantapur",
-    fromSlug: "bangalore",
-    toSlug: "anantapur",
-  },
-  {
-    from: "Anantapur",
-    to: "Bangalore",
-    fromSlug: "anantapur",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Warangal",
-    fromSlug: "bangalore",
-    toSlug: "warangal",
-  },
-  {
-    from: "Warangal",
-    to: "Bangalore",
-    fromSlug: "warangal",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Hyderabad",
-    fromSlug: "bangalore",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Bangalore",
-    fromSlug: "hyderabad",
-    toSlug: "bangalore",
-  },
-    {
-    from: "Bangalore",
-    to: "Tirupati",
-    fromSlug: "bangalore",
-    toSlug: "tirupati",
-  },
-  {
-    from: "Tirupati",
-    to: "Bangalore",
-    fromSlug: "tirupati",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Nellore",
-    fromSlug: "bangalore",
-    toSlug: "nellore",
-  },
-  {
-    from: "Nellore",
-    to: "Bangalore",
-    fromSlug: "nellore",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Kurnool",
-    fromSlug: "bangalore",
-    toSlug: "kurnool",
-  },
-  {
-    from: "Kurnool",
-    to: "Bangalore",
-    fromSlug: "kurnool",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Anantapur",
-    fromSlug: "bangalore",
-    toSlug: "anantapur",
-  },
-  {
-    from: "Anantapur",
-    to: "Bangalore",
-    fromSlug: "anantapur",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Warangal",
-    fromSlug: "bangalore",
-    toSlug: "warangal",
-  },
-  {
-    from: "Warangal",
-    to: "Bangalore",
-    fromSlug: "warangal",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Hyderabad",
-    fromSlug: "bangalore",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Bangalore",
-    fromSlug: "hyderabad",
-    toSlug: "bangalore",
-  },  {
-    from: "Bangalore",
-    to: "Tirupati",
-    fromSlug: "bangalore",
-    toSlug: "tirupati",
-  },
-  {
-    from: "Tirupati",
-    to: "Bangalore",
-    fromSlug: "tirupati",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Nellore",
-    fromSlug: "bangalore",
-    toSlug: "nellore",
-  },
-  {
-    from: "Nellore",
-    to: "Bangalore",
-    fromSlug: "nellore",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Kurnool",
-    fromSlug: "bangalore",
-    toSlug: "kurnool",
-  },
-  {
-    from: "Kurnool",
-    to: "Bangalore",
-    fromSlug: "kurnool",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Anantapur",
-    fromSlug: "bangalore",
-    toSlug: "anantapur",
-  },
-  {
-    from: "Anantapur",
-    to: "Bangalore",
-    fromSlug: "anantapur",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Warangal",
-    fromSlug: "bangalore",
-    toSlug: "warangal",
-  },
-  {
-    from: "Warangal",
-    to: "Bangalore",
-    fromSlug: "warangal",
-    toSlug: "bangalore",
-  },
-  {
-    from: "Bangalore",
-    to: "Hyderabad",
-    fromSlug: "bangalore",
-    toSlug: "hyderabad",
-  },
-  {
-    from: "Hyderabad",
-    to: "Bangalore",
-    fromSlug: "hyderabad",
-    toSlug: "bangalore",
-  },  {
     from: "Chennai",
     to: "Tiruchirappalli",
     fromSlug: "chennai",
@@ -895,12 +680,7 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "kurnool",
     toSlug: "chennai",
   },
-  {
-    from: "Chennai",
-    to: "Vijayawada",
-    fromSlug: "chennai",
-    toSlug: "vijayawada",
-  },
+  
   {
     from: "Vijayawada",
     to: "Chennai",
@@ -966,16 +746,6 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "khammam",
     toSlug: "chennai",
   },
-  {
-    from: "Chennai",
-    to: "Warangal",
-    fromSlug: "chennai",
-    toSlug: "warangal",
-  },
-  {
-    from: "Warangal",
-    to: "Chennai",
-    fromSlug: "warangal",
-    toSlug: "chennai",
-  },
+  
+  
 ];
