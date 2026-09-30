@@ -52,6 +52,31 @@ const [customerName, setCustomerName] = useState("");
 const [phone, setPhone] = useState("");
 const [loadType, setLoadType] = useState("");
 const [pickupDate, setPickupDate] = useState("");
+const [reviews, setReviews] = useState<
+  {
+    id: string | number;
+    name: string;
+    rating: number;
+    review_text: string;
+  }[]
+>([]);
+
+useEffect(() => {
+  async function loadReviews() {
+    const { data, error } = await supabase
+      .from("reviews")
+      .select("id, name, rating, review_text")
+      .eq("status", "approved")
+      .order("created_at", { ascending: false })
+      .limit(6);
+
+    if (!error && data) {
+      setReviews(data);
+    }
+  }
+
+  loadReviews();
+}, []);
 
   
 
@@ -720,6 +745,152 @@ Pickup Date: ${pickupDate}`;
 
         </div>
       </section>
+            {/* FAQ */}
+      <section className="bg-slate-50 px-6 py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="text-center">
+            <div className="font-bold text-[#08c9bd]">
+              FREQUENTLY ASKED QUESTIONS
+            </div>
+
+            <h2 className="mt-3 text-4xl font-black text-blue-950">
+              Frequently Asked Questions
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+              Find answers about truck booking, freight rates, truck types,
+              delivery, load matching and household shifting with LOADZY.
+            </p>
+          </div>
+
+          <div className="mt-10 space-y-4">
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                How do I book a truck with LOADZY?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Enter your pickup location, delivery location, load type,
+                truck type and pickup date in the booking form. Submit your
+                request and LOADZY will contact you regarding the booking.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                How much does truck transport cost?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Transport charges depend on the route, truck type, load type,
+                pickup date and availability. Contact LOADZY to get a
+                transport price for your requirement.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                Which truck should I choose for my load?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                The right truck depends on the size, weight and type of your
+                goods. LOADZY provides different truck options so you can
+                choose a vehicle suitable for your shipment.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                Does LOADZY provide part-load transport?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Yes. LOADZY is designed to support both part-load and
+                full-load transport requirements, depending on route and
+                available trucks.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                Can I use LOADZY for household shifting?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Yes. LOADZY can be used for household shifting and packers &
+                movers requirements. Select the appropriate load and truck
+                type when submitting your booking request.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                How does Find My Truck work?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Submit your pickup, delivery, load and truck requirements.
+                LOADZY checks available loads and matches suitable transport
+                based on the booking details.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                Can I find available loads on LOADZY?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                Yes. Available loads can be searched by route and other
+                requirements when matching loads are available on the LOADZY
+                platform.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border bg-white p-5 shadow-sm">
+              <summary className="cursor-pointer list-none font-bold text-blue-950">
+                Does LOADZY offer return-load options?
+                <span className="float-right text-[#08c9bd] group-open:rotate-180">
+                  ↓
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">
+                LOADZY aims to help truck owners find suitable return loads
+                where availability exists on the route.
+              </p>
+            </details>
+          </div>
+
+          <div className="mt-10 text-center">
+  <p className="text-slate-600">
+    Still have a question? Ask LOADZY.
+  </p>
+
+  <button
+    onClick={bookNow}
+    className="mt-4 rounded-xl bg-yellow-400 px-7 py-3 font-bold text-blue-950 transition hover:scale-105"
+  >
+    Ask LOADZY →
+  </button>
+</div>
+        </div>
+      </section>
+
 
       {/* Footer */}
       <footer className="bg-slate-950 px-6 py-10 text-white">
