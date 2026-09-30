@@ -439,11 +439,15 @@ Pickup Date: ${pickupDate}`;
   />
 </div>
             <button
-              onClick={checkAvailability}
-              className="mt-7 w-full rounded-xl bg-teal-500 py-4 text-lg font-black text-white shadow-lg hover:bg-teal-600"
-            >🚚 Get Transport Price 
-               →
-            </button>
+  onClick={checkAvailability}
+  className="mt-7 w-full rounded-xl bg-teal-500 py-4 text-lg font-black text-white shadow-lg hover:bg-teal-600"
+>
+  🚚 Find My Truck →
+</button>
+
+<p className="mt-3 text-center text-sm font-semibold text-slate-500">
+  Tell us your route and load details. LOADZY will help match the right truck for you.
+</p>
 
             {/* Message */}
             {message && (
