@@ -656,22 +656,36 @@ Pickup Date: ${pickupDate}`;
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">
 
-            {[
-              "Tamil Nadu → Karnataka",
-              "Chennai → Bangalore",
-              "Coimbatore → Chennai",
-              "Salem → Bangalore",
-              "Vellore → Bangalore",
-              "Hosur → Chennai",
-            ].map((route) => (
-              <div
-                key={route}
-                className="rounded-2xl border bg-white p-6 font-bold shadow-sm"
-              >
-                🚚 {route}
-              </div>
-            ))}
-
+                   {[
+          {
+            name: "Chennai → Bangalore",
+            href: "/routes/chennai/bangalore",
+          },
+          {
+            name: "Coimbatore → Chennai",
+            href: "/routes/coimbatore/chennai",
+          },
+          {
+            name: "Salem → Bangalore",
+            href: "/routes/salem/bangalore",
+          },
+          {
+            name: "Vellore → Bangalore",
+            href: "/routes/vellore/bangalore",
+          },
+          {
+            name: "Hosur → Chennai",
+            href: "/routes/hosur/chennai",
+          },
+        ].map((route) => (
+          <a
+            key={route.href}
+            href={route.href}
+            className="rounded-2xl border bg-white p-6 font-bold shadow-sm transition hover:-translate-y-1 hover:shadow-md hover:border-[#08c9bd]"
+          >
+            🚚 {route.name}
+          </a>
+        ))}
           </div>
 
         </div>
