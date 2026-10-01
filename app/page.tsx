@@ -52,6 +52,22 @@ const [customerName, setCustomerName] = useState("");
 const [phone, setPhone] = useState("");
 const [loadType, setLoadType] = useState("");
 const [pickupDate, setPickupDate] = useState("");
+const [selectedLoadId, setSelectedLoadId] = useState("");
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+const loadIdParam = params.get("loadId");
+  const pickupParam = params.get("pickup");
+  const deliveryParam = params.get("delivery");
+  const loadTypeParam = params.get("loadType");
+  const truckParam = params.get("truck");
+  const pickupDateParam = params.get("pickupDate");
+
+  if (pickupParam) setPickup(pickupParam);
+  if (deliveryParam) setDelivery(deliveryParam);
+  if (loadTypeParam) setLoadType(loadTypeParam);
+  if (truckParam) setTruck(truckParam);
+  if (pickupDateParam) setPickupDate(pickupDateParam);
+}, []);
 const [reviews, setReviews] = useState<
   {
     id: string | number;
@@ -109,7 +125,8 @@ useEffect(() => {
       load_type: loadType,
       truck: truck,
       pickup_date: pickupDate,
-      status: "new",
+load_id: selectedLoadId ? Number(selectedLoadId) : null,
+status: "new",
     },
   ]);
 
@@ -705,10 +722,7 @@ Pickup Date: ${pickupDate}`;
             name: "Hosur → Chennai",
             href: "/routes/hosur/chennai",
           },
-          {
-  name: "Bangalore → Chennai",
-  href: "/routes/bangalore/chennai",
-},{
+          ,{
   name: "Chennai → Bangalore",
   href: "/routes/chennai/bangalore",
 },
@@ -804,7 +818,9 @@ Pickup Date: ${pickupDate}`;
   name: "Vijayawada → Chennai",
   href: "/routes/vijayawada/chennai",
 },
-        ].map((route) => (
+       ].filter(
+  (route): route is { name: string; href: string } => Boolean(route)
+).map((route) => (
           <a
             key={route.href}
             href={route.href}

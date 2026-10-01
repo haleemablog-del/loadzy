@@ -58,6 +58,9 @@ function locationMatches(
 export default function LoadSearchPage() {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
+  const [loadTypeFilter, setLoadTypeFilter] = useState("");
+  const [truckTypeFilter, setTruckTypeFilter] = useState("");
+  const [pickupDateFilter, setPickupDateFilter] = useState("");
 
   const [loads, setLoads] = useState<Load[]>([]);
   const [loading, setLoading] = useState(false);
@@ -92,11 +95,55 @@ export default function LoadSearchPage() {
       return;
     }
 
-    const matchingLoads = (data || []).filter(
-      (load) =>
-        locationMatches(load.pickup, from) &&
-        locationMatches(load.delivery, to)
-    );
+   const matchingLoads = (data || []).filter((load) => {
+  const normalize = (value: string | null) =>
+    (value || "").trim().toLowerCase().replace(/\s+/g, " ");
+
+  const normalizeLoadType = (value: string | null) => {
+    const text = normalize(value);
+
+    if (
+      text === "packer & movers" ||
+      text === "packer and movers" ||
+      text === "packers and movers"
+    ) {
+      return "packers & movers";
+    }
+
+    return text;
+  };
+
+  const normalizeTruckType = (value: string | null) => {
+    return normalize(value)
+      .replace(/\s+/g, "")
+      .replace(/truck$/i, "");
+  };
+
+  const pickupMatches = locationMatches(load.pickup, from);
+  const deliveryMatches = locationMatches(load.delivery, to);
+
+  const loadTypeMatches =
+    !loadTypeFilter ||
+    normalizeLoadType(load.load_type) ===
+      normalizeLoadType(loadTypeFilter);
+
+  const truckMatches =
+    !truckTypeFilter ||
+    normalizeTruckType(load.truck) ===
+      normalizeTruckType(truckTypeFilter);
+
+  const dateMatches =
+    !pickupDateFilter ||
+    (load.pickup_date || "") === pickupDateFilter;
+
+  return (
+    pickupMatches &&
+    deliveryMatches &&
+    loadTypeMatches &&
+    truckMatches &&
+    dateMatches
+  );
+});
 
     setLoads(matchingLoads);
 
@@ -156,6 +203,57 @@ export default function LoadSearchPage() {
       <section className="mx-auto -mt-8 max-w-5xl px-6 pb-16">
         <div className="rounded-3xl bg-white p-6 shadow-xl md:p-8">
           <div className="grid gap-5 md:grid-cols-2">
+            <div>
+  <label className="mb-2 block font-bold text-[#062B55]">
+    Load Type
+  </label>
+
+  <select
+    value={loadTypeFilter}
+    onChange={(e) => setLoadTypeFilter(e.target.value)}
+    className="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none focus:border-teal-500"
+  >
+    <option value="">All Load Types</option>
+    <option value="Furniture">Furniture</option>
+    <option value="Packers & Movers">Packers & Movers</option>
+    <option value="Vegetables">Vegetables</option>
+    <option value="Fruits">Fruits</option>
+    <option value="Commercial">Commercial</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+<div>
+  <label className="mb-2 block font-bold text-[#062B55]">
+    Truck Type
+  </label>
+
+  <select
+  value={truckTypeFilter}
+  onChange={(e) => setTruckTypeFilter(e.target.value)}
+  className="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none focus:border-teal-500"
+>
+  <option value="">All Truck Types</option>
+  <option value="7FT">7FT</option>
+  <option value="10FT">10FT</option>
+  <option value="14FT">14FT</option>
+  <option value="17FT">17FT</option>
+  <option value="20FT">20FT</option>
+  <option value="24FT">24FT</option>
+  <option value="32FT">32FT</option>
+</select>
+</div>
+<div>
+  <label className="mb-2 block font-bold text-[#062B55]">
+    Pickup Date
+  </label>
+
+  <input
+    type="date"
+    value={pickupDateFilter}
+    onChange={(e) => setPickupDateFilter(e.target.value)}
+    className="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none focus:border-teal-500"
+  />
+</div>
             <div>
               <label className="mb-2 block font-bold text-[#062B55]">
                 Pickup Location
@@ -250,7 +348,7 @@ export default function LoadSearchPage() {
                       </div>
 
                       <a
-                        href="/#book"
+                        href={`/?loadId=${load.id}&pickup=${encodeURIComponent(load.pickup)}&delivery=${encodeURIComponent(load.delivery)}&loadType=${encodeURIComponent(load.load_type || "")}&truck=${encodeURIComponent(load.truck || "")}&pickupDate=${encodeURIComponent(load.pickup_date || "")}#book`}
                         className="mt-5 rounded-xl bg-[#062B55] px-6 py-3 font-black text-white hover:bg-[#0a3d73]"
                       >
                         🚚 Book This Load →
