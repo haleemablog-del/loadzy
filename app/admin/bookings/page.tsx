@@ -485,6 +485,9 @@ export default function BookingsPage() {
                         </h2>
 
                         <div className="mt-4 grid gap-3 text-slate-700 sm:grid-cols-2">
+                          <p className="font-black text-blue-950">
+  Booking ID: #{booking.id}
+</p>
 
                           <p>
                             <strong>Customer:</strong>{" "}

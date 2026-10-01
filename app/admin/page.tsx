@@ -270,6 +270,24 @@ export default function AdminPage() {
                 Open Drivers →
               </p>
             </Link>
+            <Link
+  href="/admin/leads"
+  className="group rounded-2xl border border-teal-200 bg-teal-50 p-5 transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-md"
+>
+  <div className="text-3xl">🎯</div>
+
+  <h3 className="mt-3 text-lg font-extrabold text-[#062B55]">
+    Customer Leads
+  </h3>
+
+  <p className="mt-1 text-sm text-slate-600">
+    View and manage customer enquiries.
+  </p>
+
+  <p className="mt-3 font-bold text-teal-600">
+    Open Leads →
+  </p>
+</Link>
 
             {/* Orders */}
             <Link

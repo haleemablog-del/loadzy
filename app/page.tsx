@@ -1076,7 +1076,7 @@ Pickup Date: ${pickupDate}`;
             </a>
 
             <a
-              href="/reviews"
+             href="/reviews/submit"
               className="rounded-xl bg-yellow-400 px-7 py-3 font-bold text-blue-950 shadow-lg transition hover:bg-yellow-300"
             >
               ⭐ Share Your Experience

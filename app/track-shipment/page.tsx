@@ -205,6 +205,116 @@ export default function TrackShipmentPage() {
               <div className="text-sm font-bold text-slate-400">
                 SHIPMENT STATUS
               </div>
+              <div className="mt-8">
+  <div className="text-sm font-bold text-slate-400">
+    SHIPMENT PROGRESS
+  </div>
+
+  <div className="mt-6 space-y-5">
+
+    <div className="flex items-center gap-4">
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-teal-500 font-black text-white">
+        ✓
+      </div>
+
+      <div>
+        <div className="font-black text-blue-950">
+          Booking Received
+        </div>
+        <div className="text-sm text-slate-500">
+          Your booking request has been received.
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4">
+      <div
+        className={`flex h-10 w-10 items-center justify-center rounded-full font-black ${
+          booking.status === "confirmed" ||
+          booking.status === "completed"
+            ? "bg-teal-500 text-white"
+            : "bg-slate-200 text-slate-400"
+        }`}
+      >
+        {booking.status === "confirmed" ||
+        booking.status === "completed"
+          ? "✓"
+          : "2"}
+      </div>
+
+      <div>
+        <div className="font-black text-blue-950">
+          Load Confirmed
+        </div>
+        <div className="text-sm text-slate-500">
+          LOADZY has confirmed the transport requirement.
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4">
+      <div
+        className={`flex h-10 w-10 items-center justify-center rounded-full font-black ${
+          booking.load_id
+            ? "bg-teal-500 text-white"
+            : "bg-slate-200 text-slate-400"
+        }`}
+      >
+        {booking.load_id ? "✓" : "3"}
+      </div>
+
+      <div>
+        <div className="font-black text-blue-950">
+          Truck Assigned
+        </div>
+        <div className="text-sm text-slate-500">
+          {booking.load_id
+            ? `Assigned Load #${booking.load_id}`
+            : "Waiting for truck assignment."}
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4">
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 font-black text-slate-400">
+        4
+      </div>
+
+      <div>
+        <div className="font-black text-blue-950">
+          In Transit
+        </div>
+        <div className="text-sm text-slate-500">
+          Shipment movement will be updated here.
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4">
+      <div
+        className={`flex h-10 w-10 items-center justify-center rounded-full font-black ${
+          booking.status === "completed"
+            ? "bg-teal-500 text-white"
+            : "bg-slate-200 text-slate-400"
+        }`}
+      >
+        {booking.status === "completed" ? "✓" : "5"}
+      </div>
+
+      <div>
+        <div className="font-black text-blue-950">
+          Delivered
+        </div>
+        <div className="text-sm text-slate-500">
+          {booking.status === "completed"
+            ? "Delivery completed."
+            : "Delivery is not yet completed."}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
               <div className="mt-2 text-2xl font-black text-teal-600">
                 {statusLabel(booking.status)}
