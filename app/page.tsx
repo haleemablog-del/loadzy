@@ -217,6 +217,9 @@ Pickup Date: ${pickupDate}`;
             <a href="/reviews" className="hover:text-blue-600">
   Reviews
 </a>
+<a href="/track-shipment" className="hover:text-blue-600">
+  Track Shipment
+</a>
           </div>
 
           <button
@@ -718,14 +721,8 @@ Pickup Date: ${pickupDate}`;
             name: "Vellore → Bangalore",
             href: "/routes/vellore/bangalore",
           },
-          {
-            name: "Hosur → Chennai",
-            href: "/routes/hosur/chennai",
-          },
-          ,{
-  name: "Chennai → Bangalore",
-  href: "/routes/chennai/bangalore",
-},
+          ,
+          ,,
 {
   name: "Bangalore → Chennai",
   href: "/routes/bangalore/chennai",
@@ -750,10 +747,7 @@ Pickup Date: ${pickupDate}`;
   name: "Chennai → Coimbatore",
   href: "/routes/chennai/coimbatore",
 },
-{
-  name: "Coimbatore → Chennai",
-  href: "/routes/coimbatore/chennai",
-},
+,
 {
   name: "Coimbatore → Bangalore",
   href: "/routes/coimbatore/bangalore",
