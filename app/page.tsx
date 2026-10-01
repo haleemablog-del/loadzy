@@ -217,12 +217,15 @@ Pickup Date: ${pickupDate}`;
             <a href="#faq" className="hover:text-blue-600">
   FAQ
 </a>
-            <a href="/reviews" className="hover:text-blue-600">
+
+<a href="/reviews" className="hover:text-blue-600">
   Reviews
 </a>
+
 <a href="/track-shipment" className="hover:text-blue-600">
   Track Shipment
 </a>
+            
           </div>
 
           <button
