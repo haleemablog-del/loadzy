@@ -1,0 +1,297 @@
+import Link from "next/link";
+
+const benefits = [
+  {
+    icon: "📦",
+    title: "Smaller Shipments",
+    text: "A practical option for shipments that do not require a complete truck.",
+  },
+  {
+    icon: "💰",
+    title: "Flexible Transport",
+    text: "Choose transport based on your route, load requirement and available options.",
+  },
+  {
+    icon: "🚚",
+    title: "Suitable Trucks",
+    text: "LOADZY helps identify suitable transport for different part-load requirements.",
+  },
+  {
+    icon: "📍",
+    title: "Route Based",
+    text: "Availability depends on the pickup route, delivery route and pickup date.",
+  },
+];
+
+const loadExamples = [
+  "Furniture",
+  "Household Items",
+  "Cartons & Parcels",
+  "Retail Goods",
+  "Small Business Loads",
+  "Fruits & Vegetables",
+];
+
+const faqs = [
+  {
+    q: "What is part-load transport?",
+    a: "Part-load transport is suitable when your shipment does not require the entire capacity of a truck and matching transport is available.",
+  },
+  {
+    q: "Can I use part-load for household goods?",
+    a: "Yes. Household items may be suitable for part-load transport depending on the shipment size and route.",
+  },
+  {
+    q: "How does LOADZY find a part-load option?",
+    a: "Submit your pickup, delivery, load type, truck requirement and pickup date. LOADZY checks available transport matching those details.",
+  },
+  {
+    q: "Is part-load available on every route?",
+    a: "Part-load availability depends on the route, date, load requirements and available trucks.",
+  },
+];
+
+export default function PartLoadPage() {
+  return (
+    <main className="min-h-screen bg-white text-slate-900">
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-[#063B66] via-[#075985] to-[#021B36] px-6 py-20 text-white">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div>
+              <div className="font-bold tracking-widest text-[#12E6D3]">
+                PART LOAD TRANSPORT
+              </div>
+
+              <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
+                Move smaller loads with suitable transport
+              </h1>
+
+              <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
+                Find transport options for smaller shipments when matching
+                part-load availability exists on your route.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link
+                  href="/#book-form"
+                  className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
+                >
+                  Get Your Transport Price →
+                </Link>
+
+                <a
+                  href="https://wa.me/919019499448"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
+                >
+                  WhatsApp LOADZY
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-white/20 bg-white/10 p-8 backdrop-blur">
+              <div className="text-6xl">📦🚚</div>
+
+              <h2 className="mt-6 text-3xl font-black">
+                Smaller load. Suitable transport.
+              </h2>
+
+              <p className="mt-4 leading-7 text-blue-100">
+                Tell us what you are moving and where it needs to go. LOADZY
+                checks available matching transport.
+              </p>
+
+              <Link
+                href="/#book-form"
+                className="mt-6 inline-block rounded-xl bg-white px-6 py-3 font-black text-blue-950"
+              >
+                Find My Truck →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section className="px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+          <div className="text-center">
+            <div className="font-bold text-[#08c9bd]">
+              PART LOAD BENEFITS
+            </div>
+
+            <h2 className="mt-3 text-4xl font-black text-blue-950">
+              Flexible transport for smaller shipments
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-600">
+              Part-load transport can be useful when your shipment needs only
+              part of a truck's available capacity.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {benefits.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm transition hover:-translate-y-1 hover:border-[#08c9bd] hover:shadow-lg"
+              >
+                <div className="text-4xl">{item.icon}</div>
+
+                <h3 className="mt-5 text-xl font-black text-blue-950">
+                  {item.title}
+                </h3>
+
+                <p className="mt-3 leading-7 text-slate-600">
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Suitable loads */}
+      <section className="bg-slate-50 px-6 py-20">
+        <div className="mx-auto max-w-6xl text-center">
+          <div className="font-bold text-[#08c9bd]">
+            SUITABLE LOADS
+          </div>
+
+          <h2 className="mt-3 text-4xl font-black text-blue-950">
+            Examples of loads that may fit
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-600">
+            Actual availability depends on route, date and the transport
+            options available at the time of booking.
+          </p>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {loadExamples.map((item) => (
+              <Link
+                key={item}
+                href="/#book-form"
+                className="rounded-2xl border border-slate-200 bg-white p-6 font-bold text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-[#08c9bd] hover:shadow-md"
+              >
+                📦 {item}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section className="px-6 py-20">
+        <div className="mx-auto max-w-6xl text-center">
+          <div className="font-bold text-[#08c9bd]">
+            HOW IT WORKS
+          </div>
+
+          <h2 className="mt-3 text-4xl font-black text-blue-950">
+            Find part-load transport in 3 steps
+          </h2>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="rounded-3xl border bg-white p-7 shadow-sm">
+              <div className="text-4xl">1️⃣</div>
+
+              <h3 className="mt-4 text-xl font-black text-blue-950">
+                Tell us your load
+              </h3>
+
+              <p className="mt-3 leading-7 text-slate-600">
+                Enter your load type, pickup, delivery and pickup date.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border bg-white p-7 shadow-sm">
+              <div className="text-4xl">2️⃣</div>
+
+              <h3 className="mt-4 text-xl font-black text-blue-950">
+                Check availability
+              </h3>
+
+              <p className="mt-3 leading-7 text-slate-600">
+                LOADZY checks for available transport matching your
+                requirement.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border bg-white p-7 shadow-sm">
+              <div className="text-4xl">3️⃣</div>
+
+              <h3 className="mt-4 text-xl font-black text-blue-950">
+                Confirm your transport
+              </h3>
+
+              <p className="mt-3 leading-7 text-slate-600">
+                Continue with the suitable transport option available for your
+                route.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-slate-50 px-6 py-20">
+        <div className="mx-auto max-w-4xl">
+          <div className="text-center">
+            <div className="font-bold text-[#08c9bd]">
+              FAQ
+            </div>
+
+            <h2 className="mt-3 text-4xl font-black text-blue-950">
+              Part Load Questions
+            </h2>
+          </div>
+
+          <div className="mt-10 space-y-4">
+            {faqs.map((faq) => (
+              <details
+                key={faq.q}
+                className="rounded-2xl border bg-white p-5 shadow-sm"
+              >
+                <summary className="cursor-pointer font-bold text-blue-950">
+                  {faq.q}
+                </summary>
+
+                <p className="mt-4 leading-7 text-slate-600">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-blue-950 px-6 py-20 text-center text-white">
+        <div className="mx-auto max-w-4xl">
+          <div className="font-bold text-[#12E6D3]">
+            NEED PART LOAD TRANSPORT?
+          </div>
+
+          <h2 className="mt-3 text-4xl font-black md:text-5xl">
+            Find a suitable transport option
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-blue-100">
+            Submit your requirement and LOADZY will check the available
+            transport options for your route.
+          </p>
+
+          <Link
+            href="/#book-form"
+            className="mt-8 inline-block rounded-xl bg-[#FFD21C] px-8 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
+          >
+            Get Your Transport Price →
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
+}

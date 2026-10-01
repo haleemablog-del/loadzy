@@ -214,6 +214,9 @@ Pickup Date: ${pickupDate}`;
             <a href="#about" className="hover:text-blue-600">
               About Us
             </a>
+            <a href="/services" className="hover:text-blue-600">
+  Services
+</a>
             <a href="#faq" className="hover:text-blue-600">
   FAQ
 </a>
@@ -1119,7 +1122,49 @@ Pickup Date: ${pickupDate}`;
           </div>
 
         </div>
+<div className="mx-auto mt-8 flex flex-wrap justify-center gap-5 text-sm font-semibold">
+  <a
+    href="/services"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    Services
+  </a>
 
+  <a
+    href="/house-shifting"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    House Shifting
+  </a>
+
+  <a
+    href="/packers-movers"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    Packers & Movers
+  </a>
+
+  <a
+    href="/track-shipment"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    Track Shipment
+  </a>
+
+  <a
+    href="/reviews"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    Reviews
+  </a>
+
+  <a
+    href="/contact"
+    className="text-teal-400 hover:text-teal-300"
+  >
+    Contact
+  </a>
+</div>
         <div className="mx-auto mt-8 max-w-7xl border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
           © 2026 LOADZY. All rights reserved.
         </div>
