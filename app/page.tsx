@@ -214,6 +214,9 @@ Pickup Date: ${pickupDate}`;
             <a href="#about" className="hover:text-blue-600">
               About Us
             </a>
+            <a href="#faq" className="hover:text-blue-600">
+  FAQ
+</a>
             <a href="/reviews" className="hover:text-blue-600">
   Reviews
 </a>
@@ -858,7 +861,7 @@ Pickup Date: ${pickupDate}`;
         </div>
       </section>
             {/* FAQ */}
-      <section className="bg-slate-50 px-6 py-20">
+      <section id="faq" className="bg-slate-50 px-6 py-20">
         <div className="mx-auto max-w-5xl">
           <div className="text-center">
             <div className="font-bold text-[#08c9bd]">
