@@ -55,9 +55,9 @@ const [pickupDate, setPickupDate] = useState("");
 const [reviews, setReviews] = useState<
   {
     id: string | number;
-    name: string;
+    customer_name: string;
     rating: number;
-    review_text: string;
+    review: string;
   }[]
 >([]);
 
@@ -65,7 +65,7 @@ useEffect(() => {
   async function loadReviews() {
     const { data, error } = await supabase
       .from("reviews")
-      .select("id, name, rating, review_text")
+      .select("id, customer_name, rating, review")
       .eq("status", "approved")
       .order("created_at", { ascending: false })
       .limit(6);
@@ -1022,7 +1022,7 @@ Pickup Date: ${pickupDate}`;
                 >
                   <div className="flex items-center justify-between gap-4">
                     <div className="font-black text-blue-950">
-                      {review.name}
+                      review.customer_name
                     </div>
 
                     <div className="text-yellow-500">
@@ -1031,7 +1031,7 @@ Pickup Date: ${pickupDate}`;
                   </div>
 
                   <p className="mt-4 leading-7 text-slate-600">
-                    "{review.review_text}"
+                   review.review
                   </p>
 
                   <div className="mt-5 text-sm font-semibold text-slate-400">
