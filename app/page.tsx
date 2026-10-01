@@ -197,6 +197,9 @@ Pickup Date: ${pickupDate}`;
             <a href="#about" className="hover:text-blue-600">
               About Us
             </a>
+            <a href="/reviews" className="hover:text-blue-600">
+  Reviews
+</a>
           </div>
 
           <button
