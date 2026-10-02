@@ -462,6 +462,41 @@ setClosedLeads(closedLeadsResult.count ?? 0);
     </div>
   </div>
 </section>
+{/* Conversion Statistics */}
+<section className="mb-8">
+  <h2 className="mb-4 text-2xl font-black text-[#062B55]">
+    Conversion Statistics
+  </h2>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="rounded-2xl border border-teal-200 bg-teal-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Total Leads
+      </p>
+      <p className="mt-2 text-4xl font-black text-teal-600">
+        {loading ? "..." : totalLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Contacted Leads
+      </p>
+      <p className="mt-2 text-4xl font-black text-blue-600">
+        {loading ? "..." : contactedLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-green-200 bg-green-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Converted Leads
+      </p>
+      <p className="mt-2 text-4xl font-black text-green-600">
+        {loading ? "..." : convertedLeads}
+      </p>
+    </div>
+  </div>
+</section>
 
         {/* Management */}
         <section className="rounded-2xl bg-white p-6 shadow-sm">
