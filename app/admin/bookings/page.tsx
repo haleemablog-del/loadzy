@@ -251,30 +251,72 @@ export default function BookingsPage() {
     bookingId: number,
     status: string
   ) {
-    const { error } = await supabase.rpc("update_booking_status", {
-      p_booking_id: bookingId,
-      p_status: status,
-    });
+    ;const { error } = await supabase.rpc("update_booking_status", {
+  p_booking_id: bookingId,
+  p_status: status,
+});
 
-    if (error) {
-      console.error("Booking status update error:", error);
+if (error) {
+  console.error("Booking status update error:", error);
+  setMessage(
+    `Unable to update booking status: ${error.message}`
+  );
+  return;
+}
 
-      setMessage(
-        `Unable to update booking status: ${error.message}`
-      );
-
-      return;
-    }
-
-    setBookings((current) =>
-      current.map((booking) =>
-        booking.id === bookingId
-          ? { ...booking, status }
-          : booking
-      )
+if (status === "in_transit") {
+  const { error: deliveryError } = await supabase
+    .from("delivery_records")
+    .upsert(
+      {
+        booking_id: bookingId,
+        in_transit_at: new Date().toISOString(),
+      },
+      {
+        onConflict: "booking_id",
+      }
     );
 
-    setMessage("✅ Booking status updated successfully.");
+  if (deliveryError) {
+    console.error("Delivery record error:", deliveryError);
+    setMessage(
+      "Booking updated, but delivery record could not be saved."
+    );
+    return;
+  }
+}
+
+if (status === "completed") {
+  const { error: deliveryError } = await supabase
+    .from("delivery_records")
+    .upsert(
+      {
+        booking_id: bookingId,
+        delivered_at: new Date().toISOString(),
+      },
+      {
+        onConflict: "booking_id",
+      }
+    );
+
+  if (deliveryError) {
+    console.error("Delivery record error:", deliveryError);
+    setMessage(
+      "Booking completed, but delivery record could not be saved."
+    );
+    return;
+  }
+}
+
+setBookings((current) =>
+  current.map((booking) =>
+    booking.id === bookingId
+      ? { ...booking, status }
+      : booking
+  )
+);
+
+setMessage("✅ Booking status and delivery record updated successfully.");
   }
 
   async function deleteBooking(bookingId: number) {
