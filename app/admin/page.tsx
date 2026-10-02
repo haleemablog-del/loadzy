@@ -10,6 +10,9 @@ export default function AdminPage() {
   const [confirmedBookings, setConfirmedBookings] = useState(0);
   const [completedBookings, setCompletedBookings] = useState(0);
   const [loadRequests, setLoadRequests] = useState(0);
+  const [totalLoads, setTotalLoads] = useState(0);
+const [bookedLoads, setBookedLoads] = useState(0);
+const [cancelledLoads, setCancelledLoads] = useState(0);
   const [totalLeads, setTotalLeads] = useState(0);
 const [newLeads, setNewLeads] = useState(0);
 const [contactedLeads, setContactedLeads] = useState(0);
@@ -27,6 +30,9 @@ const [closedLeads, setClosedLeads] = useState(0);
     try {
       const [
   availableLoadsResult,
+  totalLoadsResult,
+bookedLoadsResult,
+cancelledLoadsResult,
   newBookingsResult,
   confirmedBookingsResult,
   completedBookingsResult,
@@ -41,6 +47,19 @@ const [closedLeads, setClosedLeads] = useState(0);
           .from("loads")
           .select("id", { count: "exact", head: true })
           .eq("status", "available"),
+          supabase
+  .from("loads")
+  .select("id", { count: "exact", head: true }),
+
+supabase
+  .from("loads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "booked"),
+
+supabase
+  .from("loads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "cancelled"),
 
 
         supabase
@@ -111,6 +130,9 @@ supabase
       setConfirmedBookings(confirmedBookingsResult.count ?? 0);
       setCompletedBookings(completedBookingsResult.count ?? 0);
       setLoadRequests(loadRequestsResult.count ?? 0);
+      setTotalLoads(totalLoadsResult.count ?? 0);
+setBookedLoads(bookedLoadsResult.count ?? 0);
+setCancelledLoads(cancelledLoadsResult.count ?? 0);
       setTotalLeads(totalLeadsResult.count ?? 0);
 setNewLeads(newLeadsResult.count ?? 0);
 setContactedLeads(contactedLeadsResult.count ?? 0);
@@ -286,6 +308,52 @@ setClosedLeads(closedLeadsResult.count ?? 0);
       </p>
       <p className="mt-2 text-4xl font-black text-slate-600">
         {loading ? "..." : closedLeads}
+      </p>
+    </div>
+
+  </div>
+</section>
+{/* Load Statistics */}
+<section className="mb-8">
+  <h2 className="mb-4 text-2xl font-black text-[#062B55]">
+    Load Statistics
+  </h2>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+
+    <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Total Loads
+      </p>
+      <p className="mt-2 text-4xl font-black text-blue-600">
+        {loading ? "..." : totalLoads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-teal-200 bg-teal-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Available
+      </p>
+      <p className="mt-2 text-4xl font-black text-teal-600">
+        {loading ? "..." : availableLoads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-orange-200 bg-orange-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Booked
+      </p>
+      <p className="mt-2 text-4xl font-black text-orange-500">
+        {loading ? "..." : bookedLoads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-slate-300 bg-slate-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Cancelled
+      </p>
+      <p className="mt-2 text-4xl font-black text-slate-600">
+        {loading ? "..." : cancelledLoads}
       </p>
     </div>
 
