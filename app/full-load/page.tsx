@@ -75,12 +75,12 @@ export default function FullLoadPage() {
                 date to start your transport request.
               </p>
 
-              <Link
-                href="/#book-form"
+              <a
+               href="/contact?service=Full%20Load%20Transport"
                 className="mt-6 inline-block rounded-xl bg-white px-6 py-3 font-black text-blue-950"
               >
                 Book a Truck →
-              </Link>
+              </a>
             </div>
           </div>
         </div>

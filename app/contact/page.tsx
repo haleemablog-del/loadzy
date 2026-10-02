@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/app/lib/supabase";
 
@@ -35,6 +35,14 @@ export default function ContactPage() {
   const [pickup, setPickup] = useState("");
   const [delivery, setDelivery] = useState("");
   const [service, setService] = useState("");
+  useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const serviceFromUrl = params.get("service");
+
+  if (serviceFromUrl) {
+    setService(serviceFromUrl);
+  }
+}, []);
   const [truck, setTruck] = useState("");
   const [pickupDate, setPickupDate] = useState("");
   const [message, setMessage] = useState("");

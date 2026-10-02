@@ -184,13 +184,12 @@ Pickup Date: ${pickupDate}`;
 
       {/* Navigation */}
       <nav className="border-b bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-
+      <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-2 px-3 py-3 md:gap-8 md:px-6 md:py-4">
           <div className="flex items-center">
   <img
     src="/loadzy-logo.png"
     alt="LOADZY"
-   className="h-20 w-auto max-w-[280px] object-contain"
+   className="h-14 w-auto max-w-[190px] object-contain md:h-20 md:max-w-[280px]"
   />
 </div>
 
@@ -211,7 +210,7 @@ Pickup Date: ${pickupDate}`;
               Routes
             </a>
 
-            <a href="#about" className="hover:text-blue-600">
+            <a href="/about" className="hover:text-blue-600">
               About Us
             </a>
             <a href="/services" className="hover:text-blue-600">
@@ -230,10 +229,89 @@ Pickup Date: ${pickupDate}`;
 </a>
             
           </div>
+          <details className="relative md:hidden">
+ <summary className="cursor-pointer list-none whitespace-nowrap shrink-0 rounded-lg bg-blue-950 px-2 py-2 text-xs font-bold text-white">
+    ☰ Menu
+  </summary>
+
+  <div className="absolute right-0 z-50 mt-3 w-64 rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl">
+    <div className="flex flex-col gap-2 font-semibold">
+      <a
+        href="#book"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Book a Truck
+      </a>
+
+      <a
+        href="#loads"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Find Loads
+      </a>
+
+      <a
+        href="#trucks"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Truck Types
+      </a>
+
+      <a
+        href="#routes"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Routes
+      </a>
+
+      <a
+        href="/about"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        About Us
+      </a>
+
+      <a
+        href="/services"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Services
+      </a>
+
+      <a
+        href="#faq"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        FAQ
+      </a>
+
+      <a
+        href="/reviews"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Reviews
+      </a>
+
+      <a
+        href="/track-shipment"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Track Shipment
+      </a>
+
+      <a
+        href="/contact"
+        className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+</details>
 
           <button
             onClick={bookNow}
-            className="rounded-xl bg-teal-500 px-6 py-3 font-bold text-white shadow-lg hover:bg-teal-600"
+            className="hidden md:block rounded-xl bg-teal-500 px-6 py-3 font-bold text-white shadow-lg hover:bg-teal-600"
           >
             📞 Book Now
           </button>

@@ -104,7 +104,7 @@ export default function IndustrialTransportPage() {
               </p>
 
               <Link
-                href="/#book-form"
+                href="/contact?service=Industrial"
                 className="mt-6 inline-block rounded-xl bg-white px-6 py-3 font-black text-blue-950"
               >
                 Book Transport →

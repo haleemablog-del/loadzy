@@ -77,7 +77,7 @@ export default function CommercialTransportPage() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="/#book-form"
+                  href="/contact?service=Commercial%20Goods"
                   className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
                 >
                   Get Your Transport Price →

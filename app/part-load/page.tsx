@@ -74,7 +74,7 @@ export default function PartLoadPage() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="/#book-form"
+                  href="/contact?service=Part%20Load%20Transport"
                   className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
                 >
                   Get Your Transport Price →
@@ -285,7 +285,7 @@ export default function PartLoadPage() {
           </p>
 
           <Link
-            href="/#book-form"
+            href="/contact?service=Part%20Load%20Transport"
             className="mt-8 inline-block rounded-xl bg-[#FFD21C] px-8 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
           >
             Get Your Transport Price →

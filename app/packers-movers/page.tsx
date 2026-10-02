@@ -65,7 +65,7 @@ export default function PackersMoversPage() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="/#book-form"
+                 href="/contact?service=Packers%20%26%20Movers"
                   className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
                 >
                   Get Your Moving Price →
