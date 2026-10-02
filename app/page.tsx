@@ -1280,6 +1280,21 @@ Pickup Date: ${pickupDate}`;
               Tamil Nadu, India
             </div>
           </div>
+          <div className="mt-4 flex gap-4 text-sm">
+  <a
+    href="/privacy"
+    className="font-semibold text-slate-400 transition hover:text-white"
+  >
+    Privacy Policy
+  </a>
+
+  <a
+    href="/terms"
+    className="font-semibold text-slate-400 transition hover:text-white"
+  >
+    Terms & Conditions
+  </a>
+</div>
 
         </div>
 <div className="mx-auto mt-8 flex flex-wrap justify-center gap-5 text-sm font-semibold">
