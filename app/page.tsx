@@ -1173,6 +1173,84 @@ Pickup Date: ${pickupDate}`;
 
         </div>
       </section>
+      {/* Mobile App Promotion */}
+<section className="bg-slate-50 px-6 py-20">
+  <div className="mx-auto max-w-7xl">
+    <div className="grid gap-10 rounded-3xl bg-blue-950 p-8 text-white md:p-12 lg:grid-cols-2 lg:items-center">
+
+      <div>
+        <div className="font-black uppercase tracking-[0.2em] text-teal-300">
+          LOADZY MOBILE APP
+        </div>
+
+        <h2 className="mt-4 text-4xl font-black leading-tight md:text-5xl">
+          Manage your transport from your phone.
+        </h2>
+
+        <p className="mt-5 max-w-2xl leading-8 text-blue-100">
+          Book trucks, find loads, track shipments and stay connected with
+          LOADZY from one convenient mobile experience.
+        </p>
+
+        <div className="mt-8 flex flex-wrap gap-4">
+          <a
+            href="/mobile-app#customer-app"
+            className="rounded-xl bg-[#FFD21C] px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-[#FFE66D]"
+          >
+            Customer App →
+          </a>
+
+          <a
+            href="/mobile-app#driver-app"
+            className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
+          >
+            Driver App →
+          </a>
+        </div>
+      </div>
+
+      <div className="mx-auto w-full max-w-md">
+        <div className="rounded-[2rem] border border-blue-300/20 bg-white/10 p-5">
+          <div className="rounded-[1.5rem] bg-white p-6 text-blue-950 shadow-xl">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-yellow-400 text-3xl">
+              🚚
+            </div>
+
+            <h3 className="mt-5 text-center text-2xl font-black">
+              LOADZY
+            </h3>
+
+            <p className="mt-2 text-center text-sm text-slate-500">
+              Move. Connect. Deliver.
+            </p>
+
+            <div className="mt-6 grid gap-3">
+              <div className="rounded-xl bg-slate-50 p-4 font-bold">
+                📦 Book a Truck
+              </div>
+
+              <div className="rounded-xl bg-slate-50 p-4 font-bold">
+                🔎 Find a Load
+              </div>
+
+              <div className="rounded-xl bg-slate-50 p-4 font-bold">
+                📍 Track Shipment
+              </div>
+
+              <a
+                href="/mobile-app"
+                className="rounded-xl bg-teal-500 p-4 text-center font-black text-white"
+              >
+                Explore Mobile App →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-slate-950 px-6 py-10 text-white">
