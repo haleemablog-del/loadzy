@@ -288,6 +288,25 @@ export default function AdminPage() {
     Open Leads →
   </p>
 </Link>
+{/* Reviews */}
+<Link
+  href="/admin/reviews"
+  className="group rounded-2xl border border-yellow-200 bg-yellow-50 p-6 transition hover:-translate-y-1 hover:border-yellow-400 hover:bg-yellow-100"
+>
+  <div className="text-4xl">⭐</div>
+
+  <h3 className="mt-4 text-xl font-extrabold text-[#062B55]">
+    Customer Reviews
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-600">
+    Review, approve and manage customer feedback.
+  </p>
+
+  <p className="mt-4 font-bold text-yellow-600">
+    Open Reviews →
+  </p>
+</Link>
 
             {/* Orders */}
             <Link

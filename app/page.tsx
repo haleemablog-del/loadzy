@@ -223,6 +223,10 @@ Pickup Date: ${pickupDate}`;
 <a href="/reviews" className="hover:text-blue-600">
   Reviews
 </a>
+<a href="/mobile-app" className="hover:text-blue-600">
+  Mobile App
+</a> 
+
 
 <a href="/track-shipment" className="hover:text-blue-600">
   Track Shipment
