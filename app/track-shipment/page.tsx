@@ -276,19 +276,28 @@ export default function TrackShipmentPage() {
     </div>
 
     <div className="flex items-center gap-4">
-      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 font-black text-slate-400">
-        4
-      </div>
+  <div
+    className={`flex h-10 w-10 items-center justify-center rounded-full font-black ${
+      booking.status === "in_transit"
+        ? "bg-teal-500 text-white"
+        : "bg-slate-200 text-slate-400"
+    }`}
+  >
+    {booking.status === "in_transit" ? "✓" : "4"}
+  </div>
 
-      <div>
-        <div className="font-black text-blue-950">
-          In Transit
-        </div>
-        <div className="text-sm text-slate-500">
-          Shipment movement will be updated here.
-        </div>
-      </div>
+  <div>
+    <div className="font-black text-blue-950">
+      In Transit
     </div>
+
+    <div className="text-sm text-slate-500">
+      {booking.status === "in_transit"
+        ? "Shipment is currently in transit."
+        : "Shipment movement will be updated here."}
+    </div>
+  </div>
+</div>
 
     <div className="flex items-center gap-4">
       <div

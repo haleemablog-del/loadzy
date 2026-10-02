@@ -314,6 +314,7 @@ export default function BookingsPage() {
       status === "new" ||
       status === "contacted" ||
       status === "confirmed" ||
+      status === "in_transit" ||
       status === "completed" ||
       status === "cancelled"
     ) {
@@ -423,11 +424,12 @@ export default function BookingsPage() {
               className="w-full rounded-xl border border-slate-300 px-4 py-3 outline-none focus:border-teal-500"
             >
               <option value="all">All Statuses</option>
-              <option value="new">New</option>
-              <option value="contacted">Contacted</option>
-              <option value="confirmed">Confirmed</option>
-              <option value="completed">Completed</option>
-              <option value="cancelled">Cancelled</option>
+<option value="new">New</option>
+<option value="contacted">Contacted</option>
+<option value="confirmed">Confirmed</option>
+<option value="in_transit">In Transit</option>
+<option value="completed">Completed</option>
+<option value="cancelled">Cancelled</option>
             </select>
 
             <select
@@ -542,12 +544,16 @@ export default function BookingsPage() {
                               </option>
 
                               <option value="completed">
-                                Completed
-                              </option>
+  Completed
+</option>
 
-                              <option value="cancelled">
-                                Cancelled
-                              </option>
+<option value="in_transit">
+  In Transit
+</option>
+
+<option value="cancelled">
+  Cancelled
+</option>
                             </select>
                           </div>
 
