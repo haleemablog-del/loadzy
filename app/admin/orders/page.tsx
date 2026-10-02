@@ -47,7 +47,7 @@ export default function OrdersPage() {
       .select(
         "id, created_at, customer_name, phone, pickup, delivery, load_type, truck, pickup_date, status, load_id"
       )
-      .in("status", ["confirmed", "completed"])
+     .in("status", ["confirmed", "in_transit", "completed"])
       .order("created_at", { ascending: false });
 
     if (bookingsError) {
@@ -195,9 +195,10 @@ export default function OrdersPage() {
               onChange={(e) => setStatusFilter(e.target.value)}
               className="w-full rounded-xl border border-slate-300 px-4 py-3 outline-none focus:border-teal-500"
             >
-              <option value="all">All Order Statuses</option>
-              <option value="confirmed">Confirmed</option>
-              <option value="completed">Completed</option>
+             <option value="all">All Order Statuses</option>
+<option value="confirmed">Confirmed</option>
+<option value="in_transit">In Transit</option>
+<option value="completed">Completed</option>
             </select>
           </div>
         </div>
