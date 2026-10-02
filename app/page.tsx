@@ -61,7 +61,7 @@ const loadIdParam = params.get("loadId");
   const loadTypeParam = params.get("loadType");
   const truckParam = params.get("truck");
   const pickupDateParam = params.get("pickupDate");
-
+if (loadIdParam) setSelectedLoadId(loadIdParam);
   if (pickupParam) setPickup(pickupParam);
   if (deliveryParam) setDelivery(deliveryParam);
   if (loadTypeParam) setLoadType(loadTypeParam);

@@ -348,7 +348,17 @@ export default function LoadSearchPage() {
                       </div>
 
                       <a
-                        href={`/?loadId=${load.id}&pickup=${encodeURIComponent(load.pickup)}&delivery=${encodeURIComponent(load.delivery)}&loadType=${encodeURIComponent(load.load_type || "")}&truck=${encodeURIComponent(load.truck || "")}&pickupDate=${encodeURIComponent(load.pickup_date || "")}#book`}
+                       href={`/?loadId=${load.id}&pickup=${encodeURIComponent(
+  load.pickup
+)}&delivery=${encodeURIComponent(
+  load.delivery
+)}&loadType=${encodeURIComponent(
+  load.load_type || ""
+)}&truck=${encodeURIComponent(
+  load.truck || ""
+)}&pickupDate=${encodeURIComponent(
+  load.pickup_date || ""
+)}`}
                         className="mt-5 rounded-xl bg-[#062B55] px-6 py-3 font-black text-white hover:bg-[#0a3d73]"
                       >
                         🚚 Book This Load →
