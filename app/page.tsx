@@ -193,7 +193,7 @@ Pickup Date: ${pickupDate}`;
   />
 </div>
 
-          <div className="hidden gap-8 font-semibold md:flex">
+          <div className="hidden items-center gap-5 whitespace-nowrap text-sm font-semibold md:flex">
             <a href="#book" className="hover:text-blue-600">
               Book a Truck
             </a>
