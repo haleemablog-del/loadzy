@@ -10,6 +10,11 @@ export default function AdminPage() {
   const [confirmedBookings, setConfirmedBookings] = useState(0);
   const [completedBookings, setCompletedBookings] = useState(0);
   const [loadRequests, setLoadRequests] = useState(0);
+  const [totalLeads, setTotalLeads] = useState(0);
+const [newLeads, setNewLeads] = useState(0);
+const [contactedLeads, setContactedLeads] = useState(0);
+const [convertedLeads, setConvertedLeads] = useState(0);
+const [closedLeads, setClosedLeads] = useState(0);
 
   const [loading, setLoading] = useState(true);
   const [activityLoading, setActivityLoading] = useState(false);
@@ -21,16 +26,22 @@ export default function AdminPage() {
 
     try {
       const [
-        availableLoadsResult,
-        newBookingsResult,
-        confirmedBookingsResult,
-        completedBookingsResult,
-        loadRequestsResult,
-      ] = await Promise.all([
+  availableLoadsResult,
+  newBookingsResult,
+  confirmedBookingsResult,
+  completedBookingsResult,
+  loadRequestsResult,
+  totalLeadsResult,
+  newLeadsResult,
+  contactedLeadsResult,
+  convertedLeadsResult,
+  closedLeadsResult,
+] = await Promise.all([
         supabase
           .from("loads")
           .select("id", { count: "exact", head: true })
           .eq("status", "available"),
+
 
         supabase
           .from("bookings")
@@ -50,6 +61,29 @@ export default function AdminPage() {
         supabase
           .from("load_requests")
           .select("id", { count: "exact", head: true }),
+          supabase
+  .from("leads")
+  .select("id", { count: "exact", head: true }),
+
+supabase
+  .from("leads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "new"),
+
+supabase
+  .from("leads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "contacted"),
+
+supabase
+  .from("leads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "converted"),
+
+supabase
+  .from("leads")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "closed"),
       ]);
 
       if (availableLoadsResult.error) {
@@ -77,6 +111,11 @@ export default function AdminPage() {
       setConfirmedBookings(confirmedBookingsResult.count ?? 0);
       setCompletedBookings(completedBookingsResult.count ?? 0);
       setLoadRequests(loadRequestsResult.count ?? 0);
+      setTotalLeads(totalLeadsResult.count ?? 0);
+setNewLeads(newLeadsResult.count ?? 0);
+setContactedLeads(contactedLeadsResult.count ?? 0);
+setConvertedLeads(convertedLeadsResult.count ?? 0);
+setClosedLeads(closedLeadsResult.count ?? 0);
     } catch (error) {
       console.error(error);
       setMessage("Unable to refresh dashboard.");
@@ -197,6 +236,61 @@ export default function AdminPage() {
             </p>
           </div>
         </section>
+        {/* Lead Statistics */}
+<section className="mb-8">
+  <h2 className="mb-4 text-2xl font-black text-[#062B55]">
+    Lead Statistics
+  </h2>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+
+    <div className="rounded-2xl border border-teal-200 bg-teal-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Total Leads
+      </p>
+      <p className="mt-2 text-4xl font-black text-teal-600">
+        {loading ? "..." : totalLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-orange-200 bg-orange-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        New Leads
+      </p>
+      <p className="mt-2 text-4xl font-black text-orange-500">
+        {loading ? "..." : newLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Contacted
+      </p>
+      <p className="mt-2 text-4xl font-black text-blue-600">
+        {loading ? "..." : contactedLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-green-200 bg-green-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Converted
+      </p>
+      <p className="mt-2 text-4xl font-black text-green-600">
+        {loading ? "..." : convertedLeads}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-slate-300 bg-slate-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Closed
+      </p>
+      <p className="mt-2 text-4xl font-black text-slate-600">
+        {loading ? "..." : closedLeads}
+      </p>
+    </div>
+
+  </div>
+</section>
 
         {/* Management */}
         <section className="rounded-2xl bg-white p-6 shadow-sm">
