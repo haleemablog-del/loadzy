@@ -13,6 +13,11 @@ export default function AdminPage() {
   const [totalLoads, setTotalLoads] = useState(0);
 const [bookedLoads, setBookedLoads] = useState(0);
 const [cancelledLoads, setCancelledLoads] = useState(0);
+const [totalDrivers, setTotalDrivers] = useState(0);
+const [pendingDrivers, setPendingDrivers] = useState(0);
+const [approvedDrivers, setApprovedDrivers] = useState(0);
+const [rejectedDrivers, setRejectedDrivers] = useState(0);
+
   const [totalLeads, setTotalLeads] = useState(0);
 const [newLeads, setNewLeads] = useState(0);
 const [contactedLeads, setContactedLeads] = useState(0);
@@ -33,6 +38,7 @@ const [closedLeads, setClosedLeads] = useState(0);
   totalLoadsResult,
 bookedLoadsResult,
 cancelledLoadsResult,
+
   newBookingsResult,
   confirmedBookingsResult,
   completedBookingsResult,
@@ -60,6 +66,24 @@ supabase
   .from("loads")
   .select("id", { count: "exact", head: true })
   .eq("status", "cancelled"),
+  supabase
+  .from("drivers")
+  .select("id", { count: "exact", head: true }),
+
+supabase
+  .from("drivers")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "pending"),
+
+supabase
+  .from("drivers")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "approved"),
+
+supabase
+  .from("drivers")
+  .select("id", { count: "exact", head: true })
+  .eq("status", "rejected"),
 
 
         supabase
@@ -357,6 +381,85 @@ setClosedLeads(closedLeadsResult.count ?? 0);
       </p>
     </div>
 
+  </div>
+</section>
+{/* Driver Statistics */}
+<section className="mb-8">
+  <h2 className="mb-4 text-2xl font-black text-[#062B55]">
+    Driver Statistics
+  </h2>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Total Drivers
+      </p>
+      <p className="mt-2 text-4xl font-black text-blue-600">
+        {loading ? "..." : totalDrivers}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-orange-200 bg-orange-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Pending
+      </p>
+      <p className="mt-2 text-4xl font-black text-orange-500">
+        {loading ? "..." : pendingDrivers}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-green-200 bg-green-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Approved
+      </p>
+      <p className="mt-2 text-4xl font-black text-green-600">
+        {loading ? "..." : approvedDrivers}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-red-200 bg-red-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Rejected
+      </p>
+      <p className="mt-2 text-4xl font-black text-red-600">
+        {loading ? "..." : rejectedDrivers}
+      </p>
+    </div>
+  </div>
+</section>
+{/* Booking Statistics */}
+<section className="mb-8">
+  <h2 className="mb-4 text-2xl font-black text-[#062B55]">
+    Booking Statistics
+  </h2>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="rounded-2xl border border-orange-200 bg-orange-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        New Bookings
+      </p>
+      <p className="mt-2 text-4xl font-black text-orange-500">
+        {loading ? "..." : newBookings}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Confirmed Bookings
+      </p>
+      <p className="mt-2 text-4xl font-black text-blue-600">
+        {loading ? "..." : confirmedBookings}
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-green-200 bg-green-50 p-5 shadow-sm">
+      <p className="text-sm font-bold text-slate-500">
+        Completed Bookings
+      </p>
+      <p className="mt-2 text-4xl font-black text-green-600">
+        {loading ? "..." : completedBookings}
+      </p>
+    </div>
   </div>
 </section>
 
