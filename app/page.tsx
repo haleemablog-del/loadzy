@@ -205,6 +205,12 @@ Pickup Date: ${pickupDate}`;
             <a href="#trucks" className="hover:text-blue-600">
               Truck Types
             </a>
+            <a
+  href="/truck-rates"
+  className="rounded-lg px-4 py-3 text-blue-950 hover:bg-slate-100"
+>
+  Truck Rates
+</a>
 
             <a href="#routes" className="hover:text-blue-600">
               Routes
@@ -260,6 +266,9 @@ Pickup Date: ${pickupDate}`;
       >
         Truck Types
       </a>
+      <a href="/truck-rates" className="hover:text-blue-600">
+  Truck Rates
+</a>
 
       <a
         href="#routes"
