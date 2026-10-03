@@ -776,148 +776,89 @@ Pickup Date: ${pickupDate}`;
     </a>
   </div>
 </section>
-     {/* Routes */}
+    {/* LOADZY Routes */}
 <section
   id="routes"
-  className="px-6 py-20"
+  className="bg-slate-50 px-6 py-20"
 >
-        <div className="mx-auto max-w-7xl">
+  <div className="mx-auto max-w-7xl">
 
-          <div className="text-center">
-            <div className="font-bold text-blue-600">
-              POPULAR ROUTES
-            </div>
+    <div className="text-center">
+      <div className="font-black tracking-[0.2em] text-[#08a99f]">
+        LOADZY ROUTES
+      </div>
 
-            <h2 className="mt-2 text-4xl font-black text-blue-950">
-              Move goods across India
-            </h2>
+      <h2 className="mt-3 text-4xl font-black text-[#062B55] md:text-5xl">
+        Explore Truck Transport Routes
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-600">
+        Find truck transport routes across Tamil Nadu, Karnataka,
+        Kerala, Andhra Pradesh and Telangana for full loads, part loads,
+        house shifting and commercial goods.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+
+      {[
+        {
+          name: "Tamil Nadu",
+          icon: "📍",
+          description: "Town, city & district routes",
+        },
+        {
+          name: "Karnataka",
+          icon: "🚚",
+          description: "Bangalore & Karnataka routes",
+        },
+        {
+          name: "Kerala",
+          icon: "🚛",
+          description: "Kerala transport routes",
+        },
+        {
+          name: "Andhra Pradesh",
+          icon: "📦",
+          description: "AP transport routes",
+        },
+        {
+          name: "Telangana",
+          icon: "📬",
+          description: "Hyderabad & Telangana routes",
+        },
+      ].map((state) => (
+        <div
+          key={state.name}
+          className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="text-4xl">
+            {state.icon}
           </div>
 
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <h3 className="mt-4 text-xl font-black text-[#062B55]">
+            {state.name}
+          </h3>
 
-                   {[
-          {
-            name: "Chennai → Bangalore",
-            href: "/routes/chennai/bangalore",
-          },
-          {
-            name: "Coimbatore → Chennai",
-            href: "/routes/coimbatore/chennai",
-          },
-          {
-            name: "Salem → Bangalore",
-            href: "/routes/salem/bangalore",
-          },
-          {
-            name: "Vellore → Bangalore",
-            href: "/routes/vellore/bangalore",
-          },
-          ,
-          ,,
-{
-  name: "Bangalore → Chennai",
-  href: "/routes/bangalore/chennai",
-},
-{
-  name: "Chennai → Hyderabad",
-  href: "/routes/chennai/hyderabad",
-},
-{
-  name: "Hyderabad → Chennai",
-  href: "/routes/hyderabad/chennai",
-},
-{
-  name: "Bangalore → Hyderabad",
-  href: "/routes/bangalore/hyderabad",
-},
-{
-  name: "Hyderabad → Bangalore",
-  href: "/routes/hyderabad/bangalore",
-},
-{
-  name: "Chennai → Coimbatore",
-  href: "/routes/chennai/coimbatore",
-},
-,
-{
-  name: "Coimbatore → Bangalore",
-  href: "/routes/coimbatore/bangalore",
-},
-{
-  name: "Bangalore → Coimbatore",
-  href: "/routes/bangalore/coimbatore",
-},
-{
-  name: "Chennai → Madurai",
-  href: "/routes/chennai/madurai",
-},
-{
-  name: "Madurai → Chennai",
-  href: "/routes/madurai/chennai",
-},
-{
-  name: "Chennai → Salem",
-  href: "/routes/chennai/salem",
-},
-{
-  name: "Salem → Chennai",
-  href: "/routes/salem/chennai",
-},
-{
-  name: "Chennai → Tirupattur",
-  href: "/routes/chennai/tirupattur",
-},
-{
-  name: "Tirupattur → Chennai",
-  href: "/routes/tirupattur/chennai",
-},
-{
-  name: "Chennai → Hosur",
-  href: "/routes/chennai/hosur",
-},
-{
-  name: "Hosur → Chennai",
-  href: "/routes/hosur/chennai",
-},
-{
-  name: "Chennai → Kochi",
-  href: "/routes/chennai/kochi",
-},
-{
-  name: "Kochi → Chennai",
-  href: "/routes/kochi/chennai",
-},
-{
-  name: "Bangalore → Kochi",
-  href: "/routes/bangalore/kochi",
-},
-{
-  name: "Kochi → Bangalore",
-  href: "/routes/kochi/bangalore",
-},
-{
-  name: "Chennai → Vijayawada",
-  href: "/routes/chennai/vijayawada",
-},
-{
-  name: "Vijayawada → Chennai",
-  href: "/routes/vijayawada/chennai",
-},
-       ].filter(
-  (route): route is { name: string; href: string } => Boolean(route)
-).map((route) => (
-          <a
-            key={route.href}
-            href={route.href}
-            className="rounded-2xl border bg-white p-6 font-bold shadow-sm transition hover:-translate-y-1 hover:shadow-md hover:border-[#08c9bd]"
-          >
-            🚚 {route.name}
-          </a>
-        ))}
-          </div>
-
+          <p className="mt-2 text-sm leading-6 text-slate-500">
+            {state.description}
+          </p>
         </div>
-      </section>
+      ))}
+
+    </div>
+
+    <div className="mt-10 text-center">
+      <a
+        href="/routes"
+        className="inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
+      >
+        Explore All LOADZY Routes →
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* About */}
       <section
@@ -1343,6 +1284,7 @@ Pickup Date: ${pickupDate}`;
         <div className="mx-auto mt-8 max-w-7xl border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
           © 2026 LOADZY. All rights reserved.
         </div>
+        
 
       </footer>
 
