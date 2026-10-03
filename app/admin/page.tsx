@@ -550,6 +550,25 @@ setClosedLeads(closedLeadsResult.count ?? 0);
                 Open Bookings →
               </p>
             </Link>
+            {/* Shipment & Delivery History */}
+<Link
+  href="/admin/delivery-history"
+  className="group rounded-2xl border border-green-200 bg-green-50 p-6 transition hover:border-green-400 hover:bg-green-100"
+>
+  <div className="text-4xl">🚚</div>
+
+  <h3 className="mt-4 text-xl font-extrabold text-[#062B55]">
+    Shipment & Delivery History
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-600">
+    Track booking progress, transit times and completed deliveries.
+  </p>
+
+  <p className="mt-4 font-bold text-green-600">
+    Open Delivery History →
+  </p>
+</Link>
 
             {/* Drivers */}
             <Link
