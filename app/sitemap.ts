@@ -2,30 +2,52 @@ import type { MetadataRoute } from "next";
 import { loadzyRoutes } from "./lib/routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: "https://www.loadzyinfra.in",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://www.loadzyinfra.in/truck-owner",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://www.loadzyinfra.in/truck-rates",
-      lastModified: new Date(),
-    },
+  const baseUrl = "https://www.loadzyinfra.in";
+
+  const staticPages = [
+    "",
+    "/about",
+    "/contact",
+    "/services",
+    "/commercial-transport",
+    "/drive-with-loadzy",
+    "/fruits-vegetables",
+    "/full-load",
+    "/house-shifting",
+    "/industrial-transport",
+    "/load-search",
+    "/mobile-app",
+    "/packers-movers",
+    "/part-load",
+    "/privacy",
+    "/reviews",
+    "/terms",
+    "/track-shipment",
+    "/truck-owner",
+    "/truck-rates",
+    "/routes",
   ];
 
-  const routePages: MetadataRoute.Sitemap = Array.from(
-  new Map(
-    loadzyRoutes.map((route) => {
-      const url = `https://www.loadzyinfra.in/routes/${route.fromSlug}/${route.toSlug}`;
+  const staticSitemap: MetadataRoute.Sitemap = staticPages.map((page) => ({
+    url: `${baseUrl}${page}`,
+    lastModified: new Date(),
+  }));
 
-      return [url, { url, lastModified: new Date() }] as const;
-    })
-  ).values()
-);
+  const routeSitemap: MetadataRoute.Sitemap = Array.from(
+    new Map(
+      loadzyRoutes.map((route) => {
+        const url = `${baseUrl}/routes/${route.fromSlug}/${route.toSlug}`;
 
-  return [...staticPages, ...routePages];
+        return [
+          url,
+          {
+            url,
+            lastModified: new Date(),
+          },
+        ] as const;
+      })
+    ).values()
+  );
+
+  return [...staticSitemap, ...routeSitemap];
 }
