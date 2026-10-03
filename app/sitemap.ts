@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy",
     "/reviews",
     "/terms",
+    "/tirupattur-transport",
     "/track-shipment",
     "/truck-owner",
     "/truck-rates",
