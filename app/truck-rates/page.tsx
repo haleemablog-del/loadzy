@@ -92,14 +92,14 @@ export default function TruckRatesPage() {
           </div>
 
           <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-            Truck Rates & Transport Charges in India
-          </h1>
+  Truck Rates & Transport Charges in South India
+</h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-            Looking for a truck for house shifting, commercial goods or a
-            business load? LOADZY helps you find suitable truck options and
-            request a transport quote based on your actual route and load.
-          </p>
+  Looking for truck rates for house shifting, commercial goods or a
+  business load? LOADZY helps you find suitable truck options and
+  request a transport quote across South India based on your route and load.
+</p>
 
           <div className="mt-9 flex flex-wrap justify-center gap-4">
             <a
