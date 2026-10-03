@@ -184,16 +184,16 @@ Pickup Date: ${pickupDate}`;
 
       {/* Navigation */}
       <nav className="border-b bg-white">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-2 px-3 py-3 md:gap-8 md:px-6 md:py-4">
+      <div className="mx-auto flex w-full max-w-[1400px] items-center justify-between gap-3 px-4 py-3 md:gap-4 md:px-5 md:py-4">
           <div className="flex items-center">
   <img
     src="/loadzy-logo.png"
     alt="LOADZY"
-   className="h-14 w-auto max-w-[190px] object-contain md:h-20 md:max-w-[280px]"
+   className="h-14 w-auto max-w-[220px] shrink-0 object-contain md:h-16 md:max-w-[220px]"
   />
 </div>
 
-          <div className="hidden items-center gap-5 whitespace-nowrap text-sm font-semibold md:flex">
+          <div className="hidden items-center gap-3 whitespace-nowrap text-[13px] font-semibold lg:flex">
             <a href="#book" className="hover:text-blue-600">
               Book a Truck
             </a>
@@ -324,7 +324,7 @@ Pickup Date: ${pickupDate}`;
 
           <button
             onClick={bookNow}
-            className="hidden md:block rounded-xl bg-teal-500 px-6 py-3 font-bold text-white shadow-lg hover:bg-teal-600"
+            className="hidden shrink-0 lg:block rounded-xl bg-teal-500 px-5 py-3 font-bold text-white shadow-lg hover:bg-teal-600"
           >
             📞 Book Now
           </button>
