@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Truck Transport & Logistics Services | LOADZY",
+  description:
+    "LOADZY provides truck booking and logistics services across South India, including full load, part load, house shifting, packers & movers, industrial and commercial transport.",
+  keywords: [
+    "truck transport services",
+    "truck booking",
+    "logistics services",
+    "transport services",
+    "full load transport",
+    "part load transport",
+    "house shifting",
+    "packers and movers",
+    "industrial transport",
+    "commercial transport",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/services",
+  },
+  openGraph: {
+    title: "Truck Transport & Logistics Services | LOADZY",
+    description:
+      "Truck booking, logistics and transport services for full loads, part loads, house shifting, commercial and industrial goods across South India.",
+    url: "https://www.loadzyinfra.in/services",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const services = [
   {
@@ -56,13 +86,13 @@ export default function ServicesPage() {
           </div>
 
           <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-            Transport solutions for every load
-          </h1>
+  Truck Transport & Logistics Services
+</h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-            Book suitable trucks for household shifting, commercial goods,
-            industrial loads, part loads and full loads with LOADZY.
-          </p>
+  Book trucks for full load, part load, house shifting, packers & movers,
+  commercial goods and industrial transport across South India with LOADZY.
+</p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
