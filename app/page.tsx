@@ -888,6 +888,52 @@ Pickup Date: ${pickupDate}`;
 </div>
   </div>
 </section>
+
+<section className="bg-slate-50 px-6 py-16">
+  <div className="mx-auto max-w-7xl">
+    <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm md:p-12">
+      <p className="font-black uppercase tracking-[0.2em] text-teal-600">
+        VANIYAMBADI TRANSPORT SERVICES
+      </p>
+
+      <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
+        Vaniyambadi Truck Transport & Packers Movers
+      </h2>
+
+      <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
+        Book trucks and lorries from Vaniyambadi for house shifting,
+        packers and movers, full load, part load, commercial goods and
+        industrial transport with LOADZY. Explore truck transport routes
+        connecting Vaniyambadi with Chennai, Bangalore, Vellore,
+        Krishnagiri, Hosur, Salem and other important locations.
+      </p>
+
+      <div className="mt-7 flex flex-wrap gap-4">
+        <a
+          href="/vaniyambadi-transport"
+          className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
+        >
+          Vaniyambadi Transport →
+        </a>
+
+        <a
+          href="/routes/vaniyambadi/chennai"
+          className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-yellow-300"
+        >
+          Vaniyambadi → Chennai →
+        </a>
+
+        <a
+          href="/routes/vaniyambadi/bangalore"
+          className="rounded-xl border-2 border-blue-950 px-7 py-4 font-black text-blue-950 transition hover:bg-blue-950 hover:text-white"
+        >
+          Vaniyambadi → Bangalore →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div className="mt-10 text-center">
   <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
     Karnataka Transport
@@ -906,6 +952,7 @@ Pickup Date: ${pickupDate}`;
     href="/karnataka-truck-transport"
     className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
   >
+    
     Karnataka Transport →
   </a>
 </div>
