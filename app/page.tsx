@@ -888,6 +888,27 @@ Pickup Date: ${pickupDate}`;
 </div>
   </div>
 </section>
+<div className="mt-10 text-center">
+  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
+    Karnataka Transport
+  </p>
+
+  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
+    Truck Transport & Logistics in Karnataka
+  </h3>
+
+  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
+    Book trucks in Karnataka for house shifting, packers & movers, part load,
+    full load, commercial goods and industrial transport with LOADZY.
+  </p>
+
+  <a
+    href="/karnataka-truck-transport"
+    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
+  >
+    Karnataka Transport →
+  </a>
+</div>
 
       {/* About */}
       <section
