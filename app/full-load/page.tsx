@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Full Load Truck Transport Services | LOADZY",
+  description:
+    "Book dedicated trucks for full load transport across South India. LOADZY helps move household goods, commercial shipments, industrial materials and business loads.",
+  keywords: [
+    "full load transport",
+    "full load truck booking",
+    "full truck load",
+    "FTL transport",
+    "full load transport South India",
+    "truck booking South India",
+    "commercial goods transport",
+    "industrial transport",
+    "house shifting truck",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/full-load",
+  },
+  openGraph: {
+    title: "Full Load Truck Transport Services | LOADZY",
+    description:
+      "Book dedicated trucks for full load transport across South India with LOADZY.",
+    url: "https://www.loadzyinfra.in/full-load",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -36,12 +66,13 @@ export default function FullLoadPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Dedicated truck transport for your full load
+                Full Load Truck Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Move large household, commercial and industrial shipments with
-                a dedicated truck through LOADZY.
+                Book a dedicated truck for full load transport across South India.
+Move household goods, commercial shipments, industrial materials and
+business loads with LOADZY.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
