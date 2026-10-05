@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Packers & Movers Truck Transport Services | LOADZY",
+  description:
+    "Book truck transport for packers and movers across South India. LOADZY supports home shifting, office shifting, local moves and intercity transport.",
+  keywords: [
+    "packers and movers",
+    "packers movers transport",
+    "packers and movers South India",
+    "house shifting transport",
+    "office shifting transport",
+    "moving truck booking",
+    "house shifting truck",
+    "intercity shifting",
+    "truck booking South India",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/packers-movers",
+  },
+  openGraph: {
+    title: "Packers & Movers Truck Transport Services | LOADZY",
+    description:
+      "Book suitable truck transport for home shifting, office shifting, local and intercity moves across South India.",
+    url: "https://www.loadzyinfra.in/packers-movers",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const services = [
   {
@@ -55,12 +85,13 @@ export default function PackersMoversPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move your home or office with LOADZY
+                Packers & Movers Truck Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Find suitable truck transport for household shifting, office
-                shifting, local moves and intercity moves.
+                Book suitable truck transport for packers and movers across South India.
+LOADZY supports home shifting, office shifting, local moves and
+intercity transport.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
