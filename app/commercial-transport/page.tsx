@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Commercial Transport Services | LOADZY",
+  description:
+    "Book commercial truck transport across South India with LOADZY for retail goods, cartons, furniture, electronics, textiles, footwear, auto parts and business inventory.",
+  keywords: [
+    "commercial transport",
+    "commercial transport services",
+    "commercial transport South India",
+    "commercial goods transport",
+    "business goods transport",
+    "retail goods transport",
+    "commercial truck booking",
+    "business inventory transport",
+    "truck booking South India",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/commercial-transport",
+  },
+  openGraph: {
+    title: "Commercial Transport Services | LOADZY",
+    description:
+      "Book suitable trucks for commercial goods and business shipments across South India.",
+    url: "https://www.loadzyinfra.in/commercial-transport",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -67,12 +97,13 @@ export default function CommercialTransportPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move your business goods with LOADZY
+                Commercial Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Transport support for retail goods, cartons, inventory,
-                furniture, electronics, textiles and other business shipments.
+                Book commercial truck transport across South India for retail goods,
+cartons, inventory, furniture, electronics, textiles and other
+business shipments.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
