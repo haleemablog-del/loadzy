@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "House Shifting Truck Transport Services | LOADZY",
+  description:
+    "Book trucks for house shifting across South India with LOADZY. Get suitable transport for 1 BHK, 2 BHK, 3 BHK, room shifting, office shifting, local and intercity moves.",
+  keywords: [
+    "house shifting truck",
+    "house shifting transport",
+    "house shifting services",
+    "house shifting South India",
+    "1 BHK house shifting",
+    "2 BHK house shifting",
+    "3 BHK house shifting",
+    "house shifting truck booking",
+    "intercity house shifting",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/house-shifting",
+  },
+  openGraph: {
+    title: "House Shifting Truck Transport Services | LOADZY",
+    description:
+      "Book suitable trucks for house shifting, room shifting, office shifting and intercity moves across South India.",
+    url: "https://www.loadzyinfra.in/house-shifting",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -46,12 +76,13 @@ export default function HouseShiftingPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move your home with the right truck
+                House Shifting Truck Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Book suitable transport for household shifting, room shifting,
-                office shifting and intercity moves with LOADZY.
+                Book a suitable truck for house shifting across South India.
+LOADZY supports household moves, room shifting, office shifting
+and intercity transport.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
