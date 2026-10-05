@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tirupattur-transport",
     "/karnataka-truck-transport",
 "/kerala-truck-transport",
+"/andhra-pradesh-truck-transport",
     "/track-shipment",
     "/truck-owner",
     "/truck-rates",
