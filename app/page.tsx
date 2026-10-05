@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { supabase } from "./lib/supabase";
+import Link from "next/link";
 
 const locations = [
   "Chennai",
@@ -934,6 +935,44 @@ Pickup Date: ${pickupDate}`;
   </div>
 </section>
 
+{/* AMBUR SEO BLOCK */}
+<section className="px-6 py-16">
+  <div className="mx-auto max-w-6xl">
+    <div className="rounded-3xl bg-slate-950 p-8 text-white md:p-12">
+      <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-teal-400">
+        Ambur Transport Services
+      </p>
+
+      <h2 className="text-3xl font-bold md:text-4xl">
+        Ambur Truck Transport & Packers Movers
+      </h2>
+
+      <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
+        Book trucks and lorries from Ambur for house shifting, packers and
+        movers, full load, part load, commercial goods and industrial
+        transport with LOADZY. Explore transport routes connecting Ambur
+        with Chennai, Bangalore, Vellore, Vaniyambadi, Tirupattur and other
+        destinations.
+      </p>
+
+      <div className="mt-8 flex flex-wrap gap-4">
+        <Link
+          href="/ambur-transport"
+          className="rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
+        >
+          Explore Ambur Transport
+        </Link>
+
+        <Link
+          href="/load-search"
+          className="rounded-xl border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+        >
+          Find My Truck
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 <div className="mt-10 text-center">
   <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
     Karnataka Transport
