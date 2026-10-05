@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 type RoutePageProps = {
@@ -83,11 +84,11 @@ export default async function RoutePage({
   ];
 
   const services = [
-    "Full Load",
-    "Part Load",
-    "House Shifting",
-    "Packers & Movers",
-  ];
+  { name: "Full Load", href: "/full-load" },
+  { name: "Part Load", href: "/part-load" },
+  { name: "House Shifting", href: "/house-shifting" },
+  { name: "Packers & Movers", href: "/packers-movers" },
+];
 
   const benefits = [
     "On-Time Delivery",
@@ -274,14 +275,15 @@ export default async function RoutePage({
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
 
             {services.map((service) => (
-              <div
-                key={service}
+              <Link
+  href={service.href}
+               key={service.name}
                 className="rounded-2xl bg-white p-7 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
                 <div className="text-2xl">🚚</div>
 
                 <h3 className="mt-3 font-black text-[#09264b]">
-                  {service}
+                 {service.name}
                 </h3>
 
                 <p className="mt-2 text-sm leading-6 text-slate-600">
@@ -289,7 +291,7 @@ export default async function RoutePage({
                   route requirement.
                 </p>
 
-              </div>
+              </Link>
             ))}
 
           </div>
