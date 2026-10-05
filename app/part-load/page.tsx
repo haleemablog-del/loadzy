@@ -1,4 +1,32 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Part Load Transport Services | LOADZY",
+  description:
+    "Book part-load transport across South India with LOADZY. Find suitable transport for furniture, household items, cartons, retail goods, small business loads and other shipments.",
+  keywords: [
+    "part load transport",
+    "part load truck booking",
+    "part load transport South India",
+    "part truck transport",
+    "LTL transport",
+    "part load booking",
+    "truck booking South India",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/part-load",
+  },
+  openGraph: {
+    title: "Part Load Transport Services | LOADZY",
+    description:
+      "Find suitable part-load transport across South India with LOADZY.",
+    url: "https://www.loadzyinfra.in/part-load",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -64,12 +92,13 @@ export default function PartLoadPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move smaller loads with suitable transport
+                Part Load Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Find transport options for smaller shipments when matching
-                part-load availability exists on your route.
+                Book part-load transport across South India for smaller shipments.
+LOADZY helps you find suitable transport based on your route,
+load requirement and available trucks.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
