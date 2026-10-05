@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -365,6 +366,80 @@ export default function TruckRatesPage() {
           </a>
         </p>
       </footer>
+      <section className="bg-slate-50 px-6 py-16">
+  <div className="mx-auto max-w-6xl text-center">
+    <div className="font-bold text-teal-600">
+      LOADZY TRANSPORT SERVICES
+    </div>
+
+    <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
+      Explore LOADZY Truck Transport Services
+    </h2>
+
+    <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-600">
+      Explore our transport services and find the right option for your
+      household, commercial, industrial or part-load requirement.
+    </p>
+
+    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <Link
+        href="/full-load"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Full Load Transport →
+      </Link>
+
+      <Link
+        href="/part-load"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Part Load Transport →
+      </Link>
+
+      <Link
+        href="/house-shifting"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        House Shifting →
+      </Link>
+
+      <Link
+        href="/packers-movers"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Packers & Movers →
+      </Link>
+
+      <Link
+        href="/industrial-transport"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Industrial Transport →
+      </Link>
+
+      <Link
+        href="/commercial-transport"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Commercial Transport →
+      </Link>
+
+      <Link
+        href="/fruits-vegetables"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Fruits & Vegetables →
+      </Link>
+
+      <Link
+        href="/routes"
+        className="rounded-2xl border bg-white p-5 font-bold text-blue-950 shadow-sm hover:border-teal-500"
+      >
+        Explore Transport Routes →
+      </Link>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
