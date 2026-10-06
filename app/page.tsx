@@ -420,9 +420,9 @@ Pickup Date: ${pickupDate}`;
               Get Your Transport Price
             </h2>
 
-            <p className="mt-2 text-[#496A85]">
-              Enter your load details and route to get your transport price.
-            </p>
+<p className="mt-2 text-slate-600">
+  Enter your pickup, delivery and load details to get the right truck for your transport requirement.
+</p>
 
             {/* Customer Name */}
 <div className="mt-5">
@@ -463,7 +463,7 @@ Pickup Date: ${pickupDate}`;
     setPickup(e.target.value);
     setPickupIndex(-1);
   }}
-  placeholder="Enter pickup location"
+  placeholder="Enter pickup city or area"
   className="w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
 />
 
@@ -500,7 +500,7 @@ Pickup Date: ${pickupDate}`;
   type="text"
   value={delivery}
   onChange={(e) => setDelivery(e.target.value)}
-  placeholder="Enter delivery location"
+  placeholder="Enter delivery city or area"
   className="w-full rounded-xl border border-[#B8C9D9] bg-white px-4 py-3 text-[#062B55] outline-none focus:border-[#00C9B7] focus:ring-2 focus:ring-[#00C9B7]/20"
 />
             </div>{delivery &&
@@ -598,7 +598,7 @@ Pickup Date: ${pickupDate}`;
 </button>
 
 <p className="mt-3 text-center text-sm font-semibold text-slate-500">
-  Tell us your route and load details. LOADZY will help match the right truck for you.
+ Enter your pickup, delivery and load details to find the right truck for your transport requirement.
 </p>
 
             {/* Message */}
