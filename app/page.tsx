@@ -1393,6 +1393,59 @@ Pickup Date: ${pickupDate}`;
   </div>
 </section>
 
+
+{/* Transport Guides */}
+<section className="mt-16 px-6">
+  <div className="mx-auto max-w-6xl">
+    <div className="text-center">
+      <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
+        LOADZY TRANSPORT GUIDES
+      </p>
+
+      <h2 className="mt-2 text-3xl font-black text-[#062B55] md:text-4xl">
+        Truck & Transport Information
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+        Learn about truck types, transport charges, freight pricing and
+        choosing the right truck for your load.
+      </p>
+    </div>
+
+    <div className="mt-8 grid gap-6 md:grid-cols-2">
+      <Link
+        href="/truck-guide"
+        className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+      >
+        <h3 className="text-xl font-bold text-[#062B55]">
+          Truck Information Guide →
+        </h3>
+
+        <p className="mt-3 leading-7 text-slate-600">
+          Learn about truck types, capacity, dimensions, mileage, body types,
+          payload and GVW.
+        </p>
+      </Link>
+
+      <Link
+        href="/truck-transport-charges-tamil-nadu"
+        className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+      >
+        <h3 className="text-xl font-bold text-[#062B55]">
+          Truck Transport Charges in Tamil Nadu →
+        </h3>
+
+        <p className="mt-3 leading-7 text-slate-600">
+          Understand how truck freight charges are affected by distance, truck
+          type, load, route expenses and availability.
+        </p>
+      </Link>
+    </div>
+  </div>
+</section>
+
+
+
       {/* Footer */}
       <footer className="bg-slate-950 px-6 py-10 text-white">
 
@@ -1484,7 +1537,7 @@ Pickup Date: ${pickupDate}`;
         <div className="mx-auto mt-8 max-w-7xl border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
           © 2026 LOADZY. All rights reserved.
         </div>
-        
+      
 
       </footer>
 
