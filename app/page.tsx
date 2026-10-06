@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { supabase } from "./lib/supabase";
 import Link from "next/link";
+import { loadzyLocations } from "@/app/lib/locations";
 
 const locations = [
   "Chennai",
@@ -1103,6 +1104,56 @@ Pickup Date: ${pickupDate}`;
         </Link>
       ))}
     </div>
+  </div>
+</section>
+{/* Tamil Nadu Transport Locations */}
+<section className="bg-slate-50 px-6 py-16">
+  <div className="mx-auto max-w-7xl">
+
+    <p className="font-black uppercase tracking-[0.2em] text-teal-600">
+      TAMIL NADU LOCATIONS
+    </p>
+
+    <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
+      Truck Transport Locations in Tamil Nadu
+    </h2>
+
+    <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+      Explore truck transport services, house shifting, commercial
+      transport and logistics options across cities and towns in Tamil Nadu.
+    </p>
+
+    <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {loadzyLocations
+        .filter(
+  (location) =>
+    location.type === "district" &&
+    location.parent === "tamil-nadu"
+)
+        
+        .map((location) => (
+          <a
+            key={`${location.parent}-${location.slug}`}
+           href={`/tamil-nadu/${location.slug}`}
+            className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
+          >
+            {location.name} Transport
+            <span className="mt-2 block text-sm font-bold text-teal-600">
+              View location →
+            </span>
+          </a>
+        ))}
+    </div>
+
+    <div className="mt-8 text-center">
+      <a
+        href="/tamil-nadu"
+        className="inline-block rounded-xl bg-teal-500 px-7 py-3 font-black text-white shadow-lg transition hover:bg-teal-600"
+      >
+        Explore Tamil Nadu Transport →
+      </a>
+    </div>
+
   </div>
 </section>
 
