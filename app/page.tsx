@@ -1393,7 +1393,6 @@ Pickup Date: ${pickupDate}`;
   </div>
 </section>
 
-
 {/* Transport Guides */}
 <section className="mt-16 px-6">
   <div className="mx-auto max-w-6xl">
@@ -1406,22 +1405,22 @@ Pickup Date: ${pickupDate}`;
         Truck & Transport Information
       </h2>
 
-      <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+      <p className="mx-auto mt-4 max-w-2xl font-bold text-slate-600">
         Learn about truck types, transport charges, freight pricing and
         choosing the right truck for your load.
       </p>
     </div>
 
-    <div className="mt-8 grid gap-6 md:grid-cols-2">
+    <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       <Link
         href="/truck-guide"
         className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
       >
-        <h3 className="text-xl font-bold text-[#062B55]">
+        <h3 className="text-xl font-black text-[#062B55]">
           Truck Information Guide →
         </h3>
 
-        <p className="mt-3 leading-7 text-slate-600">
+        <p className="mt-3 font-bold leading-7 text-slate-600">
           Learn about truck types, capacity, dimensions, mileage, body types,
           payload and GVW.
         </p>
@@ -1431,13 +1430,27 @@ Pickup Date: ${pickupDate}`;
         href="/truck-transport-charges-tamil-nadu"
         className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
       >
-        <h3 className="text-xl font-bold text-[#062B55]">
+        <h3 className="text-xl font-black text-[#062B55]">
           Truck Transport Charges in Tamil Nadu →
         </h3>
 
-        <p className="mt-3 leading-7 text-slate-600">
+        <p className="mt-3 font-bold leading-7 text-slate-600">
           Understand how truck freight charges are affected by distance, truck
           type, load, route expenses and availability.
+        </p>
+      </Link>
+
+      <Link
+        href="/how-truck-freight-prices-are-calculated"
+        className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+      >
+        <h3 className="text-xl font-black text-[#062B55]">
+          How Truck Freight Prices Are Calculated →
+        </h3>
+
+        <p className="mt-3 font-bold leading-7 text-slate-600">
+          Learn how distance, truck type, load size, route expenses and
+          availability can affect freight pricing.
         </p>
       </Link>
     </div>
