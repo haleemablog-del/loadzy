@@ -45,6 +45,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
 "/industrial-transport-guide",
 "/return-load-transport-guide",
 "/truck-booking-guide",
+"/chennai-transport",
+"/coimbatore-transport",
+"/madurai-transport",
+"/salem-transport",
+"/tiruchirappalli-transport",
+"/tiruppur-transport",
+"/erode-transport",
+"/vellore-transport",
+"/hosur-transport",
+"/bangalore-transport",
+"/hyderabad-transport",
+"/kochi-transport",
+"/vijayawada-transport",
+"/tirupati-transport",
 ];
 
 

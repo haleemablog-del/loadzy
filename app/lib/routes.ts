@@ -964,12 +964,7 @@ export const loadzyRoutes: LoadzyRoute[] = [
     to: "Ambur",
     toSlug: "ambur",
   },
-  {
-    from: "Ambur",
-    fromSlug: "ambur",
-    to: "Vaniyambadi",
-    toSlug: "vaniyambadi",
-  },
+  
   {
     from: "Vaniyambadi",
     fromSlug: "vaniyambadi",
@@ -1107,5 +1102,188 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "thiruvannamalai",
     to: "Ambur",
     toSlug: "ambur",
+  },
+    // Major City Routes
+
+  {
+    from: "Chennai",
+    to: "Tiruppur",
+    fromSlug: "chennai",
+    toSlug: "tiruppur",
+  },
+  {
+    from: "Tiruppur",
+    to: "Chennai",
+    fromSlug: "tiruppur",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Erode",
+    fromSlug: "chennai",
+    toSlug: "erode",
+  },
+  {
+    from: "Erode",
+    to: "Chennai",
+    fromSlug: "erode",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Mysore",
+    fromSlug: "chennai",
+    toSlug: "mysore",
+  },
+  {
+    from: "Mysore",
+    to: "Chennai",
+    fromSlug: "mysore",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Mangalore",
+    fromSlug: "chennai",
+    toSlug: "mangalore",
+  },
+  {
+    from: "Mangalore",
+    to: "Chennai",
+    fromSlug: "mangalore",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Coimbatore",
+    fromSlug: "bangalore",
+    toSlug: "coimbatore",
+  },
+  {
+    from: "Coimbatore",
+    to: "Tiruppur",
+    fromSlug: "coimbatore",
+    toSlug: "tiruppur",
+  },
+  {
+    from: "Tiruppur",
+    to: "Coimbatore",
+    fromSlug: "tiruppur",
+    toSlug: "coimbatore",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Tiruppur",
+    fromSlug: "bangalore",
+    toSlug: "tiruppur",
+  },
+  {
+    from: "Tiruppur",
+    to: "Bangalore",
+    fromSlug: "tiruppur",
+    toSlug: "bangalore",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Erode",
+    fromSlug: "bangalore",
+    toSlug: "erode",
+  },
+  {
+    from: "Erode",
+    to: "Bangalore",
+    fromSlug: "erode",
+    toSlug: "bangalore",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Madurai",
+    fromSlug: "bangalore",
+    toSlug: "madurai",
+  },
+  {
+    from: "Madurai",
+    to: "Bangalore",
+    fromSlug: "madurai",
+    toSlug: "bangalore",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Mangalore",
+    fromSlug: "bangalore",
+    toSlug: "mangalore",
+  },
+  {
+    from: "Mangalore",
+    to: "Bangalore",
+    fromSlug: "mangalore",
+    toSlug: "bangalore",
+  },
+
+  {
+    from: "Bangalore",
+    to: "Hyderabad",
+    fromSlug: "bangalore",
+    toSlug: "hyderabad",
+  },
+
+  {
+    from: "Hyderabad",
+    to: "Vijayawada",
+    fromSlug: "hyderabad",
+    toSlug: "vijayawada",
+  },
+  {
+    from: "Vijayawada",
+    to: "Hyderabad",
+    fromSlug: "vijayawada",
+    toSlug: "hyderabad",
+  },
+
+  {
+    from: "Hyderabad",
+    to: "Visakhapatnam",
+    fromSlug: "hyderabad",
+    toSlug: "visakhapatnam",
+  },
+  {
+    from: "Visakhapatnam",
+    to: "Hyderabad",
+    fromSlug: "visakhapatnam",
+    toSlug: "hyderabad",
+  },
+
+  {
+    from: "Vijayawada",
+    to: "Visakhapatnam",
+    fromSlug: "vijayawada",
+    toSlug: "visakhapatnam",
+  },
+  {
+    from: "Visakhapatnam",
+    to: "Vijayawada",
+    fromSlug: "visakhapatnam",
+    toSlug: "vijayawada",
+  },
+
+  {
+    from: "Kochi",
+    to: "Thiruvananthapuram",
+    fromSlug: "kochi",
+    toSlug: "thiruvananthapuram",
+  },
+  {
+    from: "Thiruvananthapuram",
+    to: "Kochi",
+    fromSlug: "thiruvananthapuram",
+    toSlug: "kochi",
   },
 ];

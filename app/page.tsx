@@ -1059,6 +1059,52 @@ Pickup Date: ${pickupDate}`;
     Telangana Transport →
   </a>
 </div>
+{/* Major City Transport Hubs */}
+<section className="bg-slate-50 px-6 py-16">
+  <div className="mx-auto max-w-6xl">
+    <div className="text-center">
+      <p className="font-black uppercase tracking-widest text-[#08A99F]">
+        MAJOR TRANSPORT CITIES
+      </p>
+
+      <h2 className="mt-3 text-4xl font-black text-[#062B55]">
+        Truck Transport Across Major South Indian Cities
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl font-bold leading-7 text-slate-600">
+        Find truck transport, packers and movers, house shifting and
+        commercial transport services across major cities in South India.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {[
+        ["Chennai", "/chennai-transport"],
+        ["Coimbatore", "/coimbatore-transport"],
+        ["Madurai", "/madurai-transport"],
+        ["Salem", "/salem-transport"],
+        ["Tiruchirappalli", "/tiruchirappalli-transport"],
+        ["Tiruppur", "/tiruppur-transport"],
+        ["Erode", "/erode-transport"],
+        ["Vellore", "/vellore-transport"],
+        ["Hosur", "/hosur-transport"],
+        ["Bangalore", "/bangalore-transport"],
+        ["Hyderabad", "/hyderabad-transport"],
+        ["Kochi", "/kochi-transport"],
+        ["Vijayawada", "/vijayawada-transport"],
+        ["Tirupati", "/tirupati-transport"],
+      ].map(([city, href]) => (
+        <Link
+          key={href}
+          href={href}
+          className="rounded-2xl border border-slate-200 bg-white p-5 text-center font-black text-[#062B55] shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:bg-teal-50"
+        >
+          🚚 {city} Truck Transport →
+        </Link>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* About */}
       <section
