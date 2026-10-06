@@ -41,7 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 "/full-load-vs-part-load",
 "/how-to-choose-the-right-truck",
 "/house-shifting-truck-guide",
-  ];
+"/commercial-goods-transport-guide",
+"/industrial-transport-guide",
+"/return-load-transport-guide",
+"/truck-booking-guide",
+];
+
 
   const staticSitemap: MetadataRoute.Sitemap = staticPages.map((page) => ({
     url: `${baseUrl}${page}`,
