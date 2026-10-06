@@ -1453,6 +1453,47 @@ Pickup Date: ${pickupDate}`;
           availability can affect freight pricing.
         </p>
       </Link>
+
+      <Link
+  href="/full-load-vs-part-load"
+  className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+>
+  <h3 className="text-xl font-black text-[#062B55]">
+    Full Load vs Part Load Transport →
+  </h3>
+
+  <p className="mt-3 font-bold leading-7 text-slate-600">
+    Understand the difference between full load and part load transport and
+    choose the right option for your shipment.
+  </p>
+</Link>
+<Link
+  href="/how-to-choose-the-right-truck"
+  className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+>
+  <h3 className="text-xl font-black text-[#062B55]">
+    How to Choose the Right Truck →
+  </h3>
+
+  <p className="mt-3 font-bold leading-7 text-slate-600">
+    Learn how to select the right truck based on load weight, volume,
+    dimensions, goods type and route.
+  </p>
+</Link>
+<Link
+  href="/house-shifting-truck-guide"
+  className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+>
+  <h3 className="text-xl font-black text-[#062B55]">
+    House Shifting Truck Guide →
+  </h3>
+
+  <p className="mt-3 font-bold leading-7 text-slate-600">
+    Learn how to choose a suitable truck for household goods, furniture and
+    house shifting.
+  </p>
+</Link>
+
     </div>
   </div>
 </section>
