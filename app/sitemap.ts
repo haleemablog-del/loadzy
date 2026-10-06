@@ -31,6 +31,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/truck-owner",
     "/truck-rates",
     "/routes",
+
+    "/truck-rates",
+"/routes",
+
+"/truck-guide",
+"/truck-transport-charges-tamil-nadu",
+"/how-truck-freight-prices-are-calculated",
+"/full-load-vs-part-load",
+"/how-to-choose-the-right-truck",
+"/house-shifting-truck-guide",
   ];
 
   const staticSitemap: MetadataRoute.Sitemap = staticPages.map((page) => ({
