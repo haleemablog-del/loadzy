@@ -1063,7 +1063,7 @@ Pickup Date: ${pickupDate}`;
       {/* About */}
       <section
         id="about"
-        className="bg-blue-950 px-6 py-20 text-white"
+        className="mt-4 bg-blue-950 px-6 py-20 text-white"
       >
         <div className="mx-auto max-w-4xl text-center">
 
@@ -1394,7 +1394,7 @@ Pickup Date: ${pickupDate}`;
 </section>
 
 {/* Transport Guides */}
-<section className="mt-16 px-6">
+<section className="mt-16 px-6 pb-4">
   <div className="mx-auto max-w-6xl">
     <div className="text-center">
       <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
@@ -1411,7 +1411,7 @@ Pickup Date: ${pickupDate}`;
       </p>
     </div>
 
-    <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-8 mb-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       <Link
         href="/truck-guide"
         className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
@@ -1494,8 +1494,10 @@ Pickup Date: ${pickupDate}`;
   </p>
 </Link>
 
-    </div>
-  </div>
+</div>
+
+
+</div>
 </section>
 
 
