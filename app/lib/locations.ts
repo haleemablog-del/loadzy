@@ -62,6 +62,8 @@ export const loadzyLocations: LoadzyLocation[] = [
 
   { name: "Coimbatore", slug: "coimbatore", type: "city", parent: "coimbatore" },
   { name: "Pollachi", slug: "pollachi", type: "city", parent: "coimbatore" },
+  { name: "Karumathampatti", slug: "karumathampatti", type: "city", parent: "coimbatore" },
+
   { name: "Mettupalayam", slug: "mettupalayam", type: "town", parent: "coimbatore" },
   { name: "Valparai", slug: "valparai", type: "town", parent: "coimbatore" },
   { name: "Annur", slug: "annur", type: "town", parent: "coimbatore" },
@@ -309,6 +311,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Kuzhithurai", slug: "kuzhithurai", type: "city", parent: "kanniyakumari" },
   { name: "Padmanabhapuram", slug: "padmanabhapuram", type: "city", parent: "kanniyakumari" },
   { name: "Colachel", slug: "colachel", type: "city", parent: "kanniyakumari" },
+  { name: "Kollankodu", slug: "kollankodu", type: "city", parent: "kanniyakumari" },
 
   { name: "Kanyakumari", slug: "kanyakumari", type: "town", parent: "kanniyakumari" },
   { name: "Thuckalay", slug: "thuckalay", type: "town", parent: "kanniyakumari" },
@@ -384,6 +387,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Ranipet", slug: "ranipet", type: "city", parent: "ranipet" },
   { name: "Arcot", slug: "arcot", type: "city", parent: "ranipet" },
   { name: "Melvisharam", slug: "melvisharam", type: "city", parent: "ranipet" },
+  { name: "Arakkonam", slug: "arakkonam", type: "city", parent: "ranipet" },
 
   // Town Panchayats
   { name: "Walajapet", slug: "walajapet", type: "town", parent: "ranipet" },
@@ -400,6 +404,9 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Attur", slug: "attur", type: "city", parent: "salem" },
   { name: "Mettur", slug: "mettur", type: "city", parent: "salem" },
   { name: "Edappadi", slug: "edappadi", type: "city", parent: "salem" },
+  { name: "Edanganasalai", slug: "edanganasalai", type: "city", parent: "salem" },
+{ name: "Idappadi", slug: "idappadi", type: "city", parent: "salem" },
+{ name: "Narasingapuram", slug: "narasingapuram", type: "city", parent: "salem" },
   { name: "Nangavalli", slug: "nangavalli", type: "town", parent: "salem" },
   { name: "Omalur", slug: "omalur", type: "town", parent: "salem" },
   { name: "Sankari", slug: "sankari", type: "town", parent: "salem" },
@@ -459,6 +466,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Thanjavur", slug: "thanjavur", type: "city", parent: "thanjavur" },
   { name: "Kumbakonam", slug: "kumbakonam", type: "city", parent: "thanjavur" },
   { name: "Pattukkottai", slug: "pattukkottai", type: "city", parent: "thanjavur" },
+  { name: "Adirampattinam", slug: "adirampattinam", type: "city", parent: "thanjavur" },
 
   // Town Panchayats
   { name: "Aduthurai", slug: "aduthurai", type: "town", parent: "thanjavur" },
@@ -533,6 +541,8 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Tirunelveli", slug: "tirunelveli", type: "city", parent: "tirunelveli" },
   { name: "Ambasamudram", slug: "ambasamudram", type: "city", parent: "tirunelveli" },
   { name: "Sankarankovil", slug: "sankarankovil", type: "city", parent: "tirunelveli" },
+  { name: "Kalakadu", slug: "kalakadu", type: "city", parent: "tirunelveli" },
+{ name: "Vikramasingapuram", slug: "vikramasingapuram", type: "city", parent: "tirunelveli" },
 
   // Towns
   { name: "Cheranmahadevi", slug: "cheranmahadevi", type: "town", parent: "tirunelveli" },
@@ -568,6 +578,8 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Kangeyam", slug: "kangeyam", type: "city", parent: "tiruppur" },
   { name: "Palladam", slug: "palladam", type: "city", parent: "tiruppur" },
   { name: "Vellakoil", slug: "vellakoil", type: "city", parent: "tiruppur" },
+  { name: "Avinashi", slug: "avinashi", type: "city", parent: "tiruppur" },
+{ name: "Thirumuruganpoondi", slug: "thirumuruganpoondi", type: "city", parent: "tiruppur" },
 
   // Town Panchayats
   { name: "Avinashi", slug: "avinashi", type: "town", parent: "tiruppur" },
@@ -612,6 +624,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Arani", slug: "arani", type: "city", parent: "tiruvannamalai" },
   { name: "Vandavasi", slug: "vandavasi", type: "city", parent: "tiruvannamalai" },
   { name: "Tiruvethipuram", slug: "tiruvethipuram", type: "city", parent: "tiruvannamalai" },
+  { name: "Chengam", slug: "chengam", type: "city", parent: "tiruvannamalai" },
 
   // Important Towns
   { name: "Chengam", slug: "chengam", type: "town", parent: "tiruvannamalai" },
@@ -631,6 +644,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Udhagamandalam", slug: "udhagamandalam", type: "city", parent: "nilgiris" },
   { name: "Coonoor", slug: "coonoor", type: "city", parent: "nilgiris" },
   { name: "Gudalur", slug: "gudalur", type: "city", parent: "nilgiris" },
+  { name: "Nelliayalam", slug: "nelliayalam", type: "city", parent: "nilgiris" },
 
   // Towns
   { name: "Kotagiri", slug: "kotagiri", type: "town", parent: "nilgiris" },
@@ -683,6 +697,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Sattur", slug: "sattur", type: "city", parent: "virudhunagar" },
   { name: "Rajapalayam", slug: "rajapalayam", type: "city", parent: "virudhunagar" },
   { name: "Srivilliputhur", slug: "srivilliputhur", type: "city", parent: "virudhunagar" },
+  { name: "Aruppukottai", slug: "aruppukottai", type: "city", parent: "virudhunagar" },
 
   // Town Panchayats
   { name: "Kariyapatti", slug: "kariyapatti", type: "town", parent: "virudhunagar" },
@@ -699,6 +714,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Tiruvarur", slug: "tiruvarur", type: "city", parent: "tiruvarur" },
   { name: "Mannargudi", slug: "mannargudi", type: "city", parent: "tiruvarur" },
   { name: "Thiruthuraipoondi", slug: "thiruthuraipoondi", type: "city", parent: "tiruvarur" },
+  { name: "Koothanallur", slug: "koothanallur", type: "city", parent: "tiruvarur" },
   { name: "Koothanallur", slug: "koothanallur", type: "city", parent: "tiruvarur" },
 
   // Town Panchayats
