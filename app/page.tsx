@@ -809,55 +809,74 @@ Pickup Date: ${pickupDate}`;
         house shifting and commercial goods.
       </p>
     </div>
+<div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
 
-    <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+  <a
+    href="/tamil-nadu"
+    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    <div className="text-4xl">📍</div>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">
+      Tamil Nadu
+    </h3>
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      Town, city & district routes
+    </p>
+  </a>
 
-      {[
-        {
-          name: "Tamil Nadu",
-          icon: "📍",
-          description: "Town, city & district routes",
-        },
-        {
-          name: "Karnataka",
-          icon: "🚚",
-          description: "Bangalore & Karnataka routes",
-        },
-        {
-          name: "Kerala",
-          icon: "🚛",
-          description: "Kerala transport routes",
-        },
-        {
-          name: "Andhra Pradesh",
-          icon: "📦",
-          description: "AP transport routes",
-        },
-        {
-          name: "Telangana",
-          icon: "📬",
-          description: "Hyderabad & Telangana routes",
-        },
-      ].map((state) => (
-        <div
-          key={state.name}
-          className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
-        >
-          <div className="text-4xl">
-            {state.icon}
-          </div>
+  <a
+    href="/karnataka"
+    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    <div className="text-4xl">🚚</div>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">
+      Karnataka
+    </h3>
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      Bangalore & Karnataka routes
+    </p>
+  </a>
 
-          <h3 className="mt-4 text-xl font-black text-[#062B55]">
-            {state.name}
-          </h3>
+  <a
+    href="/kerala"
+    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    <div className="text-4xl">🚚</div>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">
+      Kerala
+    </h3>
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      Kerala transport routes
+    </p>
+  </a>
 
-          <p className="mt-2 text-sm leading-6 text-slate-500">
-            {state.description}
-          </p>
-        </div>
-      ))}
+  <a
+    href="/andhra-pradesh"
+    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    <div className="text-4xl">📦</div>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">
+      Andhra Pradesh
+    </h3>
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      AP transport routes
+    </p>
+  </a>
 
-    </div>
+  <a
+    href="/telangana"
+    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    <div className="text-4xl">🚚</div>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">
+      Telangana
+    </h3>
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      Hyderabad & Telangana routes
+    </p>
+  </a>
+
+</div>
 
     <div className="mt-10 text-center">
       <a
