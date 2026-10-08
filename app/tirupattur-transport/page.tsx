@@ -130,6 +130,140 @@ const routes = [
     name: "Hosur → Tirupattur",
     href: "/routes/hosur/tirupattur",
   },
+    {
+    name: "Tirupattur → Coimbatore",
+    href: "/routes/tirupattur/coimbatore",
+  },
+  {
+    name: "Coimbatore → Tirupattur",
+    href: "/routes/coimbatore/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Hyderabad",
+    href: "/routes/tirupattur/hyderabad",
+  },
+  {
+    name: "Hyderabad → Tirupattur",
+    href: "/routes/hyderabad/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Madurai",
+    href: "/routes/tirupattur/madurai",
+  },
+  {
+    name: "Madurai → Tirupattur",
+    href: "/routes/madurai/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Tiruchirappalli",
+    href: "/routes/tirupattur/tiruchirappalli",
+  },
+  {
+    name: "Tiruchirappalli → Tirupattur",
+    href: "/routes/tiruchirappalli/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Tirupati",
+    href: "/routes/tirupattur/tirupati",
+  },
+  {
+    name: "Tirupati → Tirupattur",
+    href: "/routes/tirupati/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Tiruvannamalai",
+    href: "/routes/tirupattur/tiruvannamalai",
+  },
+  {
+    name: "Tiruvannamalai → Tirupattur",
+    href: "/routes/tiruvannamalai/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Dharmapuri",
+    href: "/routes/tirupattur/dharmapuri",
+  },
+  {
+    name: "Dharmapuri → Tirupattur",
+    href: "/routes/dharmapuri/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Erode",
+    href: "/routes/tirupattur/erode",
+  },
+  {
+    name: "Erode → Tirupattur",
+    href: "/routes/erode/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Namakkal",
+    href: "/routes/tirupattur/namakkal",
+  },
+  {
+    name: "Namakkal → Tirupattur",
+    href: "/routes/namakkal/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Puducherry",
+    href: "/routes/tirupattur/puducherry",
+  },
+  {
+    name: "Puducherry → Tirupattur",
+    href: "/routes/puducherry/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Mysore",
+    href: "/routes/tirupattur/mysore",
+  },
+  {
+    name: "Mysore → Tirupattur",
+    href: "/routes/mysore/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Kochi",
+    href: "/routes/tirupattur/kochi",
+  },
+  {
+    name: "Kochi → Tirupattur",
+    href: "/routes/kochi/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Vijayawada",
+    href: "/routes/tirupattur/vijayawada",
+  },
+  {
+    name: "Vijayawada → Tirupattur",
+    href: "/routes/vijayawada/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Tirunelveli",
+    href: "/routes/tirupattur/tirunelveli",
+  },
+  {
+    name: "Tirunelveli → Tirupattur",
+    href: "/routes/tirunelveli/tirupattur",
+  },
+
+  {
+    name: "Tirupattur → Kanyakumari",
+    href: "/routes/tirupattur/kanyakumari",
+  },
+  {
+    name: "Kanyakumari → Tirupattur",
+    href: "/routes/kanyakumari/tirupattur",
+  },
 ];
 const nearbyAreas = [
   {
@@ -158,6 +292,7 @@ const nearbyAreas = [
   {
     name: "Alangayam",
   },
+  
 ];
 
 const faqs = [

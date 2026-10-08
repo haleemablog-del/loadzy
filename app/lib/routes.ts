@@ -1877,6 +1877,49 @@ const rawLoadzyRoutes: LoadzyRoute[] = [
 
 { from: "Kumbakonam", to: "Mayiladuthurai", fromSlug: "kumbakonam", toSlug: "mayiladuthurai" },
 { from: "Mayiladuthurai", to: "Kumbakonam", fromSlug: "mayiladuthurai", toSlug: "kumbakonam" },
+// Additional Tirupattur Routes
+
+{ from: "Tirupattur", to: "Coimbatore", fromSlug: "tirupattur", toSlug: "coimbatore" },
+{ from: "Coimbatore", to: "Tirupattur", fromSlug: "coimbatore", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Hyderabad", fromSlug: "tirupattur", toSlug: "hyderabad" },
+{ from: "Hyderabad", to: "Tirupattur", fromSlug: "hyderabad", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Madurai", fromSlug: "tirupattur", toSlug: "madurai" },
+{ from: "Madurai", to: "Tirupattur", fromSlug: "madurai", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Tiruchirappalli", fromSlug: "tirupattur", toSlug: "tiruchirappalli" },
+{ from: "Tiruchirappalli", to: "Tirupattur", fromSlug: "tiruchirappalli", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Tirupati", fromSlug: "tirupattur", toSlug: "tirupati" },
+{ from: "Tirupati", to: "Tirupattur", fromSlug: "tirupati", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Tiruvannamalai", fromSlug: "tirupattur", toSlug: "tiruvannamalai" },
+{ from: "Tiruvannamalai", to: "Tirupattur", fromSlug: "tiruvannamalai", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Dharmapuri", fromSlug: "tirupattur", toSlug: "dharmapuri" },
+{ from: "Dharmapuri", to: "Tirupattur", fromSlug: "dharmapuri", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Erode", fromSlug: "tirupattur", toSlug: "erode" },
+{ from: "Erode", to: "Tirupattur", fromSlug: "erode", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Namakkal", fromSlug: "tirupattur", toSlug: "namakkal" },
+{ from: "Namakkal", to: "Tirupattur", fromSlug: "namakkal", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Puducherry", fromSlug: "tirupattur", toSlug: "puducherry" },
+{ from: "Puducherry", to: "Tirupattur", fromSlug: "puducherry", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Mysore", fromSlug: "tirupattur", toSlug: "mysore" },
+{ from: "Mysore", to: "Tirupattur", fromSlug: "mysore", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Vijayawada", fromSlug: "tirupattur", toSlug: "vijayawada" },
+{ from: "Vijayawada", to: "Tirupattur", fromSlug: "vijayawada", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Tirunelveli", fromSlug: "tirupattur", toSlug: "tirunelveli" },
+{ from: "Tirunelveli", to: "Tirupattur", fromSlug: "tirunelveli", toSlug: "tirupattur" },
+
+{ from: "Tirupattur", to: "Kanyakumari", fromSlug: "tirupattur", toSlug: "kanyakumari" },
+{ from: "Kanyakumari", to: "Tirupattur", fromSlug: "kanyakumari", toSlug: "tirupattur" },
 ];
 export const loadzyRoutes: LoadzyRoute[] = Array.from(
   new Map(
