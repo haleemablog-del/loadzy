@@ -2,21 +2,27 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Ambur Truck Transport & Packers Movers | LOADZY",
-  description:
-    "Book trucks, lorries, packers and movers, house shifting, full load, part load and commercial transport services from Ambur with LOADZY.",
+  title: "Ambur Truck Transport, Lorry & Goods Transport | LOADZY",
+description:
+  "Book truck and lorry transport from Ambur for footwear and leather goods, commercial loads, factory goods, full load, part load, house shifting and packers & movers with LOADZY.",
   keywords: [
-    "Ambur truck transport",
-    "Ambur lorry transport",
-    "Ambur packers and movers",
-    "Ambur house shifting",
-    "Ambur truck booking",
-    "Ambur logistics",
-    "Ambur transport services",
-    "truck transport Ambur",
-    "lorry booking Ambur",
-    "LOADZY Ambur",
-  ],
+  "Ambur truck transport",
+  "Ambur lorry transport",
+  "Ambur goods transport",
+  "Ambur commercial transport",
+  "Ambur industrial transport",
+  "Ambur factory goods transport",
+  "Ambur footwear transport",
+  "Ambur leather goods transport",
+  "Ambur packers and movers",
+  "Ambur house shifting",
+  "Ambur truck booking",
+  "Ambur logistics",
+  "Ambur transport services",
+  "truck transport Ambur",
+  "lorry booking Ambur",
+  "LOADZY Ambur",
+],
   alternates: {
     canonical: "https://www.loadzyinfra.in/ambur-transport",
   },
@@ -254,12 +260,14 @@ const nearbyAreas = [
   },
   {
     name: "Vellore",
+    href: "/vellore-transport",
   },
   {
     name: "Gudiyatham",
   },
   {
     name: "Krishnagiri",
+    href: "/krishnagiri-transport",
   },
 ];
 
@@ -299,10 +307,22 @@ const faqs = [
     answer:
       "Yes. Part-load transport can be suitable for smaller consignments that do not require an entire truck.",
   },
+    {
+    question: "Can LOADZY transport footwear and leather goods from Ambur?",
+    answer:
+      "Yes. LOADZY can support suitable truck transport requirements for footwear, leather goods and other commercial consignments moving from Ambur, subject to load requirements and truck availability.",
+  },
+
+  {
+    question: "Does LOADZY provide industrial goods transport from Ambur?",
+    answer:
+      "Yes. LOADZY supports suitable industrial and commercial transport requirements from Ambur, including factory goods, manufacturing materials and other suitable consignments.",
+  },
+
   {
     question: "What types of goods can be transported from Ambur?",
     answer:
-      "Transport requirements can include household goods, commercial goods, industrial goods, fruits, vegetables and other suitable consignments.",
+      "Transport requirements can include footwear and leather goods, household goods, commercial goods, industrial goods, fruits, vegetables and other suitable consignments.",
   },
 ];
 
@@ -475,18 +495,93 @@ export default function AmburTransportPage() {
           </div>
         </div>
       </section>
+{/* AMBUR INDUSTRIES & GOODS TRANSPORT */}
+<section className="bg-slate-50 px-6 py-16">
+  <div className="mx-auto max-w-6xl">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
+      AMBUR INDUSTRIAL TRANSPORT
+    </p>
 
+    <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
+      Industries & Goods Transport from Ambur
+    </h2>
+
+    <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
+      Ambur has a strong manufacturing and commercial ecosystem, including
+      leather and footwear-related businesses. LOADZY helps businesses and
+      customers arrange suitable truck transport for commercial consignments,
+      manufacturing materials, finished goods and other suitable loads moving
+      from Ambur to major destinations.
+    </p>
+
+    <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      {[
+        {
+          title: "Footwear & Leather Goods",
+          text: "Transport support for suitable footwear, leather goods and related commercial consignments.",
+        },
+        {
+          title: "Factory Goods",
+          text: "Truck transport options for suitable goods moving between Ambur businesses, factories and destinations.",
+        },
+        {
+          title: "Commercial Loads",
+          text: "Full-load and part-load transport for businesses moving commercial consignments from Ambur.",
+        },
+        {
+          title: "Industrial Materials",
+          text: "Transport support for suitable manufacturing materials, equipment and other industrial consignments.",
+        },
+      ].map((item) => (
+        <div
+          key={item.title}
+          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+        >
+          <h3 className="text-xl font-bold text-slate-950">
+            {item.title}
+          </h3>
+
+          <p className="mt-3 leading-7 text-slate-600">
+            {item.text}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <div className="mt-10 rounded-2xl border border-teal-100 bg-white p-6">
+      <h3 className="text-2xl font-bold text-slate-950">
+        Ambur Commercial & Industrial Transport
+      </h3>
+
+      <p className="mt-3 leading-7 text-slate-600">
+        Whether you need a truck for commercial goods, footwear-related
+        consignments, factory materials or other suitable loads, LOADZY
+        connects transport requirements with available truck options based on
+        the pickup location, delivery location and load requirement.
+      </p>
+
+      <Link
+        href="/load-search"
+        className="mt-6 inline-block rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
+      >
+        Find My Truck →
+      </Link>
+    </div>
+  </div>
+</section>
       {/* ROUTES */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold">
-            Truck Transport Routes from Ambur
-          </h2>
+  Ambur Truck Transport Routes
+</h2>
 
-          <p className="mt-4 max-w-3xl text-lg text-slate-600">
-            Explore transport routes connecting Ambur with major cities and
-            nearby towns.
-          </p>
+<p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600">
+  Find truck and lorry transport routes from Ambur to Chennai, Bangalore,
+  Vellore, Vaniyambadi, Tirupattur, Krishnagiri, Hosur, Salem, Tirupati
+  and other important destinations. LOADZY also supports transport
+  requirements for goods moving into Ambur from major South Indian cities.
+</p>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {routes.map((route) => (
