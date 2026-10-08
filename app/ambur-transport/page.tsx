@@ -461,7 +461,41 @@ export default function AmburTransportPage() {
           </div>
         </div>
       </section>
+{/* ABOUT AMBUR */}
+<section className="px-6 py-16">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
+      ABOUT AMBUR
+    </p>
 
+    <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
+      About Ambur, Tamil Nadu
+    </h2>
+
+    <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
+      <p>
+        Ambur is an important town in Tamil Nadu with strong road and
+        railway connections to surrounding towns and major cities. Its
+        location provides transport connectivity toward Vellore,
+        Vaniyambadi, Tirupattur, Gudiyatham, Chennai and Bangalore.
+      </p>
+
+      <p>
+        Ambur is also well known for its leather and footwear manufacturing
+        ecosystem. Businesses in and around the town include leather,
+        footwear and related manufacturing activities, creating regular
+        requirements for commercial goods movement and logistics.
+      </p>
+
+      <p>
+        For businesses, manufacturers, traders and households in Ambur,
+        LOADZY provides a platform to find suitable truck transport for
+        commercial consignments, industrial goods, household shifting,
+        full loads and part loads.
+      </p>
+    </div>
+  </div>
+</section>
       {/* SERVICES */}
       <section className="bg-slate-50 px-6 py-16">
         <div className="mx-auto max-w-6xl">
