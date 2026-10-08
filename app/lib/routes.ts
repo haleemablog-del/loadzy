@@ -5,7 +5,7 @@ export type LoadzyRoute = {
   toSlug: string;
 };
 
-export const loadzyRoutes: LoadzyRoute[] = [
+const rawLoadzyRoutes: LoadzyRoute[] = [
   {
     from: "Chennai",
     to: "Bangalore",
@@ -1750,8 +1750,7 @@ export const loadzyRoutes: LoadzyRoute[] = [
 { from: "Thanjavur", to: "Nagapattinam", fromSlug: "thanjavur", toSlug: "nagapattinam" },
 { from: "Nagapattinam", to: "Thanjavur", fromSlug: "nagapattinam", toSlug: "thanjavur" },
 
-{ from: "Kumbakonam", to: "Mayiladuthurai", fromSlug: "kumbakonam", toSlug: "mayiladuthurai" },
-{ from: "Mayiladuthurai", to: "Kumbakonam", fromSlug: "mayiladuthurai", toSlug: "kumbakonam" },
+
 // Major Tamil Nadu Routes - Batch 9
 { from: "Chennai", to: "Ariyalur", fromSlug: "chennai", toSlug: "ariyalur" },
 { from: "Ariyalur", to: "Chennai", fromSlug: "ariyalur", toSlug: "chennai" },
@@ -1879,3 +1878,11 @@ export const loadzyRoutes: LoadzyRoute[] = [
 { from: "Kumbakonam", to: "Mayiladuthurai", fromSlug: "kumbakonam", toSlug: "mayiladuthurai" },
 { from: "Mayiladuthurai", to: "Kumbakonam", fromSlug: "mayiladuthurai", toSlug: "kumbakonam" },
 ];
+export const loadzyRoutes: LoadzyRoute[] = Array.from(
+  new Map(
+    rawLoadzyRoutes.map((route) => [
+      `${route.fromSlug}-${route.toSlug}`,
+      route,
+    ])
+  ).values()
+);
