@@ -879,6 +879,47 @@ Pickup Date: ${pickupDate}`;
 </div>
 
     <div className="mt-10 text-center">
+      <div className="mt-12">
+  <div className="text-center">
+    <p className="font-black uppercase tracking-[0.15em] text-[#08a99f]">
+      POPULAR TAMIL NADU ROUTES
+    </p>
+
+    <h3 className="mt-2 text-2xl font-black text-[#062B55]">
+      Major Truck Transport Routes
+    </h3>
+
+    <p className="mx-auto mt-3 max-w-2xl text-slate-600">
+      Explore important truck transport routes across Tamil Nadu.
+    </p>
+  </div>
+
+  <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    {[
+      ["Chennai → Dindigul", "/routes/chennai/dindigul"],
+      ["Chennai → Thanjavur", "/routes/chennai/thanjavur"],
+      ["Chennai → Kumbakonam", "/routes/chennai/kumbakonam"],
+      ["Chennai → Cuddalore", "/routes/chennai/cuddalore"],
+      ["Chennai → Tiruvannamalai", "/routes/chennai/tiruvannamalai"],
+      ["Chennai → Kanchipuram", "/routes/chennai/kanchipuram"],
+      ["Coimbatore → Tiruchirappalli", "/routes/coimbatore/tiruchirappalli"],
+      ["Madurai → Salem", "/routes/madurai/salem"],
+      ["Madurai → Tiruchirappalli", "/routes/madurai/tiruchirappalli"],
+      ["Salem → Tiruchirappalli", "/routes/salem/tiruchirappalli"],
+    ].map(([name, href]) => (
+      <Link
+        key={href}
+        href={href}
+        className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-[#062B55] shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:bg-teal-50"
+      >
+        🚚 {name}
+        <span className="mt-2 block text-sm font-bold text-teal-600">
+          View route →
+        </span>
+      </Link>
+    ))}
+  </div>
+</div>
       <a
         href="/routes"
         className="inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"

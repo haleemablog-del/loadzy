@@ -1417,4 +1417,135 @@ export const loadzyRoutes: LoadzyRoute[] = [
     fromSlug: "tiruchirappalli",
     toSlug: "salem",
   },
+    // Major Tamil Nadu Routes - Batch 1
+
+  {
+    from: "Chennai",
+    to: "Dindigul",
+    fromSlug: "chennai",
+    toSlug: "dindigul",
+  },
+  {
+    from: "Dindigul",
+    to: "Chennai",
+    fromSlug: "dindigul",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Thanjavur",
+    fromSlug: "chennai",
+    toSlug: "thanjavur",
+  },
+  {
+    from: "Thanjavur",
+    to: "Chennai",
+    fromSlug: "thanjavur",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Kumbakonam",
+    fromSlug: "chennai",
+    toSlug: "kumbakonam",
+  },
+  {
+    from: "Kumbakonam",
+    to: "Chennai",
+    fromSlug: "kumbakonam",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Cuddalore",
+    fromSlug: "chennai",
+    toSlug: "cuddalore",
+  },
+  {
+    from: "Cuddalore",
+    to: "Chennai",
+    fromSlug: "cuddalore",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Tiruvannamalai",
+    fromSlug: "chennai",
+    toSlug: "tiruvannamalai",
+  },
+  {
+    from: "Tiruvannamalai",
+    to: "Chennai",
+    fromSlug: "tiruvannamalai",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Chennai",
+    to: "Kanchipuram",
+    fromSlug: "chennai",
+    toSlug: "kanchipuram",
+  },
+  {
+    from: "Kanchipuram",
+    to: "Chennai",
+    fromSlug: "kanchipuram",
+    toSlug: "chennai",
+  },
+
+  {
+    from: "Coimbatore",
+    to: "Tiruchirappalli",
+    fromSlug: "coimbatore",
+    toSlug: "tiruchirappalli",
+  },
+  {
+    from: "Tiruchirappalli",
+    to: "Coimbatore",
+    fromSlug: "tiruchirappalli",
+    toSlug: "coimbatore",
+  },
+
+  {
+    from: "Madurai",
+    to: "Salem",
+    fromSlug: "madurai",
+    toSlug: "salem",
+  },
+  {
+    from: "Salem",
+    to: "Madurai",
+    fromSlug: "salem",
+    toSlug: "madurai",
+  },
+
+  {
+    from: "Madurai",
+    to: "Tiruchirappalli",
+    fromSlug: "madurai",
+    toSlug: "tiruchirappalli",
+  },
+  {
+    from: "Tiruchirappalli",
+    to: "Madurai",
+    fromSlug: "tiruchirappalli",
+    toSlug: "madurai",
+  },
+
+  {
+    from: "Salem",
+    to: "Tiruchirappalli",
+    fromSlug: "salem",
+    toSlug: "tiruchirappalli",
+  },
+  {
+    from: "Tiruchirappalli",
+    to: "Salem",
+    fromSlug: "tiruchirappalli",
+    toSlug: "salem",
+  },
 ];
