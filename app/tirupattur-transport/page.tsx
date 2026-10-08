@@ -98,17 +98,66 @@ const routes = [
     name: "Bangalore → Tirupattur",
     href: "/routes/bangalore/tirupattur",
   },
+  {
+    name: "Tirupattur → Vellore",
+    href: "/routes/tirupattur/vellore",
+  },
+  {
+    name: "Vellore → Tirupattur",
+    href: "/routes/vellore/tirupattur",
+  },
+  {
+    name: "Tirupattur → Salem",
+    href: "/routes/tirupattur/salem",
+  },
+  {
+    name: "Salem → Tirupattur",
+    href: "/routes/salem/tirupattur",
+  },
+  {
+    name: "Tirupattur → Krishnagiri",
+    href: "/routes/tirupattur/krishnagiri",
+  },
+  {
+    name: "Krishnagiri → Tirupattur",
+    href: "/routes/krishnagiri/tirupattur",
+  },
+  {
+    name: "Tirupattur → Hosur",
+    href: "/routes/tirupattur/hosur",
+  },
+  {
+    name: "Hosur → Tirupattur",
+    href: "/routes/hosur/tirupattur",
+  },
 ];
-
 const nearbyAreas = [
-  "Vaniyambadi",
-  "Ambur",
-  "Jolarpettai",
-  "Natrampalli",
-  "Alangayam",
-  "Vellore",
-  "Krishnagiri",
-  "Hosur",
+  {
+    name: "Vaniyambadi",
+    href: "/vaniyambadi-transport",
+  },
+  {
+    name: "Ambur",
+    href: "/ambur-transport",
+  },
+  {
+    name: "Jolarpettai",
+  },
+  {
+    name: "Natrampalli",
+  },
+  {
+    name: "Vellore",
+  },
+  {
+    name: "Krishnagiri",
+  },
+  {
+    name: "Hosur",
+  },
+  {
+    name: "Alangayam",
+  },
 ];
 
 const faqs = [
@@ -387,10 +436,10 @@ export default function TirupatturTransportPage() {
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             {nearbyAreas.map((area) => (
               <span
-                key={area}
+                key={area.name}
                 className="rounded-full border border-slate-200 bg-white px-5 py-3 font-bold text-blue-950 shadow-sm"
               >
-                {area}
+                {area.name}
               </span>
             ))}
           </div>
