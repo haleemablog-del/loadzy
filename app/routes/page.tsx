@@ -305,16 +305,44 @@ export default function RoutesPage() {
         routes={districtRoutes}
       />
 
-      {/* 04 TAMIL NADU */}
-      <section className="bg-white">
-        <RouteSection
-          number="04"
-          label="TAMIL NADU"
-          title="Truck Routes Across Tamil Nadu"
-          description="Explore major freight corridors connecting cities and districts across Tamil Nadu."
-          routes={tamilNaduRoutes}
-        />
-      </section>
+      {/* 04 MAJOR TAMIL NADU ROUTES - BATCH 1 TO 12 */}
+<section className="mt-20 bg-[#062c54] px-6 py-16">
+  <div className="mx-auto max-w-7xl">
+
+    <div className="text-center text-white">
+      <div className="font-black tracking-[0.25em] text-[#1ee1d3]">
+        04 · MAJOR TAMIL NADU ROUTES
+      </div>
+
+      <h2 className="mt-3 text-4xl font-black md:text-5xl">
+        Major Tamil Nadu Truck Routes
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl leading-7 text-blue-100">
+        Explore major truck transport routes across Tamil Nadu for
+        full loads, part loads, house shifting, packers & movers and
+        commercial goods.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {loadzyRoutes.map((route) => (
+        <a
+          key={`${route.fromSlug}-${route.toSlug}`}
+          href={`/routes/${route.fromSlug}/${route.toSlug}`}
+          className="rounded-2xl border border-white/10 bg-white p-5 font-black text-[#09264b] shadow-sm transition hover:-translate-y-1 hover:border-[#1ee1d3] hover:shadow-lg"
+        >
+          🚚 {route.from} → {route.to}
+
+          <span className="mt-2 block text-sm font-bold text-[#08a99f]">
+            View Major Route →
+          </span>
+        </a>
+      ))}
+    </div>
+
+  </div>
+</section>
 
       {/* 05 KARNATAKA */}
       <RouteSection

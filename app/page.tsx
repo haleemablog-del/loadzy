@@ -812,7 +812,7 @@ Pickup Date: ${pickupDate}`;
 <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
 
   <a
-    href="/tamil-nadu"
+    href="/routes"
     className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">📍</div>
@@ -820,7 +820,7 @@ Pickup Date: ${pickupDate}`;
       Tamil Nadu
     </h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-      Town, city & district routes
+     Town, city, district & major routes
     </p>
   </a>
 
