@@ -396,25 +396,27 @@ export default function VaniyambadiTransportPage() {
           </h2>
 
           <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
-            <p>
-              Vaniyambadi is a town in Tirupattur district, Tamil Nadu, connected
-              by road to nearby towns including Ambur, Tirupattur and Vellore, as
-              well as major destinations such as Chennai and Bangalore.
-            </p>
+                  <p>
+        Vaniyambadi is an important town in Tirupattur district, Tamil Nadu,
+        known for its leather and leather-related manufacturing industries.
+        It is connected by road to nearby locations such as Ambur, Tirupattur
+        and Vellore, as well as major destinations including Chennai and Bangalore.
+      </p>
 
-            <p>
-              Vaniyambadi is known for its leather and leather-related
-              manufacturing businesses. These activities can create transport
-              needs for suitable finished goods, commercial consignments and
-              manufacturing materials.
-            </p>
+      <p>
+        Vaniyambadi's leather and manufacturing businesses create transport
+        requirements for suitable finished goods, commercial consignments
+        and manufacturing materials. Local traders and businesses may also
+        need transport for other goods moving between towns and cities.
+      </p>
 
-            <p>
-              LOADZY helps businesses, traders and households request suitable
-              truck transport from Vaniyambadi for commercial goods, industrial
-              consignments, full loads, part loads and household shifting,
-              depending on route and vehicle availability.
-            </p>
+      <p>
+        LOADZY helps businesses, manufacturers, traders and households find
+        suitable truck transport from Vaniyambadi. Customers can explore
+        transport options for commercial goods, industrial consignments,
+        full loads, part loads and household shifting, depending on pickup
+        location, delivery destination, load requirements and truck availability.
+      </p>
           </div>
         </div>
       </section>
