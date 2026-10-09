@@ -582,7 +582,6 @@ export const loadzyLocations: LoadzyLocation[] = [
 { name: "Thirumuruganpoondi", slug: "thirumuruganpoondi", type: "city", parent: "tiruppur" },
 
   // Town Panchayats
-  { name: "Avinashi", slug: "avinashi", type: "town", parent: "tiruppur" },
   { name: "Chinnakkampalayam", slug: "chinnakkampalayam", type: "town", parent: "tiruppur" },
   { name: "Dhali", slug: "dhali", type: "town", parent: "tiruppur" },
   { name: "Gudimangalam", slug: "gudimangalam", type: "town", parent: "tiruppur" },
@@ -627,7 +626,6 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Chengam", slug: "chengam", type: "city", parent: "tiruvannamalai" },
 
   // Important Towns
-  { name: "Chengam", slug: "chengam", type: "town", parent: "tiruvannamalai" },
   { name: "Chetpet", slug: "chetpet", type: "town", parent: "tiruvannamalai" },
   { name: "Kalambur", slug: "kalambur", type: "town", parent: "tiruvannamalai" },
   { name: "Kalasapakkam", slug: "kalasapakkam", type: "town", parent: "tiruvannamalai" },
@@ -715,7 +713,7 @@ export const loadzyLocations: LoadzyLocation[] = [
   { name: "Mannargudi", slug: "mannargudi", type: "city", parent: "tiruvarur" },
   { name: "Thiruthuraipoondi", slug: "thiruthuraipoondi", type: "city", parent: "tiruvarur" },
   { name: "Koothanallur", slug: "koothanallur", type: "city", parent: "tiruvarur" },
-  { name: "Koothanallur", slug: "koothanallur", type: "city", parent: "tiruvarur" },
+ 
 
   // Town Panchayats
   { name: "Kodavasal", slug: "kodavasal", type: "town", parent: "tiruvarur" },

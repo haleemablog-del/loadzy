@@ -1,5 +1,8 @@
+
 import type { MetadataRoute } from "next";
 import { loadzyRoutes } from "./lib/routes";
+import { loadzyLocations } from "./lib/locations";
+
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.loadzyinfra.in";
@@ -32,8 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/truck-rates",
     "/routes",
 
-    "/truck-rates",
-"/routes",
+    
 
 "/truck-guide",
 "/truck-transport-charges-tamil-nadu",
@@ -83,5 +85,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ).values()
   );
 
-  return [...staticSitemap, ...routeSitemap];
+  const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
+    loadzyLocations
+      .filter(
+        (location) =>
+          location.type === "district" &&
+          location.parent === "tamil-nadu"
+      )
+      .map((district) => ({
+        url: `${baseUrl}/tamil-nadu/${district.slug}`,
+        lastModified: new Date(),
+      }));
+
+  const tamilNaduLocationSitemap: MetadataRoute.Sitemap =
+    loadzyLocations
+      .filter(
+        (location) =>
+          (location.type === "city" || location.type === "town") &&
+          location.parent &&
+          loadzyLocations.some(
+            (district) =>
+              district.slug === location.parent &&
+              district.type === "district" &&
+              district.parent === "tamil-nadu"
+          )
+      )
+      .map((location) => ({
+        url: `${baseUrl}/tamil-nadu/${location.parent}/${location.slug}`,
+        lastModified: new Date(),
+      }));
+
+  return [
+  ...staticSitemap,
+  ...routeSitemap,
+  ...tamilNaduDistrictSitemap,
+  ...tamilNaduLocationSitemap,
+];
 }
