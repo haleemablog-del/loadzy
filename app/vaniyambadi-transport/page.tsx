@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Vaniyambadi Truck Transport & Packers Movers | LOADZY",
+  title: "Vaniyambadi Truck Transport, Lorry & Goods Transport | LOADZY",
   description:
-    "Book trucks and lorries from Vaniyambadi for packers and movers, house shifting, full load, part load, commercial goods and industrial transport with LOADZY.",
+    "Book truck and lorry transport from Vaniyambadi for commercial goods, footwear-related consignments, factory goods, full load, part load, house shifting and packers & movers with LOADZY.",
   keywords: [
     "Vaniyambadi truck transport",
     "Vaniyambadi lorry transport",
+    "Vaniyambadi goods transport",
+    "Vaniyambadi commercial transport",
+    "Vaniyambadi industrial transport",
+    "Vaniyambadi factory goods transport",
     "Vaniyambadi packers and movers",
     "Vaniyambadi house shifting",
     "Vaniyambadi truck booking",
@@ -23,9 +27,9 @@ export const metadata: Metadata = {
     canonical: "https://www.loadzyinfra.in/vaniyambadi-transport",
   },
   openGraph: {
-    title: "Vaniyambadi Truck Transport & Packers Movers | LOADZY",
+    title: "Vaniyambadi Truck Transport, Lorry & Goods Transport | LOADZY",
     description:
-      "Truck booking, lorry transport, packers and movers, house shifting and commercial goods transport from Vaniyambadi with LOADZY.",
+      "Truck booking, lorry transport, commercial goods transport, house shifting and packers & movers from Vaniyambadi with LOADZY.",
     url: "https://www.loadzyinfra.in/vaniyambadi-transport",
     siteName: "LOADZY",
     type: "website",
@@ -380,7 +384,40 @@ export default function VaniyambadiTransportPage() {
           </p>
         </div>
       </section>
+      {/* ABOUT VANIYAMBADI */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
+            ABOUT VANIYAMBADI
+          </p>
 
+          <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
+            About Vaniyambadi, Tamil Nadu
+          </h2>
+
+          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
+            <p>
+              Vaniyambadi is a town in Tirupattur district, Tamil Nadu, connected
+              by road to nearby towns including Ambur, Tirupattur and Vellore, as
+              well as major destinations such as Chennai and Bangalore.
+            </p>
+
+            <p>
+              Vaniyambadi is known for its leather and leather-related
+              manufacturing businesses. These activities can create transport
+              needs for suitable finished goods, commercial consignments and
+              manufacturing materials.
+            </p>
+
+            <p>
+              LOADZY helps businesses, traders and households request suitable
+              truck transport from Vaniyambadi for commercial goods, industrial
+              consignments, full loads, part loads and household shifting,
+              depending on route and vehicle availability.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* SERVICES */}
       <section className="bg-slate-50 px-6 py-20">
         <div className="mx-auto max-w-7xl">
@@ -417,7 +454,79 @@ export default function VaniyambadiTransportPage() {
           </div>
         </div>
       </section>
+      {/* VANIYAMBADI INDUSTRIES & GOODS TRANSPORT */}
+      <section className="bg-slate-50 px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
+            VANIYAMBADI INDUSTRIAL TRANSPORT
+          </p>
 
+          <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
+            Industries & Goods Transport from Vaniyambadi
+          </h2>
+
+          <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
+            Vaniyambadi is known for leather and leather-related manufacturing.
+            LOADZY helps businesses and customers request suitable truck
+            transport for commercial consignments, finished goods, manufacturing
+            materials and other suitable loads moving from Vaniyambadi to
+            major destinations.
+          </p>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              {
+                title: "Leather & Related Goods",
+                text: "Transport support for suitable leather products and related commercial consignments.",
+              },
+              {
+                title: "Finished Goods",
+                text: "Truck transport options for suitable finished products moving from local businesses to destinations.",
+              },
+              {
+                title: "Commercial Loads",
+                text: "Full-load and part-load transport options for suitable business consignments.",
+              },
+              {
+                title: "Manufacturing Materials",
+                text: "Transport support for suitable materials and other goods required by manufacturing businesses.",
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              >
+                <h3 className="text-xl font-bold text-slate-950">
+                  {item.title}
+                </h3>
+
+                <p className="mt-3 leading-7 text-slate-600">
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 rounded-2xl border border-teal-100 bg-white p-6">
+            <h3 className="text-2xl font-bold text-slate-950">
+              Vaniyambadi Commercial & Industrial Transport
+            </h3>
+
+            <p className="mt-3 leading-7 text-slate-600">
+              Tell LOADZY your pickup location, delivery destination and load
+              requirements to request suitable truck options, subject to
+              vehicle availability.
+            </p>
+
+            <Link
+              href="/load-search"
+              className="mt-6 inline-block rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
+            >
+              Find My Truck →
+            </Link>
+          </div>
+        </div>
+      </section>
       {/* ROUTES */}
       <section className="px-6 py-20">
         <div className="mx-auto max-w-7xl">
