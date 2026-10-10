@@ -260,40 +260,49 @@ const routes = [
     name: "Tirupattur → Kanyakumari",
     href: "/routes/tirupattur/kanyakumari",
   },
-  {
+    {
     name: "Kanyakumari → Tirupattur",
     href: "/routes/kanyakumari/tirupattur",
   },
-];
-const nearbyAreas = [
   {
-    name: "Vaniyambadi",
-    href: "/vaniyambadi-transport",
+    name: "Tirupattur → Ambur",
+    href: "/routes/tirupattur/ambur",
   },
   {
-    name: "Ambur",
-    href: "/ambur-transport",
+    name: "Ambur → Tirupattur",
+    href: "/routes/ambur/tirupattur",
   },
   {
-    name: "Jolarpettai",
+    name: "Tirupattur → Vaniyambadi",
+    href: "/routes/tirupattur/vaniyambadi",
   },
   {
-    name: "Natrampalli",
-  },
-  {
-    name: "Vellore",
-  },
-  {
-    name: "Krishnagiri",
-  },
-  {
-    name: "Hosur",
-  },
-  {
-    name: "Alangayam",
+    name: "Vaniyambadi → Tirupattur",
+    href: "/routes/vaniyambadi/tirupattur",
   },
   
+  {
+    name: "Tirupattur → Jolarpettai",
+    href: "/routes/tirupattur/jolarpettai",
+  },
+  {
+    name: "Jolarpettai → Tirupattur",
+    href: "/routes/jolarpettai/tirupattur",
+  },
 ];
+    
+
+const nearbyAreas = [
+  { name: "Vaniyambadi", href: "/vaniyambadi-transport" },
+  { name: "Ambur", href: "/ambur-transport" },
+  { name: "Jolarpettai", href: "/jolarpettai-transport" },
+  { name: "Natrampalli", href: "/natrampalli-transport" },
+  { name: "Vellore", href: "/vellore-transport" },
+  { name: "Krishnagiri", href: "/krishnagiri-transport" },
+  { name: "Hosur", href: "/hosur-transport" },
+  { name: "Alangayam", href: "/alangayam-transport" },
+];
+
 
 const faqs = [
   {
@@ -469,6 +478,43 @@ export default function TirupatturTransportPage() {
           </p>
         </div>
       </section>
+      {/* About Tirupattur */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-5xl">
+          <p className="font-black uppercase tracking-[0.2em] text-teal-600">
+            ABOUT TIRUPATTUR
+          </p>
+
+          <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
+            About Tirupattur, Tamil Nadu
+          </h2>
+
+          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
+            <p>
+              Tirupattur is a town in Tirupattur district in Tamil Nadu. It is
+              connected by road to nearby towns such as Vaniyambadi, Ambur and
+              Jolarpettai, as well as important destinations across Tamil Nadu
+              and neighbouring states.
+            </p>
+
+            <p>
+              The surrounding area has local businesses, traders, shops and
+              other commercial activities that may require goods transportation.
+              Households also need transport when moving furniture and personal
+              belongings between locations.
+            </p>
+
+            <p>
+              LOADZY helps customers and businesses submit truck transport
+              requirements from Tirupattur. Depending on the route and vehicle
+              availability, customers can request transport for commercial
+              goods, full loads, part loads, industrial consignments, house
+              shifting and packers and movers.
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Services */}
       <section className="bg-slate-50 px-6 py-16">
