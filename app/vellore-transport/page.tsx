@@ -276,6 +276,48 @@ export default function VelloreTransportPage() {
         </div>
       </section>
 
+      <section className="px-6 py-14">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-black uppercase tracking-[0.18em] text-[#08A99F]">
+            NEARBY LOCATIONS
+          </p>
+
+          <h2 className="mt-3 text-3xl font-black md:text-4xl">
+            Nearby Areas We Serve from Vellore
+          </h2>
+
+          <p className="mt-5 max-w-5xl text-lg font-bold leading-8 text-slate-600">
+            LOADZY supports truck transport enquiries from Vellore and nearby
+            towns for household shifting, commercial goods, full loads and
+            part loads. Select a location below to explore its transport page.
+          </p>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              ["Katpadi", "/katpadi-transport"],
+              ["Gudiyatham", "/gudiyatham-transport"],
+              ["Anaicut", "/anaicut-transport"],
+              ["Pernambut", "/pernambut-transport"],
+              ["K. V. Kuppam", "/kv-kuppam-transport"],
+              ["Vaniyambadi", "/vaniyambadi-transport"],
+              ["Ambur", "/ambur-transport"],
+              ["Tirupattur", "/tirupattur-transport"],
+              ["Jolarpettai", "/jolarpettai-transport"],
+              ["Natrampalli", "/natrampalli-transport"],
+              ["Alangayam", "/alangayam-transport"],
+            ].map(([name, href]) => (
+              <Link
+                key={href}
+                href={href}
+                className="rounded-xl border border-slate-200 bg-white p-5 font-black shadow-sm hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                {name} Transport →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-slate-50 px-6 py-14">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-4xl font-black">
