@@ -296,19 +296,20 @@ export default function KanchipuramTransportPage() {
             ))}
           </div>
 
-          <div className="mt-10 rounded-2xl bg-slate-900 p-7">
-            <h2 className="text-2xl font-bold">
-              Need a Truck from Kanchipuram?
+          <div className="mt-10 bg-[#192957] px-6 py-16 text-center text-white md:px-12">
+            <h2 className="text-3xl font-bold md:text-4xl">
+              Need a Truck in Kanchipuram?
             </h2>
-            <p className="mt-3 max-w-3xl leading-7 text-slate-300">
-              Explore LOADZY to find transport options for your next delivery
-              or shifting requirement.
+
+            <p className="mt-4 text-lg text-slate-200">
+              Find the right truck for your load and transport requirements with LOADZY.
             </p>
+
             <Link
               href="/"
-              className="mt-6 inline-block rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-teal-400"
+              className="mt-8 inline-block rounded-xl bg-teal-500 px-8 py-4 font-bold text-white transition hover:bg-teal-400"
             >
-              Get Started with LOADZY
+              Find My Truck →
             </Link>
           </div>
         </div>
