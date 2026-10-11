@@ -49,26 +49,65 @@ const services = [
   },
 ];
 
+
 const routes = [
+  // Tamil Nadu routes
   { from: "Kanchipuram", to: "Chennai", href: "/routes/kanchipuram/chennai" },
   { from: "Chennai", to: "Kanchipuram", href: "/routes/chennai/kanchipuram" },
-  { from: "Kanchipuram", to: "Bangalore", href: "/routes/kanchipuram/bangalore" },
-  { from: "Bangalore", to: "Kanchipuram", href: "/routes/bangalore/kanchipuram" },
+  { from: "Kanchipuram", to: "Coimbatore", href: "/routes/kanchipuram/coimbatore" },
+  { from: "Coimbatore", to: "Kanchipuram", href: "/routes/coimbatore/kanchipuram" },
+  { from: "Kanchipuram", to: "Madurai", href: "/routes/kanchipuram/madurai" },
+  { from: "Madurai", to: "Kanchipuram", href: "/routes/madurai/kanchipuram" },
+  { from: "Kanchipuram", to: "Salem", href: "/routes/kanchipuram/salem" },
+  { from: "Salem", to: "Kanchipuram", href: "/routes/salem/kanchipuram" },
+  { from: "Kanchipuram", to: "Tiruchirappalli", href: "/routes/kanchipuram/tiruchirappalli" },
+  { from: "Tiruchirappalli", to: "Kanchipuram", href: "/routes/tiruchirappalli/kanchipuram" },
   { from: "Kanchipuram", to: "Vellore", href: "/routes/kanchipuram/vellore" },
   { from: "Vellore", to: "Kanchipuram", href: "/routes/vellore/kanchipuram" },
   { from: "Kanchipuram", to: "Ranipet", href: "/routes/kanchipuram/ranipet" },
   { from: "Ranipet", to: "Kanchipuram", href: "/routes/ranipet/kanchipuram" },
+  { from: "Kanchipuram", to: "Ambur", href: "/routes/kanchipuram/ambur" },
+  { from: "Ambur", to: "Kanchipuram", href: "/routes/ambur/kanchipuram" },
   { from: "Kanchipuram", to: "Tirupattur", href: "/routes/kanchipuram/tirupattur" },
   { from: "Tirupattur", to: "Kanchipuram", href: "/routes/tirupattur/kanchipuram" },
+
+  // Major Indian city routes
+  { from: "Kanchipuram", to: "Bangalore", href: "/routes/kanchipuram/bangalore" },
+  { from: "Bangalore", to: "Kanchipuram", href: "/routes/bangalore/kanchipuram" },
+  { from: "Kanchipuram", to: "Hyderabad", href: "/routes/kanchipuram/hyderabad" },
+  { from: "Hyderabad", to: "Kanchipuram", href: "/routes/hyderabad/kanchipuram" },
+  { from: "Kanchipuram", to: "Mumbai", href: "/routes/kanchipuram/mumbai" },
+  { from: "Mumbai", to: "Kanchipuram", href: "/routes/mumbai/kanchipuram" },
+  { from: "Kanchipuram", to: "Delhi", href: "/routes/kanchipuram/delhi" },
+  { from: "Delhi", to: "Kanchipuram", href: "/routes/delhi/kanchipuram" },
+  { from: "Kanchipuram", to: "Pune", href: "/routes/kanchipuram/pune" },
+  { from: "Pune", to: "Kanchipuram", href: "/routes/pune/kanchipuram" },
+  { from: "Kanchipuram", to: "Kochi", href: "/routes/kanchipuram/kochi" },
+  { from: "Kochi", to: "Kanchipuram", href: "/routes/kochi/kanchipuram" },
+  { from: "Kanchipuram", to: "Kolkata", href: "/routes/kanchipuram/kolkata" },
+  { from: "Kolkata", to: "Kanchipuram", href: "/routes/kolkata/kanchipuram" },
+  { from: "Kanchipuram", to: "Ahmedabad", href: "/routes/kanchipuram/ahmedabad" },
+  { from: "Ahmedabad", to: "Kanchipuram", href: "/routes/ahmedabad/kanchipuram" },
 ];
 
 const nearbyAreas = [
+  // Existing transport pages — preserved
   { name: "Chennai", href: "/chennai-transport" },
   { name: "Vellore", href: "/vellore-transport" },
   { name: "Ranipet", href: "/ranipet-transport" },
   { name: "Ambur", href: "/ambur-transport" },
   { name: "Tirupattur", href: "/tirupattur-transport" },
   { name: "Vaniyambadi", href: "/vaniyambadi-transport" },
+
+  // Nearby towns and surrounding areas
+  { name: "Walajabad", href: "/walajabad-transport" },
+  { name: "Uthiramerur", href: "/uthiramerur-transport" },
+  { name: "Sriperumbudur", href: "/sriperumbudur-transport" },
+  { name: "Chengalpattu", href: "/chengalpattu-transport" },
+  { name: "Arakkonam", href: "/arakkonam-transport" },
+  { name: "Poonamallee", href: "/poonamallee-transport" },
+  { name: "Oragadam", href: "/oragadam-transport" },
+  { name: "Cheyyar", href: "/cheyyar-transport" },
 ];
 
 export default function KanchipuramTransportPage() {
@@ -138,6 +177,34 @@ export default function KanchipuramTransportPage() {
               </Link>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="bg-white px-6 py-14 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-3xl font-bold">
+            About Kanchipuram and Its Transport Needs
+          </h2>
+
+          <p className="mt-5 max-w-4xl leading-8 text-slate-600">
+            Kanchipuram, in Tamil Nadu, is widely recognised for its
+            traditional silk sarees, textile weaving and commercial activity.
+            Local businesses may need transport for silk products, textiles,
+            shop supplies, packaging materials and other commercial goods.
+          </p>
+
+          <p className="mt-4 max-w-4xl leading-8 text-slate-600">
+            The surrounding towns and industrial areas also create transport
+            needs for business consignments, raw materials, equipment and
+            household relocations. LOADZY helps customers explore truck
+            transport options for different load sizes and destinations.
+          </p>
+
+          <p className="mt-4 max-w-4xl leading-8 text-slate-600">
+            Whether you need full-load transport, part-load delivery,
+            commercial goods movement or packers and movers, explore the
+            available services and routes to plan your transport requirements.
+          </p>
         </div>
       </section>
 
