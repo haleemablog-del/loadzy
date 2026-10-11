@@ -37,6 +37,13 @@ const routes = [
   ["Vellore → Vaniyambadi", "/routes/vellore/vaniyambadi"],
   ["Vellore → Ambur", "/routes/vellore/ambur"],
   ["Vellore → Tirupattur", "/routes/vellore/tirupattur"],
+  
+  ["Chennai → Vellore", "/routes/chennai/vellore"],
+  ["Bangalore → Vellore", "/routes/bangalore/vellore"],
+  ["Tirupati → Vellore", "/routes/tirupati/vellore"],
+  ["Vaniyambadi → Vellore", "/routes/vaniyambadi/vellore"],
+  ["Ambur → Vellore", "/routes/ambur/vellore"],
+  ["Tirupattur → Vellore", "/routes/tirupattur/vellore"],
 ];
 
 const faqs = [
@@ -169,6 +176,54 @@ export default function VelloreTransportPage() {
                 {name} →
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-14">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-black uppercase tracking-[0.18em] text-[#08A99F]">
+            ABOUT VELLORE
+          </p>
+
+          <h2 className="mt-3 text-3xl font-black md:text-4xl">
+            Vellore: Local Economy, Industries and Goods Transport
+          </h2>
+
+          <div className="mt-6 max-w-5xl space-y-5 text-lg font-bold leading-8 text-slate-600">
+            <p>
+              Vellore is an important urban and commercial centre in northern
+              Tamil Nadu. Its regional road connections link businesses,
+              traders, manufacturers and households with Chennai, Bengaluru,
+              Tirupati and other destinations. These connections support the
+              movement of goods within the district and across state borders.
+            </p>
+
+            <p>
+              Healthcare and education are important parts of Vellore's
+              economy, alongside retail trade, food businesses, construction,
+              small enterprises and manufacturing-related activities.
+              Businesses in these sectors may need transport for supplies,
+              equipment, packaged goods, furniture and other commercial
+              consignments.
+            </p>
+
+            <p>
+              The wider Vellore district also includes trading centres,
+              agricultural activity, leather-related businesses and small
+              industrial enterprises. Transport requirements vary by location
+              and cargo, from agricultural produce and shop merchandise to
+              raw materials, machinery and finished products.
+            </p>
+
+            <p>
+              LOADZY helps businesses, traders, manufacturers, farmers and
+              households submit transport enquiries for full loads, part
+              loads, commercial goods and household shifting. Customers
+              should provide accurate pickup and delivery addresses, cargo
+              details, load dimensions and preferred dates so suitable truck
+              options can be explored.
+            </p>
           </div>
         </div>
       </section>
