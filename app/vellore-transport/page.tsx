@@ -293,12 +293,7 @@ export default function VelloreTransportPage() {
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              ["Katpadi", "/katpadi-transport"],
-              ["Gudiyatham", "/gudiyatham-transport"],
-              ["Anaicut", "/anaicut-transport"],
-              ["Pernambut", "/pernambut-transport"],
-              ["K. V. Kuppam", "/kv-kuppam-transport"],
+                        {[
               ["Vaniyambadi", "/vaniyambadi-transport"],
               ["Ambur", "/ambur-transport"],
               ["Tirupattur", "/tirupattur-transport"],
