@@ -293,14 +293,23 @@ export default function VelloreTransportPage() {
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                        {[
-              ["Vaniyambadi", "/vaniyambadi-transport"],
-              ["Ambur", "/ambur-transport"],
-              ["Tirupattur", "/tirupattur-transport"],
-              ["Jolarpettai", "/jolarpettai-transport"],
-              ["Natrampalli", "/natrampalli-transport"],
-              ["Alangayam", "/alangayam-transport"],
-            ].map(([name, href]) => (
+
+{[
+  ["Katpadi", "/katpadi-transport"],
+  ["Gudiyatham", "/gudiyatham-transport"],
+  ["Anaicut", "/anaicut-transport"],
+  ["Pernambut", "/pernambut-transport"],
+  ["K. V. Kuppam", "/kv-kuppam-transport"],
+  ["Vaniyambadi", "/vaniyambadi-transport"],
+  ["Ambur", "/ambur-transport"],
+  ["Tirupattur", "/tirupattur-transport"],
+  ["Jolarpettai", "/jolarpettai-transport"],
+  ["Natrampalli", "/natrampalli-transport"],
+  ["Alangayam", "/alangayam-transport"],
+  ["Ranipet", "/ranipet-transport"],
+  ["Kanchipuram", "/kanchipuram-transport"],
+  ["Chittoor", "/chittoor-transport"],
+].map(([name, href]) => (
               <Link
                 key={href}
                 href={href}
