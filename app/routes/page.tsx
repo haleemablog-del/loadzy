@@ -276,47 +276,123 @@ export default function RoutesPage() {
         </div>
       </section>
 
-      {/* 01 TOWN ROUTES */}
-      <RouteSection
-        number="01"
-        label="TOWN ROUTES"
-        title="Tamil Nadu Town Truck Routes"
-        description="Explore truck transport connections from important towns and local transport hubs across Tamil Nadu."
-        routes={townRoutes}
-      />
+     
+      {/* SOUTH INDIA STATE ROUTES */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="text-center">
+            <div className="font-black tracking-[0.25em] text-[#08a99f]">
+              EXPLORE BY STATE
+            </div>
 
-      {/* 02 CITY ROUTES */}
-      <section className="bg-white">
-        <RouteSection
-          number="02"
-          label="CITY ROUTES"
-          title="Tamil Nadu City Truck Routes"
-          description="Find major city-to-city truck transport routes for household shifting, commercial loads, part loads and full loads."
-          routes={cityRoutes}
-        />
+            <h2 className="mt-3 text-3xl font-black text-[#09264b] md:text-4xl">
+              Choose Your Transport Routes
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-3xl text-slate-600">
+              Select a state to explore truck transport routes, towns,
+              cities and districts served by LOADZY.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                name: "Tamil Nadu",
+                href: "/tamil-nadu",
+                description: "Explore Tamil Nadu town, city and district routes.",
+              },
+              {
+                name: "Karnataka",
+                href: "/karnataka",
+                description: "Explore truck transport routes across Karnataka.",
+              },
+              {
+                name: "Kerala",
+                href: "/kerala",
+                description: "Explore transport routes across Kerala.",
+              },
+              {
+                name: "Andhra Pradesh",
+                href: "/andhra-pradesh",
+                description: "Explore Andhra Pradesh transport connections.",
+              },
+              {
+                name: "Telangana",
+                href: "/telangana",
+                description: "Explore Telangana truck transport routes.",
+              },
+            ].map((state) => (
+              <a
+                key={state.name}
+                href={state.href}
+                className="group rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-[#1ee1d3] hover:shadow-lg"
+              >
+                <h3 className="text-2xl font-black text-[#09264b] group-hover:text-[#08a99f]">
+                  {state.name} →
+                </h3>
+
+                <p className="mt-3 leading-7 text-slate-600">
+                  {state.description}
+                </p>
+
+                <div className="mt-5 font-black text-[#08a99f]">
+                  Explore Routes →
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* 03 DISTRICT ROUTES */}
-      <RouteSection
-        number="03"
-        label="DISTRICT ROUTES"
-        title="Tamil Nadu District Transport Routes"
-        description="Connect important Tamil Nadu districts with major transport destinations through LOADZY."
-        routes={districtRoutes}
-      />
+      {/* POPULAR SOUTH INDIA ROUTES */}
+      <section className="bg-white px-6 py-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="text-center">
+            <div className="font-black tracking-[0.25em] text-[#08a99f]">
+              POPULAR ROUTES
+            </div>
 
+            <h2 className="mt-3 text-3xl font-black text-[#09264b] md:text-4xl">
+              Popular South India Truck Routes
+            </h2>
 
-    
+            <p className="mx-auto mt-4 max-w-3xl text-slate-600">
+              Quickly explore selected routes between major transport hubs.
+            </p>
+          </div>
 
-            <div className="px-6 pb-16 text-center">
-        <a
-          href="/routes/major-tamil-nadu"
-          className="inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1"
-        >
-          Explore Tamil Nadu Routes →
-        </a>
-      </div>
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              ["Chennai", "Bangalore"],
+              ["Bangalore", "Chennai"],
+              ["Chennai", "Coimbatore"],
+              ["Coimbatore", "Chennai"],
+              ["Chennai", "Hyderabad"],
+              ["Hyderabad", "Chennai"],
+              ["Coimbatore", "Kochi"],
+              ["Kochi", "Coimbatore"],
+              ["Chennai", "Tirupati"],
+              ["Tirupati", "Chennai"],
+            ].map(([from, to]) => (
+              <RouteCard
+                key={`${from}-${to}`}
+                from={from}
+                to={to}
+              />
+            ))}
+          </div>
 
+          <div className="mt-10 text-center">
+            <a
+              href="/routes/major-tamil-nadu"
+              className="inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1"
+            >
+              Explore Major Tamil Nadu Routes →
+            </a>
+                   </div>
+        </div>
+      </section>
     </main>
   );
 }
