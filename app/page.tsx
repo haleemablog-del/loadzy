@@ -1651,6 +1651,33 @@ Pickup Date: ${pickupDate}`;
   </p>
 </Link>
 
+{[
+  ["Minjur", "/minjur-transport"],
+  ["Kathivakkam", "/kathivakkam-transport"],
+  ["Kodungaiyur", "/kodungaiyur-transport"],
+  ["Tondiarpet", "/tondiarpet-transport"],
+  ["Royapuram", "/royapuram-transport"],
+  ["Perambur", "/perambur-transport"],
+  ["Vyasarpadi", "/vyasarpadi-transport"],
+  ["Puzhal", "/puzhal-transport"],
+  ["Red Hills", "/red-hills-transport"],
+  ["Ennore", "/ennore-transport"],
+].map(([name, href]) => (
+  <Link
+    key={href}
+    href={href}
+    className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
+  >
+    <h3 className="text-xl font-black text-[#062B55]">
+      {name} Transport Service →
+    </h3>
+    <p className="mt-3 font-bold leading-7 text-slate-600">
+      Explore truck booking, goods transport, full-load,
+      part-load and local transport services from {name}.
+    </p>
+  </Link>
+))}
+
 </div>
 
 

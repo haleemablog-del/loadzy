@@ -40,17 +40,51 @@ const services = [
 
 const routes = [
   ["Chennai → Bangalore", "/routes/chennai/bangalore"],
+  ["Bangalore → Chennai", "/routes/bangalore/chennai"],
+
   ["Chennai → Coimbatore", "/routes/chennai/coimbatore"],
+  ["Coimbatore → Chennai", "/routes/coimbatore/chennai"],
+
   ["Chennai → Madurai", "/routes/chennai/madurai"],
+  ["Madurai → Chennai", "/routes/madurai/chennai"],
+
   ["Chennai → Salem", "/routes/chennai/salem"],
+  ["Salem → Chennai", "/routes/salem/chennai"],
+
   ["Chennai → Vellore", "/routes/chennai/vellore"],
+  ["Vellore → Chennai", "/routes/vellore/chennai"],
+
   ["Chennai → Tiruchirappalli", "/routes/chennai/tiruchirappalli"],
+  ["Tiruchirappalli → Chennai", "/routes/tiruchirappalli/chennai"],
+
   ["Chennai → Tiruppur", "/routes/chennai/tiruppur"],
+  ["Tiruppur → Chennai", "/routes/tiruppur/chennai"],
+
   ["Chennai → Erode", "/routes/chennai/erode"],
+  ["Erode → Chennai", "/routes/erode/chennai"],
+
   ["Chennai → Hyderabad", "/routes/chennai/hyderabad"],
+  ["Hyderabad → Chennai", "/routes/hyderabad/chennai"],
+
   ["Chennai → Kochi", "/routes/chennai/kochi"],
+  ["Kochi → Chennai", "/routes/kochi/chennai"],
+
   ["Chennai → Vijayawada", "/routes/chennai/vijayawada"],
+  ["Vijayawada → Chennai", "/routes/vijayawada/chennai"],
+
   ["Chennai → Tirupati", "/routes/chennai/tirupati"],
+  ["Tirupati → Chennai", "/routes/tirupati/chennai"],
+];
+
+const nearbyPlaces = [
+  ["Tiruvallur", "/tiruvallur-transport"],
+  ["Kanchipuram", "/kanchipuram-transport"],
+  ["Chengalpattu", "/chengalpattu-transport"],
+  ["Tambaram", "/tambaram-transport"],
+  ["Avadi", "/avadi-transport"],
+  ["Sriperumbudur", "/sriperumbudur-transport"],
+  ["Poonamallee", "/poonamallee-transport"],
+  ["Madhavaram", "/madhavaram-transport"],
 ];
 
 const faqs = [
@@ -214,6 +248,44 @@ export default function ChennaiTransportPage() {
           </div>
         </div>
       </section>
+```tsx
+const nearbyPlaces = [
+  ["Tiruvallur", "/tiruvallur-transport"],
+  ["Kanchipuram", "/kanchipuram-transport"],
+  ["Chengalpattu", "/chengalpattu-transport"],
+  ["Tambaram", "/tambaram-transport"],
+  ["Avadi", "/avadi-transport"],
+  ["Sriperumbudur", "/sriperumbudur-transport"],
+  ["Poonamallee", "/poonamallee-transport"],
+  ["Madhavaram", "/madhavaram-transport"],
+];
+
+<section className="bg-slate-50 px-6 py-14">
+  <div className="mx-auto max-w-6xl">
+    <h2 className="text-3xl font-black md:text-4xl">
+      Nearby Places for Truck Transport from Chennai
+    </h2>
+
+    <p className="mt-4 font-bold leading-7 text-slate-600">
+      Explore nearby cities, towns and industrial locations for
+      truck booking, goods transport, commercial loads and house
+      shifting. Service availability depends on the route and
+      transport requirements.
+    </p>
+
+    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {nearbyPlaces.map(([name, href]) => (
+        <Link
+          key={href}
+          href={href}
+          className="rounded-xl border border-slate-200 bg-white p-5 font-black shadow-sm hover:border-[#08A99F]"
+        >
+          {name} Transport →
+        </Link>
+      ))}
+    </div>
+  </div>
+</section>
 
       <section className="px-6 py-14">
         <div className="mx-auto max-w-5xl">
@@ -242,6 +314,36 @@ export default function ChennaiTransportPage() {
           </div>
         </div>
       </section>
+
+<section className="px-6 py-14">
+  <div className="mx-auto max-w-5xl">
+    <h2 className="text-3xl font-black md:text-4xl">
+      About Chennai – Commercial, Industrial & Goods Transport
+    </h2>
+
+    <p className="mt-5 text-lg font-bold leading-8 text-slate-600">
+      Chennai is the capital of Tamil Nadu and a major commercial,
+      manufacturing and logistics hub in South India. The city connects
+      businesses, warehouses, industrial areas, ports and distribution
+      centres with destinations across Tamil Nadu and other states.
+    </p>
+
+    <p className="mt-4 text-lg font-bold leading-8 text-slate-600">
+      Businesses may require trucks to transport machinery, building
+      materials, furniture, packaged goods, industrial products, fruits
+      and vegetables. LOADZY helps customers explore truck booking,
+      full load, part load, commercial transport and house shifting
+      options based on their pickup and delivery requirements.
+    </p>
+
+    <p className="mt-4 text-lg font-bold leading-8 text-slate-600">
+      Whether you need goods transport from Chennai to another city
+      or a truck for delivery into Chennai, explore the available
+      routes below and submit your transport requirements through
+      LOADZY.
+    </p>
+  </div>
+</section>
 
       <section className="bg-slate-50 px-6 py-14">
         <div className="mx-auto max-w-5xl">
