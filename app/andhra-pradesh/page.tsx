@@ -73,15 +73,22 @@ export default function AndhraPradeshRoutesPage() {
           </p>
 
           <h1 className="mt-3 text-4xl font-black text-[#062B55] md:text-5xl">
-            Andhra Pradesh Truck Transport Routes
+            Truck Transport & Logistics in Andhra Pradesh
           </h1>
 
           <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            Find truck transport routes connecting Andhra Pradesh with
-            Chennai, Bangalore, Hyderabad and other major cities.
+            Book trucks in Andhra Pradesh for house shifting, packers & movers,
+part load, full load, commercial goods and industrial transport with LOADZY.
           </p>
         </div>
-
+<div className="mt-8 text-center">
+  <Link
+    href="/andhra-pradesh-truck-transport"
+    className="inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
+  >
+    Andhra Pradesh Transport →
+  </Link>
+</div>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {routes.map((route) => (
             <Link

@@ -129,28 +129,45 @@ export default function BookingsPage() {
       .replace(/\s+/g, "")
       .replace(/truck$/i, "");
   };
+  
+const normalizeLocation = (value: string | null) => {
+  const location = normalize(value);
 
-  const bookingPickup = normalize(booking.pickup);
-  const bookingDelivery = normalize(booking.delivery);
-  const bookingLoadType = normalizeLoadType(booking.load_type);
-  const bookingTruck = normalizeTruckType(booking.truck);
-  const bookingDate = booking.pickup_date || "";
+  const aliases: Record<string, string> = {
+    tpt: "tirupattur",
+    tirupattur: "tirupattur",
+    vnb: "vaniyambadi",
+    vaniyambadi: "vaniyambadi",
+    chennai: "chennai",
+    blr: "bangalore",
+    bangalore: "bangalore",
+    bengaluru: "bangalore",
+  };
 
-  return availableLoads.filter((load) => {
-    const loadPickup = normalize(load.pickup);
-    const loadDelivery = normalize(load.delivery);
-    const loadType = normalizeLoadType(load.load_type);
-    const loadTruck = normalizeTruckType(load.truck);
-    const loadDate = load.pickup_date || "";
+  return aliases[location] || location;
+};
 
-    // Pickup and delivery must match
-    if (loadPickup !== bookingPickup) {
-      return false;
-    }
+const bookingPickup = normalizeLocation(booking.pickup);
+const bookingDelivery = normalizeLocation(booking.delivery);
+const bookingLoadType = normalizeLoadType(booking.load_type);
+const bookingTruck = normalizeTruckType(booking.truck);
+const bookingDate = booking.pickup_date || "";
 
-    if (loadDelivery !== bookingDelivery) {
-      return false;
-    }
+return availableLoads.filter((load) => {
+  const loadPickup = normalizeLocation(load.pickup);
+  const loadDelivery = normalizeLocation(load.delivery);
+  const loadType = normalizeLoadType(load.load_type);
+  const loadTruck = normalizeTruckType(load.truck);
+  const loadDate = load.pickup_date || "";
+
+  // Pickup and delivery must match
+  if (loadPickup !== bookingPickup) {
+    return false;
+  }
+
+  if (loadDelivery !== bookingDelivery) {
+    return false;
+  }
 
     // Load type must match when booking specifies one
     if (bookingLoadType && loadType !== bookingLoadType) {
@@ -162,11 +179,15 @@ export default function BookingsPage() {
       return false;
     }
 
-    // Pickup date must match when booking specifies one
-    if (bookingDate && loadDate !== bookingDate) {
-      return false;
-    }
+    // Compare pickup dates using the date portion only
+if (bookingDate && loadDate) {
+  const bookingDateOnly = bookingDate.slice(0, 10);
+  const loadDateOnly = loadDate.slice(0, 10);
 
+  if (bookingDateOnly !== loadDateOnly) {
+    return false;
+  }
+}
     return true;
   });
 }

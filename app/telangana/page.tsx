@@ -73,15 +73,21 @@ export default function TelanganaRoutesPage() {
           </p>
 
           <h1 className="mt-3 text-4xl font-black text-[#062B55] md:text-5xl">
-            Telangana Truck Transport Routes
+            Truck Transport & Logistics in Telangana
           </h1>
 
           <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            Find truck transport routes connecting Telangana with Chennai,
-            Bangalore, Andhra Pradesh and other major cities.
+           Book trucks in Telangana for house shifting, packers & movers, part load, full load, commercial goods and industrial transport with LOADZY.
           </p>
         </div>
-
+<div className="mt-8 text-center">
+  <Link
+    href="/telangana-truck-transport"
+    className="inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
+  >
+    Telangana Transport →
+  </Link>
+</div>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {routes.map((route) => (
             <Link

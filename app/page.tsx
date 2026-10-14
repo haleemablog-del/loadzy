@@ -810,103 +810,121 @@ Pickup Date: ${pickupDate}`;
         house shifting and commercial goods.
       </p>
     </div>
-<div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
 
+<div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
   <a
-    href="/routes"
-    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+    href="/tamil-nadu"
+    className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">📍</div>
-    <h3 className="mt-4 text-xl font-black text-[#062B55]">
-      Tamil Nadu
-    </h3>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">Tamil Nadu</h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-     Town, city, district & major routes
+      Town, city, district &amp; major routes
     </p>
+    <span className="mt-4 font-bold text-teal-600">
+      Explore Tamil Nadu →
+    </span>
   </a>
 
   <a
     href="/karnataka"
-    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+    className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">🚚</div>
-    <h3 className="mt-4 text-xl font-black text-[#062B55]">
-      Karnataka
-    </h3>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">Karnataka</h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-      Bangalore & Karnataka routes
+      Bangalore routes, truck booking and goods transport
     </p>
+    <span className="mt-4 font-bold text-teal-600">
+      Karnataka Transport →
+    </span>
   </a>
 
   <a
     href="/kerala"
-    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+    className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">🚚</div>
-    <h3 className="mt-4 text-xl font-black text-[#062B55]">
-      Kerala
-    </h3>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">Kerala</h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-      Kerala transport routes
+      Kerala routes, house shifting and freight transport
     </p>
+    <span className="mt-4 font-bold text-teal-600">
+      Kerala Transport →
+    </span>
   </a>
 
   <a
     href="/andhra-pradesh"
-    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+    className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">📦</div>
     <h3 className="mt-4 text-xl font-black text-[#062B55]">
       Andhra Pradesh
     </h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-      AP transport routes
+      AP routes, commercial loads and truck transport
     </p>
+    <span className="mt-4 font-bold text-teal-600">
+      Andhra Transport →
+    </span>
   </a>
 
   <a
     href="/telangana"
-    className="block rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+    className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
   >
     <div className="text-4xl">🚚</div>
-    <h3 className="mt-4 text-xl font-black text-[#062B55]">
-      Telangana
-    </h3>
+    <h3 className="mt-4 text-xl font-black text-[#062B55]">Telangana</h3>
     <p className="mt-2 text-sm leading-6 text-slate-500">
-      Hyderabad & Telangana routes
+      Hyderabad routes, freight and business transport
     </p>
+    <span className="mt-4 font-bold text-teal-600">
+      Telangana Transport →
+    </span>
   </a>
-
 </div>
+
 
     <div className="mt-10 text-center">
       <div className="mt-12">
   <div className="text-center">
     <p className="font-black uppercase tracking-[0.15em] text-[#08a99f]">
-      POPULAR TAMIL NADU ROUTES
+      POPULAR SOUTH INDIA & INDIA ROUTES
     </p>
 
     <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-      Major Truck Transport Routes
+      Major Truck Routes Across South India & India
     </h3>
 
     <p className="mx-auto mt-3 max-w-2xl text-slate-600">
-      Explore important truck transport routes across Tamil Nadu.
+      Explore major truck transport routes across South India and connect with important commercial cities throughout India.
     </p>
   </div>
 
   <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
     {[
-      ["Chennai → Dindigul", "/routes/chennai/dindigul"],
-      ["Chennai → Thanjavur", "/routes/chennai/thanjavur"],
-      ["Chennai → Kumbakonam", "/routes/chennai/kumbakonam"],
-      ["Chennai → Cuddalore", "/routes/chennai/cuddalore"],
-      ["Chennai → Tiruvannamalai", "/routes/chennai/tiruvannamalai"],
-      ["Chennai → Kanchipuram", "/routes/chennai/kanchipuram"],
-      ["Coimbatore → Tiruchirappalli", "/routes/coimbatore/tiruchirappalli"],
-      ["Madurai → Salem", "/routes/madurai/salem"],
-      ["Madurai → Tiruchirappalli", "/routes/madurai/tiruchirappalli"],
-      ["Salem → Tiruchirappalli", "/routes/salem/tiruchirappalli"],
+        ["Chennai → Bangalore", "/routes/chennai/bangalore"],
+  ["Bangalore → Hyderabad", "/routes/bangalore/hyderabad"],
+  ["Chennai → Hyderabad", "/routes/chennai/hyderabad"],
+  ["Coimbatore → Kochi", "/routes/coimbatore/kochi"],
+  ["Kochi → Bangalore", "/routes/kochi/bangalore"],
+  ["Chennai → Vijayawada", "/routes/chennai/vijayawada"],
+  ["Hyderabad → Vijayawada", "/routes/hyderabad/vijayawada"],
+  ["Madurai → Coimbatore", "/routes/madurai/coimbatore"],
+  ["Salem → Bangalore", "/routes/salem/bangalore"],
+  ["Tirupattur → Chennai", "/routes/tirupattur/chennai"],
+
+  ["Chennai → Mumbai", "/routes/chennai/mumbai"],
+  ["Bangalore → Pune", "/routes/bangalore/pune"],
+  ["Hyderabad → Nagpur", "/routes/hyderabad/nagpur"],
+  ["Chennai → Kolkata", "/routes/chennai/kolkata"],
+  ["Bangalore → Delhi", "/routes/bangalore/delhi"],
+  ["Chennai → Ahmedabad", "/routes/chennai/ahmedabad"],
+  ["Hyderabad → Jaipur", "/routes/hyderabad/jaipur"],
+  ["Coimbatore → Mumbai", "/routes/coimbatore/mumbai"],
+  ["Chennai → Bhubaneswar", "/routes/chennai/bhubaneswar"],
+  ["Bangalore → Lucknow", "/routes/bangalore/lucknow"],
     ].map(([name, href]) => (
       <Link
         key={href}
@@ -921,6 +939,9 @@ Pickup Date: ${pickupDate}`;
     ))}
   </div>
 </div>
+
+      
+      
       <a
         href="/routes"
         className="inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
@@ -928,295 +949,14 @@ Pickup Date: ${pickupDate}`;
         Explore All LOADZY Routes →
       </a>
     </div>
-<div className="mt-10 text-center">
-  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
-    Tirupattur Transport
-  </p>
-
-  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-    Truck Transport & Logistics in Tirupattur
-  </h3>
-
-  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
-    Book trucks from Tirupattur for house shifting, packers & movers,
-    part load, full load and commercial goods transport.
-  </p>
-
-  <a
-    href="/tirupattur-transport"
-    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
-  >
-    Tirupattur Transport →
-  </a>
-</div>
-  </div>
-</section>
-
-<section className="bg-slate-50 px-6 py-16">
-  <div className="mx-auto max-w-7xl">
-    <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm md:p-12">
-      <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-        VANIYAMBADI TRANSPORT SERVICES
-      </p>
-
-      <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-        Vaniyambadi Truck Transport & Packers Movers
-      </h2>
-
-      <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
-        Book trucks and lorries from Vaniyambadi for house shifting,
-        packers and movers, full load, part load, commercial goods and
-        industrial transport with LOADZY. Explore truck transport routes
-        connecting Vaniyambadi with Chennai, Bangalore, Vellore,
-        Krishnagiri, Hosur, Salem and other important locations.
-      </p>
-
-      <div className="mt-7 flex flex-wrap gap-4">
-        <a
-          href="/vaniyambadi-transport"
-          className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
-        >
-          Vaniyambadi Transport →
-        </a>
-
-        <a
-          href="/routes/vaniyambadi/chennai"
-          className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-yellow-300"
-        >
-          Vaniyambadi → Chennai →
-        </a>
-
-        <a
-          href="/routes/vaniyambadi/bangalore"
-          className="rounded-xl border-2 border-blue-950 px-7 py-4 font-black text-blue-950 transition hover:bg-blue-950 hover:text-white"
-        >
-          Vaniyambadi → Bangalore →
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* AMBUR SEO BLOCK */}
-<section className="px-6 py-16">
-  <div className="mx-auto max-w-6xl">
-    <div className="rounded-3xl bg-slate-950 p-8 text-white md:p-12">
-      <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-teal-400">
-        Ambur Transport Services
-      </p>
-
-      <h2 className="text-3xl font-bold md:text-4xl">
-        Ambur Truck Transport & Packers Movers
-      </h2>
-
-      <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-        Book trucks and lorries from Ambur for house shifting, packers and
-        movers, full load, part load, commercial goods and industrial
-        transport with LOADZY. Explore transport routes connecting Ambur
-        with Chennai, Bangalore, Vellore, Vaniyambadi, Tirupattur and other
-        destinations.
-      </p>
-
-      <div className="mt-8 flex flex-wrap gap-4">
-        <Link
-          href="/ambur-transport"
-          className="rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
-        >
-          Explore Ambur Transport
-        </Link>
-
-        <Link
-          href="/load-search"
-          className="rounded-xl border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-        >
-          Find My Truck
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
-<div className="mt-10 text-center">
-  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
-    Karnataka Transport
-  </p>
-
-  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-    Truck Transport & Logistics in Karnataka
-  </h3>
-
-  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
-    Book trucks in Karnataka for house shifting, packers & movers, part load,
-    full load, commercial goods and industrial transport with LOADZY.
-  </p>
-
-  <a
-    href="/karnataka-truck-transport"
-    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
-  >
-    
-    Karnataka Transport →
-  </a>
-</div>
-<div className="mt-10 text-center">
-  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
-    Kerala Transport
-  </p>
-
-  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-    Truck Transport & Logistics in Kerala
-  </h3>
-
-  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
-    Book trucks in Kerala for house shifting, packers & movers, part load,
-    full load, commercial goods and industrial transport with LOADZY.
-  </p>
-
-  <a
-    href="/kerala-truck-transport"
-    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
-  >
-    Kerala Transport →
-  </a>
-</div>
-
-<div className="mt-10 text-center">
-  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
-    Andhra Pradesh Transport
-  </p>
-
-  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-    Truck Transport & Logistics in Andhra Pradesh
-  </h3>
-
-  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
-    Book trucks in Andhra Pradesh for house shifting, packers & movers, part
-    load, full load, commercial goods and industrial transport with LOADZY.
-  </p>
-
-  <a
-    href="/andhra-pradesh-truck-transport"
-    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
-  >
-    Andhra Pradesh Transport →
-  </a>
-</div>
-<div className="mt-10 text-center">
-  <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#08a99f]">
-    Telangana Transport
-  </p>
-
-  <h3 className="mt-2 text-2xl font-black text-[#062B55]">
-    Truck Transport & Logistics in Telangana
-  </h3>
-
-  <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-600">
-    Book trucks in Telangana for house shifting, packers & movers, part load,
-    full load, commercial goods and industrial transport with LOADZY.
-  </p>
-
-  <a
-    href="/telangana-truck-transport"
-    className="mt-5 inline-block rounded-xl bg-[#1ee1d3] px-7 py-3 font-black text-[#06264a] shadow-lg transition hover:-translate-y-1 hover:bg-[#12d5c8]"
-  >
-    Telangana Transport →
-  </a>
-</div>
-{/* Major City Transport Hubs */}
-<section className="bg-slate-50 px-6 py-16">
-  <div className="mx-auto max-w-6xl">
-    <div className="text-center">
-      <p className="font-black uppercase tracking-widest text-[#08A99F]">
-        MAJOR TRANSPORT CITIES
-      </p>
-
-      <h2 className="mt-3 text-4xl font-black text-[#062B55]">
-        Truck Transport Across Major South Indian Cities
-      </h2>
-
-      <p className="mx-auto mt-4 max-w-3xl font-bold leading-7 text-slate-600">
-        Find truck transport, packers and movers, house shifting and
-        commercial transport services across major cities in South India.
-      </p>
-    </div>
-
-    <div className="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {[
-        ["Chennai", "/chennai-transport"],
-        ["Coimbatore", "/coimbatore-transport"],
-        ["Madurai", "/madurai-transport"],
-        ["Salem", "/salem-transport"],
-        ["Tiruchirappalli", "/tiruchirappalli-transport"],
-        ["Tiruppur", "/tiruppur-transport"],
-        ["Erode", "/erode-transport"],
-        ["Vellore", "/vellore-transport"],
-        ["Hosur", "/hosur-transport"],
-        ["Bangalore", "/bangalore-transport"],
-        ["Hyderabad", "/hyderabad-transport"],
-        ["Kochi", "/kochi-transport"],
-        ["Vijayawada", "/vijayawada-transport"],
-        ["Tirupati", "/tirupati-transport"],
-      ].map(([city, href]) => (
-        <Link
-          key={href}
-          href={href}
-          className="rounded-2xl border border-slate-200 bg-white p-5 text-center font-black text-[#062B55] shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:bg-teal-50"
-        >
-          🚚 {city} Truck Transport →
-        </Link>
-      ))}
-    </div>
-  </div>
-</section>
-{/* Tamil Nadu Transport Locations */}
-<section className="bg-slate-50 px-6 py-16">
-  <div className="mx-auto max-w-7xl">
-
-    <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-      TAMIL NADU LOCATIONS
-    </p>
-
-    <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-      Truck Transport Locations in Tamil Nadu
-    </h2>
-
-    <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-      Explore truck transport services, house shifting, commercial
-      transport and logistics options across cities and towns in Tamil Nadu.
-    </p>
-
-    <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {loadzyLocations
-        .filter(
-  (location) =>
-    location.type === "district" &&
-    location.parent === "tamil-nadu"
-)
-        
-        .map((location) => (
-          <a
-            key={`${location.parent}-${location.slug}`}
-           href={`/tamil-nadu/${location.slug}`}
-            className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
-          >
-            {location.name} Transport
-            <span className="mt-2 block text-sm font-bold text-teal-600">
-              View location →
-            </span>
-          </a>
-        ))}
-    </div>
-
-    <div className="mt-8 text-center">
-      <a
-        href="/tamil-nadu"
-        className="inline-block rounded-xl bg-teal-500 px-7 py-3 font-black text-white shadow-lg transition hover:bg-teal-600"
-      >
-        Explore Tamil Nadu Transport →
-      </a>
-    </div>
 
   </div>
 </section>
+
+
+
+
+
 
       {/* About */}
       <section
@@ -1652,32 +1392,6 @@ Pickup Date: ${pickupDate}`;
   </p>
 </Link>
 
-{[
-  ["Minjur", "/minjur-transport"],
-  ["Kathivakkam", "/kathivakkam-transport"],
-  ["Kodungaiyur", "/kodungaiyur-transport"],
-  ["Tondiarpet", "/tondiarpet-transport"],
-  ["Royapuram", "/royapuram-transport"],
-  ["Perambur", "/perambur-transport"],
-  ["Vyasarpadi", "/vyasarpadi-transport"],
-  ["Puzhal", "/puzhal-transport"],
-  ["Red Hills", "/red-hills-transport"],
-  ["Ennore", "/ennore-transport"],
-].map(([name, href]) => (
-  <Link
-    key={href}
-    href={href}
-    className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-400"
-  >
-    <h3 className="text-xl font-black text-[#062B55]">
-      {name} Transport Service →
-    </h3>
-    <p className="mt-3 font-bold leading-7 text-slate-600">
-      Explore truck booking, goods transport, full-load,
-      part-load and local transport services from {name}.
-    </p>
-  </Link>
-))}
 
 </div>
 
