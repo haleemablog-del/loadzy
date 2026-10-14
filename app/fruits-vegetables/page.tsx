@@ -1,4 +1,35 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fruits & Vegetables Transport Services | LOADZY",
+  description:
+    "Book truck transport for fruits, vegetables and agricultural produce across South India with LOADZY. Transport mango, banana, onion, tomato, coconut, potato and other produce.",
+  keywords: [
+    "fruits transport",
+    "vegetable transport",
+    "fruits and vegetables transport",
+    "agricultural transport",
+    "mango transport",
+    "banana transport",
+    "onion transport",
+    "tomato transport",
+    "vegetable truck booking",
+    "agricultural goods transport South India",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/fruits-vegetables",
+  },
+  openGraph: {
+    title: "Fruits & Vegetables Transport Services | LOADZY",
+    description:
+      "Book suitable truck transport for fruits, vegetables and agricultural produce across South India.",
+    url: "https://www.loadzyinfra.in/fruits-vegetables",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -67,12 +98,12 @@ export default function FruitsVegetablesPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move fruits and vegetables with suitable transport
+                Fruits & Vegetables Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Find transport options for fruits, vegetables and agricultural
-                produce with LOADZY.
+                Book truck transport for fruits, vegetables and agricultural produce
+across South India with LOADZY.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
