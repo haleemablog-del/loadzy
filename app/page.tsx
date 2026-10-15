@@ -954,6 +954,56 @@ Pickup Date: ${pickupDate}`;
 </section>
 
 
+{/* Popular Locality Transport Pages */}
+<section className="mt-16 px-6 pb-8">
+  <div className="mx-auto max-w-7xl">
+    <div className="text-center">
+      <p className="font-black uppercase tracking-[0.15em] text-[#08a99f]">
+        LOCAL TRANSPORT SERVICES
+      </p>
+
+      <h2 className="mt-2 text-3xl font-black text-[#062B55] md:text-4xl">
+        Popular Locality Transport Pages
+      </h2>
+
+      <p className="mx-auto mt-3 max-w-2xl text-slate-600">
+        Find truck booking, goods transport, industrial freight and shifting
+        services in your area with LOADZY.
+      </p>
+    </div>
+
+    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {[
+        ["Pammal", "/pammal-transport"],
+        ["Chromepet", "/chromepet-transport"],
+        ["Anakaputhur", "/anakaputhur-transport"],
+        ["Ambattur", "/ambattur-transport"],
+        ["Selaiyur", "/selaiyur-transport"],
+        ["Medavakkam", "/medavakkam-transport"],
+        ["Sholinganallur", "/sholinganallur-transport"],
+        ["Perungudi", "/perungudi-transport"],
+        ["Velachery", "/velachery-transport"],
+        ["Thoraipakkam", "/thoraipakkam-transport"],
+        ["Kelambakkam", "/kelambakkam-transport"],
+        ["Oragadam", "/oragadam-transport"],
+      ].map(([name, href]) => (
+        <Link
+          key={href}
+          href={href}
+          className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-[#062B55] shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:bg-teal-50"
+        >
+          🚚 {name} Transport
+          <span className="mt-2 block text-sm font-bold text-teal-600">
+            Explore locality →
+          </span>
+        </Link>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+
 
 
 
