@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TransportEnquiryForm from "./TransportEnquiryForm";
+
 const SITE_URL = "https://www.loadzyinfra.in";
 const PAGE_URL = `${SITE_URL}/hungund-transport`;
 
 export const metadata: Metadata = {
   title: "Hungund Transport Service | Truck Booking | LOADZY",
   description:
-    "Find truck booking and goods transport services in Hungund, Karnataka. Enquire about agricultural goods, full load, part load, commercial transport and household shifting with LOADZY.",
+    "Find truck booking and goods transport services in Hungund, Karnataka. Enquire about agricultural goods, full load, part load and commercial transport with LOADZY.",
   keywords: [
     "Hungund transport service",
     "Hungund truck booking",
@@ -41,7 +42,7 @@ const services = [
     icon: "🚛",
     title: "Full Load Transport",
     description:
-      "Enquire about dedicated truck options for larger consignments and goods requiring a full vehicle.",
+      "Enquire about a dedicated truck for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
@@ -52,13 +53,6 @@ const services = [
     href: "/part-load",
   },
   {
-    icon: "🌾",
-    title: "Agricultural Goods Transport",
-    description:
-      "Share your requirements for transporting suitable agricultural produce and farm-related goods.",
-    href: "/contact",
-  },
-  {
     icon: "🏠",
     title: "House Shifting",
     description:
@@ -66,17 +60,24 @@ const services = [
     href: "/house-shifting",
   },
   {
+    icon: "🧰",
+    title: "Packers and Movers",
+    description:
+      "Enquire about vehicle arrangements for household and office relocation.",
+    href: "/packers-movers",
+  },
+  {
     icon: "🏪",
     title: "Commercial Transport",
     description:
-      "Enquire about moving shop stock, business supplies and commercial consignments.",
+      "Arrange enquiries for shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
     icon: "🏭",
     title: "Industrial Transport",
     description:
-      "Discuss transport requirements for industrial materials, machinery and business supplies.",
+      "Enquire about transporting industrial materials, machinery and business supplies.",
     href: "/industrial-transport",
   },
 ];
@@ -93,58 +94,107 @@ const destinations = [
   "Mysuru",
   "Davangere",
   "Haveri",
-  "Shivamogga",
+  "Mangaluru",
 ];
 
-const nearbyAreas = [
-  { name: "Bagalkote", slug: "bagalkote" },
-  { name: "Badami", slug: "badami" },
-  { name: "Ilkal", slug: "ilkal" },
-  { name: "Guledgudda", slug: "guledgudda" },
-  { name: "Bilgi", slug: "bilgi" },
-  { name: "Mudhol", slug: "mudhol" },
-  { name: "Jamkhandi", slug: "jamkhandi" },
-  { name: "Kerur", slug: "kerur" },
-  { name: "Mahalingpur", slug: "mahalingpur" },
-  { name: "Rabkavi Banhatti", slug: "rabkavi-banhatti" },
-  { name: "Terdal", slug: "terdal" },
+const towns = [
+  {
+    name: "Bagalkote",
+    slug: "bagalkote",
+    famousFor: "District headquarters and regional commerce",
+    goods: "Commercial goods, construction materials and general cargo.",
+  },
+  {
+    name: "Badami",
+    slug: "badami",
+    famousFor: "Historic town, tourism and local trade",
+    goods: "Shop supplies, packaged goods and commercial consignments.",
+  },
+  {
+    name: "Ilkal",
+    slug: "ilkal",
+    famousFor: "Traditional Ilkal sarees and textile trade",
+    goods: "Sarees, fabrics, garments and packaged merchandise.",
+  },
+  {
+    name: "Guledgudda",
+    slug: "guledgudda",
+    famousFor: "Traditional textile and handloom products",
+    goods: "Textiles, clothing consignments and business supplies.",
+  },
+  {
+    name: "Jamkhandi",
+    slug: "jamkhandi",
+    famousFor: "Agriculture, trade and regional commerce",
+    goods: "Agricultural produce, packaged goods and commercial stock.",
+  },
+  {
+    name: "Mudhol",
+    slug: "mudhol",
+    famousFor: "Agriculture and local industries",
+    goods: "Agricultural goods, industrial supplies and general cargo.",
+  },
+  {
+    name: "Mahalingpur",
+    slug: "mahalingpur",
+    famousFor: "Local trade and agricultural commerce",
+    goods: "Agricultural produce, textiles and commercial consignments.",
+  },
+  {
+    name: "Rabkavi Banhatti",
+    slug: "rabkavi-banhatti",
+    famousFor: "Textile and weaving-related commerce",
+    goods: "Textiles, fabric bundles and business consignments.",
+  },
+  {
+    name: "Terdal",
+    slug: "terdal",
+    famousFor: "Agricultural and textile-related trade",
+    goods: "Agricultural produce, textiles and commercial cargo.",
+  },
+  {
+    name: "Bilgi",
+    slug: "bilgi",
+    famousFor: "Agriculture and local trade",
+    goods: "Agricultural goods and commercial supplies.",
+  },
 ];
 
 const faqs = [
   {
     question: "How can I book a truck in Hungund?",
     answer:
-      "Fill in the transport enquiry form with your contact details, pickup and delivery locations, service type, truck type and preferred pickup date. Submit your enquiry and confirm vehicle availability and freight charges before finalising your booking.",
+      "Complete the transport enquiry form with your name, mobile number, pickup and delivery locations, service, truck type and preferred pickup date. Submit your enquiry and confirm vehicle availability and freight charges.",
   },
   {
-    question: "Can I enquire about full load transport from Hungund?",
+    question: "Can I request full load transport from Hungund?",
     answer:
-      "Yes, you can submit an enquiry for full load transport. Vehicle availability and freight charges depend on the goods, route, vehicle requirements and pickup date.",
+      "Yes. You can enquire about full load transport. The suitable vehicle, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Does LOADZY support part load transport?",
+    question: "Can I request part load transport?",
     answer:
-      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
+      "You can submit an enquiry for smaller consignments. Options depend on the route, cargo size, timing and vehicle availability.",
   },
   {
-    question: "Can I transport agricultural goods from Hungund?",
+    question: "Can agricultural goods be transported from Hungund?",
     answer:
-      "You can submit an enquiry for suitable agricultural produce and other goods. Provide the cargo description, quantity, packaging, pickup location and destination so transport requirements can be reviewed.",
+      "You can enquire about suitable transport for agricultural produce and other goods. Share the cargo details and destination to help assess your requirements.",
   },
   {
-    question: "Can I book a truck from Hungund to Bengaluru?",
+    question: "Can I request a truck from Hungund to Bengaluru?",
     answer:
-      "You can submit a transport enquiry for Hungund to Bengaluru. The vehicle, freight price and pickup schedule must be confirmed for your shipment.",
+      "You can submit a transport enquiry for Hungund to Bengaluru. Vehicle availability, freight charges and pickup arrangements must be confirmed.",
   },
   {
-    question: "How are freight charges calculated?",
+    question: "How are transport charges calculated?",
     answer:
-      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
+      "Charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
     question: "Does submitting an enquiry guarantee a truck?",
     answer:
-      "No. Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
+      "No. An enquiry does not automatically confirm a truck or price. Wait for confirmation of availability, freight charges and pickup arrangements.",
   },
 ];
 
@@ -153,13 +203,12 @@ const serviceSchema = {
   "@type": "Service",
   name: "Hungund Goods Transport and Truck Booking",
   description:
-    "Transport enquiries for full load, part load, agricultural goods, commercial consignments and household shifting from Hungund, Karnataka.",
+    "Transport enquiries for full load, part load, agricultural goods, commercial transport and household shifting from Hungund, Karnataka.",
   serviceType: [
     "Full load transport",
     "Part load transport",
     "Agricultural goods transport",
-    "Commercial goods transport",
-    "Industrial transport",
+    "Commercial transport",
     "Household shifting transport",
   ],
   url: PAGE_URL,
@@ -194,6 +243,19 @@ const breadcrumbSchema = {
 };
 
 export default function HungundTransportPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <main className="min-h-screen bg-white text-slate-800">
       <script
@@ -213,22 +275,11 @@ export default function HungundTransportPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faqs.map((faq) => ({
-              "@type": "Question",
-              name: faq.question,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: faq.answer,
-              },
-            })),
-          }).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
         }}
       />
 
-      {/* HERO */}
+      {/* HERO AND ENQUIRY FORM */}
       <section className="relative overflow-hidden bg-[#10182D] text-white">
         <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
         <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
@@ -258,10 +309,10 @@ export default function HungundTransportPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-              Looking for goods transport in Hungund, Karnataka? Submit an
-              enquiry for full load, part load, agricultural goods, commercial
-              consignments, industrial transport and household shifting for
-              local and intercity routes.
+              Looking for goods transport in Hungund, Karnataka? Enquire about
+              full load, part load, agricultural goods, commercial consignments,
+              industrial transport and household shifting for local and
+              intercity routes with LOADZY.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -287,10 +338,7 @@ export default function HungundTransportPage() {
                 "Agricultural Goods",
                 "Commercial Transport",
               ].map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-white/10 px-4 py-2"
-                >
+                <span key={item} className="rounded-full bg-white/10 px-4 py-2">
                   {item}
                 </span>
               ))}
@@ -344,7 +392,7 @@ export default function HungundTransportPage() {
         </div>
       </section>
 
-      {/* LOCAL INFORMATION */}
+      {/* LOCAL TRANSPORT INFORMATION */}
       <section className="bg-slate-50">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2 md:items-start md:px-8 md:py-20">
           <div>
@@ -357,18 +405,18 @@ export default function HungundTransportPage() {
             </h2>
 
             <p className="mt-5 leading-8 text-slate-600">
-              Hungund is part of Bagalkote district in Karnataka. Transport
-              requirements can include agricultural produce, market goods,
-              construction materials, shop stock and other commercial
-              consignments. The suitable vehicle depends on the shipment and
-              route.
+              Hungund and surrounding areas have agricultural activity,
+              regional markets and commercial transport needs. Depending on
+              the shipment, customers may require vehicles for agricultural
+              produce, packaged goods, construction materials, business stock
+              and general cargo.
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
-              When requesting a truck, provide the exact pickup and delivery
-              addresses, goods description, approximate weight and dimensions,
-              loading requirements and preferred pickup date. These details
-              help determine a suitable vehicle and quotation.
+              When requesting a truck, provide exact pickup and delivery
+              addresses, the goods description, approximate weight and
+              dimensions, loading requirements and preferred pickup date.
+              These details help determine a suitable vehicle and quotation.
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
@@ -390,10 +438,7 @@ export default function HungundTransportPage() {
                 "Loading and unloading requirements",
                 "Contact details for confirmation",
               ].map((item) => (
-                <li
-                  key={item}
-                  className="flex gap-3 leading-6 text-slate-200"
-                >
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
                   <span className="font-bold text-[#08A99F]">✓</span>
                   <span>{item}</span>
                 </li>
@@ -410,32 +455,38 @@ export default function HungundTransportPage() {
         </div>
       </section>
 
-      {/* NEARBY AREAS */}
+      {/* NEARBY TOWNS */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Nearby areas
+          Nearby transport locations
         </p>
 
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Nearby Locations Around Hungund
+          Truck Transport Around Hungund
         </h2>
 
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore transport enquiries for Hungund and nearby towns. Select a
-          location to visit its transport page.
+          Explore transport pages for nearby towns and other locations in the
+          Bagalkote region. Share your route and cargo details to enquire about
+          transport options.
         </p>
 
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {nearbyAreas.map((area) => (
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {towns.map((town) => (
             <Link
-              key={area.slug}
-              href={`/${area.slug}-transport`}
-              className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              key={town.slug}
+              href={`/${town.slug}-transport`}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
             >
-              <span className="font-medium text-slate-700 group-hover:text-teal-800">
-                {area.name}
-              </span>
-              <span className="shrink-0 text-[#08A99F]">→</span>
+              <h3 className="text-xl font-bold text-slate-900 group-hover:text-teal-700">
+                {town.name} Transport →
+              </h3>
+
+              <p className="mt-3 text-sm font-semibold text-teal-700">
+                {town.famousFor}
+              </p>
+
+              <p className="mt-3 leading-7 text-slate-600">{town.goods}</p>
             </Link>
           ))}
         </div>
@@ -455,8 +506,7 @@ export default function HungundTransportPage() {
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
             Planning to move goods from Hungund to another city? Select a
             destination to submit a transport price enquiry. Availability,
-            route coverage and freight charges must be confirmed for each
-            shipment.
+            route coverage and freight charges must be confirmed.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
@@ -488,8 +538,8 @@ export default function HungundTransportPage() {
           </h2>
 
           <p className="mt-4 leading-7 text-slate-600">
-            Share your shipment details, explore transport options and confirm
-            the arrangements for your route.
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
           </p>
         </div>
 
@@ -521,11 +571,9 @@ export default function HungundTransportPage() {
               className="rounded-2xl border border-slate-200 bg-white p-6"
             >
               <span className="text-3xl">{item.icon}</span>
-
               <h3 className="mt-4 text-lg font-bold text-slate-900">
                 {item.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
             </div>
           ))}
@@ -573,11 +621,9 @@ export default function HungundTransportPage() {
                 <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
                   STEP {step.number}
                 </p>
-
                 <h3 className="mt-4 text-xl font-bold text-slate-900">
                   {step.title}
                 </h3>
-
                 <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
