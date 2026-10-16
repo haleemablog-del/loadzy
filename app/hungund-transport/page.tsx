@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import TransportEnquiryForm from "./TransportEnquiryForm.tsx";
+import TransportEnquiryForm from "./TransportEnquiryForm";
 const SITE_URL = "https://www.loadzyinfra.in";
 const PAGE_URL = `${SITE_URL}/hungund-transport`;
 
