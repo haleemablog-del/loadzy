@@ -279,7 +279,7 @@ export default function PammalTransportPage() {
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/load-search"
+               href="/contact"
                 className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
@@ -620,7 +620,7 @@ export default function PammalTransportPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
-              href="/load-search"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
               Book a Truck →

@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Industrial Transport Services | LOADZY",
+  description:
+    "Book industrial transport across South India with LOADZY for machinery, equipment, steel, factory goods, engineering materials and commercial shipments.",
+  keywords: [
+    "industrial transport",
+    "industrial transport services",
+    "industrial transport South India",
+    "machinery transport",
+    "equipment transport",
+    "steel transport",
+    "factory goods transport",
+    "engineering goods transport",
+    "commercial goods transport",
+    "LOADZY",
+  ],
+  alternates: {
+    canonical: "https://www.loadzyinfra.in/industrial-transport",
+  },
+  openGraph: {
+    title: "Industrial Transport Services | LOADZY",
+    description:
+      "Book suitable trucks for machinery, equipment, materials and industrial shipments across South India.",
+    url: "https://www.loadzyinfra.in/industrial-transport",
+    siteName: "LOADZY",
+    type: "website",
+  },
+};
 
 const benefits = [
   {
@@ -64,12 +94,12 @@ export default function IndustrialTransportPage() {
               </div>
 
               <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-                Move industrial goods with suitable transport
+                Industrial Transport Services
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-blue-100">
-                Transport support for machinery, equipment, engineering goods,
-                materials and industrial shipments with LOADZY.
+                Book suitable truck transport for machinery, equipment, engineering
+goods, materials and industrial shipments across South India with LOADZY.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">

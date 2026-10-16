@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { supabase } from "../lib/supabase";
 
 type Load = {
@@ -57,6 +57,15 @@ function locationMatches(
 
 export default function LoadSearchPage() {
   const [from, setFrom] = useState("");
+
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const pickup = params.get("pickup");
+
+  if (pickup) {
+    setFrom(pickup);
+  }
+}, []);
   const [to, setTo] = useState("");
   const [loadTypeFilter, setLoadTypeFilter] = useState("");
   const [truckTypeFilter, setTruckTypeFilter] = useState("");

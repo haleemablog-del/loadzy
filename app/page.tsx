@@ -955,10 +955,107 @@ Pickup Date: ${pickupDate}`;
 
 
 
+{/* Grouped Locality Transport Pages */}
+<section className="mt-16 px-6 pb-8">
+  <div className="mx-auto max-w-7xl">
+    <div className="text-center">
+      <p className="font-black uppercase tracking-[0.15em] text-[#08a99f]">
+        LOCAL TRANSPORT SERVICES
+      </p>
+
+      <h2 className="mt-2 text-3xl font-black text-[#062B55] md:text-4xl">
+        Explore Locality Transport Services
+      </h2>
+
+      <p className="mx-auto mt-3 max-w-2xl text-slate-600">
+        Find truck booking, goods transport, industrial freight and shifting
+        services across Chennai and surrounding areas with LOADZY.
+      </p>
+    </div>
+
+    {[
+      {
+        title: "North Chennai",
+        description: "Truck transport and goods movement across North Chennai.",
+        places: [
+  ["Ennore", "/ennore-transport"],
+  ["Kathivakkam", "/kathivakkam-transport"],
+  ["Kodungaiyur", "/kodungaiyur-transport"],
+  ["Madhavaram", "/madhavaram-transport"],
+  ["Manali", "/manali-transport"],
+  ["Minjur", "/minjur-transport"],
+  ["Perambur", "/perambur-transport"],
+  ["Puzhal", "/puzhal-transport"],
+  ["Red Hills", "/red-hills-transport"],
+  ["Royapuram", "/royapuram-transport"],
+  ["Tondiarpet", "/tondiarpet-transport"],
+  ["Vyasarpadi", "/vyasarpadi-transport"],
+],
+      },
+      {
+        title: "South Chennai",
+        description: "Local transport, shifting and commercial freight in South Chennai.",
+        places: [
+          ["Anakaputhur", "/anakaputhur-transport"],
+          ["Chromepet", "/chromepet-transport"],
+          ["Kelambakkam", "/kelambakkam-transport"],
+          ["Kundrathur", "/kundrathur-transport"],
+          ["Medavakkam", "/medavakkam-transport"],
+          ["Pallavaram", "/pallavaram-transport"],
+          ["Pammal", "/pammal-transport"],
+          ["Perungudi", "/perungudi-transport"],
+          ["Selaiyur", "/selaiyur-transport"],
+          ["Sholinganallur", "/sholinganallur-transport"],
+          ["Tambaram", "/tambaram-transport"],
+          ["Thoraipakkam", "/thoraipakkam-transport"],
+          ["Velachery", "/velachery-transport"],
+        ],
+      },
+      {
+        title: "Outer Chennai & Surrounding Areas",
+        description: "Transport links for outer suburbs and nearby industrial areas.",
+        places: [
+          ["Ambattur", "/ambattur-transport"],
+          ["Avadi", "/avadi-transport"],
+          ["Chengalpattu", "/chengalpattu-transport"],
+          ["Oragadam", "/oragadam-transport"],
+          ["Poonamallee", "/poonamallee-transport"],
+          ["Sriperumbudur", "/sriperumbudur-transport"],
+          ["Tiruvallur", "/tiruvallur-transport"],
+        ],
+      },
+    ].map((group) => (
+      <div key={group.title} className="mt-12">
+        <div className="mb-5">
+          <h3 className="text-2xl font-black text-[#062B55]">
+            {group.title}
+          </h3>
+          <p className="mt-2 text-slate-600">
+            {group.description}
+          </p>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {group.places.map(([name, href]) => (
+            <Link
+              key={href}
+              href={href}
+              className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-[#062B55] shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:bg-teal-50"
+            >
+              🚚 {name} Transport
+              <span className="mt-2 block text-sm font-bold text-teal-600">
+                Explore locality →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
 
-
-      {/* About */}
+{/* About */}
       <section
         id="about"
         className="mt-4 bg-blue-950 px-6 py-20 text-white"

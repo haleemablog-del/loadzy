@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TransportEnquiryForm from "./TransportEnquiryForm";
 
 const SITE_URL = "https://www.loadzyinfra.in";
 const PAGE_URL = `${SITE_URL}/chromepet-transport`;
@@ -237,8 +238,10 @@ export default function ChromepetTransportPage() {
       />
 
       {/* Hero */}
-      <section className="bg-[#10182D] px-6 py-20 text-white">
-        <div className="mx-auto max-w-6xl">
+      
+      {/* Hero */}
+      <section className="bg-[#10182D] px-6 py-12 text-white md:py-16">
+        <div className="mx-auto max-w-7xl">
           <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
             <Link href="/" className="hover:text-[#08A99F]">
               Home
@@ -251,44 +254,55 @@ export default function ChromepetTransportPage() {
             <span>Chromepet</span>
           </nav>
 
-          <p className="text-sm font-black uppercase tracking-[0.18em] text-[#08A99F]">
-            LOADZY CHROMEPET
-          </p>
+          <div className="grid items-center gap-10 md:grid-cols-2 md:gap-12">
+            {/* Left: Hero heading and buttons */}
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.18em] text-[#08A99F]">
+                LOADZY CHROMEPET
+              </p>
 
-          <h1 className="mt-5 max-w-4xl text-5xl font-black leading-tight md:text-6xl">
-            Chromepet Truck Transport &amp; Packers Movers
-          </h1>
+              <h1 className="mt-5 max-w-2xl text-4xl font-black leading-tight md:text-5xl lg:text-6xl">
+                Chromepet Truck Transport &amp; Packers Movers
+              </h1>
 
-          <p className="mt-6 max-w-3xl text-lg font-bold leading-8 text-slate-200">
-            Find transport options from Chromepet for house shifting,
-            commercial goods, industrial cargo, full-load and part-load
-            requirements across Tamil Nadu and South India.
-          </p>
+              <p className="mt-6 max-w-xl text-lg font-bold leading-8 text-slate-200">
+                Find transport options from Chromepet for house shifting,
+                commercial goods, industrial cargo, full-load and part-load
+                requirements across Tamil Nadu and South India.
+              </p>
 
-          <p className="mt-4 max-w-3xl leading-7 text-slate-300">
-            Share your pickup and delivery locations, goods details and
-            preferred date to start a transport enquiry. Confirm truck
-            availability, route coverage and freight prices before booking.
-          </p>
+              <p className="mt-4 max-w-xl leading-7 text-slate-300">
+                Share your pickup and delivery locations, goods details and
+                preferred date to start a transport enquiry. Confirm truck
+                availability, route coverage and freight prices before booking.
+              </p>
 
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              href="/load-search"
-              className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
-            >
-              Find My Truck →
-            </Link>
-            <Link
-              href="/truck-guide"
-              className="rounded-xl border border-white/30 px-7 py-4 font-black text-white transition hover:border-[#08A99F]"
-            >
-              Truck Guide
-            </Link>
+              <div className="mt-8 flex flex-wrap gap-4">
+                
+<Link
+  href="/load-search"
+  className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
+>
+  Find My Truck →
+</Link>
+
+                <Link
+                  href="/truck-guide"
+                  className="rounded-xl border border-white/30 px-7 py-4 font-black text-white transition hover:border-[#08A99F]"
+                >
+                  Truck Guide
+                </Link>
+              </div>
+            </div>
+
+            {/* Right: Transport enquiry form */}
+            <div className="w-full">
+              <TransportEnquiryForm />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Services */}
       <section className="px-6 py-14">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-3xl font-black md:text-4xl">
@@ -495,20 +509,23 @@ export default function ChromepetTransportPage() {
             ))}
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              href="/load-search"
-              className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
-            >
-              Find My Truck →
-            </Link>
-            <Link
-              href="/truck-guide"
-              className="rounded-xl border border-slate-300 px-7 py-4 font-black transition hover:border-[#08A99F]"
-            >
-              Truck Guide
-            </Link>
-          </div>
+          
+<div className="mt-8 flex flex-wrap gap-4">
+  <a
+    href="#chromepet-booking"
+    className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
+  >
+    Book a Truck →
+  </a>
+
+  <Link
+    href="#chromepet-booking"
+    className="rounded-xl border border-white/30 px-7 py-4 font-black text-white transition hover:border-[#08A99F]"
+  >
+    Search Available Loads →
+  </Link>
+</div>
+
         </div>
       </section>
 
@@ -550,12 +567,12 @@ export default function ChromepetTransportPage() {
             quote before booking.
           </p>
 
-          <Link
-            href="/load-search"
-            className="mt-8 inline-block rounded-xl bg-yellow-400 px-8 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
-          >
-            Find My Truck →
-          </Link>
+          <a
+  href="#chromepet-booking"
+  className="mt-8 inline-block rounded-xl bg-yellow-400 px-8 py-4 font-black text-slate-900 transition hover:bg-yellow-300"
+>
+  Book a Truck →
+</a>
         </div>
       </section>
     </main>
