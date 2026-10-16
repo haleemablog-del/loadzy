@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import FloatingWhatsApp from "./FloatingWhatsApp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,10 +16,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "LOADZY | Truck Booking & Transport Services in South India",
   description:
-    "Book trucks for house shifting, packers & movers, commercial loads and freight transport across Tamil Nadu, Karnataka, Kerala, Andhra Pradesh and Telangana with LOADZY.",
-
+    "Book trucks for house shifting, packers & movers, commercial loads and freight transport across Tamil Nadu, Karnataka and South India.",
   metadataBase: new URL("https://www.loadzyinfra.in"),
-
   keywords: [
     "truck booking",
     "truck booking South India",
@@ -31,22 +30,16 @@ export const metadata: Metadata = {
     "load transport",
     "LOADZY",
   ],
-
   alternates: {
-    canonical: "https://www.loadzyinfra.in",
+    canonical: "/",
   },
-
-  robots: {
-    index: true,
-    follow: true,
-  },
-
   openGraph: {
     title: "LOADZY | Truck Booking & Transport Services in South India",
     description:
-      "Book trucks for house shifting, packers & movers, commercial loads and freight transport across Tamil Nadu, Karnataka, Kerala, Andhra Pradesh and Telangana with LOADZY.",
+      "Book trucks for house shifting, packers & movers, commercial loads and freight transport across South India.",
     url: "https://www.loadzyinfra.in",
     siteName: "LOADZY",
+    locale: "en_IN",
     type: "website",
     images: [
       {
@@ -57,23 +50,28 @@ export const metadata: Metadata = {
       },
     ],
   },
-
   twitter: {
     card: "summary_large_image",
     title: "LOADZY | Truck Booking & Transport Services in South India",
     description:
-      "Book trucks for house shifting, packers & movers, commercial loads and freight transport across South India with LOADZY.",
+      "Book trucks for house shifting, packers & movers, commercial loads and freight transport across South India.",
     images: ["/og-image.png"],
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} min-h-full flex flex-col antialiased`}
+      >
+        {children}
+        <FloatingWhatsApp />
+      </body>
     </html>
   );
 }
