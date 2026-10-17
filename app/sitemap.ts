@@ -70,9 +70,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/jamkhandi-transport",
     "/bilgi-transport",
   ];
-
+  // Newly completed standalone transport pages
+  const completedTransportPages = [
+    "/gummidipoondi-transport",
+    "/t-nagar-transport",
+  ];
   const staticSitemap: MetadataRoute.Sitemap = [
-    ...new Set([...staticPages, ...bagalkotePages]),
+    ...new Set([
+  ...staticPages,
+  ...bagalkotePages,
+  ...completedTransportPages,
+]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
