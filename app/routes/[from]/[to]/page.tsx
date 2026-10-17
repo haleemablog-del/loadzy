@@ -14,6 +14,65 @@ function formatCity(slug: string) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
+const famousForBySlug: Record<string, string> = {
+  // Existing locations
+  ilkal: "Traditional Ilkal sarees and handloom weaving.",
+  bagalkote: "Agriculture, sugar production and regional trade.",
+  bengaluru: "Technology, manufacturing and commercial activity.",
+  badami: "Historic cave temples and heritage tourism.",
+  guledgudda: "Traditional Khana textile weaving.",
+  mysuru: "Silk, sandalwood crafts and cultural heritage.",
+  mangaluru: "Coastal trade, seafood and port-related commerce.",
+  hubballi: "Wholesale trade, commerce and logistics.",
+  dharwad: "Education, Dharwad peda and regional commerce.",
+
+  // Karnataka district locations
+  belagavi: "Sugar industry, agriculture and regional commerce.",
+  ballari: "Mining-related industry, steel and agriculture.",
+  vijayapura: "Agriculture, grapes and historic monuments.",
+  kalaburagi: "Tur dal production, agriculture and regional trade.",
+  bidar: "Bidriware metal craft and agricultural activity.",
+  raichur: "Paddy cultivation, cotton and agricultural trade.",
+  koppal: "Agriculture, industry and historic heritage.",
+  gadag: "Agriculture, textiles and historic temples.",
+  haveri: "Agriculture, cotton and regional trade.",
+  davanagere: "Cotton mills, textiles and agricultural commerce.",
+  chitradurga: "Agriculture, renewable energy and historic forts.",
+  tumakuru: "Industry, agriculture and commercial activity.",
+  hassan: "Coffee, agriculture and regional trade.",
+  kodagu: "Coffee, spices and plantation agriculture.",
+  chikmagalur: "Coffee plantations and spice cultivation.",
+  shimoga: "Arecanut, agriculture and forest-based products.",
+  shivamogga: "Arecanut, agriculture and forest-based products.",
+  udupi: "Coastal commerce, food businesses and tourism.",
+  chikkaballapur: "Silk, grapes and agricultural activity.",
+  kolar: "Gold-mining heritage, silk and agriculture.",
+  mandya: "Sugarcane cultivation and sugar production.",
+  chamarajanagar: "Agriculture, forest products and regional trade.",
+  yadvagiri: "Agriculture and regional commerce.",
+  yadgir: "Agriculture and regional commerce.",
+  vijayanagara: "Agriculture, industry and heritage tourism.",
+  bangalore: "Technology, manufacturing and commercial activity.",
+  bengaluruurban: "Technology, manufacturing and commercial activity.",
+  bengalururural: "Agriculture, manufacturing and regional commerce.",
+  ramnagara: "Silk production and agricultural activity.",
+  ramanagara: "Silk production and agricultural activity.",
+    chikkamagaluru: "Coffee plantations and spice cultivation.",
+
+  
+};
+function getFamousFor(slug: string): string {
+  const normalizedSlug = slug.toLowerCase();
+
+  return (
+    famousForBySlug[normalizedSlug] ||
+    "Local trade, businesses and regional transport needs. Specific products and industries should be verified before publication."
+  );
+  
+}
+
+
+
 
 export async function generateMetadata({
   params,
@@ -208,6 +267,58 @@ export default async function RoutePage({
 
         </div>
       </section>
+
+      
+{/* FAMOUS FOR BOTH LOCATIONS */}
+<section className="px-6 py-16">
+  <div className="mx-auto max-w-6xl">
+    <div className="text-center">
+      <div className="font-black tracking-widest text-[#08a99f]">
+        LOCAL INDUSTRIES & SPECIALITIES
+      </div>
+
+      <h2 className="mt-3 text-3xl font-black text-[#09264b] md:text-4xl">
+        What Are {fromCity} and {toCity} Famous For?
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-600">
+        Learn about the local specialities of both locations when planning
+        your transport requirements with LOADZY.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-6 md:grid-cols-2">
+      <article className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <p className="font-black tracking-widest text-[#08a99f]">
+          ORIGIN
+        </p>
+
+        <h3 className="mt-3 text-2xl font-black text-[#09264b]">
+          {fromCity}
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          {getFamousFor(from)}
+        </p>
+      </article>
+
+      <article className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <p className="font-black tracking-widest text-[#08a99f]">
+          DESTINATION
+        </p>
+
+        <h3 className="mt-3 text-2xl font-black text-[#09264b]">
+          {toCity}
+        </h3>
+
+        <p className="mt-4 leading-7 text-slate-600">
+          {getFamousFor(to)}
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
       {/* TRUCK OPTIONS */}
       <section className="bg-white px-6 py-16">
