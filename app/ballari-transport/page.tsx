@@ -100,7 +100,7 @@ const destinations = [
 const towns = [
   {
     name: "Ballari",
-    slug: "ballari",
+    slug: "ballari-transport",
     famousFor: "District headquarters, trade and commercial activity",
     goods:
       "Commercial goods, machinery, construction materials, business stock and general cargo.",
@@ -108,7 +108,7 @@ const towns = [
   },
   {
     name: "Siruguppa",
-    slug: "siruguppa",
+    slug: "siruguppa-transport",
     famousFor: "Agriculture, paddy cultivation and regional trade",
     goods:
       "Paddy, agricultural produce, farm supplies, packaged goods and commercial consignments.",
@@ -116,7 +116,7 @@ const towns = [
   },
   {
     name: "Kampli",
-    slug: "kampli",
+    slug: "kampli-transport",
     famousFor: "Agriculture and local commercial activity",
     goods:
       "Agricultural produce, market goods, business supplies and general cargo.",
@@ -124,7 +124,7 @@ const towns = [
   },
   {
     name: "Sandur",
-    slug: "sandur",
+    slug: "sandur-transport",
     famousFor: "Mining, mineral-related activity and surrounding industries",
     goods:
       "Industrial supplies, machinery, permitted mineral-related cargo and commercial materials.",
@@ -132,10 +132,42 @@ const towns = [
   },
   {
     name: "Kurugodu",
-    slug: "kurugodu",
+    slug: "kurugodu-transport",
     famousFor: "Agriculture and regional markets",
     goods:
       "Agricultural produce, farm supplies, market goods and general transport consignments.",
+    currentPage: false,
+  },
+    {
+    name: "Tekkalakote",
+    slug: "tekkalakote-transport",
+    famousFor: "Agriculture, paddy cultivation and local trade",
+    goods:
+      "Paddy, agricultural produce, farm supplies, food grains and general cargo.",
+    currentPage: false,
+  },
+  {
+    name: "Kudligi",
+    slug: "kudligi-transport",
+    famousFor: "Agriculture, regional markets and local commerce",
+    goods:
+      "Agricultural produce, food grains, market goods, farm supplies and commercial cargo.",
+    currentPage: false,
+  },
+  {
+    name: "Kotturu",
+    slug: "kotturu-transport",
+    famousFor: "Agriculture, local trade and regional commerce",
+    goods:
+      "Agricultural produce, food grains, farm supplies, business stock and general cargo.",
+    currentPage: false,
+  },
+  {
+    name: "Hoovina Hadagalli",
+    slug: "hoovina-hadagalli-transport",
+    famousFor: "Agriculture, cotton-related activity and regional trade",
+    goods:
+      "Cotton, agricultural produce, farm supplies, market goods and commercial consignments.",
     currentPage: false,
   },
 ];
@@ -477,8 +509,7 @@ export default function BallariTransportPage() {
           {towns.map((town) => (
             <Link
               key={town.slug}
-              href={town.currentPage ? PAGE_URL : "/contact"}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
+              href={`/${town.slug}`}              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
             >
               <div className="flex items-start justify-between gap-3">
                 <h3 className="text-xl font-bold text-slate-900 group-hover:text-teal-700">
