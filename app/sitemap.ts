@@ -1,8 +1,6 @@
-
 import type { MetadataRoute } from "next";
 import { loadzyRoutes } from "./lib/routes";
 import { loadzyLocations } from "./lib/locations";
-
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.loadzyinfra.in";
@@ -27,44 +25,55 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/terms",
     "/tirupattur-transport",
     "/karnataka-truck-transport",
-"/kerala-truck-transport",
-"/andhra-pradesh-truck-transport",
-"/telangana-truck-transport",
+    "/kerala-truck-transport",
+    "/andhra-pradesh-truck-transport",
+    "/telangana-truck-transport",
     "/track-shipment",
     "/truck-owner",
     "/truck-rates",
     "/routes",
+    "/truck-guide",
+    "/truck-transport-charges-tamil-nadu",
+    "/how-truck-freight-prices-are-calculated",
+    "/full-load-vs-part-load",
+    "/how-to-choose-the-right-truck",
+    "/house-shifting-truck-guide",
+    "/commercial-goods-transport-guide",
+    "/industrial-transport-guide",
+    "/return-load-transport-guide",
+    "/truck-booking-guide",
+    "/chennai-transport",
+    "/coimbatore-transport",
+    "/madurai-transport",
+    "/salem-transport",
+    "/tiruchirappalli-transport",
+    "/tiruppur-transport",
+    "/erode-transport",
+    "/vellore-transport",
+    "/hosur-transport",
+    "/bangalore-transport",
+    "/hyderabad-transport",
+    "/kochi-transport",
+    "/vijayawada-transport",
+    "/tirupati-transport",
+  ];
 
-    
+  // Bagalkote district and completed town pages
+  const bagalkotePages = [
+    "/bagalkote-transport",
+    "/badami-transport",
+    "/ilkal-transport",
+    "/guledgudda-transport",
+    "/hungund-transport",
+    "/kerur-transport",
+    "/mudhol-transport",
+    "/jamkhandi-transport",
+    "/bilgi-transport",
+  ];
 
-"/truck-guide",
-"/truck-transport-charges-tamil-nadu",
-"/how-truck-freight-prices-are-calculated",
-"/full-load-vs-part-load",
-"/how-to-choose-the-right-truck",
-"/house-shifting-truck-guide",
-"/commercial-goods-transport-guide",
-"/industrial-transport-guide",
-"/return-load-transport-guide",
-"/truck-booking-guide",
-"/chennai-transport",
-"/coimbatore-transport",
-"/madurai-transport",
-"/salem-transport",
-"/tiruchirappalli-transport",
-"/tiruppur-transport",
-"/erode-transport",
-"/vellore-transport",
-"/hosur-transport",
-"/bangalore-transport",
-"/hyderabad-transport",
-"/kochi-transport",
-"/vijayawada-transport",
-"/tirupati-transport",
-];
-
-
-  const staticSitemap: MetadataRoute.Sitemap = staticPages.map((page) => ({
+  const staticSitemap: MetadataRoute.Sitemap = [
+    ...new Set([...staticPages, ...bagalkotePages]),
+  ].map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
   }));
@@ -115,10 +124,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
       }));
 
-  return [
-  ...staticSitemap,
-  ...routeSitemap,
-  ...tamilNaduDistrictSitemap,
-  ...tamilNaduLocationSitemap,
-];
+  // Remove duplicate URLs while preserving all sitemap sections.
+  return Array.from(
+    new Map(
+      [
+        ...staticSitemap,
+        ...routeSitemap,
+        ...tamilNaduDistrictSitemap,
+        ...tamilNaduLocationSitemap,
+      ].map((entry) => [entry.url, entry])
+    ).values()
+  );
 }
