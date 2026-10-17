@@ -28,7 +28,9 @@ const truckTypes = [
 ];
 
 const inputClass =
-  "mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-[#08A99F] focus:ring-2 focus:ring-[#08A99F]/20";
+  "mt-2 w-full rounded-xl border border-white/10 bg-[#293247] px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-400 focus:border-[#08A99F] focus:ring-2 focus:ring-[#08A99F]/20";
+
+const labelClass = "text-sm font-semibold text-slate-200";
 
 export default function TransportEnquiryForm() {
   const [customerName, setCustomerName] = useState("");
@@ -90,7 +92,7 @@ export default function TransportEnquiryForm() {
 
     setLoading(true);
 
-    // Open the tab during the submit action to reduce popup blocking.
+    // Open a tab directly from the submit action to reduce popup blocking.
     const whatsappWindow = window.open("about:blank", "_blank");
 
     const enquiry = {
@@ -124,6 +126,14 @@ export default function TransportEnquiryForm() {
         whatsappMessage,
       )}`;
 
+    function openWhatsApp() {
+      if (whatsappWindow && !whatsappWindow.closed) {
+        whatsappWindow.location.href = whatsappUrl;
+      } else {
+        window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+      }
+    }
+
     try {
       const { error } = await supabase
         .from("leads")
@@ -132,34 +142,20 @@ export default function TransportEnquiryForm() {
       if (error) {
         console.error("Hungund enquiry database error:", error);
 
-        if (whatsappWindow) {
-          whatsappWindow.location.href = whatsappUrl;
-        } else {
-          window.open(
-            whatsappUrl,
-            "_blank",
-            "noopener,noreferrer",
-          );
+        if (whatsappWindow && !whatsappWindow.closed) {
+          whatsappWindow.close();
         }
 
         setErrorMessage(
-          "Your enquiry could not be saved to the website database. You can still continue through WhatsApp.",
+          "Your enquiry could not be saved. Please try again.",
         );
         return;
       }
 
-      if (whatsappWindow) {
-        whatsappWindow.location.href = whatsappUrl;
-      } else {
-        window.open(
-          whatsappUrl,
-          "_blank",
-          "noopener,noreferrer",
-        );
-      }
+      openWhatsApp();
 
       setSuccessMessage(
-        "Your enquiry was saved. Continue in WhatsApp to send the details and confirm availability.",
+        "Your enquiry was saved successfully. Continue in WhatsApp to send the details.",
       );
 
       setCustomerName("");
@@ -172,18 +168,12 @@ export default function TransportEnquiryForm() {
     } catch (error) {
       console.error("Hungund enquiry submission error:", error);
 
-      if (whatsappWindow) {
-        whatsappWindow.location.href = whatsappUrl;
-      } else {
-        window.open(
-          whatsappUrl,
-          "_blank",
-          "noopener,noreferrer",
-        );
+      if (whatsappWindow && !whatsappWindow.closed) {
+        whatsappWindow.close();
       }
 
       setErrorMessage(
-        "We couldn't confirm that the enquiry was saved. You can continue through WhatsApp.",
+        "Something went wrong while saving your enquiry. Please try again.",
       );
     } finally {
       setLoading(false);
@@ -191,31 +181,27 @@ export default function TransportEnquiryForm() {
   }
 
   return (
-    <div className="rounded-3xl bg-white p-6 text-slate-900 shadow-2xl shadow-black/20 sm:p-8">
+    <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 text-white shadow-2xl shadow-black/20 backdrop-blur-sm sm:p-8">
       <div className="mb-6">
         <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#08A99F]">
-          Quick transport enquiry
+          Transport Enquiry
         </p>
 
-        <h2 className="mt-2 text-2xl font-extrabold text-slate-900 sm:text-3xl">
+        <h2 className="mt-2 text-2xl font-extrabold text-white sm:text-3xl">
           Move Goods from Hungund
         </h2>
 
-        <p className="mt-3 text-sm leading-6 text-slate-600">
-          Enter your shipment details. Vehicle availability and freight
-          charges will need to be confirmed.
+        <p className="mt-3 text-sm leading-6 text-slate-300">
+          Enter your shipment details. Vehicle availability and
+          freight charges will need to be confirmed.
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label
-            htmlFor="hungund-customer-name"
-            className="text-sm font-semibold text-slate-700"
-          >
+          <label htmlFor="hungund-customer-name" className={labelClass}>
             Customer Name *
           </label>
-
           <input
             id="hungund-customer-name"
             name="customer_name"
@@ -231,13 +217,9 @@ export default function TransportEnquiryForm() {
         </div>
 
         <div>
-          <label
-            htmlFor="hungund-phone"
-            className="text-sm font-semibold text-slate-700"
-          >
-            Mobile Number *
+          <label htmlFor="hungund-phone" className={labelClass}>
+            Phone Number *
           </label>
-
           <input
             id="hungund-phone"
             name="phone"
@@ -256,13 +238,9 @@ export default function TransportEnquiryForm() {
         </div>
 
         <div>
-          <label
-            htmlFor="hungund-pickup"
-            className="text-sm font-semibold text-slate-700"
-          >
+          <label htmlFor="hungund-pickup" className={labelClass}>
             Pickup Location *
           </label>
-
           <input
             id="hungund-pickup"
             name="pickup"
@@ -277,13 +255,9 @@ export default function TransportEnquiryForm() {
         </div>
 
         <div>
-          <label
-            htmlFor="hungund-delivery"
-            className="text-sm font-semibold text-slate-700"
-          >
+          <label htmlFor="hungund-delivery" className={labelClass}>
             Delivery Location *
           </label>
-
           <input
             id="hungund-delivery"
             name="delivery"
@@ -299,13 +273,9 @@ export default function TransportEnquiryForm() {
 
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
-            <label
-              htmlFor="hungund-load-type"
-              className="text-sm font-semibold text-slate-700"
-            >
+            <label htmlFor="hungund-load-type" className={labelClass}>
               Service Type *
             </label>
-
             <select
               id="hungund-load-type"
               name="load_type"
@@ -315,7 +285,11 @@ export default function TransportEnquiryForm() {
               className={inputClass}
             >
               {services.map((service) => (
-                <option key={service} value={service}>
+                <option
+                  key={service}
+                  value={service}
+                  className="bg-[#10182D] text-white"
+                >
                   {service}
                 </option>
               ))}
@@ -323,13 +297,9 @@ export default function TransportEnquiryForm() {
           </div>
 
           <div>
-            <label
-              htmlFor="hungund-truck-type"
-              className="text-sm font-semibold text-slate-700"
-            >
+            <label htmlFor="hungund-truck-type" className={labelClass}>
               Truck Type *
             </label>
-
             <select
               id="hungund-truck-type"
               name="truck_type"
@@ -339,7 +309,11 @@ export default function TransportEnquiryForm() {
               className={inputClass}
             >
               {truckTypes.map((truck) => (
-                <option key={truck} value={truck}>
+                <option
+                  key={truck}
+                  value={truck}
+                  className="bg-[#10182D] text-white"
+                >
                   {truck}
                 </option>
               ))}
@@ -348,13 +322,9 @@ export default function TransportEnquiryForm() {
         </div>
 
         <div>
-          <label
-            htmlFor="hungund-pickup-date"
-            className="text-sm font-semibold text-slate-700"
-          >
+          <label htmlFor="hungund-pickup-date" className={labelClass}>
             Preferred Pickup Date *
           </label>
-
           <input
             id="hungund-pickup-date"
             name="pickup_date"
@@ -370,7 +340,7 @@ export default function TransportEnquiryForm() {
         {errorMessage && (
           <p
             role="alert"
-            className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm leading-6 text-red-700"
+            className="rounded-xl border border-red-400/30 bg-red-500/10 px-4 py-3 text-sm leading-6 text-red-200"
           >
             {errorMessage}
           </p>
@@ -379,7 +349,7 @@ export default function TransportEnquiryForm() {
         {successMessage && (
           <p
             role="status"
-            className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm leading-6 text-emerald-800"
+            className="rounded-xl border border-emerald-400/30 bg-emerald-500/10 px-4 py-3 text-sm leading-6 text-emerald-200"
           >
             {successMessage}
           </p>
@@ -395,9 +365,9 @@ export default function TransportEnquiryForm() {
             : "Submit Enquiry & Continue to WhatsApp →"}
         </button>
 
-        <p className="text-center text-xs leading-5 text-slate-500">
-          Submitting an enquiry does not guarantee a truck. Please confirm
-          availability, freight charges and pickup arrangements.
+        <p className="text-center text-xs leading-5 text-slate-400">
+          Submitting an enquiry does not guarantee a truck. Please
+          confirm availability, freight charges and pickup arrangements.
         </p>
       </form>
     </div>
