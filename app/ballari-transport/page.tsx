@@ -163,8 +163,8 @@ const towns = [
     currentPage: false,
   },
   {
-    name: "Hoovina Hadagalli",
-    slug: "hoovina-hadagalli-transport",
+    name: "Hoovina Hadagali",
+    slug: "hoovina-hadagali-transport",
     famousFor: "Agriculture, cotton-related activity and regional trade",
     goods:
       "Cotton, agricultural produce, farm supplies, market goods and commercial consignments.",
