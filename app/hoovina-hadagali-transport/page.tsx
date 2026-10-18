@@ -399,7 +399,9 @@ export default function HoovinaHadagaliTransportPage() {
             </div>
           </div>
 
-          <TransportEnquiryForm />
+          <div id="transport-enquiry" className="scroll-mt-8">
+  <TransportEnquiryForm />
+</div>
         </div>
       </section>
 
