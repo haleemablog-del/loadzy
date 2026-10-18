@@ -70,21 +70,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/jamkhandi-transport",
     "/bilgi-transport",
   ];
+  
   // Newly completed standalone transport pages
   const completedTransportPages = [
     "/gummidipoondi-transport",
     "/t-nagar-transport",
   ];
+
+  // Ballari district and its transport location pages
+  const ballariPages = [
+    "/ballari-transport",
+    "/siruguppa-transport",
+    "/kampli-transport",
+    "/sandur-transport",
+    "/kurugodu-transport",
+    "/tekkalakote-transport",
+    "/kudligi-transport",
+    "/kotturu-transport",
+    "/hoovina-hadagalli-transport",
+  ];
+
+  
+ 
+  
   const staticSitemap: MetadataRoute.Sitemap = [
     ...new Set([
-  ...staticPages,
-  ...bagalkotePages,
-  ...completedTransportPages,
-]),
+      ...staticPages,
+      ...bagalkotePages,
+      ...completedTransportPages,
+      ...ballariPages,
+    ]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
   }));
+
 
   const routeSitemap: MetadataRoute.Sitemap = Array.from(
     new Map(
