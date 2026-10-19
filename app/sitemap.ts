@@ -70,11 +70,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/jamkhandi-transport",
     "/bilgi-transport",
   ];
-  
-  // Newly completed standalone transport pages
+
+  // Completed standalone transport pages
   const completedTransportPages = [
     "/gummidipoondi-transport",
     "/t-nagar-transport",
+    "/irungattukottai-transport",
+    "/mount-road-transport",
+    "/maraimalai-nagar-transport",
   ];
 
   // Ballari district and its transport location pages
@@ -91,24 +94,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Belagavi district and its completed transport location pages
-const belagaviPages = [
-  "/belagavi-transport",
-  "/athani-transport",
-  "/bailhongal-transport",
-  "/chikkodi-transport",
-  "/gokak-transport",
-  "/hukkeri-transport",
-  "/khanapur-transport",
-  "/ramdurg-transport",
-  "/saundatti-transport",
-  "/kittur-transport",
-  "/nippani-transport",
-  "/raibag-transport",
-  "/kagwad-transport",
-  "/mudalagi-transport",
-  "/yaragatti-transport",
-];
-
+  const belagaviPages = [
+    "/belagavi-transport",
+    "/athani-transport",
+    "/bailhongal-transport",
+    "/chikkodi-transport",
+    "/gokak-transport",
+    "/hukkeri-transport",
+    "/khanapur-transport",
+    "/ramdurg-transport",
+    "/saundatti-transport",
+    "/kittur-transport",
+    "/nippani-transport",
+    "/raibag-transport",
+    "/kagwad-transport",
+    "/mudalagi-transport",
+    "/yaragatti-transport",
+  ];
 
   // Bidar district and its completed transport location pages
   const bidarPages = [
@@ -123,24 +125,19 @@ const belagaviPages = [
     "/hallikheda-transport",
   ];
 
-
-  
- 
-  
   const staticSitemap: MetadataRoute.Sitemap = [
     ...new Set([
-     ...staticPages,
-...bagalkotePages,
-...completedTransportPages,
-...ballariPages,
-...belagaviPages,
-...bidarPages,
+      ...staticPages,
+      ...bagalkotePages,
+      ...completedTransportPages,
+      ...ballariPages,
+      ...belagaviPages,
+      ...bidarPages,
     ]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
   }));
-
 
   const routeSitemap: MetadataRoute.Sitemap = Array.from(
     new Map(
