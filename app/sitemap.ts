@@ -109,6 +109,21 @@ const belagaviPages = [
   "/yaragatti-transport",
 ];
 
+
+  // Bidar district and its completed transport location pages
+  const bidarPages = [
+    "/bidar-transport",
+    "/aurad-transport",
+    "/basavakalyan-transport",
+    "/bhalki-transport",
+    "/humnabad-transport",
+    "/chitguppa-transport",
+    "/kamalnagar-transport",
+    "/hulsur-transport",
+    "/hallikheda-transport",
+  ];
+
+
   
  
   
@@ -119,6 +134,7 @@ const belagaviPages = [
 ...completedTransportPages,
 ...ballariPages,
 ...belagaviPages,
+...bidarPages,
     ]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,
