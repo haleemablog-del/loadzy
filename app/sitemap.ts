@@ -90,15 +90,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/hoovina-hadagalli-transport",
   ];
 
+  // Belagavi district and its completed transport location pages
+const belagaviPages = [
+  "/belagavi-transport",
+  "/athani-transport",
+  "/bailhongal-transport",
+  "/chikkodi-transport",
+  "/gokak-transport",
+  "/hukkeri-transport",
+  "/khanapur-transport",
+  "/ramdurg-transport",
+  "/saundatti-transport",
+  "/kittur-transport",
+  "/nippani-transport",
+  "/raibag-transport",
+  "/kagwad-transport",
+  "/mudalagi-transport",
+  "/yaragatti-transport",
+];
+
   
  
   
   const staticSitemap: MetadataRoute.Sitemap = [
     ...new Set([
-      ...staticPages,
-      ...bagalkotePages,
-      ...completedTransportPages,
-      ...ballariPages,
+     ...staticPages,
+...bagalkotePages,
+...completedTransportPages,
+...ballariPages,
+...belagaviPages,
     ]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,

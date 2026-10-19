@@ -50,6 +50,7 @@ const routes = [
 const districts = [
   { name: "Bagalkote", slug: "bagalkote-transport", available: true },
  { name: "Ballari", slug: "ballari-transport", available: true },
+ { name: "Belagavi", slug: "belagavi-transport", available: true },
   { name: "Bengaluru Urban", slug: "bengaluru-urban-transport", available: false },
   { name: "Bengaluru Rural", slug: "bengaluru-rural-transport", available: false },
   { name: "Bidar", slug: "bidar-transport", available: false },
