@@ -481,7 +481,7 @@ export default function BidarTransportPage() {
           {towns.map((town) => (
             <Link
               key={town.slug}
-              href="/contact"
+              href={`/${town.slug}-transport`}
               className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
             >
               <div className="flex items-start justify-between gap-3">
