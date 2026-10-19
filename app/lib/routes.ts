@@ -1929,3 +1929,14 @@ export const loadzyRoutes: LoadzyRoute[] = Array.from(
     ])
   ).values()
 );
+console.log("LOADZY UNIQUE ROUTE COUNT:", loadzyRoutes.length);
+
+console.log(
+  "DUPLICATE RAW ENTRIES REMOVED:",
+  rawLoadzyRoutes.length - loadzyRoutes.length
+);
+console.log("LOADZY UNIQUE ROUTE COUNT:", loadzyRoutes.length);
+console.log(
+  "DUPLICATE RAW ENTRIES REMOVED:",
+  rawLoadzyRoutes.length - loadzyRoutes.length
+);
