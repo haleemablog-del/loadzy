@@ -80,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/maraimalai-nagar-transport",
   ];
 
-  // Ballari district and its transport location pages
+  // Ballari district and transport location pages
   const ballariPages = [
     "/ballari-transport",
     "/siruguppa-transport",
@@ -93,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/hoovina-hadagalli-transport",
   ];
 
-  // Belagavi district and its completed transport location pages
+  // Belagavi district and completed transport location pages
   const belagaviPages = [
     "/belagavi-transport",
     "/athani-transport",
@@ -112,7 +112,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/yaragatti-transport",
   ];
 
-  // Bidar district and its completed transport location pages
+  // Bidar district and completed transport location pages
   const bidarPages = [
     "/bidar-transport",
     "/aurad-transport",
@@ -125,6 +125,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/hallikheda-transport",
   ];
 
+  // Ariyalur district and completed town pages
+  const ariyalurPages = [
+    "/ariyalur-transport",
+    "/jayankondam-transport",
+    "/sendurai-transport",
+    "/udayarpalayam-transport",
+    "/thirumanur-transport",
+  ];
+
   const staticSitemap: MetadataRoute.Sitemap = [
     ...new Set([
       ...staticPages,
@@ -133,12 +142,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ...ballariPages,
       ...belagaviPages,
       ...bidarPages,
+      ...ariyalurPages,
     ]),
   ].map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
   }));
 
+  // Individual transport route pages
   const routeSitemap: MetadataRoute.Sitemap = Array.from(
     new Map(
       loadzyRoutes.map((route) => {
@@ -155,6 +166,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ).values()
   );
 
+  // Tamil Nadu district pages
   const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
     loadzyLocations
       .filter(
@@ -167,6 +179,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
       }));
 
+  // Tamil Nadu city and town pages
   const tamilNaduLocationSitemap: MetadataRoute.Sitemap =
     loadzyLocations
       .filter(
@@ -185,7 +198,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
       }));
 
-  // Remove duplicate URLs while preserving all sitemap sections.
+  // Remove duplicate URLs while preserving every sitemap section
   return Array.from(
     new Map(
       [
