@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { loadzyLocations } from "../lib/locations";
+import { standaloneTransportSlugs } from "@/app/lib/standaloneTransportSlugs";
 
 export default function TamilNaduRoutesPage() {
   const districts = loadzyLocations.filter(
@@ -31,7 +32,13 @@ export default function TamilNaduRoutesPage() {
           {districts.map((district) => (
             <Link
               key={district.slug}
-              href={`/tamil-nadu/${district.slug}`}
+              
+href={
+  standaloneTransportSlugs.has(district.slug)
+    ? `/${district.slug}-transport`
+    : `/tamil-nadu/${district.slug}`
+}
+
               className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <h2 className="text-xl font-black text-[#062B55]">

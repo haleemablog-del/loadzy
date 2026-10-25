@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TransportEnquiryForm from "./TransportEnquiryForm";
+import { standaloneTransportSlugs } from "@/app/lib/standaloneTransportSlugs";
 
 const SITE_URL = "https://www.loadzyinfra.in";
 const PAGE_URL = `${SITE_URL}/coimbatore-transport`;
@@ -527,7 +528,9 @@ export default function CoimbatoreTransportPage() {
             {nearbyAreas.map((area) => (
               <Link
                 key={area}
-                href="/contact"
+                
+href={`/${area.toLowerCase().trim().replace(/\s+/g, "-")}-transport`}
+
                 className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-medium text-slate-700 group-hover:text-teal-800">

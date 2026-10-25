@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { loadzyLocations } from "@/app/lib/locations";
+import { standaloneTransportSlugs } from "@/app/lib/standaloneTransportSlugs";
 
 type PageProps = {
   params: Promise<{
@@ -345,7 +346,33 @@ export default async function LocationPage({ params }: PageProps) {
               {nearbyLocations.map((item) => (
                 <a
                   key={item.slug}
-                  href={`/tamil-nadu/${districtData.slug}/${item.slug}`}
+                  href={
+  [
+    "coimbatore",
+    "pollachi",
+    "chennai",
+    "erode",
+    "hosur",
+    "madurai",
+    "salem",
+    "tiruchirappalli",
+    "tirupattur",
+    "tiruppur",
+    "vellore",
+    "ranipet",
+    "jolarpettai",
+    "vaniyambadi",
+    "ambur",
+    "kanchipuram",
+    "chengalpattu",
+    "kanchipuram",
+    "kanchipuram",
+    "kanchipuram",
+    "kanchipuram",
+  ].includes(item.slug)
+    ? `/${item.slug}-transport`
+    : `/tamil-nadu/${districtData.slug}/${item.slug}`
+}
                   className="rounded-lg border border-slate-200 bg-white p-4 font-medium transition hover:border-teal-500 hover:text-teal-600"
                 >
                   {item.name} Transport
