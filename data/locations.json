@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Periyanaickenpalayam",
+    "slug": "periyanaickenpalayam-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "nearbyAreas": ["Coimbatore", "Thudiyalur", "Karamadai"],
+    "famousFor": ["Local manufacturing and commercial activity"],
+    "goods": ["Industrial goods", "Commercial goods", "Household goods"]
+  },
+  {
+    "name": "Vellalore",
+    "slug": "vellalore-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "nearbyAreas": ["Podanur", "Singanallur", "Coimbatore"],
+    "famousFor": ["Residential and commercial activity"],
+    "goods": ["Household goods", "Commercial goods", "Furniture"]
+  },
+  {
+    "name": "Kinathukadavu",
+    "slug": "kinathukadavu-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Pollachi", "Chennai", "Tiruppur", "Palakkad"],
+    "returnRoutes": ["Coimbatore", "Pollachi", "Chennai", "Tiruppur", "Palakkad"],
+    "nearbyAreas": ["Pollachi", "Othakkalmandapam", "Coimbatore"],
+    "famousFor": ["Agriculture and regional trade"],
+    "goods": ["Agricultural produce", "Commercial goods", "General cargo"]
+  },
+  {
+    "name": "Perur",
+    "slug": "perur-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "nearbyAreas": ["Coimbatore", "Vedapatti", "Thondamuthur"],
+    "famousFor": ["Temple area and local commerce"],
+    "goods": ["Household goods", "Furniture", "Commercial goods"]
+  },
+  {
+    "name": "Vedapatti",
+    "slug": "vedapatti-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "nearbyAreas": ["Perur", "Thondamuthur", "Coimbatore"],
+    "famousFor": ["Residential growth and local commerce"],
+    "goods": ["Household goods", "Furniture", "Building materials"]
+  },
+  {
+    "name": "Othakkalmandapam",
+    "slug": "othakkalmandapam-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Pollachi", "Chennai", "Tiruppur", "Palakkad"],
+    "returnRoutes": ["Coimbatore", "Pollachi", "Chennai", "Tiruppur", "Palakkad"],
+    "nearbyAreas": ["Kinathukadavu", "Ettimadai", "Coimbatore"],
+    "famousFor": ["Regional trade and transport connectivity"],
+    "goods": ["Commercial goods", "Agricultural produce", "General cargo"]
+  },
+  {
+    "name": "Anaimalai",
+    "slug": "anaimalai-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Pollachi", "Coimbatore", "Chennai", "Palakkad", "Tiruppur"],
+    "returnRoutes": ["Pollachi", "Coimbatore", "Chennai", "Palakkad", "Tiruppur"],
+    "nearbyAreas": ["Pollachi", "Valparai", "Kinathukadavu"],
+    "famousFor": ["Agriculture and coconut-growing areas"],
+    "goods": ["Coconut products", "Agricultural produce", "General cargo"]
+  },
+  {
+    "name": "Samathur",
+    "slug": "samathur-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Pollachi", "Coimbatore", "Chennai", "Tiruppur", "Palakkad"],
+    "returnRoutes": ["Pollachi", "Coimbatore", "Chennai", "Tiruppur", "Palakkad"],
+    "nearbyAreas": ["Pollachi", "Anaimalai", "Kinathukadavu"],
+    "famousFor": ["Agriculture and local trade"],
+    "goods": ["Agricultural produce", "Commercial goods", "General cargo"]
+  },
+  {
+    "name": "Suleeswaranpatti",
+    "slug": "suleeswaranpatti-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Pollachi", "Coimbatore", "Chennai", "Tiruppur", "Palakkad"],
+    "returnRoutes": ["Pollachi", "Coimbatore", "Chennai", "Tiruppur", "Palakkad"],
+    "nearbyAreas": ["Pollachi", "Samathur", "Anaimalai"],
+    "famousFor": ["Local commerce and surrounding agricultural activity"],
+    "goods": ["Agricultural produce", "Household goods", "Commercial goods"]
+  },
+  {
+    "name": "Thondamuthur",
+    "slug": "thondamuthur-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Erode"],
+    "nearbyAreas": ["Vedapatti", "Perur", "Coimbatore"],
+    "famousFor": ["Agriculture and local trade"],
+    "goods": ["Agricultural produce", "Household goods", "General cargo"]
+  },
+  {
+    "name": "Chettipalayam",
+    "slug": "chettipalayam-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Bangalore", "Tiruppur", "Pollachi"],
+    "nearbyAreas": ["Coimbatore", "Vellalore", "Othakkalmandapam"],
+    "famousFor": ["Local industry and commercial activity"],
+    "goods": ["Industrial goods", "Commercial goods", "Household goods"]
+  },
+  {
+    "name": "Ettimadai",
+    "slug": "ettimadai-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Palakkad", "Chennai", "Bangalore", "Tiruppur"],
+    "returnRoutes": ["Coimbatore", "Palakkad", "Chennai", "Bangalore", "Tiruppur"],
+    "nearbyAreas": ["Othakkalmandapam", "Coimbatore", "Palakkad"],
+    "famousFor": ["Education and regional transport connectivity"],
+    "goods": ["Household goods", "Commercial goods", "General cargo"]
+  },
+  {
+    "name": "Existing Town",
+    "slug": "existing-town-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai"],
+    "returnRoutes": ["Coimbatore", "Chennai"],
+    "nearbyAreas": ["Nearby Town"],
+    "famousFor": ["Local commercial activity"],
+    "goods": ["Commercial goods"]
+  },
+  {
+    "name": "New Town",
+    "slug": "new-town-transport",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "routes": ["Coimbatore", "Chennai", "Tiruppur"],
+    "returnRoutes": ["Coimbatore", "Chennai", "Tiruppur"],
+    "nearbyAreas": ["Nearby Area"],
+    "famousFor": ["Local commercial activity"],
+    "goods": ["Commercial goods", "Household goods"]
+  }
+]
