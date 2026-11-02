@@ -105,9 +105,11 @@ const destinations = [
   "Tirupati",
 ];
 
+
 const urbanSettlements = [
   {
     name: "Bengaluru",
+    slug: "bengaluru-transport",
     famousFor:
       "State capital, technology, manufacturing, trade and commercial activity",
     goods:
@@ -115,6 +117,7 @@ const urbanSettlements = [
   },
   {
     name: "Yelahanka",
+    slug: "yelahanka-transport",
     famousFor:
       "North Bengaluru's residential, institutional and commercial development",
     goods:
@@ -122,6 +125,7 @@ const urbanSettlements = [
   },
   {
     name: "Hunasamaranahalli",
+    slug: "hunasamaranahalli-transport",
     famousFor:
       "Urban growth and local commerce in northern Bengaluru",
     goods:
@@ -129,6 +133,7 @@ const urbanSettlements = [
   },
   {
     name: "Kadigenahalli",
+    slug: "kadigenahalli-transport",
     famousFor:
       "Local settlement and commercial activity in northern Bengaluru",
     goods:
@@ -136,6 +141,7 @@ const urbanSettlements = [
   },
   {
     name: "Madanayakanahalli",
+    slug: "madanayakanahalli-transport",
     famousFor:
       "Growing settlement and access to the northern industrial corridor",
     goods:
@@ -143,6 +149,7 @@ const urbanSettlements = [
   },
   {
     name: "Chikkabanavara",
+    slug: "chikkabanavara-transport",
     famousFor:
       "Residential and commercial activity in northwest Bengaluru",
     goods:
@@ -150,6 +157,7 @@ const urbanSettlements = [
   },
   {
     name: "Chikkabidarakallu",
+    slug: "chikkabidarakallu-transport",
     famousFor:
       "Urban development and industrial surroundings in northwest Bengaluru",
     goods:
@@ -157,6 +165,7 @@ const urbanSettlements = [
   },
   {
     name: "Anekal",
+    slug: "anekal-transport",
     famousFor:
       "Regional commerce and access to the southeast Bengaluru corridor",
     goods:
@@ -164,6 +173,7 @@ const urbanSettlements = [
   },
   {
     name: "Attibele",
+    slug: "attibele-transport",
     famousFor:
       "Commercial activity and access to the Karnataka–Tamil Nadu border corridor",
     goods:
@@ -171,6 +181,7 @@ const urbanSettlements = [
   },
   {
     name: "Bommasandra",
+    slug: "bommasandra-transport",
     famousFor:
       "Industrial estates, manufacturing and biotechnology-related business activity",
     goods:
@@ -178,6 +189,7 @@ const urbanSettlements = [
   },
   {
     name: "Dommasandra",
+    slug: "dommasandra-transport",
     famousFor:
       "Residential and commercial growth in southeast Bengaluru",
     goods:
@@ -185,6 +197,7 @@ const urbanSettlements = [
   },
   {
     name: "Hebbagodi",
+    slug: "hebbagodi-transport",
     famousFor:
       "Urban activity near the Electronic City and Bommasandra corridor",
     goods:
@@ -192,6 +205,7 @@ const urbanSettlements = [
   },
   {
     name: "Jigani",
+    slug: "jigani-transport",
     famousFor:
       "Industrial estates and manufacturing-related businesses",
     goods:
@@ -199,6 +213,7 @@ const urbanSettlements = [
   },
   {
     name: "Sarjapura",
+    slug: "sarjapura-transport",
     famousFor:
       "Residential development and commercial activity in southeast Bengaluru",
     goods:
@@ -206,6 +221,7 @@ const urbanSettlements = [
   },
   {
     name: "Kumbalgodu",
+    slug: "kumbalgodu-transport",
     famousFor:
       "Industrial estates and manufacturing activity in southwest Bengaluru",
     goods:
@@ -213,6 +229,7 @@ const urbanSettlements = [
   },
   {
     name: "Konappana Agrahara",
+    slug: "konappana-agrahara-transport",
     famousFor:
       "Urban and commercial activity along the Electronic City corridor",
     goods:
@@ -220,6 +237,7 @@ const urbanSettlements = [
   },
   {
     name: "Maragondahalli",
+    slug: "maragondahalli-transport",
     famousFor:
       "Local settlement and regional commercial activity",
     goods:
@@ -227,9 +245,13 @@ const urbanSettlements = [
   },
 ];
 
+
+
+
 const industrialHubs = [
   {
     name: "Peenya Industrial Area",
+    slug: "peenya-industrial-area-transport",
     famousFor:
       "Engineering, machinery, manufacturing and industrial production",
     goods:
@@ -237,6 +259,7 @@ const industrialHubs = [
   },
   {
     name: "Rajajinagar Industrial Estate",
+    slug: "rajajinagar-industrial-estate-transport",
     famousFor:
       "Established manufacturing and commercial activity in western Bengaluru",
     goods:
@@ -244,6 +267,7 @@ const industrialHubs = [
   },
   {
     name: "Bommasandra Industrial Area",
+    slug: "bommasandra-industrial-area-transport",
     famousFor:
       "Manufacturing and industrial activity in southern Bengaluru",
     goods:
@@ -251,6 +275,7 @@ const industrialHubs = [
   },
   {
     name: "Jigani Industrial Area",
+    slug: "jigani-transport",
     famousFor:
       "Manufacturing and industrial businesses",
     goods:
@@ -258,6 +283,7 @@ const industrialHubs = [
   },
   {
     name: "Electronic City",
+    slug: "electronic-city-industrial-area-transport",
     famousFor:
       "Technology campuses, business services and supporting commercial activity",
     goods:
@@ -265,6 +291,7 @@ const industrialHubs = [
   },
   {
     name: "Veerasandra Industrial Area",
+    slug: "veerasandra-industrial-area-transport",
     famousFor:
       "Industrial activity along the southern Bengaluru corridor",
     goods:
@@ -272,6 +299,7 @@ const industrialHubs = [
   },
   {
     name: "Attibele Industrial Area",
+    slug: "attibele-transport",
     famousFor:
       "Industrial activity near the southeast Bengaluru border corridor",
     goods:
@@ -279,6 +307,7 @@ const industrialHubs = [
   },
   {
     name: "Kumbalgodu Industrial Area",
+    slug: "kumbalgodu-industrial-area-transport",
     famousFor:
       "Industrial and manufacturing activity in southwest Bengaluru",
     goods:
@@ -286,6 +315,7 @@ const industrialHubs = [
   },
   {
     name: "Doddanekkundi Industrial Area",
+    slug: "doddanekkundi-industrial-area-transport",
     famousFor:
       "Industrial and business activity in eastern Bengaluru",
     goods:
@@ -293,6 +323,7 @@ const industrialHubs = [
   },
   {
     name: "Kadugodi–Sadarmangala Industrial Area",
+    slug: "kadugodi-industrial-area-transport",
     famousFor:
       "Industrial activity associated with the eastern Bengaluru corridor",
     goods:
@@ -300,6 +331,7 @@ const industrialHubs = [
   },
   {
     name: "Dyavasandra Industrial Area",
+    slug: "dyavasandra-industrial-area-transport",
     famousFor:
       "Listed industrial-area location in Bengaluru",
     goods:
@@ -307,6 +339,7 @@ const industrialHubs = [
   },
   {
     name: "Yarandahalli Industrial Layout",
+    slug: "yarandahalli-industrial-layout-transport",
     famousFor:
       "Industrial-layout location in the southern industrial corridor",
     goods:
@@ -314,6 +347,7 @@ const industrialHubs = [
   },
   {
     name: "Kachanayakanahalli Sub-layout",
+    slug: "kachanayakanahalli-sub-layout-transport",
     famousFor:
       "Industrial-layout location in the southern Bengaluru corridor",
     goods:
@@ -324,42 +358,49 @@ const industrialHubs = [
 const technologyHubs = [
   {
     name: "International Tech Park Bengaluru (ITPL)",
+    slug: "international-tech-park-bengaluru-transport",
     area: "Whitefield",
     goods:
       "Office furniture, IT equipment, fixtures and commercial supplies.",
   },
   {
     name: "Whitefield EPIP Zone",
+    slug: "whitefield-epip-zone-transport",
     area: "Whitefield",
     goods:
       "Business equipment, electronics-related supplies and commercial consignments.",
   },
   {
     name: "Manyata Tech Park",
+    slug: "manyata-tech-park-transport",
     area: "Nagawara",
     goods:
       "Office equipment, furniture, event materials and relocation goods.",
   },
   {
     name: "Bagmane Tech Park",
+    slug: "bagmane-tech-park-transport",
     area: "Doddanekkundi and Mahadevapura area",
     goods:
       "Office furniture, computer equipment and commercial supplies.",
   },
   {
     name: "Cessna Business Park",
+    slug: "cessna-business-park-transport",
     area: "Kadubeesanahalli area",
     goods:
       "Office equipment, furniture, fit-out materials and commercial supplies.",
   },
   {
     name: "Wipro technology campus",
+    slug: "wipro-technology-campus-transport",
     area: "Doddakannelli",
     goods:
       "Office equipment, furniture, IT-related supplies and commercial goods.",
   },
   {
     name: "Biocon campus and biotechnology cluster",
+    slug: "biocon-campus-transport",
     area: "Bommasandra area",
     goods:
       "Business supplies, equipment and suitable industrial consignments.",
@@ -369,6 +410,7 @@ const technologyHubs = [
 const wholesaleHubs = [
   {
     name: "Yeshwanthpur APMC Market",
+    slug: "yeshwanthpur-transport",
     goods:
       "Wholesale produce, agricultural consignments, packaged goods and market supplies.",
   },
@@ -840,40 +882,47 @@ export default function BengaluruUrbanTransportPage() {
           part of the upcoming regional work.
         </p>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {urbanSettlements.map((place) => (
-            <div
-              key={place.name}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-xl font-bold text-slate-900">
-                  {place.name} Transport
-                </h3>
+  
+<div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+  {urbanSettlements.map((place) => (
+    <div
+      key={place.name}
+      className="relative rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-[#08A99F] hover:shadow-lg"
+    >
+      <div className="flex items-start justify-between gap-3">
+        <h3 className="text-xl font-bold text-slate-900">
+          <Link
+            href={`/${place.slug}`}
+            className="after:absolute after:inset-0 hover:text-teal-700 transition-colors"
+          >
+            {place.name} Transport
+          </Link>
+        </h3>
 
-                <span className="text-xl text-[#08A99F]" aria-hidden="true">
-                  ↗
-                </span>
-              </div>
+        <span className="relative z-10 text-xl text-[#08A99F]" aria-hidden="true">
+          ↗
+        </span>
+      </div>
 
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                Famous for: {place.famousFor}
-              </p>
+      <p className="mt-3 text-sm font-semibold text-teal-700">
+        Famous for: {place.famousFor}
+      </p>
 
-              <p className="mt-3 leading-7 text-slate-600">
-                Potential transport goods: {place.goods}
-              </p>
+      <p className="mt-3 leading-7 text-slate-600">
+        Potential transport goods: {place.goods}
+      </p>
 
-              <Link
-                href="/contact"
-                className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-              >
-                Enquire about {place.name} transport →
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
+      <Link
+        href="/contact"
+        className="relative z-10 mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+      >
+        Enquire about {place.name} transport →
+      </Link>
+    </div>
+  ))}
+</div>
+</section>
+
 
       {/* INDUSTRIAL ESTATES */}
       <section className="bg-slate-50">
@@ -897,17 +946,21 @@ export default function BengaluruUrbanTransportPage() {
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {industrialHubs.map((hub) => (
               <div
-                key={hub.name}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-[#08A99F] hover:shadow-lg"
-              >
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-50 text-2xl">
+  key={hub.name}
+  className="relative rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-[#08A99F] hover:shadow-lg"
+>
+                  <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-50 text-2xl">
                   🏭
                 </span>
 
                 <h3 className="mt-4 text-xl font-bold text-slate-900">
-                  {hub.name}
-                </h3>
-
+  <Link
+    href={`/${hub.slug}`}
+    className="hover:text-teal-700 transition-colors"
+  >
+    {hub.name}
+  </Link>
+</h3>
                 <p className="mt-3 text-sm font-semibold text-teal-700">
                   Famous for: {hub.famousFor}
                 </p>
@@ -917,11 +970,11 @@ export default function BengaluruUrbanTransportPage() {
                 </p>
 
                 <Link
-                  href="/contact"
-                  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-                >
-                  Enquire about industrial transport →
-                </Link>
+  href={`/${hub.slug}`}
+  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+>
+  View {hub.name} transport →
+</Link>
               </div>
             ))}
           </div>
@@ -956,8 +1009,13 @@ export default function BengaluruUrbanTransportPage() {
               </span>
 
               <h3 className="mt-4 text-xl font-bold text-slate-900">
-                {hub.name}
-              </h3>
+  <Link
+    href={`/${hub.slug}`}
+    className="hover:text-teal-700 transition-colors"
+  >
+    {hub.name}
+  </Link>
+</h3>
 
               <p className="mt-2 text-sm font-semibold text-teal-700">
                 Area: {hub.area}
@@ -966,11 +1024,11 @@ export default function BengaluruUrbanTransportPage() {
               <p className="mt-3 leading-7 text-slate-600">{hub.goods}</p>
 
               <Link
-                href="/contact"
-                className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-              >
-                Enquire about business transport →
-              </Link>
+  href={`/${hub.slug}`}
+  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+>
+  View {hub.name} transport →
+</Link>
             </div>
           ))}
         </div>
@@ -1006,12 +1064,21 @@ export default function BengaluruUrbanTransportPage() {
 
                 <p className="mt-3 leading-7 text-slate-600">{hub.goods}</p>
 
-                <Link
-                  href="/contact"
-                  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-                >
-                  Enquire about transport →
-                </Link>
+                {hub.slug ? (
+  <Link
+    href={`/${hub.slug}`}
+    className="relative z-10 mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+  >
+    View {hub.name} transport →
+  </Link>
+) : (
+  <Link
+    href="/contact"
+    className="relative z-10 mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+  >
+    Enquire about {hub.name} transport →
+  </Link>
+)}
               </div>
             ))}
           </div>
@@ -1069,7 +1136,7 @@ export default function BengaluruUrbanTransportPage() {
             {destinations.map((city) => (
               <Link
                 key={city}
-                href="/contact"
+                href={`/${city.toLowerCase().replace(/\s+/g, "-")}-transport`}
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">

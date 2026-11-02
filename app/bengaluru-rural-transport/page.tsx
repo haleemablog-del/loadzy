@@ -8,40 +8,31 @@ const PAGE_URL = `${SITE_URL}/bengaluru-rural-transport`;
 export const metadata: Metadata = {
   title: "Bengaluru Rural Transport Service | Truck Booking | LOADZY",
   description:
-    "Find truck booking and goods transport services in Bengaluru Rural, Karnataka. Enquire about silk, agricultural produce, industrial goods, full load, part load and commercial transport with LOADZY.",
+    "Find goods transport and truck booking options in Bengaluru Rural, Bengaluru Rural, Karnataka. Explore full load, part load, commercial transport and household shifting with LOADZY.",
   keywords: [
     "Bengaluru Rural transport service",
-    "Bangalore Rural truck booking",
+    "Bengaluru Rural truck booking",
     "Bengaluru Rural goods transport",
     "Bengaluru Rural lorry booking",
-    "Devanahalli transport service",
-    "Doddaballapura goods transport",
-    "Doddaballapura silk transport",
-    "Hoskote truck booking",
-    "Nelamangala transport service",
-    "Vijayapura Karnataka transport",
-    "Bengaluru Rural industrial transport",
-    "Bengaluru Rural agricultural transport",
-    "Full load transport Bengaluru Rural",
-    "Part load transport Bengaluru Rural",
+    "Bengaluru Rural full load transport",
+    "Bengaluru Rural part load transport",
+    "Bengaluru Rural house shifting",
+    "Bengaluru Rural packers and movers",
+    "Bengaluru Rural to Chennai transport",
+    "Bengaluru Rural to Bangalore transport",
     "LOADZY transport",
   ],
-  alternates: {
-    canonical: PAGE_URL,
-  },
+  alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Bengaluru Rural Transport Service | LOADZY",
     description:
-      "Submit a truck booking enquiry for agricultural, silk, industrial, commercial and household goods transport across Bengaluru Rural, Karnataka.",
+      "Submit a truck booking or goods transport enquiry from Bengaluru Rural, Bengaluru Rural, Karnataka.",
     url: PAGE_URL,
     siteName: "LOADZY",
     locale: "en_IN",
     type: "website",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 const services = [
@@ -49,278 +40,127 @@ const services = [
     icon: "🚛",
     title: "Full Load Transport",
     description:
-      "Enquire about dedicated truck options for larger consignments, commercial dispatches and goods requiring a full vehicle.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
     icon: "📦",
     title: "Part Load Transport",
     description:
-      "Enquire about transport options for smaller consignments that may not require an entire truck.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
-    icon: "🌾",
-    title: "Agricultural Goods Transport",
+    icon: "🏠",
+    title: "House Shifting",
     description:
-      "Share your requirements for suitable farm produce, grains, horticultural goods and other agricultural consignments.",
-    href: "/contact",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
+    href: "/house-shifting",
   },
   {
-    icon: "🧵",
-    title: "Silk and Textile Transport",
+    icon: "🧰",
+    title: "Packers and Movers",
     description:
-      "Enquire about moving silk sarees, handloom products, fabric bundles and other suitably packed textile goods.",
-    href: "/contact",
+      "Explore vehicle arrangements for household and office relocation requirements.",
+    href: "/packers-movers",
   },
   {
     icon: "🏪",
     title: "Commercial Transport",
     description:
-      "Share your requirements for moving shop stock, business supplies, packaged merchandise and commercial consignments.",
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
     icon: "🏭",
     title: "Industrial Transport",
     description:
-      "Enquire about transporting manufacturing inputs, components, machinery, equipment and factory supplies.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
   },
 ];
 
 const destinations = [
   "Bengaluru",
-  "Hosur",
+  "Devanahalli",
+  "Doddaballapura",
+  "Hoskote",
+  "Nelamangala",
   "Chennai",
-  "Krishnagiri",
-  "Coimbatore",
   "Mysuru",
-  "Hubballi",
-  "Belagavi",
-  "Mangaluru",
+  "Tumakuru",
+  "Hosur",
+  "Krishnagiri",
+  "Vellore",
+  "Salem",
+  "Coimbatore",
   "Hyderabad",
-  "Vijayawada",
+  "Pune",
+  "Mumbai",
+  "Hubballi",
+  "Mangaluru",
   "Tirupati",
-];
-
-const towns = [
-  {
-    name: "Devanahalli",
-    slug: "devanahalli",
-    taluk: "Devanahalli Taluk",
-    famousFor:
-      "Devanahalli Fort, Kempegowda International Airport and Devanahalli pomelo",
-    goods:
-      "Pomelo and other produce, packaged goods, commercial supplies, airport-related business cargo and general consignments.",
-  },
-  {
-    name: "Doddaballapura",
-    slug: "doddaballapura",
-    taluk: "Doddaballapura Taluk",
-    famousFor:
-      "Silk sarees, silk weaving, textile trade and manufacturing",
-    goods:
-      "Silk sarees, textile bundles, handloom products, machinery, manufacturing materials and shop stock.",
-  },
-  {
-    name: "Hoskote",
-    slug: "hoskote",
-    taluk: "Hoskote Taluk",
-    famousFor:
-      "Regional trade, agriculture, local markets and surrounding factory activity",
-    goods:
-      "Agricultural produce, packaged products, industrial supplies, shop stock and commercial goods.",
-  },
-  {
-    name: "Nelamangala",
-    slug: "nelamangala",
-    taluk: "Nelamangala Taluk",
-    famousFor:
-      "Regional commerce, agriculture, handloom activity and small and large industries",
-    goods:
-      "Textiles, agricultural products, commercial stock, building supplies and industrial consignments.",
-  },
-  {
-    name: "Vijayapura",
-    slug: "vijayapura-karnataka",
-    taluk: "Devanahalli Taluk",
-    famousFor:
-      "Local markets, regional trade and surrounding agricultural activity",
-    goods:
-      "Agricultural produce, handloom goods, market supplies, packaged merchandise and general cargo.",
-  },
+  "Vijayawada",
+  "Madurai",
+  "Tiruppur",
+  "Erode",
+  "Kochi",
+  "Belagavi",
 ];
 
 const nearbyAreas = [
-  {
-    name: "Sulibele",
-    taluk: "Hoskote Taluk",
-    famousFor: "Local trade and agricultural activity",
-  },
-  {
-    name: "Nandagudi",
-    taluk: "Hoskote Taluk",
-    famousFor: "Regional village markets and farming activity",
-  },
-  {
-    name: "Doddabelavangala",
-    taluk: "Doddaballapura Taluk",
-    famousFor: "Rural commerce and agricultural activity",
-  },
-  {
-    name: "Thubagere",
-    taluk: "Doddaballapura Taluk",
-    famousFor: "Local markets and agricultural activity",
-  },
-  {
-    name: "Thyamagondlu",
-    taluk: "Nelamangala Taluk",
-    famousFor: "Local trade and surrounding agricultural activity",
-  },
-  {
-    name: "Sompura",
-    taluk: "Nelamangala Taluk",
-    famousFor: "Regional commerce and industrial surroundings",
-  },
-  {
-    name: "Channarayapatna",
-    taluk: "Devanahalli Taluk",
-    famousFor: "Local settlement and agricultural activity",
-  },
-  {
-    name: "Kundana",
-    taluk: "Devanahalli Taluk",
-    famousFor: "Local village markets and regional activity",
-  },
-];
-
-const industrialHubs = [
-  {
-    name: "Obadenahalli Industrial Area",
-    area: "Doddaballapura — Third Phase",
-    famousFor:
-      "An industrial area identified in Karnataka industrial development records",
-    goods:
-      "Manufactured products, machinery, industrial components, factory inputs and commercial consignments.",
-  },
-  {
-    name: "Aadinarayanahosahalli Industrial Area",
-    area: "Doddaballapura — Fourth Phase",
-    famousFor:
-      "An industrial area identified in Karnataka industrial development records",
-    goods:
-      "Industrial materials, manufacturing equipment, packaged products and factory supplies.",
-  },
-  {
-    name: "Hitech Defence and Aerospace Park — Aerospace Sector",
-    area: "Bengaluru Rural district industrial coverage",
-    famousFor:
-      "Aerospace-sector industrial development listed for Bengaluru Rural",
-    goods:
-      "Suitable industrial components, equipment, packaged materials and commercial freight, subject to site rules.",
-  },
-  {
-    name: "Doddaballapura Manufacturing Cluster",
-    area: "Doddaballapura",
-    famousFor:
-      "Silk weaving, textiles, manufacturing and small- and large-scale industries",
-    goods:
-      "Silk products, fabrics, manufacturing inputs, equipment and commercial stock.",
-  },
-  {
-    name: "Hoskote Factory and Commercial Belt",
-    area: "Hoskote",
-    famousFor:
-      "Factories, local trade and commercial activity around Hoskote",
-    goods:
-      "Industrial supplies, packaged products, machinery, agricultural goods and commercial stock.",
-  },
-  {
-    name: "Nelamangala Industrial and Logistics Corridor",
-    area: "Nelamangala",
-    famousFor:
-      "Industrial activity and access to regional road transport corridors",
-    goods:
-      "Factory materials, commercial goods, equipment and general freight.",
-  },
-];
-
-const businessHubs = [
-  {
-    name: "Kempegowda International Airport area",
-    area: "Devanahalli",
-    description:
-      "An important airport and business gateway. Deliveries must follow the destination facility's access, security and cargo-handling rules.",
-    goods:
-      "Suitable commercial supplies, packaged goods, office equipment and approved business consignments.",
-  },
-  {
-    name: "Doddaballapura silk and textile trade",
-    area: "Doddaballapura",
-    description:
-      "A significant local textile and silk-weaving activity identified by the district administration.",
-    goods:
-      "Silk sarees, handloom products, fabric bundles, textile inputs and packaged merchandise.",
-  },
-  {
-    name: "Devanahalli horticulture and produce trade",
-    area: "Devanahalli",
-    description:
-      "The district identifies Devanahalli pomelo as a distinctive local product and describes agriculture and horticulture as important activities.",
-    goods:
-      "Pomelo and other suitable produce, farm supplies and packaged agricultural goods.",
-  },
-  {
-    name: "Bengaluru Rural agricultural markets",
-    area: "Across the district's four taluks",
-    description:
-      "Agricultural activity includes ragi, fodder maize, red gram, cowpea, field bean and other crops.",
-    goods:
-      "Suitable grains, pulses, farm produce, agricultural inputs and packaged farm supplies.",
-  },
+  "Devanahalli",
+  "Doddaballapura",
+  "Hoskote",
+  "Nelamangala",
+  "Vijayapura",
+  "Sulibele",
+  "Nandagudi",
+  "Doddabelavangala",
+  "Tubagere",
+  "Thyamagondlu",
 ];
 
 const faqs = [
   {
     question: "How can I book a truck in Bengaluru Rural?",
     answer:
-      "Fill in the transport enquiry form with your name, mobile number, pickup and delivery locations, service type, truck type and preferred pickup date. Submit your enquiry and confirm vehicle availability and freight charges before finalising the booking.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Which towns are included on this Bengaluru Rural page?",
+    question: "Can I enquire about full load transport from Bengaluru Rural?",
     answer:
-      "This page covers the main urban local bodies of Devanahalli, Doddaballapura, Hoskote, Nelamangala and Vijayapura, along with selected nearby areas. Individual location pages can be added as they are completed and checked.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Can I enquire about silk and textile transport from Doddaballapura?",
+    question: "Does LOADZY support part load transport?",
     answer:
-      "You can submit an enquiry for suitably packed silk sarees, textiles, handloom products and related commercial goods. Share the shipment quantity, packaging, pickup address and destination so suitable transport arrangements can be considered.",
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I transport agricultural goods from Devanahalli or Hoskote?",
+    question: "Can I arrange house shifting from Bengaluru Rural?",
     answer:
-      "You can enquire about suitable agricultural produce and farm-related goods. Provide the type of produce, quantity, packaging, pickup date and destination so the transport requirements can be reviewed.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I enquire about industrial transport in Bengaluru Rural?",
+    question: "Can I book transport from Bengaluru Rural to Bangalore?",
     answer:
-      "You can submit enquiries for suitable factory supplies, manufacturing materials, equipment and commercial consignments. The correct vehicle and handling arrangements depend on the cargo, dimensions, route and site requirements.",
-  },
-  {
-    question: "Can I request transport from Bengaluru Rural to Chennai or Hosur?",
-    answer:
-      "You can submit an enquiry for Bengaluru Rural to Chennai, Hosur and other destinations. Share the exact pickup and delivery addresses, cargo details and preferred pickup date. Freight charges and vehicle availability must be confirmed.",
+      "You can submit a transport enquiry for Bengaluru Rural to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
     question: "How are freight charges calculated?",
     answer:
-      "Freight charges may depend on route distance, truck type, cargo weight and dimensions, loading requirements, pickup date and vehicle availability. Confirm the final quotation before booking.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "Does an enquiry guarantee a truck?",
+    question: "Can I request a return load?",
     answer:
-      "No. Submitting an enquiry does not automatically confirm a vehicle or freight price. Wait for confirmation of vehicle availability, charges and pickup arrangements.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
+  },
+  {
+    question: "Does submitting the enquiry guarantee a truck?",
+    answer:
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
@@ -329,13 +169,10 @@ const serviceSchema = {
   "@type": "Service",
   name: "Bengaluru Rural Goods Transport and Truck Booking",
   description:
-    "Transport enquiries for silk and textile goods, agricultural produce, industrial materials, commercial consignments, full load, part load and household shifting in Bengaluru Rural, Karnataka.",
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Bengaluru Rural, Bengaluru Rural, Karnataka.",
   serviceType: [
     "Full load transport",
     "Part load transport",
-    "Agricultural goods transport",
-    "Silk and textile transport",
-    "Industrial transport",
     "Commercial goods transport",
     "Household shifting transport",
   ],
@@ -346,8 +183,8 @@ const serviceSchema = {
     url: SITE_URL,
   },
   areaServed: {
-    "@type": "AdministrativeArea",
-    name: "Bengaluru Rural, Karnataka, India",
+    "@type": "Place",
+    name: "Bengaluru Rural, Bengaluru Rural, Karnataka, India",
   },
 };
 
@@ -364,17 +201,21 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Karnataka Truck Transport",
-      item: `${SITE_URL}/karnataka-truck-transport`,
-    },
-    {
-      "@type": "ListItem",
-      position: 3,
       name: "Bengaluru Rural Transport",
       item: PAGE_URL,
     },
   ],
 };
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `/${slug}-transport`;
+}
 
 export default function BengaluruRuralTransportPage() {
   return (
@@ -385,14 +226,12 @@ export default function BengaluruRuralTransportPage() {
           __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -411,29 +250,19 @@ export default function BengaluruRuralTransportPage() {
         }}
       />
 
-      {/* HERO */}
+      {/* HERO: heading left, enquiry form right */}
       <section className="relative overflow-hidden bg-[#10182D] text-white">
         <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
         <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
           <div>
-            <nav
-              aria-label="Breadcrumb"
-              className="mb-7 text-sm text-slate-300"
-            >
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
               <Link href="/" className="hover:text-teal-300">
                 Home
               </Link>
               <span className="mx-2">/</span>
-              <Link
-                href="/karnataka-truck-transport"
-                className="hover:text-teal-300"
-              >
-                Karnataka Transport
-              </Link>
-              <span className="mx-2">/</span>
-              <span>Bengaluru Rural</span>
+              <span>Bengaluru Rural Transport</span>
             </nav>
 
             <p className="inline-flex rounded-full border border-[#08A99F]/40 bg-[#08A99F]/10 px-4 py-2 text-sm font-bold tracking-wider text-teal-300">
@@ -448,46 +277,41 @@ export default function BengaluruRuralTransportPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-              Looking for goods transport in Bengaluru Rural, Karnataka?
-              Enquire about agricultural produce, silk and textile goods,
-              industrial materials, commercial freight, full load, part load
-              and household shifting for local and intercity routes.
+              Looking for goods transport in Bengaluru Rural, Bengaluru Rural, Karnataka? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/contact"
+               href="/contact"
                 className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
               </Link>
-
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Get Your Transport Price
+                Contact LOADZY
               </Link>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
-              {[
-                "Full Load",
-                "Part Load",
-                "Agricultural Goods",
-                "Silk and Textiles",
-                "Industrial Transport",
-              ].map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-white/10 px-4 py-2"
-                >
-                  {item}
-                </span>
-              ))}
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
           </div>
 
+          {/* The enquiry form stays inside the same two-column hero grid */}
           <TransportEnquiryForm />
         </div>
       </section>
@@ -497,15 +321,12 @@ export default function BengaluruRuralTransportPage() {
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
           Transport solutions
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           Goods Transport Services in Bengaluru Rural
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Bengaluru Rural includes agricultural production, silk and textile
-          activity, regional markets and industrial businesses. Choose the
-          service that matches your shipment and share the exact pickup,
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
           destination and load requirements.
         </p>
 
@@ -519,15 +340,12 @@ export default function BengaluruRuralTransportPage() {
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
                 {service.icon}
               </span>
-
               <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
                 {service.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">
                 {service.description}
               </p>
-
               <span className="mt-5 inline-flex font-bold text-teal-700">
                 Explore service →
               </span>
@@ -543,48 +361,31 @@ export default function BengaluruRuralTransportPage() {
             <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
               Local transport
             </p>
-
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Bengaluru Rural Industries, Agriculture and Transport
+              Transport and Truck Booking in Bengaluru Rural, Bengaluru Rural, Karnataka
             </h2>
-
             <p className="mt-5 leading-8 text-slate-600">
-              Bengaluru Rural district comprises Devanahalli, Doddaballapura,
-              Hoskote and Nelamangala taluks. Its economy includes agriculture,
-              horticulture, sericulture, silk weaving, regional trade and
-              industrial activity. Kempegowda International Airport is also
-              located in the Devanahalli area.
-            </p>
+              Bengaluru Rural is a location in Bengaluru Rural. Transport requirements can vary depending on the shipment, destination and vehicle type.
 
-            <p className="mt-4 leading-8 text-slate-600">
-              Doddaballapura is associated with silk and textile production.
-              Devanahalli is known for its pomelo, while agricultural activity
-              across the district includes ragi, fodder maize, red gram, cowpea
-              and field bean. Transport requirements depend on the exact goods,
-              quantity, packaging and destination.
-            </p>
+Goods that may require transport include Agricultural produce, Fruits and vegetables, Silk and textiles, Industrial machinery, Factory materials, Construction materials, Commercial goods, Warehouse shipments.
 
+When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.</p>
             <p className="mt-4 leading-8 text-slate-600">
-              The district also has industrial locations, including the
-              Doddaballapura industrial phases and the aerospace-sector
-              development listed in Karnataka industrial records. Customers
-              moving machinery, factory supplies or manufactured products
-              should share cargo dimensions and loading details before a
-              vehicle is selected.
-            </p>
-
-            <p className="mt-4 leading-8 text-slate-600">
-              When requesting a truck, provide the pickup and delivery
+              When requesting a truck, provide the exact pickup and delivery
               addresses, goods description, approximate weight and dimensions,
-              loading requirements and preferred pickup date. LOADZY accepts
-              transport enquiries; availability, charges and schedules must be
-              confirmed for each shipment.
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
             </p>
           </div>
 
           <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
-            <h3 className="text-2xl font-bold">Prepare Before Booking</h3>
-
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
             <ul className="mt-6 space-y-4">
               {[
                 "Pickup and delivery addresses",
@@ -600,68 +401,598 @@ export default function BengaluruRuralTransportPage() {
                 </li>
               ))}
             </ul>
-
             <Link
               href="/contact"
               className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* TOWNS IN BENGALURU RURAL */}
+      
+      {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Local coverage
+          Forward routes
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Transport in Bengaluru Rural Towns
+          Transport Routes from Bengaluru Rural
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          The district administration lists five urban local bodies:
-          Devanahalli, Doddaballapura, Hoskote, Nelamangala and Vijayapura.
-          These cards provide an initial location directory. Individual
-          transport pages will be connected as they are created and tested.
+          Explore transport enquiry routes from Bengaluru Rural. Vehicle availability,
+          freight charges and schedules must be confirmed.
         </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {towns.map((town) => (
-            <div
-              key={town.slug}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-xl font-bold text-slate-900">
-                  {town.name} Transport
-                </h3>
+        <Link
+          key={"Devanahalli"}
+          href="/devanahalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Devanahalli
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-                <span className="text-xl text-[#08A99F]" aria-hidden="true">
-                  ↗
-                </span>
-              </div>
+        <Link
+          key={"Doddaballapura"}
+          href="/doddaballapura-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Doddaballapura
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-2 text-sm font-semibold text-teal-700">
-                {town.taluk}
-              </p>
+        <Link
+          key={"Hoskote"}
+          href="/hoskote-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Hoskote
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                Famous for: {town.famousFor}
-              </p>
+        <Link
+          key={"Nelamangala"}
+          href="/nelamangala-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Nelamangala
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 leading-7 text-slate-600">{town.goods}</p>
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Chennai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <Link
-                href="/contact"
-                className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-              >
-                Enquire about {town.name} transport →
-              </Link>
-            </div>
-          ))}
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Tumakuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Hosur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Krishnagiri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Vellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Salem
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Coimbatore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Hyderabad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Pune
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Mumbai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Tirupati
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Vijayawada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Madurai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Tiruppur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Erode
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Kochi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru Rural to Belagavi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+        </div>
+      </section>
+
+      {/* RETURN ROUTES */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Return routes
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Transport Routes to Bengaluru Rural
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore return-direction transport enquiries to Bengaluru Rural.
+            Vehicle availability, freight charges and schedules must be confirmed.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Devanahalli"}
+          href="/devanahalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Devanahalli to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Doddaballapura"}
+          href="/doddaballapura-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddaballapura to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hoskote"}
+          href="/hoskote-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hoskote to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nelamangala"}
+          href="/nelamangala-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Nelamangala to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Chennai to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tumakuru to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hosur to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Krishnagiri to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vellore to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Salem to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Coimbatore to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hyderabad to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Pune to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mumbai to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tirupati to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vijayawada to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Madurai to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruppur to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Erode to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kochi to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Belagavi to Bengaluru Rural
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+          </div>
         </div>
       </section>
 
@@ -669,340 +1000,169 @@ export default function BengaluruRuralTransportPage() {
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Additional local coverage
+            Nearby areas
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Nearby Settlements and Local Markets
+            Nearby Locations Around Bengaluru Rural
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            The following settlements are listed as additional locations to
-            track within the district's taluks. They are separate from the five
-            urban local bodies above. We can add individual pages after
-            verifying the place details and checking for existing URLs.
+            Explore other Chennai-area localities when planning a transport
+            enquiry. Select a locality to open the corresponding transport page.
           </p>
 
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (
-              <div
-                key={area.name}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <h3 className="text-lg font-bold text-slate-900">
-                  {area.name}
-                </h3>
-
-                <p className="mt-2 text-sm font-semibold text-teal-700">
-                  {area.taluk}
-                </p>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {area.famousFor}
-                </p>
-
-                <Link
-                  href="/contact"
-                  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-                >
-                  Enquire about transport →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* INDUSTRIAL HUBS */}
-      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
-        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Industrial freight
-        </p>
-
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Industrial Areas and Manufacturing Hubs
-        </h2>
-
-        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Bengaluru Rural has named industrial locations as well as established
-          manufacturing and commercial clusters. The entries below distinguish
-          identified industrial phases from broader industry corridors. We
-          will verify individual estate boundaries and official names before
-          creating a standalone page for each location.
-        </p>
-
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {industrialHubs.map((hub) => (
-            <div
-              key={hub.name}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
-                🏭
-              </span>
-
-              <h3 className="mt-5 text-xl font-bold text-slate-900">
-                {hub.name}
-              </h3>
-
-              <p className="mt-2 text-sm font-semibold text-teal-700">
-                Location: {hub.area}
-              </p>
-
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                Famous for: {hub.famousFor}
-              </p>
-
-              <p className="mt-3 leading-7 text-slate-600">{hub.goods}</p>
-
               <Link
-                href="/contact"
-                className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                Enquire about industrial transport →
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
+                </span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
               </Link>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* BUSINESS AND LOGISTICS HUBS */}
-      <section className="bg-slate-50">
-        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
-          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Local goods and business
-          </p>
-
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Important Business and Transport Hubs
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            These entries focus on goods and business activity that may create
-            transport requirements across the district.
-          </p>
-
-          <div className="mt-10 grid gap-5 sm:grid-cols-2">
-            {businessHubs.map((hub) => (
-              <div
-                key={hub.name}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <h3 className="text-xl font-bold text-slate-900">
-                  {hub.name}
-                </h3>
-
-                <p className="mt-2 text-sm font-semibold text-teal-700">
-                  Area: {hub.area}
-                </p>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {hub.description}
-                </p>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  Potential transport goods: {hub.goods}
-                </p>
-
-                <Link
-                  href="/contact"
-                  className="mt-5 inline-flex font-bold text-teal-700 hover:text-teal-900"
-                >
-                  Enquire about transport →
-                </Link>
-              </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* MAJOR DESTINATIONS */}
-      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
-        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Intercity transport
-        </p>
-
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Major Destinations from Bengaluru Rural
-        </h2>
-
-        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Planning to move goods from Bengaluru Rural to another city? Select
-          a destination to submit a transport price enquiry. Route coverage,
-          vehicle availability and freight charges must be confirmed for each
-          shipment.
-        </p>
-
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-          {destinations.map((city) => (
-            <Link
-              key={city}
-              href="/contact"
-              className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
-            >
-              <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                Bengaluru Rural to {city}
-              </span>
-
-              <span className="ml-2 text-[#08A99F]" aria-hidden="true">
-                →
-              </span>
-            </Link>
-          ))}
         </div>
       </section>
 
       {/* WHY LOADZY */}
-      <section className="bg-slate-50">
-        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-              Why LOADZY
-            </p>
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Why LOADZY
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            A Simpler Way to Explore Transport Options
+          </h2>
+          <p className="mt-4 leading-7 text-slate-600">
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
+          </p>
+        </div>
 
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              A Simpler Way to Explore Transport Options
-            </h2>
-
-            <p className="mt-4 leading-7 text-slate-600">
-              Share your shipment details, explain your requirements and
-              confirm a suitable transport arrangement for your route.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              {
-                icon: "📍",
-                title: "Route Enquiries",
-                text: "Share exact pickup and delivery details for your shipment.",
-              },
-              {
-                icon: "🚚",
-                title: "Load Options",
-                text: "Enquire about full load, part load and suitable truck types.",
-              },
-              {
-                icon: "🏭",
-                title: "Business Freight",
-                text: "Discuss factory supplies, manufacturing goods and commercial stock.",
-              },
-              {
-                icon: "🌾",
-                title: "Local Goods",
-                text: "Enquire about suitable agricultural produce, silk products and other consignments.",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-2xl border border-slate-200 bg-white p-6"
-              >
-                <span className="text-3xl" aria-hidden="true">
-                  {item.icon}
-                </span>
-
-                <h3 className="mt-4 text-lg font-bold text-slate-900">
-                  {item.title}
-                </h3>
-
-                <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
-              </div>
-            ))}
-          </div>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: "📍",
+              title: "Route Enquiries",
+              text: "Share pickup and delivery details for your shipment.",
+            },
+            {
+              icon: "🚚",
+              title: "Different Load Needs",
+              text: "Explore full load, part load and suitable truck options.",
+            },
+            {
+              icon: "💬",
+              title: "Clear Requirements",
+              text: "Provide cargo details and pickup preferences.",
+            },
+            {
+              icon: "📦",
+              title: "Multiple Use Cases",
+              text: "Enquire about shifting, commercial goods and consignments.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="mt-4 text-lg font-bold text-slate-900">
+                {item.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
+            </div>
+          ))}
         </div>
       </section>
 
       {/* BOOKING STEPS */}
-      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
-        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          How it works
-        </p>
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            How to Request Transport from Bengaluru Rural
+          </h2>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          How to Request Transport from Bengaluru Rural
-        </h2>
-
-        <div className="mt-9 grid gap-5 md:grid-cols-4">
-          {[
-            {
-              number: "01",
-              title: "Enter Locations",
-              text: "Provide pickup and delivery addresses.",
-            },
-            {
-              number: "02",
-              title: "Share Load Details",
-              text: "Choose your service, truck type and pickup date.",
-            },
-            {
-              number: "03",
-              title: "Submit Enquiry",
-              text: "Send your booking details through the enquiry form.",
-            },
-            {
-              number: "04",
-              title: "Confirm Details",
-              text: "Confirm availability, freight charges and timing.",
-            },
-          ].map((step) => (
-            <div
-              key={step.number}
-              className="rounded-2xl border border-slate-200 bg-white p-6"
+          <div className="mt-9 grid gap-5 md:grid-cols-4">
+            {[
+              {
+                number: "01",
+                title: "Enter Locations",
+                text: "Provide pickup and delivery addresses.",
+              },
+              {
+                number: "02",
+                title: "Share Load Details",
+                text: "Choose your service, truck type and pickup date.",
+              },
+              {
+                number: "03",
+                title: "Submit Enquiry",
+                text: "Send your booking details through the form.",
+              },
+              {
+                number: "04",
+                title: "Confirm Details",
+                text: "Confirm availability, freight charges and timing.",
+              },
+            ].map((step) => (
+              <div
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6"
+              >
+                <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
+                  STEP {step.number}
+                </p>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">
+                  {step.title}
+                </h3>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-9 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
             >
-              <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
-                STEP {step.number}
-              </p>
-
-              <h3 className="mt-4 text-xl font-bold text-slate-900">
-                {step.title}
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-9 text-center">
-          <Link
-            href="/contact"
-            className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
-          >
-            Get Your Transport Price →
-          </Link>
+              Submit a Transport Enquiry →
+            </Link>
+          </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="bg-slate-50">
-        <div className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
-          <div className="text-center">
-            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-              FAQs
-            </p>
+      <section className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
+        <div className="text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            FAQs
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Bengaluru Rural Transport — Frequently Asked Questions
+          </h2>
+        </div>
 
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Bengaluru Rural Transport — Frequently Asked Questions
-            </h2>
-          </div>
-
-          <div className="mt-9 space-y-4">
-            {faqs.map((faq) => (
-              <details
-                key={faq.question}
-                className="group rounded-xl border border-slate-200 bg-white p-5"
-              >
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
-                  <span>{faq.question}</span>
-
-                  <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
-                    +
-                  </span>
-                </summary>
-
-                <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
-              </details>
-            ))}
-          </div>
+        <div className="mt-9 space-y-4">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-slate-200 bg-white p-5"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
+                <span>{faq.question}</span>
+                <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
+            </details>
+          ))}
         </div>
       </section>
 
@@ -1012,24 +1172,20 @@ export default function BengaluruRuralTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
             LOADZY Transport
           </p>
-
           <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
-            Looking for Goods Transport in Bengaluru Rural?
+            Looking for Goods Transport from Bengaluru Rural?
           </h2>
-
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
             Share your pickup location, destination and load requirements to
-            enquire about suitable transport options for your shipment.
+            explore a suitable transport option for your shipment.
           </p>
-
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Book a Truck →
             </Link>
-
             <Link
               href="/"
               className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
@@ -1037,7 +1193,6 @@ export default function BengaluruRuralTransportPage() {
               Back to LOADZY Home
             </Link>
           </div>
-
           <p className="mt-6 text-sm text-slate-400">
             LOADZY — MOVE. CONNECT. DELIVER.
           </p>

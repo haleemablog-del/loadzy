@@ -1,9 +1,25 @@
 import type { MetadataRoute } from "next";
 import { loadzyRoutes } from "./lib/routes";
 import { loadzyLocations } from "./lib/locations";
+import { readdirSync, existsSync } from "node:fs";
+import { join } from "node:path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.loadzyinfra.in";
+  // Discover existing root-level transport pages automatically.
+const discoveredTransportPages = readdirSync(
+  join(process.cwd(), "app"),
+  { withFileTypes: true }
+)
+  .filter(
+    (entry) =>
+      entry.isDirectory() &&
+      entry.name.endsWith("-transport") &&
+      existsSync(
+        join(process.cwd(), "app", entry.name, "page.tsx")
+      )
+  )
+  .map((entry) => `/${entry.name}`);
 
   const staticPages = [
     "",

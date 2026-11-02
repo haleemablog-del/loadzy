@@ -31,7 +31,7 @@ const truckTypes = [
 export default function TransportEnquiryForm() {
   const [customerName, setCustomerName] = useState("");
   const [phone, setPhone] = useState("");
-  const [pickup, setPickup] = useState("Bengaluru Rural, Karnataka");
+  const [pickup, setPickup] = useState("Bengaluru Rural, Bengaluru Rural, Karnataka");
   const [delivery, setDelivery] = useState("");
   const [service, setService] = useState("");
   const [truck, setTruck] = useState("");
@@ -63,8 +63,8 @@ export default function TransportEnquiryForm() {
     setSaving(true);
     setMessage("");
 
-    // Open a blank tab before the database request to reduce
-    // the chance of the browser blocking WhatsApp.
+    // Open a blank tab immediately so the browser is less likely
+    // to block WhatsApp after the database request completes.
     const whatsappWindow = window.open("about:blank", "_blank");
 
     try {
@@ -89,7 +89,9 @@ export default function TransportEnquiryForm() {
           whatsappWindow.close();
         }
 
-        setMessage("Unable to save your enquiry. Please try again.");
+        setMessage(
+          "Unable to save your enquiry. Please try again."
+        );
         return;
       }
 
@@ -113,27 +115,31 @@ Source: Bengaluru Rural Transport Page`;
         whatsappWindow.location.href = whatsappUrl;
       } else {
         setMessage(
-          "Your enquiry was saved, but WhatsApp could not open. Please allow pop-ups or contact LOADZY."
+          "Your enquiry was saved. Please allow pop-ups to open WhatsApp, or use the Contact page to reach LOADZY."
         );
       }
 
-      setMessage("✅ Enquiry saved successfully! WhatsApp is opening.");
+      setMessage(
+        "✅ Enquiry saved successfully! WhatsApp is opening."
+      );
 
       setCustomerName("");
       setPhone("");
-      setPickup("Bengaluru Rural, Karnataka");
+      setPickup("Bengaluru Rural, Bengaluru Rural, Karnataka");
       setDelivery("");
       setService("");
       setTruck("");
       setPickupDate("");
     } catch (error) {
-      console.error("Unexpected Bengaluru Rural enquiry error:", error);
+      console.error("Unexpected enquiry error:", error);
 
       if (whatsappWindow) {
         whatsappWindow.close();
       }
 
-      setMessage("Something went wrong. Please try again.");
+      setMessage(
+        "Something went wrong. Please try again."
+      );
     } finally {
       setSaving(false);
     }
@@ -145,18 +151,16 @@ Source: Bengaluru Rural Transport Page`;
   const labelClass = "text-sm font-semibold text-slate-200";
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 shadow-2xl backdrop-blur-sm md:p-8">
-      <div className="mb-6 flex items-center justify-between gap-3">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-4 shadow-xl backdrop-blur-sm">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <div>
-          <p className="text-sm font-medium text-teal-300">
-            TRANSPORT ENQUIRY
-          </p>
-
+          <p className="text-sm font-medium text-teal-400">
+  TRANSPORT ENQUIRY
+</p>
           <h2 className="mt-2 text-2xl font-bold text-white">
-            Move Goods from Bengaluru Rural
+            Move goods from Bengaluru Rural
           </h2>
         </div>
-
         <span className="text-4xl" aria-hidden="true">
           🚚
         </span>
@@ -167,7 +171,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-name">
             Customer Name *
           </label>
-
           <input
             id="bengaluru-rural-name"
             type="text"
@@ -184,7 +187,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-phone">
             Phone Number *
           </label>
-
           <input
             id="bengaluru-rural-phone"
             type="tel"
@@ -205,14 +207,13 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-pickup">
             Pickup Location *
           </label>
-
           <input
             id="bengaluru-rural-pickup"
             type="text"
             required
             value={pickup}
             onChange={(e) => setPickup(e.target.value)}
-            placeholder="Enter pickup location"
+            placeholder="Pickup location"
             className={inputClass}
           />
         </div>
@@ -221,7 +222,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-delivery">
             Delivery Location *
           </label>
-
           <input
             id="bengaluru-rural-delivery"
             type="text"
@@ -237,7 +237,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-service">
             Service Required *
           </label>
-
           <select
             id="bengaluru-rural-service"
             required
@@ -246,7 +245,6 @@ Source: Bengaluru Rural Transport Page`;
             className={inputClass}
           >
             <option value="">Select service</option>
-
             {services.map((item) => (
               <option key={item} value={item} className="bg-[#10182D]">
                 {item}
@@ -259,7 +257,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-truck">
             Truck Type *
           </label>
-
           <select
             id="bengaluru-rural-truck"
             required
@@ -268,7 +265,6 @@ Source: Bengaluru Rural Transport Page`;
             className={inputClass}
           >
             <option value="">Select truck type</option>
-
             {truckTypes.map((item) => (
               <option key={item} value={item} className="bg-[#10182D]">
                 {item}
@@ -281,7 +277,6 @@ Source: Bengaluru Rural Transport Page`;
           <label className={labelClass} htmlFor="bengaluru-rural-date">
             Pickup Date *
           </label>
-
           <input
             id="bengaluru-rural-date"
             type="date"
@@ -313,8 +308,8 @@ Source: Bengaluru Rural Transport Page`;
       </form>
 
       <p className="mt-4 text-center text-xs leading-5 text-slate-400">
-        Your enquiry is saved before WhatsApp opens. Truck availability and
-        freight charges must be confirmed.
+        Your enquiry is saved before WhatsApp opens. Truck availability
+        and freight charges must be confirmed.
       </p>
     </div>
   );

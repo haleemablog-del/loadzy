@@ -8,45 +8,31 @@ const PAGE_URL = `${SITE_URL}/doddabommasandra-transport`;
 export const metadata: Metadata = {
   title: "Doddabommasandra Transport Service | Truck Booking | LOADZY",
   description:
-    "Find goods transport and truck booking services in Doddabommasandra, Bengaluru. Enquire about full load, part load, household shifting, office relocation and commercial goods transport with LOADZY.",
+    "Find goods transport and truck booking options in Doddabommasandra, Bengaluru North, Karnataka. Explore full load, part load, commercial transport and household shifting with LOADZY.",
   keywords: [
     "Doddabommasandra transport service",
     "Doddabommasandra truck booking",
     "Doddabommasandra goods transport",
     "Doddabommasandra lorry booking",
-    "Doddabommasandra logistics",
     "Doddabommasandra full load transport",
     "Doddabommasandra part load transport",
-    "Doddabommasandra household shifting",
+    "Doddabommasandra house shifting",
     "Doddabommasandra packers and movers",
-    "Doddabommasandra commercial transport",
-    "Doddabommasandra office shifting",
-    "Doddabommasandra furniture transport",
-    "Doddabommasandra goods vehicle booking",
-    "Vidyaranyapura transport service",
-    "Jalahalli transport service",
-    "Yelahanka truck booking",
-    "North Bengaluru goods transport",
-    "Bengaluru truck booking",
-    "Karnataka goods transport",
+    "Doddabommasandra to Chennai transport",
+    "Doddabommasandra to Bangalore transport",
     "LOADZY transport",
   ],
-  alternates: {
-    canonical: PAGE_URL,
-  },
+  alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Doddabommasandra Transport Service | LOADZY",
     description:
-      "Submit a truck booking enquiry for goods transport from Doddabommasandra and nearby urban localities in Bengaluru.",
+      "Submit a truck booking or goods transport enquiry from Doddabommasandra, Bengaluru North, Karnataka.",
     url: PAGE_URL,
     siteName: "LOADZY",
     locale: "en_IN",
     type: "website",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 const services = [
@@ -54,203 +40,129 @@ const services = [
     icon: "🚛",
     title: "Full Load Transport",
     description:
-      "Enquire about dedicated truck options for larger consignments requiring a full vehicle.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
     icon: "📦",
     title: "Part Load Transport",
     description:
-      "Explore transport options for smaller consignments that may not need an entire truck.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
     icon: "🏠",
     title: "House Shifting",
     description:
-      "Plan the movement of furniture, appliances, cartons and household belongings.",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
     href: "/house-shifting",
   },
   {
     icon: "🧰",
     title: "Packers and Movers",
     description:
-      "Enquire about suitable vehicle arrangements for household moves and office relocation.",
+      "Explore vehicle arrangements for household and office relocation requirements.",
     href: "/packers-movers",
   },
   {
     icon: "🏪",
     title: "Commercial Transport",
     description:
-      "Share your requirements for moving shop stock, business goods and commercial consignments.",
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
     icon: "🏭",
     title: "Industrial Transport",
     description:
-      "Enquire about transporting machinery, industrial materials and business supplies.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
   },
 ];
 
 const destinations = [
+  "Bengaluru",
   "Chennai",
-  "Hosur",
-  "Coimbatore",
   "Mysuru",
-  "Hubballi",
-  "Mangaluru",
-  "Hyderabad",
-  "Pune",
-  "Mumbai",
-  "Kochi",
-  "Vijayawada",
+  "Hosur",
+  "Krishnagiri",
+  "Coimbatore",
+  "Salem",
   "Tiruppur",
+  "Erode",
+  "Madurai",
+  "Vellore",
+  "Tirupati",
+  "Hyderabad",
+  "Vijayawada",
+  "Visakhapatnam",
+  "Mumbai",
+  "Pune",
+  "Kochi",
+  "Mangaluru",
+  "Hubballi",
+  "Belagavi",
+  "Tumakuru",
+  "Davangere",
+  "Tiruchirappalli",
+  "Nellore",
 ];
 
-const localities = [
-  {
-    name: "Vidyaranyapura",
-    famousFor:
-      "Established residential locality in northwestern Bengaluru",
-    goods:
-      "Household belongings, furniture, appliances and general cargo.",
-    href: "/vidyaranyapura-transport",
-  },
-  {
-    name: "Sahakara Nagar",
-    famousFor:
-      "Established residential neighbourhood with local commercial activity",
-    goods:
-      "Household shifting goods, furniture, office equipment and shop stock.",
-    href: "/sahakara-nagar-transport",
-  },
-  {
-    name: "Amruthahalli",
-    famousFor:
-      "Urban neighbourhood in northern Bengaluru",
-    goods:
-      "Furniture, household belongings, appliances and business supplies.",
-    href: "/amruthahalli-transport",
-  },
-  {
-    name: "Kodigehalli",
-    famousFor:
-      "Urban locality in Bengaluru",
-    goods:
-      "Household goods, furniture, office equipment and commercial supplies.",
-    href: "/kodigehalli-transport",
-  },
-  {
-    name: "Byatarayanapura",
-    famousFor:
-      "Urban locality in Bengaluru",
-    goods:
-      "Household goods, furniture, packaged products and commercial consignments.",
-    href: "/byatarayanapura-transport",
-  },
-  {
-    name: "Yelahanka",
-    famousFor:
-      "Established urban locality with residential and commercial activity",
-    goods:
-      "Household goods, furniture, appliances and commercial stock.",
-    href: "/yelahanka-transport",
-  },
-  {
-    name: "Jakkur",
-    famousFor:
-      "Northern Bengaluru urban locality with residential and business activity",
-    goods:
-      "Furniture, household belongings, office supplies and general cargo.",
-    href: "/jakkur-transport",
-  },
-  {
-    name: "Hebbal",
-    famousFor:
-      "Major northern Bengaluru area with important road connections",
-    goods:
-      "Office equipment, furniture, business supplies and general cargo.",
-    href: "/hebbal-transport",
-  },
-  {
-    name: "Thanisandra",
-    famousFor:
-      "Residential and commercial growth in northern Bengaluru",
-    goods:
-      "Household goods, furniture, office equipment and business supplies.",
-    href: "/thanisandra-transport",
-  },
-  {
-    name: "Jalahalli",
-    famousFor:
-      "Established urban area in northwestern Bengaluru",
-    goods:
-      "Household belongings, furniture, equipment and commercial consignments.",
-    href: "/contact",
-  },
-  {
-    name: "RT Nagar",
-    famousFor:
-      "Established residential and commercial neighbourhood in Bengaluru",
-    goods:
-      "Household shifting goods, office furniture and commercial supplies.",
-    href: "/contact",
-  },
-  {
-    name: "Sahakara Nagar",
-    famousFor:
-      "Residential and local commercial neighbourhood",
-    goods:
-      "Furniture, appliances, household belongings and shop stock.",
-    href: "/sahakara-nagar-transport",
-  },
+const nearbyAreas = [
+  "Yelahanka",
+  "Yelahanka New Town",
+  "Yelahanka Satellite Town",
+  "Attur",
+  "Jakkur",
+  "Thanisandra",
+  "Byatarayanapura",
+  "Kodigehalli",
+  "Vidyaranyapura",
+  "Kuvempu Nagar",
+  "Hebbal",
+  "Amruthahalli",
 ];
 
 const faqs = [
   {
     question: "How can I book a truck in Doddabommasandra?",
     answer:
-      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service type, truck type and preferred pickup date. Submit your enquiry and confirm vehicle availability and freight charges before finalising the booking.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question:
-      "Can I enquire about full load transport from Doddabommasandra?",
+    question: "Can I enquire about full load transport from Doddabommasandra?",
     answer:
-      "Yes. You can submit an enquiry for full load transport. The suitable vehicle, availability and freight charges depend on your goods, route, load requirements and pickup date.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
     question: "Does LOADZY support part load transport?",
     answer:
-      "You can enquire about part load transport for smaller consignments. Availability depends on the route, shipment size, timing and suitable transport options.",
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question:
-      "Can I arrange household shifting from Doddabommasandra?",
+    question: "Can I arrange house shifting from Doddabommasandra?",
     answer:
-      "You can enquire about moving furniture, appliances, cartons and household belongings. Share your pickup and delivery addresses, preferred date and loading requirements.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I transport office and commercial goods?",
+    question: "Can I book transport from Doddabommasandra to Bangalore?",
     answer:
-      "You can enquire about transporting office equipment, shop stock, furniture, packaged products and suitable commercial goods. Provide accurate shipment details so the transport requirements can be reviewed.",
-  },
-  {
-    question:
-      "Can I book transport from Doddabommasandra to another city?",
-    answer:
-      "You can submit a transport enquiry for intercity and interstate routes. Vehicle availability, freight charges and pickup schedules must be confirmed for your specific shipment.",
+      "You can submit a transport enquiry for Doddabommasandra to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
     question: "How are freight charges calculated?",
     answer:
-      "Freight charges may depend on distance, truck type, load weight and dimensions, loading requirements, pickup date and vehicle availability. Confirm the final quotation before booking.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "Does submitting an enquiry guarantee a truck?",
+    question: "Can I request a return load?",
     answer:
-      "No. Submitting an enquiry does not automatically confirm a vehicle or price. Truck availability, freight charges and pickup arrangements must be confirmed separately.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
+  },
+  {
+    question: "Does submitting the enquiry guarantee a truck?",
+    answer:
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
@@ -259,12 +171,11 @@ const serviceSchema = {
   "@type": "Service",
   name: "Doddabommasandra Goods Transport and Truck Booking",
   description:
-    "Transport enquiries for full load, part load, commercial goods, office relocation and household shifting from Doddabommasandra, Bengaluru, Karnataka.",
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Doddabommasandra, Bengaluru North, Karnataka.",
   serviceType: [
     "Full load transport",
     "Part load transport",
     "Commercial goods transport",
-    "Office relocation transport",
     "Household shifting transport",
   ],
   url: PAGE_URL,
@@ -275,7 +186,7 @@ const serviceSchema = {
   },
   areaServed: {
     "@type": "Place",
-    name: "Doddabommasandra, Bengaluru, Karnataka, India",
+    name: "Doddabommasandra, Bengaluru North, Karnataka, India",
   },
 };
 
@@ -297,25 +208,32 @@ const breadcrumbSchema = {
     },
   ],
 };
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `/${slug}-transport`;
+}
 
 export default function DoddabommasandraTransportPage() {
   return (
     <main className="min-h-screen bg-white text-slate-800">
-      {/* STRUCTURED DATA */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -334,23 +252,18 @@ export default function DoddabommasandraTransportPage() {
         }}
       />
 
-      {/* HERO */}
+      {/* HERO: heading left, enquiry form right */}
       <section className="relative overflow-hidden bg-[#10182D] text-white">
         <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
         <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
           <div>
-            <nav
-              aria-label="Breadcrumb"
-              className="mb-7 text-sm text-slate-300"
-            >
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
               <Link href="/" className="hover:text-teal-300">
                 Home
               </Link>
-
               <span className="mx-2">/</span>
-
               <span>Doddabommasandra Transport</span>
             </nav>
 
@@ -366,46 +279,41 @@ export default function DoddabommasandraTransportPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-              Looking for goods transport in Doddabommasandra,
-              Bengaluru? Explore LOADZY for full load, part load,
-              commercial goods, office relocation and household
-              shifting enquiries for local and intercity routes.
+              Looking for goods transport in Doddabommasandra, Bengaluru North, Karnataka? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/contact"
+               href="/contact"
                 className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
               </Link>
-
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Get Your Transport Price
+                Contact LOADZY
               </Link>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
-              {[
-                "Full Load",
-                "Part Load",
-                "House Shifting",
-                "Commercial Transport",
-                "Office Relocation",
-              ].map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-white/10 px-4 py-2"
-                >
-                  {item}
-                </span>
-              ))}
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
           </div>
 
+          {/* The enquiry form stays inside the same two-column hero grid */}
           <TransportEnquiryForm />
         </div>
       </section>
@@ -415,16 +323,13 @@ export default function DoddabommasandraTransportPage() {
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
           Transport solutions
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           Goods Transport Services in Doddabommasandra
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore transport options for household belongings,
-          furniture, office equipment, commercial stock and
-          general cargo. Choose a service that matches your
-          pickup, destination and shipment requirements.
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
         </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -437,15 +342,12 @@ export default function DoddabommasandraTransportPage() {
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
                 {service.icon}
               </span>
-
               <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
                 {service.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">
                 {service.description}
               </p>
-
               <span className="mt-5 inline-flex font-bold text-teal-700">
                 Explore service →
               </span>
@@ -461,40 +363,26 @@ export default function DoddabommasandraTransportPage() {
             <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
               Local transport
             </p>
-
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Transport and Truck Booking in Doddabommasandra, Bengaluru
+              Transport and Truck Booking in Doddabommasandra, Bengaluru North, Karnataka
             </h2>
-
             <p className="mt-5 leading-8 text-slate-600">
-              Doddabommasandra is an urban neighbourhood in
-              northwestern Bengaluru. Transport requirements may
-              include household shifting, furniture delivery,
-              appliance movement, office relocation and deliveries
-              of commercial goods.
-            </p>
+              Doddabommasandra is a location in Bengaluru North. Transport requirements can vary depending on the shipment, destination and vehicle type.
 
-            <p className="mt-4 leading-8 text-slate-600">
-              Depending on each shipment, customers may need
-              vehicles for household belongings, furniture,
-              packaged products, office equipment, retail stock
-              and business supplies.
-            </p>
+Local specialities and activities include Bengaluru North neighbourhood and local commercial activity, Residential, retail and service businesses.
 
-            <p className="mt-4 leading-8 text-slate-600">
-              When requesting a truck, provide the exact pickup
-              and delivery addresses, a goods description,
-              approximate weight and dimensions, loading
-              requirements and preferred pickup date. These
-              details help determine a suitable vehicle and
-              quotation.
-            </p>
+Goods that may require transport include Household shifting goods, Furniture and appliances, Packaged commercial goods, Retail supplies, General transport cargo.
 
+When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.</p>
             <p className="mt-4 leading-8 text-slate-600">
-              LOADZY accepts transport enquiries for local and
-              intercity movement. Vehicle availability, freight
-              charges and schedules depend on each booking and
-              must be confirmed before transport.
+              When requesting a truck, provide the exact pickup and delivery
+              addresses, goods description, approximate weight and dimensions,
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
             </p>
           </div>
 
@@ -502,7 +390,6 @@ export default function DoddabommasandraTransportPage() {
             <h3 className="text-2xl font-bold">
               Prepare Before Booking
             </h3>
-
             <ul className="mt-6 space-y-4">
               {[
                 "Pickup and delivery addresses",
@@ -512,142 +399,631 @@ export default function DoddabommasandraTransportPage() {
                 "Loading and unloading requirements",
                 "Contact details for confirmation",
               ].map((item) => (
-                <li
-                  key={item}
-                  className="flex gap-3 leading-6 text-slate-200"
-                >
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
                   <span className="font-bold text-[#08A99F]">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-
             <Link
               href="/contact"
               className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* NEARBY URBAN LOCALITIES */}
+      
+      {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Local coverage
+          Forward routes
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Transport in Doddabommasandra and Nearby Urban Localities
+          Transport Routes from Doddabommasandra
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore transport enquiries for Doddabommasandra and
-          nearby Bengaluru urban neighbourhoods. Existing
-          individual locality pages are linked directly. Other
-          locations open the contact page until their pages are
-          created.
+          Explore transport enquiry routes from Doddabommasandra. Vehicle availability,
+          freight charges and schedules must be confirmed.
         </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {localities.map((locality) => (
-            <Link
-              key={locality.name}
-              href={locality.href}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-xl font-bold text-slate-900 group-hover:text-teal-700">
-                  {locality.name} Transport
-                </h3>
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Chennai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-                <span className="text-xl text-[#08A99F]">↗</span>
-              </div>
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                {locality.famousFor}
-              </p>
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Hosur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 leading-7 text-slate-600">
-                <span className="font-semibold text-slate-800">
-                  Potential transport goods:
-                </span>{" "}
-                {locality.goods}
-              </p>
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Krishnagiri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <span className="mt-5 inline-flex font-bold text-teal-700">
-                Explore {locality.name} →
-              </span>
-            </Link>
-          ))}
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Coimbatore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Salem
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Tiruppur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Erode
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Madurai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Vellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Tirupati
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Hyderabad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Vijayawada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Visakhapatnam
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Mumbai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Pune
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Kochi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Belagavi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Tumakuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Davangere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Tiruchirappalli
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Doddabommasandra to Nellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
         </div>
       </section>
 
-      {/* INTERCITY DESTINATIONS */}
+      {/* RETURN ROUTES */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Intercity transport
+            Return routes
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Major Destinations from Doddabommasandra
+            Transport Routes to Doddabommasandra
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Planning to move goods from Doddabommasandra to
-            another city? Select a destination to submit a
-            transport enquiry. Route coverage, vehicle availability
-            and freight charges must be confirmed for each shipment.
+            Explore return-direction transport enquiries to Doddabommasandra.
+            Vehicle availability, freight charges and schedules must be confirmed.
           </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-            {destinations.map((city) => (
-              <Link
-                key={city}
-                href="/contact"
-                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
-              >
-                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                  Doddabommasandra to {city}
-                </span>
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Chennai to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-                <span className="ml-2 text-[#08A99F]">→</span>
-              </Link>
-            ))}
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hosur to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Krishnagiri to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Coimbatore to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Salem to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruppur to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Erode to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Madurai to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vellore to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tirupati to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hyderabad to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vijayawada to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Visakhapatnam to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mumbai to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Pune to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kochi to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Belagavi to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tumakuru to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Davangere to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruchirappalli to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Nellore to Doddabommasandra
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
           </div>
         </div>
       </section>
 
       {/* NEARBY AREAS */}
-      <section className="bg-white">
+      <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             Nearby areas
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Doddabommasandra
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Browse transport enquiries for nearby urban areas.
-            Select a location to visit its existing transport page
-            or submit a transport enquiry through LOADZY.
+           Explore nearby localities when planning a transport enquiry.
+            Select a locality to open its corresponding transport page.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            {localities.map((locality) => (
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
               <Link
-                key={locality.name}
-                href={locality.href}
-                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-medium text-slate-700 group-hover:text-teal-800">
-                  {locality.name}
+                  {area}
                 </span>
-
                 <span className="shrink-0 text-[#08A99F]">→</span>
               </Link>
             ))}
@@ -661,15 +1037,12 @@ export default function DoddabommasandraTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             Why LOADZY
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             A Simpler Way to Explore Transport Options
           </h2>
-
           <p className="mt-4 leading-7 text-slate-600">
-            Share your shipment details, enquire about suitable
-            transport options and confirm the arrangements for
-            your route before booking.
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
           </p>
         </div>
 
@@ -683,17 +1056,17 @@ export default function DoddabommasandraTransportPage() {
             {
               icon: "🚚",
               title: "Different Load Needs",
-              text: "Enquire about full load, part load and suitable truck options.",
+              text: "Explore full load, part load and suitable truck options.",
             },
             {
               icon: "💬",
               title: "Clear Requirements",
-              text: "Provide cargo details and your preferred pickup date.",
+              text: "Provide cargo details and pickup preferences.",
             },
             {
               icon: "📦",
               title: "Multiple Use Cases",
-              text: "Enquire about household goods, office equipment and commercial cargo.",
+              text: "Enquire about shifting, commercial goods and consignments.",
             },
           ].map((item) => (
             <div
@@ -701,14 +1074,10 @@ export default function DoddabommasandraTransportPage() {
               className="rounded-2xl border border-slate-200 bg-white p-6"
             >
               <span className="text-3xl">{item.icon}</span>
-
               <h3 className="mt-4 text-lg font-bold text-slate-900">
                 {item.title}
               </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                {item.text}
-              </p>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
             </div>
           ))}
         </div>
@@ -720,7 +1089,6 @@ export default function DoddabommasandraTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             How it works
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             How to Request Transport from Doddabommasandra
           </h2>
@@ -740,12 +1108,12 @@ export default function DoddabommasandraTransportPage() {
               {
                 number: "03",
                 title: "Submit Enquiry",
-                text: "Send your booking details through the enquiry form.",
+                text: "Send your booking details through the form.",
               },
               {
                 number: "04",
                 title: "Confirm Details",
-                text: "Confirm availability, freight charges and pickup timing.",
+                text: "Confirm availability, freight charges and timing.",
               },
             ].map((step) => (
               <div
@@ -755,24 +1123,19 @@ export default function DoddabommasandraTransportPage() {
                 <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
                   STEP {step.number}
                 </p>
-
                 <h3 className="mt-4 text-xl font-bold text-slate-900">
                   {step.title}
                 </h3>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {step.text}
-                </p>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
           </div>
-
           <div className="mt-9 text-center">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
             >
-              Get Your Transport Price →
+              Submit a Transport Enquiry →
             </Link>
           </div>
         </div>
@@ -784,7 +1147,6 @@ export default function DoddabommasandraTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             FAQs
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Doddabommasandra Transport — Frequently Asked Questions
           </h2>
@@ -798,15 +1160,11 @@ export default function DoddabommasandraTransportPage() {
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
                 <span>{faq.question}</span>
-
                 <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
                   +
                 </span>
               </summary>
-
-              <p className="mt-4 leading-7 text-slate-600">
-                {faq.answer}
-              </p>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
             </details>
           ))}
         </div>
@@ -818,25 +1176,20 @@ export default function DoddabommasandraTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
             LOADZY Transport
           </p>
-
           <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
             Looking for Goods Transport from Doddabommasandra?
           </h2>
-
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
-            Share your pickup location, destination and load
-            requirements to enquire about suitable transport
-            options for your shipment.
+            Share your pickup location, destination and load requirements to
+            explore a suitable transport option for your shipment.
           </p>
-
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Book a Truck →
             </Link>
-
             <Link
               href="/"
               className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
@@ -844,7 +1197,6 @@ export default function DoddabommasandraTransportPage() {
               Back to LOADZY Home
             </Link>
           </div>
-
           <p className="mt-6 text-sm text-slate-400">
             LOADZY — MOVE. CONNECT. DELIVER.
           </p>

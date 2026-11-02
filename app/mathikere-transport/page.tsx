@@ -8,29 +8,25 @@ const PAGE_URL = `${SITE_URL}/mathikere-transport`;
 export const metadata: Metadata = {
   title: "Mathikere Transport Service | Truck Booking | LOADZY",
   description:
-    "Looking for goods transport in Mathikere, Bengaluru? Enquire about truck booking, full load, part load, household shifting, packers and movers, office equipment and commercial transport with LOADZY.",
+    "Find goods transport and truck booking options in Mathikere, Bengaluru North, Karnataka. Explore full load, part load, commercial transport and household shifting with LOADZY.",
   keywords: [
     "Mathikere transport service",
     "Mathikere truck booking",
     "Mathikere goods transport",
     "Mathikere lorry booking",
-    "Mathikere logistics",
     "Mathikere full load transport",
     "Mathikere part load transport",
     "Mathikere house shifting",
     "Mathikere packers and movers",
-    "Mathikere commercial transport",
-    "Mathikere office shifting",
-    "Yeshwanthpur goods transport",
-    "North Bengaluru truck booking",
-    "Bengaluru goods transport",
+    "Mathikere to Chennai transport",
+    "Mathikere to Bangalore transport",
     "LOADZY transport",
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Mathikere Transport Service | LOADZY",
     description:
-      "Submit a truck booking enquiry for Mathikere and nearby Bengaluru areas.",
+      "Submit a truck booking or goods transport enquiry from Mathikere, Bengaluru North, Karnataka.",
     url: PAGE_URL,
     siteName: "LOADZY",
     locale: "en_IN",
@@ -44,150 +40,114 @@ const services = [
     icon: "🚛",
     title: "Full Load Transport",
     description:
-      "Enquire about dedicated truck options for larger consignments and goods requiring a full vehicle.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
     icon: "📦",
     title: "Part Load Transport",
     description:
-      "Explore transport options for smaller consignments that may not require an entire truck.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
     icon: "🏠",
     title: "House Shifting",
     description:
-      "Plan the movement of furniture, appliances, cartons and household belongings.",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
     href: "/house-shifting",
   },
   {
     icon: "🧰",
     title: "Packers and Movers",
     description:
-      "Enquire about suitable vehicle arrangements for household and office relocation.",
+      "Explore vehicle arrangements for household and office relocation requirements.",
     href: "/packers-movers",
   },
   {
     icon: "🏪",
     title: "Commercial Transport",
     description:
-      "Share your requirements for moving shop stock, business goods and commercial consignments.",
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
     icon: "🏭",
     title: "Industrial Transport",
     description:
-      "Enquire about transporting suitable industrial materials, machinery and business supplies.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
   },
 ];
 
 const destinations = [
-  "Bengaluru City",
-  "Yeshwanthpur",
-  "Hebbal",
-  "RT Nagar",
-  "Nagawara",
-  "Yelahanka",
-  "Tumakuru",
-  "Hosur",
-  "Mysuru",
+  "Bengaluru",
   "Chennai",
+  "Mysuru",
+  "Hosur",
+  "Krishnagiri",
   "Coimbatore",
+  "Salem",
+  "Tiruppur",
+  "Erode",
+  "Madurai",
+  "Vellore",
+  "Tirupati",
   "Hyderabad",
+  "Vijayawada",
+  "Visakhapatnam",
+  "Mumbai",
+  "Pune",
+  "Kochi",
+  "Mangaluru",
+  "Hubballi",
+  "Belagavi",
+  "Tumakuru",
+  "Davangere",
+  "Tiruchirappalli",
+  "Nellore",
 ];
 
 const nearbyAreas = [
-  {
-    name: "Hebbal",
-    href: "/hebbal-transport",
-    famousFor: "Road connectivity and commercial activity",
-    goods:
-      "Office equipment, shop stock, household belongings and general cargo.",
-  },
-  {
-    name: "RT Nagar",
-    href: "/rt-nagar-transport",
-    famousFor: "Residential neighbourhoods and local businesses",
-    goods:
-      "Furniture, appliances, household goods and commercial consignments.",
-  },
-  {
-    name: "Nagawara",
-    href: "/nagawara-transport",
-    famousFor: "Residential and business activity in North Bengaluru",
-    goods:
-      "Office items, retail stock, household belongings and general cargo.",
-  },
-  {
-    name: "Yelahanka",
-    href: "/yelahanka-transport",
-    famousFor: "Residential neighbourhoods and regional commerce",
-    goods:
-      "Household shifting goods, furniture, appliances and retail supplies.",
-  },
-  {
-    name: "Vidyaranyapura",
-    href: "/vidyaranyapura-transport",
-    famousFor: "Residential neighbourhoods and local commerce",
-    goods:
-      "Furniture, appliances, packaged goods and commercial stock.",
-  },
-  {
-    name: "Kodigehalli",
-    href: "/kodigehalli-transport",
-    famousFor: "Residential areas and neighbourhood businesses",
-    goods:
-      "Household belongings, shop stock and general transport consignments.",
-  },
-  {
-    name: "Doddabommasandra",
-    href: "/doddabommasandra-transport",
-    famousFor: "Residential communities and local businesses",
-    goods:
-      "Furniture, home appliances, household goods and commercial supplies.",
-  },
-  {
-    name: "Manyata Tech Park",
-    href: "/manyata-tech-park-transport",
-    famousFor: "Technology campus and business activity",
-    goods:
-      "Office furniture, workplace equipment, packaged supplies and commercial goods.",
-  },
+  "Yelahanka",
+  "Yelahanka New Town",
+  "Yelahanka Satellite Town",
+  "Attur",
+  "Jakkur",
+  "Thanisandra",
+  "Byatarayanapura",
+  "Kodigehalli",
+  "Vidyaranyapura",
+  "Doddabommasandra",
+  "Kuvempu Nagar",
+  "Hebbal",
 ];
 
 const faqs = [
   {
     question: "How can I book a truck in Mathikere?",
     answer:
-      "Visit the LOADZY Contact page and submit your transport requirements. Provide your contact details, pickup and delivery locations, service type, truck type and preferred pickup date. Confirm vehicle availability and freight charges before finalising your booking.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Can I request full load transport from Mathikere?",
+    question: "Can I enquire about full load transport from Mathikere?",
     answer:
-      "You can enquire about full load transport for larger consignments. The suitable vehicle, availability and freight charges depend on your goods, route, load requirements and pickup date.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Does LOADZY accept part load enquiries?",
+    question: "Does LOADZY support part load transport?",
     answer:
       "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I arrange household shifting from Mathikere?",
+    question: "Can I arrange house shifting from Mathikere?",
     answer:
-      "You can submit an enquiry for household shifting and packers and movers services. Share the pickup and destination addresses, preferred moving date and approximate quantity of belongings.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I transport office equipment and commercial goods?",
+    question: "Can I book transport from Mathikere to Bangalore?",
     answer:
-      "You can enquire about suitable transport for office furniture, equipment, shop stock and other commercial consignments. Share the goods description, destination and any handling requirements.",
-  },
-  {
-    question: "Can I request transport from Mathikere to another city?",
-    answer:
-      "You can submit an enquiry for local and intercity transport. Share your destination, cargo details and preferred pickup date so the transport requirements can be reviewed.",
+      "You can submit a transport enquiry for Mathikere to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
     question: "How are freight charges calculated?",
@@ -195,9 +155,14 @@ const faqs = [
       "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "Does submitting an enquiry guarantee a truck?",
+    question: "Can I request a return load?",
     answer:
-      "No. Submitting an enquiry does not automatically confirm a vehicle or price. Truck availability, freight charges and pickup arrangements must be confirmed separately.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
+  },
+  {
+    question: "Does submitting the enquiry guarantee a truck?",
+    answer:
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
@@ -206,14 +171,12 @@ const serviceSchema = {
   "@type": "Service",
   name: "Mathikere Goods Transport and Truck Booking",
   description:
-    "Transport enquiries for full load, part load, commercial goods, household shifting and packers and movers in Mathikere, Bengaluru, Karnataka.",
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Mathikere, Bengaluru North, Karnataka.",
   serviceType: [
     "Full load transport",
     "Part load transport",
     "Commercial goods transport",
-    "Industrial transport",
-    "Household shifting",
-    "Packers and movers",
+    "Household shifting transport",
   ],
   url: PAGE_URL,
   provider: {
@@ -223,7 +186,7 @@ const serviceSchema = {
   },
   areaServed: {
     "@type": "Place",
-    name: "Mathikere, Bengaluru, Karnataka, India",
+    name: "Mathikere, Bengaluru North, Karnataka, India",
   },
 };
 
@@ -245,21 +208,18 @@ const breadcrumbSchema = {
     },
   ],
 };
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `/${slug}-transport`;
+}
 
 export default function MathikereTransportPage() {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
   return (
     <main className="min-h-screen bg-white text-slate-800">
       <script
@@ -268,32 +228,38 @@ export default function MathikereTransportPage() {
           __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
         }}
       />
 
-      {/* HERO */}
+      {/* HERO: heading left, enquiry form right */}
       <section className="relative overflow-hidden bg-[#10182D] text-white">
         <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
         <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
           <div>
-            <nav
-              aria-label="Breadcrumb"
-              className="mb-7 text-sm text-slate-300"
-            >
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
               <Link href="/" className="hover:text-teal-300">
                 Home
               </Link>
@@ -313,45 +279,41 @@ export default function MathikereTransportPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-              Looking for goods transport in Mathikere, Bengaluru? Enquire
-              with LOADZY about full load, part load, household shifting,
-              office goods, commercial transport and packers and movers for
-              local and intercity routes.
+              Looking for goods transport in Mathikere, Bengaluru North, Karnataka? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/contact"
+               href="/contact"
                 className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
               </Link>
-
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Get Your Transport Price
+                Contact LOADZY
               </Link>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
-              {[
-                "Full Load",
-                "Part Load",
-                "House Shifting",
-                "Commercial Transport",
-              ].map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-white/10 px-4 py-2"
-                >
-                  {item}
-                </span>
-              ))}
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
           </div>
 
+          {/* The enquiry form stays inside the same two-column hero grid */}
           <TransportEnquiryForm />
         </div>
       </section>
@@ -361,15 +323,13 @@ export default function MathikereTransportPage() {
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
           Transport solutions
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           Goods Transport Services in Mathikere
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore transport options for household belongings, furniture,
-          office items, shop stock and other suitable goods. Choose a service
-          based on your pickup location, destination and load requirements.
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
         </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -382,15 +342,12 @@ export default function MathikereTransportPage() {
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
                 {service.icon}
               </span>
-
               <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
                 {service.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">
                 {service.description}
               </p>
-
               <span className="mt-5 inline-flex font-bold text-teal-700">
                 Explore service →
               </span>
@@ -406,36 +363,33 @@ export default function MathikereTransportPage() {
             <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
               Local transport
             </p>
-
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Transport and Truck Booking in Mathikere, Bengaluru
+              Transport and Truck Booking in Mathikere, Bengaluru North, Karnataka
             </h2>
-
             <p className="mt-5 leading-8 text-slate-600">
-              Mathikere is a Bengaluru locality with residential areas,
-              educational institutions, shops and other neighbourhood
-              businesses. Transport requirements may include household moves,
-              furniture delivery, appliances, office items, retail stock and
-              general commercial cargo.
-            </p>
+              Mathikere is a location in Bengaluru North. Transport requirements can vary depending on the shipment, destination and vehicle type.
 
+Local specialities and activities include Bengaluru North neighbourhood and local commercial activity, Residential, retail and service businesses.
+
+Goods that may require transport include Household shifting goods, Furniture and appliances, Packaged commercial goods, Retail supplies, General transport cargo.
+
+When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.</p>
             <p className="mt-4 leading-8 text-slate-600">
               When requesting a truck, provide the exact pickup and delivery
               addresses, goods description, approximate weight and dimensions,
               loading requirements and preferred pickup date. These details
               help determine a suitable vehicle and quotation.
             </p>
-
             <p className="mt-4 leading-8 text-slate-600">
-              LOADZY accepts transport enquiries for local and intercity
-              movement. Vehicle availability, freight rates and schedules
-              depend on each booking and must be confirmed before transport.
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
             </p>
           </div>
 
           <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
-            <h3 className="text-2xl font-bold">Prepare Before Booking</h3>
-
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
             <ul className="mt-6 space-y-4">
               {[
                 "Pickup and delivery addresses",
@@ -445,100 +399,632 @@ export default function MathikereTransportPage() {
                 "Loading and unloading requirements",
                 "Contact details for confirmation",
               ].map((item) => (
-                <li
-                  key={item}
-                  className="flex gap-3 leading-6 text-slate-200"
-                >
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
                   <span className="font-bold text-[#08A99F]">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-
             <Link
               href="/contact"
               className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* NEARBY AREAS */}
+      
+      {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Nearby areas
+          Forward routes
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Transport Around Mathikere and Bengaluru
+          Transport Routes from Mathikere
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore our transport pages for selected Bengaluru localities.
-          Transport requirements vary by shipment, vehicle type and route.
+          Explore transport enquiry routes from Mathikere. Vehicle availability,
+          freight charges and schedules must be confirmed.
         </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {nearbyAreas.map((area) => (
-            <Link
-              key={area.name}
-              href={area.href}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-xl font-bold text-slate-900 group-hover:text-teal-700">
-                  {area.name} Transport
-                </h3>
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Chennai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-                <span className="text-xl text-[#08A99F]">↗</span>
-              </div>
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                {area.famousFor}
-              </p>
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Hosur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 leading-7 text-slate-600">{area.goods}</p>
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Krishnagiri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <span className="mt-5 inline-flex font-bold text-teal-700">
-                Explore {area.name} →
-              </span>
-            </Link>
-          ))}
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Coimbatore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Salem
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Tiruppur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Erode
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Madurai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Vellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Tirupati
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Hyderabad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Vijayawada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Visakhapatnam
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Mumbai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Pune
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Kochi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Belagavi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Tumakuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Davangere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Tiruchirappalli
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mathikere to Nellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
         </div>
       </section>
 
-      {/* DESTINATIONS */}
+      {/* RETURN ROUTES */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Intercity transport
+            Return routes
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Major Destinations from Mathikere
+            Transport Routes to Mathikere
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Planning to move goods from Mathikere to another location? Select
-            a destination to visit the LOADZY Contact page and submit your
-            enquiry. Vehicle availability, route coverage and freight charges
-            must be confirmed for each shipment.
+            Explore return-direction transport enquiries to Mathikere.
+            Vehicle availability, freight charges and schedules must be confirmed.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Chennai to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hosur to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Krishnagiri to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Coimbatore to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Salem to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruppur to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Erode to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Madurai to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vellore to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tirupati to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hyderabad to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vijayawada to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Visakhapatnam to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mumbai to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Pune to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kochi to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Belagavi to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tumakuru to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Davangere to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruchirappalli to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Nellore to Mathikere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* NEARBY AREAS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Nearby areas
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Nearby Locations Around Mathikere
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+           Explore nearby localities when planning a transport enquiry.
+            Select a locality to open its corresponding transport page.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-            {destinations.map((city) => (
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
               <Link
-                key={city}
-                href="/contact"
-                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                  Mathikere to {city}
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
                 </span>
-
-                <span className="ml-2 text-[#08A99F]">→</span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
               </Link>
             ))}
           </div>
@@ -551,13 +1037,11 @@ export default function MathikereTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             Why LOADZY
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             A Simpler Way to Explore Transport Options
           </h2>
-
           <p className="mt-4 leading-7 text-slate-600">
-            Share your shipment details, explore suitable transport options
+            Share your shipment details, explore available transport options
             and confirm the arrangements for your route.
           </p>
         </div>
@@ -577,12 +1061,12 @@ export default function MathikereTransportPage() {
             {
               icon: "💬",
               title: "Clear Requirements",
-              text: "Provide cargo details and your preferred pickup date.",
+              text: "Provide cargo details and pickup preferences.",
             },
             {
               icon: "📦",
               title: "Multiple Use Cases",
-              text: "Enquire about household shifting, commercial goods and general cargo.",
+              text: "Enquire about shifting, commercial goods and consignments.",
             },
           ].map((item) => (
             <div
@@ -590,11 +1074,9 @@ export default function MathikereTransportPage() {
               className="rounded-2xl border border-slate-200 bg-white p-6"
             >
               <span className="text-3xl">{item.icon}</span>
-
               <h3 className="mt-4 text-lg font-bold text-slate-900">
                 {item.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
             </div>
           ))}
@@ -607,7 +1089,6 @@ export default function MathikereTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             How it works
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             How to Request Transport from Mathikere
           </h2>
@@ -617,7 +1098,7 @@ export default function MathikereTransportPage() {
               {
                 number: "01",
                 title: "Enter Locations",
-                text: "Provide your pickup and delivery addresses.",
+                text: "Provide pickup and delivery addresses.",
               },
               {
                 number: "02",
@@ -627,7 +1108,7 @@ export default function MathikereTransportPage() {
               {
                 number: "03",
                 title: "Submit Enquiry",
-                text: "Visit Contact and share your transport requirements.",
+                text: "Send your booking details through the form.",
               },
               {
                 number: "04",
@@ -642,22 +1123,19 @@ export default function MathikereTransportPage() {
                 <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
                   STEP {step.number}
                 </p>
-
                 <h3 className="mt-4 text-xl font-bold text-slate-900">
                   {step.title}
                 </h3>
-
                 <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
           </div>
-
           <div className="mt-9 text-center">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
             >
-              Get Your Transport Price →
+              Submit a Transport Enquiry →
             </Link>
           </div>
         </div>
@@ -669,7 +1147,6 @@ export default function MathikereTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             FAQs
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Mathikere Transport — Frequently Asked Questions
           </h2>
@@ -683,12 +1160,10 @@ export default function MathikereTransportPage() {
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
                 <span>{faq.question}</span>
-
                 <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
                   +
                 </span>
               </summary>
-
               <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
             </details>
           ))}
@@ -701,24 +1176,20 @@ export default function MathikereTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
             LOADZY Transport
           </p>
-
           <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
             Looking for Goods Transport from Mathikere?
           </h2>
-
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
             Share your pickup location, destination and load requirements to
-            enquire about suitable transport options for your shipment.
+            explore a suitable transport option for your shipment.
           </p>
-
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Book a Truck →
             </Link>
-
             <Link
               href="/"
               className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
@@ -726,7 +1197,6 @@ export default function MathikereTransportPage() {
               Back to LOADZY Home
             </Link>
           </div>
-
           <p className="mt-6 text-sm text-slate-400">
             LOADZY — MOVE. CONNECT. DELIVER.
           </p>

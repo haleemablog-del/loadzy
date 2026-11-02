@@ -7,13 +7,173 @@ const masterDir = path.join(appDir, "pammal-transport");
 const masterPagePath = path.join(masterDir, "page.tsx");
 const masterFormPath = path.join(masterDir, "TransportEnquiryForm.tsx");
 const backupRoot = path.resolve("backups", "location-pages");
-
 const updateExisting = process.argv.includes("--update-existing");
+const dryRun = process.argv.includes("--dry-run");
+const targetBengaluruRural = process.argv.includes(
+  "--target-bengaluru-rural"
+);
+const targetBengaluruLocalities = process.argv.includes(
+  "--target-bengaluru-localities"
+);
+
+const bengaluruLocalityDistricts = new Set([
+  "Bengaluru South",
+  "Bengaluru North",
+  "Bengaluru East",
+]);
+
+const bengaluruRuralSlugs = new Set([
+  "bengaluru-rural-transport",
+  "devanahalli-transport",
+  "doddaballapura-transport",
+  "hoskote-transport",
+  "nelamangala-transport",
+  "vijayapura-bengaluru-rural-transport",
+  "sulibele-transport",
+  "nandagudi-transport",
+  "doddabelavangala-transport",
+  "tubagere-transport",
+  "thyamagondlu-transport",
+  "sompura-bengaluru-rural-transport",
+  "channarayapatna-bengaluru-rural-transport",
+  "kundana-transport",
+  "obadenahalli-industrial-area-transport",
+  "aadinarayanahosahalli-industrial-area-transport",
+  "hitech-defence-aerospace-park-transport",
+  "doddaballapura-manufacturing-cluster-transport",
+  "hoskote-factory-commercial-belt-transport",
+  "nelamangala-industrial-logistics-corridor-transport",
+  "kempegowda-international-airport-area-transport",
+  "doddaballapura-silk-textile-transport",
+  "devanahalli-horticulture-produce-transport",
+  "bengaluru-rural-agricultural-markets-transport",
+]);
+const targetOnly = process.argv.includes("--target-bengaluru-13");
+const targetAnekalMissing = process.argv.includes("--target-anekal-missing");
+
+const anekalMissingSlugs = new Set([
+  "chandapura-transport",
+  "singasandra-transport",
+  "bannerghatta-transport",
+  "hulimangala-transport",
+  "hennagara-transport",
+  "haragadde-transport",
+  "muthanallur-transport",
+  "suryanagar-transport",
+  "neeladri-nagar-transport",
+  "doddathoguru-transport",
+  "veerasandra-transport",
+  "bettadasanapura-transport",
+  "kammasandra-transport",
+  "ananth-nagar-transport",
+  "huskur-road-transport",
+  "rayasandra-transport",
+  "gollahalli-transport",
+  "chandapura-circle-transport",
+]);
+
+const targetBengaluruCentralWestMissing =
+  process.argv.includes("--target-bengaluru-central-west-missing");
+
+const bengaluruCentralWestSlugs = new Set([
+  "majestic-transport",
+  "kempegowda-bus-station-transport",
+  "city-railway-station-transport",
+  "chickpet-transport",
+  "shivajinagar-transport",
+  "vasanth-nagar-transport",
+  "seshadripuram-transport",
+  "gandhinagar-transport",
+  "cubbonpet-transport",
+  "avenue-road-transport",
+  "commercial-street-transport",
+  "brigade-road-transport",
+  "mg-road-transport",
+  "residency-road-transport",
+  "richmond-town-transport",
+  "langford-town-transport",
+  "ashok-nagar-transport",
+  "lavelle-road-transport",
+  "infantry-road-transport",
+  "cunningham-road-transport",
+  "benson-town-transport",
+  "frazer-town-transport",
+  "cox-town-transport",
+  "pulikeshi-nagar-transport",
+  "bharathinagar-transport",
+  "jayamahal-transport",
+  "palace-guttahalli-transport",
+  "sadashivanagar-transport",
+  "malleshwaram-transport",
+  "sampige-road-transport",
+  "rajajinagar-transport",
+  "okalipuram-transport",
+  "srirampuram-transport",
+  "vijayanagar-transport",
+  "chamarajpet-transport",
+  "azad-nagar-transport",
+  "cottonpet-transport",
+  "binnypet-transport",
+  "nagarbhavi-transport",
+  "kengeri-transport",
+  "kengeri-satellite-town-transport",
+  "rr-nagar-transport",
+  "rajarajeshwari-nagar-transport",
+  "basaveshwaranagar-transport",
+  "kamakshipalya-transport",
+  "mahalakshmi-layout-transport",
+  "govindarajanagar-transport",
+  "attiguppe-transport",
+  "moodalapalya-transport",
+  "nayandahalli-transport",
+  "deepanjali-nagar-transport",
+  "mysore-road-transport",
+  "chandra-layout-transport",
+  "sunkadakatte-transport",
+  "magadi-road-transport",
+  "herohalli-transport",
+  "andrahalli-transport",
+  "annapurneshwari-nagar-transport",
+  "ullal-transport",
+  "jnanabharathi-transport",
+  "kumbalgodu-transport",
+  "hosakerehalli-transport",
+  "banashankari-3rd-stage-transport",
+  "beml-layout-transport",
+  "ideal-homes-township-transport",
+  "pattanagere-transport",
+  "kenchenahalli-transport",
+  "bapuji-nagar-transport",
+  "rpc-layout-transport",
+  "hampi-nagar-transport",
+  "marenahalli-transport",
+]);
+
+
+const targetSlugs = new Set([
+  "kr-market-transport",
+  "chickpet-wholesale-market-transport",
+  "cottonpet-wholesale-area-transport",
+  "avenue-road-commercial-area-transport",
+  "sjp-road-commercial-market-transport",
+  "whitefield-commercial-area-transport",
+  "marathahalli-commercial-area-transport",
+  "international-tech-park-bengaluru-transport",
+  "whitefield-epip-zone-transport",
+  "bagmane-tech-park-transport",
+  "cessna-business-park-transport",
+  "wipro-technology-campus-transport",
+  "biocon-campus-transport",
+]);
+
+function stop(message) {
+  console.error(`ERROR: ${message}`);
+  process.exit(1);
+}
 
 for (const file of [dataPath, masterPagePath, masterFormPath]) {
   if (!fs.existsSync(file)) {
-    console.error(`Missing required file: ${path.relative(process.cwd(), file)}`);
-    process.exit(1);
+    stop(`Missing required file: ${path.relative(process.cwd(), file)}`);
   }
 }
 
@@ -21,21 +181,61 @@ let locations;
 
 try {
   locations = JSON.parse(fs.readFileSync(dataPath, "utf8"));
-} catch {
-  console.error("Invalid JSON in data/locations.json. Fix the JSON before generating.");
-  process.exit(1);
+} catch (error) {
+  stop(
+    `Invalid JSON in data/locations.json. ${
+      error instanceof Error ? error.message : String(error)
+    }`
+  );
 }
 
 if (!Array.isArray(locations)) {
-  console.error("data/locations.json must contain a JSON array.");
-  process.exit(1);
+  stop("data/locations.json must contain a JSON array.");
+}
+
+if (locations.length === 0) {
+  stop("data/locations.json contains no locations.");
 }
 
 const masterPage = fs.readFileSync(masterPagePath, "utf8");
 const masterForm = fs.readFileSync(masterFormPath, "utf8");
 
+const requiredPageMarkers = [
+  "{/* DESTINATIONS */}",
+  "{/* NEARBY AREAS */}",
+  "Pammal is a locality in the southern Chennai urban area,",
+  "const destinations",
+  "const nearbyAreas",
+  "PAGE_URL",
+];
+
+for (const marker of requiredPageMarkers) {
+  if (!masterPage.includes(marker)) {
+    stop(`Master page is missing required template content: ${marker}`);
+  }
+}
+
+if (
+  !/export\s+default\s+function\s+[A-Za-z_$][\w$]*\s*\([^)]*\)\s*\{/.test(
+    masterPage
+  )
+) {
+  stop("Master page has no supported default function declaration.");
+}
+
+if (
+  !masterForm.includes('"use client"') ||
+  !masterForm.includes("Pammal, Chennai")
+) {
+  stop(
+    'Master form must contain the "use client" directive and Pammal default pickup.'
+  );
+}
+
 function slugify(value) {
   return String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim()
     .replace(/[^a-z0-9]+/g, "-")
@@ -43,7 +243,8 @@ function slugify(value) {
 }
 
 function getSlug(location) {
-  return String(location.slug || `${slugify(location.name)}-transport`)
+  const suppliedSlug = String(location.slug ?? "").trim();
+  return (suppliedSlug || `${slugify(location.name)}-transport`)
     .toLowerCase()
     .replace(/^\/+|\/+$/g, "");
 }
@@ -51,21 +252,56 @@ function getSlug(location) {
 function getBaseSlug(location) {
   return getSlug(location).replace(/-transport$/, "");
 }
+function getLocationUrl(route) {
+  const slug = slugify(route);
+
+  const routeSlug = `${slug}-transport`;
+  const routePagePath = path.join(
+    process.cwd(),
+    "app",
+    routeSlug,
+    "page.tsx"
+  );
+
+  if (fs.existsSync(routePagePath)) {
+    return `/${routeSlug}`;
+  }
+
+  return `/${routeSlug}`;
+}
+
+function toComponentName(slug) {
+  const words = String(slug)
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1));
+
+  let name = words.join("");
+
+  if (!name || /^[0-9]/.test(name)) {
+    name = `Location${name}`;
+  }
+
+  return `${name}Page`;
+}
 
 function getArea(location) {
   return [location.name, location.district, location.state]
-    .filter(Boolean)
+    .filter((part) => typeof part === "string" && part.trim())
+    .map((part) => part.trim())
     .join(", ");
 }
 
 function getList(value, limit = 25) {
   if (!Array.isArray(value)) return [];
 
-  return [...new Set(
-    value
-      .filter((item) => typeof item === "string" && item.trim())
-      .map((item) => item.trim())
-  )].slice(0, limit);
+  return [
+    ...new Set(
+      value
+        .filter((item) => typeof item === "string" && item.trim())
+        .map((item) => item.trim())
+    ),
+  ].slice(0, limit);
 }
 
 function replaceLiteral(source, search, replacement) {
@@ -73,13 +309,13 @@ function replaceLiteral(source, search, replacement) {
 }
 
 function replaceArray(source, declaration, values) {
+  const escapedName = declaration.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const pattern = new RegExp(
-    `const\\s+${declaration}\\s*=\\s*\\[[\\s\\S]*?\\];`
+    `const\\s+${escapedName}\\s*=\\s*\\[[\\s\\S]*?\\];`
   );
 
   if (!pattern.test(source)) {
-    console.warn(`Template array "${declaration}" was not found.`);
-    return source;
+    throw new Error(`Template array "${declaration}" was not found.`);
   }
 
   const contents = values
@@ -92,44 +328,58 @@ function replaceArray(source, declaration, values) {
   );
 }
 
+function escapeJsxText(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\{/g, "&#123;")
+    .replace(/\}/g, "&#125;");
+}
+
+
 function makeRouteCards(routes, getLabel) {
   if (!routes.length) {
     return `
-          <p className="col-span-full text-slate-600">
-            Contact LOADZY to enquire about transport routes for this location.
-          </p>`;
+      <p className="col-span-full text-slate-600">
+        Contact LOADZY to enquire about transport routes for this location.
+      </p>`;
   }
 
-  return routes.map((route) => {
-    const label = getLabel(route);
+  return routes
+    .map((route) => {
+      const label = escapeJsxText(getLabel(route));
+      const href = `/${slugify(route)}-transport`;
 
-    return `
-          <Link
-            key={${JSON.stringify(route)}}
-            href="/load-search"
-            className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
-          >
-            <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-              ${label}
-            </span>
-            <span className="ml-2 text-[#08A99F]">→</span>
-          </Link>`;
-  }).join("\n");
+      return `
+        <Link
+          key={${JSON.stringify(route)}}
+          href=${JSON.stringify(href)}
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            ${label}
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>`;
+    })
+    .join("\n");
 }
 
+
 function makeRoutesSection(location) {
-  const name = String(location.name).trim();
-  const forwardRoutes = getList(location.routes);
-  const returnRoutes = getList(location.returnRoutes);
+  const name = escapeJsxText(String(location.name).trim());
+  const forwardRoutes = getList(location.routes, 25);
+  const returnRoutes = getList(location.returnRoutes, 25);
 
   const forwardItems = makeRouteCards(
     forwardRoutes,
-    (destination) => `${name} to ${destination}`
+    (destination) => `${String(location.name).trim()} to ${destination}`
   );
 
   const returnItems = makeRouteCards(
     returnRoutes,
-    (origin) => `${origin} to ${name}`
+    (origin) => `${origin} to ${String(location.name).trim()}`
   );
 
   return `
@@ -173,22 +423,24 @@ function makeRoutesSection(location) {
 function replaceRoutesBlock(page, location) {
   const replacement = makeRoutesSection(location);
 
-  // Replace the entire destinations block, including its JSX comment braces.
-  const startMarker = /\{\/\*\s*DESTINATIONS\s*\*\/\}/;
-  const endMarker = /\{\/\*\s*NEARBY AREAS\s*\*\/\}/;
+  const startMarker = /\{\s*\/\*\s*DESTINATIONS\s*\*\/\s*\}/;
+  const endMarker = /\{\s*\/\*\s*NEARBY AREAS\s*\*\/\s*\}/;
 
   const start = startMarker.exec(page);
+
   if (!start) {
-    console.warn(`DESTINATIONS marker not found for ${location.name}.`);
-    return page;
+    throw new Error(
+      `Required DESTINATIONS marker was not found for ${location.name}.`
+    );
   }
 
   const searchFrom = start.index + start[0].length;
   const endMatch = endMarker.exec(page.slice(searchFrom));
 
   if (!endMatch) {
-    console.warn(`NEARBY AREAS marker not found for ${location.name}.`);
-    return page;
+    throw new Error(
+      `Required NEARBY AREAS marker was not found for ${location.name}.`
+    );
   }
 
   const end = searchFrom + endMatch.index;
@@ -205,27 +457,34 @@ function replaceLocalIntro(page, location) {
   const name = String(location.name).trim();
   const famousFor = getList(location.famousFor, 10);
   const goods = getList(location.goods, 15);
-
-  const intro = `${name} is a location in ${location.district || location.state || "the region"}. Transport requirements can vary depending on the shipment, destination and vehicle type.`;
+  const districtOrState =
+    location.district || location.state || "the region";
 
   const localInfo = [
-    intro,
-    famousFor.length ? `Local specialities and activities include ${famousFor.join(", ")}.` : "",
-    goods.length ? `Goods that may require transport include ${goods.join(", ")}.` : "",
-    "When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking."
-  ].filter(Boolean).join("\n\n");
+    `${name} is a location in ${districtOrState}. Transport requirements can vary depending on the shipment, destination and vehicle type.`,
+    famousFor.length
+      ? `Local specialities and activities include ${famousFor.join(", ")}.`
+      : "",
+    goods.length
+      ? `Goods that may require transport include ${goods.join(", ")}.`
+      : "",
+    "When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.",
+  ]
+    .filter(Boolean)
+    .join("\n\n");
 
-  // Replace the known Pammal-specific introduction if it matches.
-  const pattern = /Pammal is a locality in the southern Chennai urban area,[\s\S]*?before transpor&#x74;\./i;
+  const pattern =
+    /Pammal is a locality in the southern Chennai urban area,[\s\S]*?(?=<\/p>)/i;
 
-  if (pattern.test(page)) {
-    return page.replace(pattern, localInfo);
+  if (!pattern.test(page)) {
+    throw new Error(
+      `The Pammal local-introduction paragraph was not found for ${name}.`
+    );
   }
 
-  // If the reference wording differs, leave the original section intact.
-  console.warn(`Pammal local-introduction text was not matched for ${name}.`);
-  return page;
+  return page.replace(pattern, escapeJsxText(localInfo));
 }
+
 
 function makePage(location) {
   const name = String(location.name).trim();
@@ -233,6 +492,22 @@ function makePage(location) {
   const area = getArea(location);
 
   let page = masterPage;
+  
+  const componentName = toComponentName(slug);
+
+  const componentPattern =
+    /export\s+default\s+function\s+[A-Za-z_$][\w$]*\s*\(\s*\)\s*\{/;
+
+  if (!componentPattern.test(page)) {
+    throw new Error(
+      `Could not find the default component declaration for ${name}.`
+    );
+  }
+
+  page = page.replace(
+    componentPattern,
+    `export default function ${componentName}() {`
+  );
 
   page = replaceLocalIntro(page, location);
 
@@ -241,21 +516,33 @@ function makePage(location) {
     "Pammal, Chennai, Tamil Nadu, India",
     `${area}, India`
   );
+
   page = replaceLiteral(page, "Pammal, Chennai", area);
-  page = replaceLiteral(page, "Pammal Transport Service", `${name} Transport Service`);
+
   page = replaceLiteral(
     page,
     "Pammal Goods Transport and Truck Booking",
     `${name} Goods Transport and Truck Booking`
   );
-  page = replaceLiteral(page, "Pammal Transport", `${name} Transport`);
+
+  page = replaceLiteral(
+    page,
+    "Pammal Transport Service",
+    `${name} Transport Service`
+  );
+
+  page = replaceLiteral(
+    page,
+    "Pammal Transport",
+    `${name} Transport`
+  );
+
   page = replaceLiteral(page, "Pammal", name);
   page = replaceLiteral(page, "pammal-transport", slug);
   page = replaceLiteral(page, "pammal", getBaseSlug(location));
 
-  // Ensure the canonical page URL points to the generated location.
   page = page.replace(
-    /const PAGE_URL\s*=\s*`[^`]*`;/,
+    /const\s+PAGE_URL\s*=\s*`[^`]*`;/,
     `const PAGE_URL = \`\${SITE_URL}/${slug}\`;`
   );
 
@@ -272,6 +559,8 @@ function makePage(location) {
   return page;
 }
 
+
+
 function makeForm(location) {
   const name = String(location.name).trim();
   const area = getArea(location);
@@ -285,9 +574,21 @@ function makeForm(location) {
     '"pammal_transport_page"',
     JSON.stringify(`${baseSlug.replace(/-/g, "_")}_transport_page`)
   );
-  form = replaceLiteral(form, "Pammal enquiry error", `${name} enquiry error`);
-  form = replaceLiteral(form, "Pammal Transport Page", `${name} Transport Page`);
-  form = replaceLiteral(form, "Move goods from Pammal", `Move goods from ${name}`);
+  form = replaceLiteral(
+    form,
+    "Pammal enquiry error",
+    `${name} enquiry error`
+  );
+  form = replaceLiteral(
+    form,
+    "Pammal Transport Page",
+    `${name} Transport Page`
+  );
+  form = replaceLiteral(
+    form,
+    "Move goods from Pammal",
+    `Move goods from ${name}`
+  );
   form = replaceLiteral(form, "pammal-", `${baseSlug}-`);
   form = replaceLiteral(form, "pammal", baseSlug);
 
@@ -302,14 +603,20 @@ function validateLocation(location) {
   const name = String(location.name ?? "").trim();
   const slug = getSlug(location);
 
-  if (!name) return "Missing location name.";
+  if (!name) {
+    return "Missing location name.";
+  }
 
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
-    return `Invalid slug "${slug}". Use lowercase letters, numbers and hyphens.`;
+    return `Invalid slug "${slug}". Use lowercase letters, numbers and single hyphens.`;
   }
 
   if (slug === "pammal-transport") {
     return "The master Pammal page cannot be generated over itself.";
+  }
+
+  if (path.basename(slug) !== slug || slug.includes("..")) {
+    return `Unsafe location slug "${slug}".`;
   }
 
   return null;
@@ -323,15 +630,42 @@ let invalid = 0;
 const seenSlugs = new Set();
 
 for (const location of locations) {
-  const error = validateLocation(location);
+  const slug = getSlug(location);
 
-  if (error) {
-    console.error(`INVALID LOCATION: ${error}`);
+  if (
+    targetBengaluruLocalities &&
+    !bengaluruLocalityDistricts.has(location.district)
+  ) {
+    continue;
+  }
+
+  if (
+    targetBengaluruRural &&
+    !bengaluruRuralSlugs.has(slug)
+  ) {
+    continue;
+  }
+    if (targetOnly && !targetSlugs.has(slug)) {
+    continue;
+  }
+  if (
+  targetBengaluruCentralWestMissing &&
+  !bengaluruCentralWestSlugs.has(slug)
+) {
+  continue;
+}
+
+  if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
+    continue;
+  }
+  const validationError = validateLocation(location);
+
+  if (validationError) {
+    console.error(`INVALID LOCATION: ${validationError}`);
     invalid++;
     continue;
   }
 
-  const slug = getSlug(location);
 
   if (seenSlugs.has(slug)) {
     console.error(`DUPLICATE SLUG in locations.json: ${slug}`);
@@ -352,8 +686,39 @@ for (const location of locations) {
     continue;
   }
 
+  let newPage;
+  let newForm;
+
+  try {
+    // Generate and validate before touching existing files.
+    newPage = makePage(location);
+    newForm = makeForm(location);
+  } catch (error) {
+    console.error(
+      `GENERATION ERROR: ${slug}: ${
+        error instanceof Error ? error.message : String(error)
+      }`
+    );
+    invalid++;
+    continue;
+  }
+
+  const componentName = toComponentName(slug);
+
+  if (
+    !newPage.includes(`export default function ${componentName}()`) ||
+    !newPage.includes("return (") ||
+    !newForm.includes('"use client"') ||
+    !newForm.includes("supabase.from")
+  ) {
+    console.error(
+      `FAILED SAFETY CHECK: ${slug}. No files written for this location.`
+    );
+    invalid++;
+    continue;
+  }
+
   if (folderExists && updateExisting) {
-    // Save current files before overwriting them.
     const backupDir = path.join(backupRoot, slug);
     fs.mkdirSync(backupDir, { recursive: true });
 
@@ -362,27 +727,23 @@ for (const location of locations) {
     }
 
     if (fs.existsSync(formPath)) {
-      fs.copyFileSync(formPath, path.join(backupDir, "TransportEnquiryForm.tsx"));
+      fs.copyFileSync(
+        formPath,
+        path.join(backupDir, "TransportEnquiryForm.tsx")
+      );
     }
   }
 
-  const newPage = makePage(location);
-  const newForm = makeForm(location);
+  if (dryRun) {
+  console.log(`DRY RUN: would generate ${slug}`);
+  generated++;
+  continue;
+}
 
-  // Basic safeguards against accidentally writing incomplete files.
-  if (
-    !newPage.includes("export default function") ||
-    !newPage.includes("return (") ||
-    !newForm.includes('"use client"')
-  ) {
-    console.error(`FAILED SAFETY CHECK: ${slug}. No files written for this location.`);
-    invalid++;
-    continue;
-  }
+fs.mkdirSync(dir, { recursive: true });
 
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(pagePath, newPage, "utf8");
-  fs.writeFileSync(formPath, newForm, "utf8");
+fs.writeFileSync(pagePath, newPage, "utf8");
+fs.writeFileSync(formPath, newForm, "utf8");
 
   if (folderExists) {
     console.log(`GENERATED/UPDATED: ${slug}`);
@@ -391,6 +752,12 @@ for (const location of locations) {
     console.log(`GENERATED: ${slug}`);
     generated++;
   }
+
+  console.log(
+    `  Routes: ${getList(location.routes, 25).length} forward, ` +
+      `${getList(location.returnRoutes, 25).length} return; ` +
+      `nearby areas: ${getList(location.nearbyAreas, 40).length}`
+  );
 }
 
 console.log("");
@@ -400,4 +767,4 @@ console.log(`Updated pages: ${updated}`);
 console.log(`Skipped existing pages: ${skipped}`);
 console.log(`Invalid entries: ${invalid}`);
 console.log("");
-console.log("Sitemap was not changed. Review app/sitemap.ts separately.");
+console.log("The sitemap was not changed. Review app/sitemap.ts separately.");

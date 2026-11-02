@@ -211,6 +211,16 @@ const breadcrumbSchema = {
     },
   ],
 };
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `/${slug}-transport`;
+}
 
 export default function PammalTransportPage() {
   return (
@@ -445,8 +455,8 @@ export default function PammalTransportPage() {
             Nearby Locations Around Pammal
           </h2>
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Explore other Chennai-area localities when planning a transport
-            enquiry. Select a locality to open the corresponding transport page.
+           Explore nearby localities when planning a transport enquiry.
+            Select a locality to open its corresponding transport page.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">

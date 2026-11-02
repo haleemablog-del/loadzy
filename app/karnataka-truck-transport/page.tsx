@@ -52,7 +52,7 @@ const districts = [
  { name: "Ballari", slug: "ballari-transport", available: true },
  { name: "Belagavi", slug: "belagavi-transport", available: true },
  { name: "Bidar", slug: "bidar-transport", available: true },
-  { name: "Bengaluru Urban", slug: "bengaluru-urban-transport", available: false },
+  { name: "Bengaluru Urban", slug: "bengaluru-urban-transport", available: true },
   { name: "Bengaluru Rural", slug: "bengaluru-rural-transport", available: false },
   { name: "Vijayapura", slug: "vijayapura-transport", available: false },
   { name: "Chamarajanagar", slug: "chamarajanagar-transport", available: false },
@@ -326,6 +326,28 @@ export default function KarnatakaTruckTransportPage() {
                 )}
               </article>
             ))}
+            <Link
+  href="/bengaluru-transport"
+  className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-teal-400 hover:shadow-md"
+>
+  <p className="text-sm font-bold uppercase tracking-widest text-teal-600">
+    Bengaluru Transport Service
+  </p>
+
+  <h2 className="mt-3 text-2xl font-bold text-slate-900">
+    Bengaluru Transport
+  </h2>
+
+  <p className="mt-3 leading-7 text-slate-600">
+    Explore truck booking, full-load and part-load transport, industrial
+    goods movement, commercial deliveries, and household shifting services
+    across Bengaluru.
+  </p>
+
+  <span className="mt-5 inline-flex rounded-lg bg-teal-50 px-4 py-3 font-bold text-teal-700 transition group-hover:bg-teal-100">
+    Explore Bengaluru Transport →
+  </span>
+</Link>
           </div>
 
           <div className="mt-10 rounded-3xl bg-[#10182D] p-7 text-white md:p-10">
