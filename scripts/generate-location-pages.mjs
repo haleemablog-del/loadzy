@@ -49,27 +49,172 @@ const bengaluruRuralSlugs = new Set([
   "bengaluru-rural-agricultural-markets-transport",
 ]);
 const targetOnly = process.argv.includes("--target-bengaluru-13");
-const targetAnekalMissing = process.argv.includes("--target-anekal-missing");
+const targetKarnatakaDistricts = process.argv.includes(
+  "--target-karnataka-districts-08-31"
+);
+const targetAnekalMissing = process.argv.includes(
+  "--target-anekal-missing"
+);
+const targetKarnatakaDistrictPages = process.argv.includes(
+  "--target-karnataka-district-pages"
+);
 
-const anekalMissingSlugs = new Set([
-  "chandapura-transport",
-  "singasandra-transport",
-  "bannerghatta-transport",
-  "hulimangala-transport",
-  "hennagara-transport",
-  "haragadde-transport",
-  "muthanallur-transport",
-  "suryanagar-transport",
-  "neeladri-nagar-transport",
-  "doddathoguru-transport",
-  "veerasandra-transport",
-  "bettadasanapura-transport",
-  "kammasandra-transport",
-  "ananth-nagar-transport",
-  "huskur-road-transport",
-  "rayasandra-transport",
-  "gollahalli-transport",
-  "chandapura-circle-transport",
+const karnatakaDistrictSlugs = new Set([
+  "gundlupet-transport",
+  "yelandur-transport",
+  "kollegal-transport",
+  "hanur-transport",  
+  "gauribidanur-transport",
+  "gudibanda-transport",
+  "bagepalli-transport",
+  "sidlaghatta-transport",
+  "chintamani-transport",
+  "sringeri-transport",
+  "koppa-transport",
+  "narasimharajapura-transport",
+  "tarikere-transport",
+  "birur-transport",
+  "kadur-transport",
+  "mudigere-transport",
+  "kudremukh-transport",
+  "molakalmuru-transport",
+  "challakere-transport",
+  "holalkere-transport",
+  "hosadurga-transport",
+  "hiriyur-transport",
+  "mangaluru-transport",
+  "mulki-transport",
+  "moodabidri-transport",
+  "bantwal-transport",
+  "beltangady-transport",
+  "puttur-transport",
+  "sullia-transport",
+  "harihar-transport",
+  "honnali-transport",
+  "channagiri-transport",
+  "jagalur-transport",
+  "hubballi-transport",
+  "alnavar-transport",
+  "navalgund-transport",
+  "annigeri-transport",
+  "kalghatgi-transport",
+  "kundgol-transport",
+  "gadag-betageri-transport",
+  "nargund-transport",
+  "ron-transport",
+  "gajendragad-transport",
+  "naregal-transport",
+  "mulgund-transport",
+  "shirhatti-transport",
+  "lakshmeshwar-transport",
+  "mundargi-transport",
+  "sakleshpur-transport",
+  "belur-transport",
+  "arsikere-transport",
+  "alur-transport",
+  "arkalgud-transport",
+  "holenarsipur-transport",
+  "channarayapatna-transport",
+  "shiggaon-transport",
+  "bankapura-transport",
+  "savanur-transport",
+  "hangal-transport",
+  "byadgi-transport",
+  "hirekerur-transport",
+  "ranebennur-transport",
+  "aland-transport",
+  "afzalpur-transport",
+  "chincholi-transport",
+  "sedam-transport",
+  "chitapur-transport",
+  "shahabad-transport",
+  "wadi-transport",
+  "jevargi-transport",
+  "madikeri-transport",
+  "somwarpet-transport",
+  "virajpet-transport",
+  "srinivaspur-transport",
+  "malur-transport",
+  "bangarapet-transport",
+  "robertsonpet-k-g-f-transport",
+  "mulbagal-transport",
+  "yelburga-transport",
+  "kushtagi-transport",
+  "gangavathi-transport",
+  "krishnarajpet-transport",
+  "nagamangala-transport",
+  "pandavapura-transport",
+  "srirangapatna-transport",
+  "maddur-transport",
+  "malavalli-transport",
+  "nanjangud-transport",
+  "hunsur-transport",
+  "krishnarajanagara-k-r-nagar-transport",
+  "bannur-transport",
+  "piriyapatna-transport",
+  "heggadadevankote-h-d-kote-transport",
+  "saragur-sargur-transport",
+  "tirumakudal-narsipur-t-narasipura-transport",
+  "hinkal-transport",
+  "hootagalli-transport",
+  "srirampura-transport",
+  "elwala-yelwal-transport",
+  "bogadi-transport",
+  "belvata-transport",
+  "koorgalli-transport",
+  "kadakola-transport",
+  "byrapura-transport",
+  "gargeswari-transport",
+  "mudgal-transport",
+  "lingasugur-transport",
+  "devadurga-transport",
+  "manvi-transport",
+  "sindhanur-transport",
+  "hatti-gold-mines-transport",
+  "sagar-transport",
+  "sorab-transport",
+  "siralkoppa-transport",
+  "shikaripura-transport",
+  "hosanagara-transport",
+  "thirthahalli-transport",
+  "bhadravati-transport",
+  "chikkanayakanahalli-transport",
+  "sira-transport",
+  "pavagada-transport",
+  "madhugiri-transport",
+  "koratagere-transport",
+  "gubbi-transport",
+  "tiptur-transport",
+  "turuvekere-transport",
+  "kunigal-transport",
+  "kundapura-transport",
+  "saligrama-transport",
+  "karkala-transport",
+  "karwar-transport",
+  "dandeli-transport",
+  "haliyal-transport",
+  "yellapur-transport",
+  "mundgod-transport",
+  "sirsi-transport",
+  "ankola-transport",
+  "kumta-transport",
+  "siddapur-transport",
+  "honnavar-transport",
+  "bhatkal-transport",
+  "hosapete-transport",
+  "kotturu-transport",
+  "kudligi-transport",
+  "harapanahalli-transport",
+  "indi-transport",
+  "sindgi-transport",
+  "basavana-bagevadi-transport",
+  "muddebihal-transport",
+  "talikota-transport",
+  "yadgir-transport",
+  "shorapur-transport",
+  "shahapur-transport",
+  "gurmitkal-transport",
+  "bhimarayanagudi-transport"
 ]);
 
 const targetBengaluruCentralWestMissing =
@@ -631,6 +776,13 @@ const seenSlugs = new Set();
 
 for (const location of locations) {
   const slug = getSlug(location);
+  if (
+  targetKarnatakaDistrictPages &&
+  location.state === "Karnataka" &&
+  !slug.endsWith("-district-transport")
+) {
+  continue;
+}
 
   if (
     targetBengaluruLocalities &&
@@ -649,6 +801,12 @@ for (const location of locations) {
     continue;
   }
   if (
+  targetKarnatakaDistricts &&
+  !karnatakaDistrictSlugs.has(slug)
+) {
+  continue;
+}
+  if (
   targetBengaluruCentralWestMissing &&
   !bengaluruCentralWestSlugs.has(slug)
 ) {
@@ -658,6 +816,7 @@ for (const location of locations) {
   if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
     continue;
   }
+
   const validationError = validateLocation(location);
 
   if (validationError) {
