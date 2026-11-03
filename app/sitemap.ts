@@ -312,6 +312,7 @@ const discoveredTransportPages = readdirSync(
     ...new Set([
       ...staticPages,
       ...additionalTransportPages,
+          ...discoveredTransportPages,
       ...bagalkotePages,
       ...completedTransportPages,
       ...ballariPages,
