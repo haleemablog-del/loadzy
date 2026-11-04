@@ -31,9 +31,7 @@ const truckTypes = [
 export default function TransportEnquiryForm() {
   const [customerName, setCustomerName] = useState("");
   const [phone, setPhone] = useState("");
-  const [pickup, setPickup] = useState(
-    "Attibele Industrial Area, Attibele, Bengaluru, Karnataka"
-  );
+  const [pickup, setPickup] = useState("Attibele Industrial Area, Bengaluru South, Karnataka");
   const [delivery, setDelivery] = useState("");
   const [service, setService] = useState("");
   const [truck, setTruck] = useState("");
@@ -65,6 +63,8 @@ export default function TransportEnquiryForm() {
     setSaving(true);
     setMessage("");
 
+    // Open a blank tab immediately so the browser is less likely
+    // to block WhatsApp after the database request completes.
     const whatsappWindow = window.open("about:blank", "_blank");
 
     try {
@@ -89,7 +89,9 @@ export default function TransportEnquiryForm() {
           whatsappWindow.close();
         }
 
-        setMessage("Unable to save your enquiry. Please try again.");
+        setMessage(
+          "Unable to save your enquiry. Please try again."
+        );
         return;
       }
 
@@ -111,30 +113,33 @@ Source: Attibele Industrial Area Transport Page`;
 
       if (whatsappWindow) {
         whatsappWindow.location.href = whatsappUrl;
-        setMessage("✅ Enquiry saved successfully! WhatsApp is opening.");
       } else {
         setMessage(
-          "✅ Enquiry saved successfully, but WhatsApp could not open. Please allow pop-ups or contact LOADZY."
+          "Your enquiry was saved. Please allow pop-ups to open WhatsApp, or use the Contact page to reach LOADZY."
         );
       }
 
+      setMessage(
+        "✅ Enquiry saved successfully! WhatsApp is opening."
+      );
+
       setCustomerName("");
       setPhone("");
-      setPickup(
-        "Attibele Industrial Area, Attibele, Bengaluru, Karnataka"
-      );
+      setPickup("Attibele Industrial Area, Bengaluru South, Karnataka");
       setDelivery("");
       setService("");
       setTruck("");
       setPickupDate("");
     } catch (error) {
-      console.error("Unexpected Attibele Industrial Area enquiry error:", error);
+      console.error("Unexpected enquiry error:", error);
 
       if (whatsappWindow) {
         whatsappWindow.close();
       }
 
-      setMessage("Something went wrong. Please try again.");
+      setMessage(
+        "Something went wrong. Please try again."
+      );
     } finally {
       setSaving(false);
     }
@@ -146,17 +151,16 @@ Source: Attibele Industrial Area Transport Page`;
   const labelClass = "text-sm font-semibold text-slate-200";
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 shadow-2xl backdrop-blur-sm md:p-8">
-      <div className="mb-6 flex items-center justify-between gap-3">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-4 shadow-xl backdrop-blur-sm">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <div>
-          <p className="text-sm font-medium text-teal-300">
-            TRANSPORT ENQUIRY
-          </p>
+          <p className="text-sm font-medium text-teal-400">
+  TRANSPORT ENQUIRY
+</p>
           <h2 className="mt-2 text-2xl font-bold text-white">
-            Move Goods from Attibele Industrial Area
+            Move goods from Attibele Industrial Area
           </h2>
         </div>
-
         <span className="text-4xl" aria-hidden="true">
           🚚
         </span>
@@ -164,11 +168,11 @@ Source: Attibele Industrial Area Transport Page`;
 
       <form onSubmit={submitEnquiry} className="space-y-4">
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-name">
+          <label className={labelClass} htmlFor="attibele-industrial-area-name">
             Customer Name *
           </label>
           <input
-            id="attibele-industrial-name"
+            id="attibele-industrial-area-name"
             type="text"
             autoComplete="name"
             required
@@ -180,11 +184,11 @@ Source: Attibele Industrial Area Transport Page`;
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-phone">
+          <label className={labelClass} htmlFor="attibele-industrial-area-phone">
             Phone Number *
           </label>
           <input
-            id="attibele-industrial-phone"
+            id="attibele-industrial-area-phone"
             type="tel"
             inputMode="numeric"
             autoComplete="tel"
@@ -200,26 +204,26 @@ Source: Attibele Industrial Area Transport Page`;
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-pickup">
+          <label className={labelClass} htmlFor="attibele-industrial-area-pickup">
             Pickup Location *
           </label>
           <input
-            id="attibele-industrial-pickup"
+            id="attibele-industrial-area-pickup"
             type="text"
             required
             value={pickup}
             onChange={(e) => setPickup(e.target.value)}
-            placeholder="Enter pickup location"
+            placeholder="Pickup location"
             className={inputClass}
           />
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-delivery">
+          <label className={labelClass} htmlFor="attibele-industrial-area-delivery">
             Delivery Location *
           </label>
           <input
-            id="attibele-industrial-delivery"
+            id="attibele-industrial-area-delivery"
             type="text"
             required
             value={delivery}
@@ -230,11 +234,11 @@ Source: Attibele Industrial Area Transport Page`;
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-service">
+          <label className={labelClass} htmlFor="attibele-industrial-area-service">
             Service Required *
           </label>
           <select
-            id="attibele-industrial-service"
+            id="attibele-industrial-area-service"
             required
             value={service}
             onChange={(e) => setService(e.target.value)}
@@ -250,11 +254,11 @@ Source: Attibele Industrial Area Transport Page`;
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-truck">
+          <label className={labelClass} htmlFor="attibele-industrial-area-truck">
             Truck Type *
           </label>
           <select
-            id="attibele-industrial-truck"
+            id="attibele-industrial-area-truck"
             required
             value={truck}
             onChange={(e) => setTruck(e.target.value)}
@@ -270,11 +274,11 @@ Source: Attibele Industrial Area Transport Page`;
         </div>
 
         <div>
-          <label className={labelClass} htmlFor="attibele-industrial-date">
+          <label className={labelClass} htmlFor="attibele-industrial-area-date">
             Pickup Date *
           </label>
           <input
-            id="attibele-industrial-date"
+            id="attibele-industrial-area-date"
             type="date"
             required
             min={new Date().toLocaleDateString("en-CA")}
@@ -304,8 +308,8 @@ Source: Attibele Industrial Area Transport Page`;
       </form>
 
       <p className="mt-4 text-center text-xs leading-5 text-slate-400">
-        Your enquiry is saved before WhatsApp opens. Truck availability and
-        freight charges must be confirmed.
+        Your enquiry is saved before WhatsApp opens. Truck availability
+        and freight charges must be confirmed.
       </p>
     </div>
   );

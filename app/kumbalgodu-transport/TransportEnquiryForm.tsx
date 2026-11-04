@@ -31,9 +31,7 @@ const truckTypes = [
 export default function TransportEnquiryForm() {
   const [customerName, setCustomerName] = useState("");
   const [phone, setPhone] = useState("");
-  const [pickup, setPickup] = useState(
-    "Kumbalgodu, Bengaluru, Karnataka"
-  );
+  const [pickup, setPickup] = useState("Kumbalgodu, Bengaluru West, Karnataka");
   const [delivery, setDelivery] = useState("");
   const [service, setService] = useState("");
   const [truck, setTruck] = useState("");
@@ -65,8 +63,8 @@ export default function TransportEnquiryForm() {
     setSaving(true);
     setMessage("");
 
-    // Open the window directly from the form submission
-    // so the browser is less likely to block WhatsApp.
+    // Open a blank tab immediately so the browser is less likely
+    // to block WhatsApp after the database request completes.
     const whatsappWindow = window.open("about:blank", "_blank");
 
     try {
@@ -91,7 +89,9 @@ export default function TransportEnquiryForm() {
           whatsappWindow.close();
         }
 
-        setMessage("Unable to save your enquiry. Please try again.");
+        setMessage(
+          "Unable to save your enquiry. Please try again."
+        );
         return;
       }
 
@@ -113,30 +113,33 @@ Source: Kumbalgodu Transport Page`;
 
       if (whatsappWindow) {
         whatsappWindow.location.href = whatsappUrl;
-        setMessage(
-          "✅ Enquiry saved successfully! WhatsApp is opening."
-        );
       } else {
         setMessage(
-          "✅ Enquiry saved successfully, but WhatsApp could not open. Please allow pop-ups or contact LOADZY."
+          "Your enquiry was saved. Please allow pop-ups to open WhatsApp, or use the Contact page to reach LOADZY."
         );
       }
 
+      setMessage(
+        "✅ Enquiry saved successfully! WhatsApp is opening."
+      );
+
       setCustomerName("");
       setPhone("");
-      setPickup("Kumbalgodu, Bengaluru, Karnataka");
+      setPickup("Kumbalgodu, Bengaluru West, Karnataka");
       setDelivery("");
       setService("");
       setTruck("");
       setPickupDate("");
     } catch (error) {
-      console.error("Unexpected Kumbalgodu enquiry error:", error);
+      console.error("Unexpected enquiry error:", error);
 
       if (whatsappWindow) {
         whatsappWindow.close();
       }
 
-      setMessage("Something went wrong. Please try again.");
+      setMessage(
+        "Something went wrong. Please try again."
+      );
     } finally {
       setSaving(false);
     }
@@ -148,17 +151,16 @@ Source: Kumbalgodu Transport Page`;
   const labelClass = "text-sm font-semibold text-slate-200";
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 shadow-2xl backdrop-blur-sm md:p-8">
-      <div className="mb-6 flex items-center justify-between gap-3">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-4 shadow-xl backdrop-blur-sm">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <div>
-          <p className="text-sm font-medium text-teal-300">
-            TRANSPORT ENQUIRY
-          </p>
+          <p className="text-sm font-medium text-teal-400">
+  TRANSPORT ENQUIRY
+</p>
           <h2 className="mt-2 text-2xl font-bold text-white">
-            Move Goods from Kumbalgodu
+            Move goods from Kumbalgodu
           </h2>
         </div>
-
         <span className="text-4xl" aria-hidden="true">
           🚚
         </span>
@@ -211,7 +213,7 @@ Source: Kumbalgodu Transport Page`;
             required
             value={pickup}
             onChange={(e) => setPickup(e.target.value)}
-            placeholder="Enter pickup location"
+            placeholder="Pickup location"
             className={inputClass}
           />
         </div>

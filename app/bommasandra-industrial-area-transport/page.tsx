@@ -8,36 +8,25 @@ const PAGE_URL = `${SITE_URL}/bommasandra-industrial-area-transport`;
 export const metadata: Metadata = {
   title: "Bommasandra Industrial Area Transport Service | Truck Booking | LOADZY",
   description:
-    "Looking for truck booking in Bommasandra Industrial Area, Bengaluru? Enquire with LOADZY about full load, part load, industrial goods, commercial transport and other goods movement.",
+    "Find goods transport and truck booking options in Bommasandra Industrial Area, Bengaluru South, Karnataka. Explore full load, part load, commercial transport and household shifting with LOADZY.",
   keywords: [
     "Bommasandra Industrial Area transport service",
-    "Bommasandra truck booking",
-    "Bommasandra goods transport",
-    "Bommasandra lorry booking",
-    "Bommasandra logistics",
-    "Bommasandra industrial transport",
-    "Bommasandra full load transport",
-    "Bommasandra part load transport",
-    "Bommasandra commercial transport",
-    "Bommasandra packers and movers",
-    "Bommasandra household shifting",
-    "Bommasandra to Chennai transport",
-    "Bommasandra to Coimbatore transport",
-    "Chennai to Bommasandra transport",
-    "Coimbatore to Bommasandra transport",
-    "Hosur to Bommasandra transport",
-    "Mysuru to Bommasandra transport",
-    "Salem to Bommasandra transport",
-    "Hyderabad to Bommasandra transport",
-    "Bengaluru truck booking",
-    "Karnataka goods transport",
+    "Bommasandra Industrial Area truck booking",
+    "Bommasandra Industrial Area goods transport",
+    "Bommasandra Industrial Area lorry booking",
+    "Bommasandra Industrial Area full load transport",
+    "Bommasandra Industrial Area part load transport",
+    "Bommasandra Industrial Area house shifting",
+    "Bommasandra Industrial Area packers and movers",
+    "Bommasandra Industrial Area to Chennai transport",
+    "Bommasandra Industrial Area to Bangalore transport",
     "LOADZY transport",
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Bommasandra Industrial Area Transport Service | Truck Booking | LOADZY",
+    title: "Bommasandra Industrial Area Transport Service | LOADZY",
     description:
-      "Submit a truck booking enquiry for industrial goods transport from Bommasandra Industrial Area and nearby Bengaluru locations.",
+      "Submit a truck booking or goods transport enquiry from Bommasandra Industrial Area, Bengaluru South, Karnataka.",
     url: PAGE_URL,
     siteName: "LOADZY",
     locale: "en_IN",
@@ -51,232 +40,129 @@ const services = [
     icon: "🚛",
     title: "Full Load Transport",
     description:
-      "Enquire about dedicated truck options for larger consignments and goods requiring a full vehicle.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
     icon: "📦",
     title: "Part Load Transport",
     description:
-      "Explore transport options for smaller consignments that may not require an entire truck.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
     icon: "🏠",
     title: "House Shifting",
     description:
-      "Plan the movement of furniture, appliances, cartons and household belongings.",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
     href: "/house-shifting",
   },
   {
     icon: "🧰",
     title: "Packers and Movers",
     description:
-      "Enquire about suitable vehicle arrangements for household and office relocation.",
+      "Explore vehicle arrangements for household and office relocation requirements.",
     href: "/packers-movers",
   },
   {
     icon: "🏪",
     title: "Commercial Transport",
     description:
-      "Share your requirements for moving shop stock, business goods and commercial consignments.",
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
     icon: "🏭",
     title: "Industrial Transport",
     description:
-      "Enquire about transporting industrial materials, equipment and business supplies.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
   },
 ];
 
 const destinations = [
-  // Tamil Nadu
+  "Bengaluru",
   "Chennai",
+  "Hosur",
+  "Krishnagiri",
+  "Mysuru",
   "Coimbatore",
   "Salem",
-  "Madurai",
   "Tiruppur",
   "Erode",
-  "Tirunelveli",
+  "Madurai",
   "Vellore",
   "Tirupati",
-  "Dindigul",
-  "Thanjavur",
-  "Tiruchirappalli",
-  "Thoothukudi",
-  "Karur",
-  "Krishnagiri",
-  "Ambur",
-  "Tirupattur",
-  "Vaniyambadi",
-  "Hosur",
-  "Tiruvannamalai",
-  "Kanyakumari",
-  "Puducherry",
-
-  // Karnataka
-  "Bengaluru",
-  "Mysuru",
-  "Mangaluru",
-  "Hubballi",
-  "Belagavi",
-  "Dharwad",
-  "Davangere",
-  "Shivamogga",
-  "Ballari",
-  "Kalaburagi",
-  "Tumakuru",
-  "Chitradurga",
-  "Haveri",
-  "Udupi",
-  "Karwar",
-
-  // Kerala
-  "Kochi",
-  "Kozhikode",
-  "Thrissur",
-  "Thiruvananthapuram",
-  "Palakkad",
-  "Kannur",
-  "Kottayam",
-  "Kollam",
-
-  // Andhra Pradesh
-  "Vijayawada",
-  "Visakhapatnam",
-  "Guntur",
-  "Nellore",
-  "Kurnool",
-  "Rajahmundry",
-
-  // Telangana
   "Hyderabad",
-  "Warangal",
-
-  // Other major freight destinations
+  "Vijayawada",
   "Mumbai",
   "Pune",
-  "Nagpur",
-  "Ahmedabad",
-  "Delhi",
-  "Panaji",
+  "Kochi",
+  "Mangaluru",
+  "Tumakuru",
+  "Tiruchirappalli",
+  "Nellore",
+  "Hubballi",
+  "Belagavi",
+  "Davangere",
+  "Visakhapatnam",
 ];
 
 const nearbyAreas = [
-  {
-    name: "Bommasandra 1st Stage",
-    href: "/bommasandra-1st-stage-transport",
-    famousFor: "Industrial and commercial activity",
-    goods:
-      "Industrial components, packaged materials, business supplies and general cargo.",
-  },
-  {
-    name: "Bommasandra 2nd Stage",
-    href: "/bommasandra-2nd-stage-transport",
-    famousFor: "Industrial premises and manufacturing-related businesses",
-    goods:
-      "Manufactured goods, equipment, materials and commercial consignments.",
-  },
-  {
-    name: "Bommasandra 3rd Stage",
-    href: "/bommasandra-3rd-stage-transport",
-    famousFor: "Industrial-area transport requirements",
-    goods:
-      "Industrial supplies, packaged products, machinery and general freight.",
-  },
-  {
-    name: "Bommasandra 4th Stage",
-    href: "/bommasandra-4th-stage-transport",
-    famousFor: "Industrial and commercial goods movement",
-    goods:
-      "Business inventory, equipment, components and commercial cargo.",
-  },
-  {
-    name: "Bommasandra–Jigani Link Road",
-    href: "/bommasandra-jigani-link-road-transport",
-    famousFor: "Road connectivity between industrial locations",
-    goods:
-      "Industrial materials, packaged goods, components and general cargo.",
-  },
-  {
-    name: "Jigani 1st Phase",
-    href: "/jigani-1st-phase-transport",
-    famousFor: "Industrial establishments and manufacturing activity",
-    goods:
-      "Industrial components, equipment, materials and finished products.",
-  },
-  {
-    name: "Jigani 2nd Phase",
-    href: "/jigani-2nd-phase-transport",
-    famousFor: "Industrial and commercial transport requirements",
-    goods:
-      "Industrial supplies, business goods, components and general consignments.",
-  },
-  {
-    name: "Electronic City Industrial Area",
-    href: "/electronic-city-industrial-area-transport",
-    famousFor: "Technology businesses and commercial activity",
-    goods:
-      "Office equipment, electronics-related consignments, supplies and business goods.",
-  },
-  {
-    name: "Veerasandra Industrial Area",
-    href: "/veerasandra-industrial-area-transport",
-    famousFor: "Industrial and commercial activity in southern Bengaluru",
-    goods:
-      "Industrial materials, equipment, business supplies and commercial cargo.",
-  },
-  {
-    name: "Attibele",
-    href: "/attibele-transport",
-    famousFor: "Regional road connectivity and commercial activity",
-    goods:
-      "Commercial stock, industrial supplies and general transport consignments.",
-  },
+  "Anekal",
+  "Attibele",
+  "Chandapura",
+  "Jigani",
+  "Electronic City Phase 1",
+  "Electronic City Phase 2",
+  "Hebbagodi",
+  "Singasandra",
+  "Begur",
+  "Bannerghatta",
+  "Hulimangala",
+  "Hennagara",
 ];
 
 const faqs = [
   {
     question: "How can I book a truck in Bommasandra Industrial Area?",
     answer:
-      "Fill in the LOADZY transport enquiry form with your name, phone number, pickup and delivery locations, service type, truck type and preferred pickup date. Submit the enquiry and confirm truck availability and freight charges before finalising your booking.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Can I book full load transport from Bommasandra?",
+    question: "Can I enquire about full load transport from Bommasandra Industrial Area?",
     answer:
-      "You can submit an enquiry for full load transport from Bommasandra Industrial Area. Vehicle suitability, availability and freight charges depend on the route, cargo details, vehicle requirements and pickup date.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Is part load transport available from Bommasandra?",
+    question: "Does LOADZY support part load transport?",
     answer:
       "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I transport industrial goods from Bommasandra?",
+    question: "Can I arrange house shifting from Bommasandra Industrial Area?",
     answer:
-      "You can submit an enquiry for industrial materials, equipment, components, packaged goods and other commercial consignments. Provide the cargo description, approximate weight, dimensions, pickup and delivery locations, and preferred date.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I transport goods from Bommasandra to another city?",
+    question: "Can I book transport from Bommasandra Industrial Area to Bangalore?",
     answer:
-      "You can submit an enquiry for intercity goods transport from Bommasandra to your chosen destination. The route, truck availability, schedule and final freight charges must be confirmed.",
+      "You can submit a transport enquiry for Bommasandra Industrial Area to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
-    question: "Can I arrange household shifting from Bommasandra?",
+    question: "How are freight charges calculated?",
     answer:
-      "You can enquire about household shifting and packers and movers services. Share the pickup and delivery addresses, approximate quantity of belongings, floor access and preferred moving date.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "How are truck freight charges calculated?",
+    question: "Can I request a return load?",
     answer:
-      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading and unloading requirements, pickup date and vehicle availability. Confirm the final quotation before booking.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
   },
   {
-    question: "Does submitting an enquiry guarantee a truck?",
+    question: "Does submitting the enquiry guarantee a truck?",
     answer:
-      "No. Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
@@ -285,14 +171,12 @@ const serviceSchema = {
   "@type": "Service",
   name: "Bommasandra Industrial Area Goods Transport and Truck Booking",
   description:
-    "Transport enquiries for full load, part load, industrial goods transport, commercial transport and household shifting from Bommasandra Industrial Area, Bengaluru, Karnataka.",
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Bommasandra Industrial Area, Bengaluru South, Karnataka.",
   serviceType: [
     "Full load transport",
     "Part load transport",
     "Commercial goods transport",
-    "Industrial transport",
     "Household shifting transport",
-    "Packers and movers",
   ],
   url: PAGE_URL,
   provider: {
@@ -302,7 +186,7 @@ const serviceSchema = {
   },
   areaServed: {
     "@type": "Place",
-    name: "Bommasandra Industrial Area, Bengaluru, Karnataka, India",
+    name: "Bommasandra Industrial Area, Bengaluru South, Karnataka, India",
   },
 };
 
@@ -324,19 +208,16 @@ const breadcrumbSchema = {
     },
   ],
 };
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqs.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: faq.answer,
-    },
-  })),
-};
+  return `/${slug}-transport`;
+}
 
 export default function BommasandraIndustrialAreaTransportPage() {
   return (
@@ -347,32 +228,38 @@ export default function BommasandraIndustrialAreaTransportPage() {
           __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
         }}
       />
 
-      {/* HERO */}
+      {/* HERO: heading left, enquiry form right */}
       <section className="relative overflow-hidden bg-[#10182D] text-white">
         <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
         <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
 
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
           <div>
-            <nav
-              aria-label="Breadcrumb"
-              className="mb-7 text-sm text-slate-300"
-            >
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
               <Link href="/" className="hover:text-teal-300">
                 Home
               </Link>
@@ -392,45 +279,41 @@ export default function BommasandraIndustrialAreaTransportPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-              Looking for goods transport in Bommasandra Industrial Area,
-              Bengaluru? Enquire with LOADZY about full load, part load,
-              commercial goods transport, industrial consignments and household
-              shifting for local and intercity routes.
+              Looking for goods transport in Bommasandra Industrial Area, Bengaluru South, Karnataka? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/contact"
+               href="/contact"
                 className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
               </Link>
-
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Get Your Transport Price
+                Contact LOADZY
               </Link>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
-              {[
-                "Full Load",
-                "Part Load",
-                "Industrial Transport",
-                "Commercial Transport",
-              ].map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-white/10 px-4 py-2"
-                >
-                  {item}
-                </span>
-              ))}
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
           </div>
 
+          {/* The enquiry form stays inside the same two-column hero grid */}
           <TransportEnquiryForm />
         </div>
       </section>
@@ -440,16 +323,13 @@ export default function BommasandraIndustrialAreaTransportPage() {
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
           Transport solutions
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           Goods Transport Services in Bommasandra Industrial Area
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore transport options for industrial materials, machinery,
-          business stock, packaged goods and household belongings. Select the
-          service that matches your pickup location, destination and load
-          requirements.
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
         </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -462,15 +342,12 @@ export default function BommasandraIndustrialAreaTransportPage() {
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
                 {service.icon}
               </span>
-
               <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
                 {service.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">
                 {service.description}
               </p>
-
               <span className="mt-5 inline-flex font-bold text-teal-700">
                 Explore service →
               </span>
@@ -486,37 +363,33 @@ export default function BommasandraIndustrialAreaTransportPage() {
             <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
               Local transport
             </p>
-
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Transport and Truck Booking in Bommasandra Industrial Area,
-              Bengaluru
+              Transport and Truck Booking in Bommasandra Industrial Area, Bengaluru South, Karnataka
             </h2>
-
             <p className="mt-5 leading-8 text-slate-600">
-              Bommasandra is an industrial and commercial area in southern
-              Bengaluru. Transport requirements in and around the area can
-              include manufacturing components, industrial supplies,
-              machinery, packaged products, equipment and other commercial
-              consignments.
-            </p>
+              Bommasandra Industrial Area is a location in Bengaluru South. Transport requirements can vary depending on the shipment, destination and vehicle type.
 
+Local specialities and activities include Local residential and commercial activity, Goods transport, truck booking and logistics requirements.
+
+Goods that may require transport include Household shifting goods, Furniture and appliances, Industrial materials and machinery, Electronic and electrical goods, Factory supplies and components, Packaged commercial goods, Retail supplies, General transport cargo.
+
+When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.</p>
             <p className="mt-4 leading-8 text-slate-600">
               When requesting a truck, provide the exact pickup and delivery
               addresses, goods description, approximate weight and dimensions,
               loading requirements and preferred pickup date. These details
               help determine a suitable vehicle and quotation.
             </p>
-
             <p className="mt-4 leading-8 text-slate-600">
-              LOADZY accepts transport enquiries for local and intercity
-              movement. Vehicle availability, freight rates and schedules
-              depend on each booking and must be confirmed before transport.
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
             </p>
           </div>
 
           <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
-            <h3 className="text-2xl font-bold">Prepare Before Booking</h3>
-
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
             <ul className="mt-6 space-y-4">
               {[
                 "Pickup and delivery addresses",
@@ -526,158 +399,634 @@ export default function BommasandraIndustrialAreaTransportPage() {
                 "Loading and unloading requirements",
                 "Contact details for confirmation",
               ].map((item) => (
-                <li
-                  key={item}
-                  className="flex gap-3 leading-6 text-slate-200"
-                >
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
                   <span className="font-bold text-[#08A99F]">✓</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-
             <Link
               href="/contact"
               className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* NEARBY LOCALITIES */}
+      
+      {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-          Local coverage
+          Forward routes
         </p>
-
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          Truck Transport in Bommasandra and Nearby Bengaluru Areas
+          Transport Routes from Bommasandra Industrial Area
         </h2>
-
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-          Explore our transport pages for nearby industrial and commercial
-          locations. Transport requirements can include industrial materials,
-          equipment, business stock and general consignments.
+          Explore transport enquiry routes from Bommasandra Industrial Area. Vehicle availability,
+          freight charges and schedules must be confirmed.
         </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {nearbyAreas.map((area) => (
-            <Link
-              key={area.name}
-              href={area.href}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-xl font-bold text-slate-900 group-hover:text-teal-700">
-                  {area.name} Transport
-                </h3>
-                <span className="text-xl text-[#08A99F]">↗</span>
-              </div>
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Chennai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 text-sm font-semibold text-teal-700">
-                {area.famousFor}
-              </p>
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Hosur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <p className="mt-3 leading-7 text-slate-600">{area.goods}</p>
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Krishnagiri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-              <span className="mt-5 inline-flex font-bold text-teal-700">
-                Explore {area.name} →
-              </span>
-            </Link>
-          ))}
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Coimbatore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Salem
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Tiruppur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Erode
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Madurai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Vellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Tirupati
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Hyderabad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Vijayawada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Mumbai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Pune
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Kochi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Tumakuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Tiruchirappalli
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Nellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Belagavi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Davangere
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bommasandra Industrial Area to Visakhapatnam
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
         </div>
       </section>
 
-      {/* DESTINATIONS */}
+      {/* RETURN ROUTES */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Intercity transport
+            Return routes
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Major Destinations from Bommasandra Industrial Area
+            Transport Routes to Bommasandra Industrial Area
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Planning to move goods from Bommasandra to another city? Choose a
-            destination to submit a transport enquiry. Route coverage, vehicle
-            availability and freight charges must be confirmed for each
-            shipment.
+            Explore return-direction transport enquiries to Bommasandra Industrial Area.
+            Vehicle availability, freight charges and schedules must be confirmed.
           </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+        <Link
+          key={"Bengaluru"}
+          href="/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
 
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-            {destinations.map((city) => (
-              <Link
-                key={city}
-                href="/contact"
-                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
-              >
-                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                  Bommasandra to {city}
-                </span>
-                <span className="ml-2 text-[#08A99F]">→</span>
-              </Link>
-            ))}
+        <Link
+          key={"Chennai"}
+          href="/chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Chennai to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur"}
+          href="/hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hosur to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri"}
+          href="/krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Krishnagiri to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru"}
+          href="/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore"}
+          href="/coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Coimbatore to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem"}
+          href="/salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Salem to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur"}
+          href="/tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruppur to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Erode"}
+          href="/erode-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Erode to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai"}
+          href="/madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Madurai to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore"}
+          href="/vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vellore to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati"}
+          href="/tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tirupati to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad"}
+          href="/hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hyderabad to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada"}
+          href="/vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vijayawada to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai"}
+          href="/mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mumbai to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune"}
+          href="/pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Pune to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi"}
+          href="/kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kochi to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru"}
+          href="/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tumakuru"}
+          href="/tumakuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tumakuru to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruchirappalli"}
+          href="/tiruchirappalli-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruchirappalli to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore"}
+          href="/nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Nellore to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi"}
+          href="/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Belagavi"}
+          href="/belagavi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Belagavi to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Davangere"}
+          href="/davangere-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Davangere to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Visakhapatnam"}
+          href="/visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Visakhapatnam to Bommasandra Industrial Area
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
           </div>
         </div>
       </section>
 
-      {/* REVERSE ROUTES */}
-      <section className="bg-white">
+      {/* NEARBY AREAS */}
+      <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
-            Return route enquiries
+            Nearby areas
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Truck Transport to Bommasandra from Major Cities
+            Nearby Locations Around Bommasandra Industrial Area
           </h2>
-
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Need to transport goods to Bommasandra Industrial Area? Submit a
-            transport enquiry for shipments travelling from Chennai,
-            Coimbatore, Mysuru, Hosur and other cities. Share your pickup
-            location, cargo details and delivery requirements to enquire about
-            suitable transport options.
+           Explore nearby localities when planning a transport enquiry.
+            Select a locality to open its corresponding transport page.
           </p>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
-            {destinations.map((city) => (
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
               <Link
-                key={city}
-                href="/contact"
-                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                  {city} to Bommasandra
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
                 </span>
-
-                <span className="ml-2 text-[#08A99F]">→</span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
               </Link>
             ))}
-          </div>
-
-          <div className="mt-8 rounded-2xl bg-[#10182D] p-6 text-white md:p-8">
-            <h3 className="text-xl font-bold md:text-2xl">
-              Need a truck to Bommasandra?
-            </h3>
-
-            <p className="mt-3 leading-7 text-slate-300">
-              Enquire about full load, part load, commercial goods transport
-              and industrial consignments from your city to Bommasandra,
-              Bengaluru. Truck availability and freight charges must be
-              confirmed.
-            </p>
-
-            <Link
-              href="/contact"
-              className="mt-6 inline-flex items-center justify-center rounded-xl bg-yellow-400 px-6 py-3 font-bold text-slate-950 transition hover:bg-yellow-300"
-            >
-              Enquire About Reverse Routes →
-            </Link>
           </div>
         </div>
       </section>
@@ -688,14 +1037,12 @@ export default function BommasandraIndustrialAreaTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             Why LOADZY
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             A Simpler Way to Explore Transport Options
           </h2>
-
           <p className="mt-4 leading-7 text-slate-600">
-            Share your shipment details, enquire about suitable transport
-            options and confirm the arrangements for your route.
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
           </p>
         </div>
 
@@ -719,7 +1066,7 @@ export default function BommasandraIndustrialAreaTransportPage() {
             {
               icon: "📦",
               title: "Multiple Use Cases",
-              text: "Enquire about industrial goods, household shifting and commercial consignments.",
+              text: "Enquire about shifting, commercial goods and consignments.",
             },
           ].map((item) => (
             <div
@@ -727,11 +1074,9 @@ export default function BommasandraIndustrialAreaTransportPage() {
               className="rounded-2xl border border-slate-200 bg-white p-6"
             >
               <span className="text-3xl">{item.icon}</span>
-
               <h3 className="mt-4 text-lg font-bold text-slate-900">
                 {item.title}
               </h3>
-
               <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
             </div>
           ))}
@@ -744,9 +1089,8 @@ export default function BommasandraIndustrialAreaTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             How it works
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            How to Request Transport from Bommasandra
+            How to Request Transport from Bommasandra Industrial Area
           </h2>
 
           <div className="mt-9 grid gap-5 md:grid-cols-4">
@@ -764,7 +1108,7 @@ export default function BommasandraIndustrialAreaTransportPage() {
               {
                 number: "03",
                 title: "Submit Enquiry",
-                text: "Send your booking details through the enquiry form.",
+                text: "Send your booking details through the form.",
               },
               {
                 number: "04",
@@ -779,22 +1123,19 @@ export default function BommasandraIndustrialAreaTransportPage() {
                 <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
                   STEP {step.number}
                 </p>
-
                 <h3 className="mt-4 text-xl font-bold text-slate-900">
                   {step.title}
                 </h3>
-
                 <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
           </div>
-
           <div className="mt-9 text-center">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
             >
-              Get Your Transport Price →
+              Submit a Transport Enquiry →
             </Link>
           </div>
         </div>
@@ -806,7 +1147,6 @@ export default function BommasandraIndustrialAreaTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
             FAQs
           </p>
-
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Bommasandra Industrial Area Transport — Frequently Asked Questions
           </h2>
@@ -824,7 +1164,6 @@ export default function BommasandraIndustrialAreaTransportPage() {
                   +
                 </span>
               </summary>
-
               <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
             </details>
           ))}
@@ -837,24 +1176,20 @@ export default function BommasandraIndustrialAreaTransportPage() {
           <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
             LOADZY Transport
           </p>
-
           <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
-            Looking for Goods Transport from Bommasandra?
+            Looking for Goods Transport from Bommasandra Industrial Area?
           </h2>
-
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
             Share your pickup location, destination and load requirements to
-            enquire about suitable transport options for your shipment.
+            explore a suitable transport option for your shipment.
           </p>
-
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Get Your Transport Price →
+              Book a Truck →
             </Link>
-
             <Link
               href="/"
               className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
@@ -862,7 +1197,6 @@ export default function BommasandraIndustrialAreaTransportPage() {
               Back to LOADZY Home
             </Link>
           </div>
-
           <p className="mt-6 text-sm text-slate-400">
             LOADZY — MOVE. CONNECT. DELIVER.
           </p>

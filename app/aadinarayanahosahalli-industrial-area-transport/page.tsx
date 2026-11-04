@@ -1006,8 +1006,8 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             Nearby Locations Around Aadinarayanahosahalli Industrial Area
           </h2>
           <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Explore other Chennai-area localities when planning a transport
-            enquiry. Select a locality to open the corresponding transport page.
+           Explore nearby localities when planning a transport enquiry.
+            Select a locality to open its corresponding transport page.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">

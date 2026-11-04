@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import type { FormEvent } from "react";
 import { supabase } from "@/app/lib/supabase";
 
 const services = [
@@ -29,12 +28,10 @@ const truckTypes = [
   "Multi-Axle Truck",
 ];
 
-const DEFAULT_PICKUP = "Hebbagodi, Bengaluru, Karnataka";
-
 export default function TransportEnquiryForm() {
   const [customerName, setCustomerName] = useState("");
   const [phone, setPhone] = useState("");
-  const [pickup, setPickup] = useState(DEFAULT_PICKUP);
+  const [pickup, setPickup] = useState("Hebbagodi, Bengaluru South, Karnataka");
   const [delivery, setDelivery] = useState("");
   const [service, setService] = useState("");
   const [truck, setTruck] = useState("");
@@ -42,28 +39,14 @@ export default function TransportEnquiryForm() {
   const [message, setMessage] = useState("");
   const [saving, setSaving] = useState(false);
 
-  const today = new Date();
-  const minPickupDate = [
-    today.getFullYear(),
-    String(today.getMonth() + 1).padStart(2, "0"),
-    String(today.getDate()).padStart(2, "0"),
-  ].join("-");
-
-  async function submitEnquiry(e: FormEvent<HTMLFormElement>) {
+  async function submitEnquiry(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    if (saving) return;
-
-    const cleanName = customerName.trim();
-    const cleanPhone = phone.trim();
-    const cleanPickup = pickup.trim();
-    const cleanDelivery = delivery.trim();
-
     if (
-      !cleanName ||
-      !cleanPhone ||
-      !cleanPickup ||
-      !cleanDelivery ||
+      !customerName.trim() ||
+      !phone ||
+      !pickup.trim() ||
+      !delivery.trim() ||
       !service ||
       !truck ||
       !pickupDate
@@ -72,29 +55,25 @@ export default function TransportEnquiryForm() {
       return;
     }
 
-    if (!/^\d{10}$/.test(cleanPhone)) {
+    if (!/^\d{10}$/.test(phone)) {
       setMessage("Please enter a valid 10-digit phone number.");
-      return;
-    }
-
-    if (pickupDate < minPickupDate) {
-      setMessage("Please select today or a future pickup date.");
       return;
     }
 
     setSaving(true);
     setMessage("");
 
-    // Open synchronously so the browser is less likely to block WhatsApp.
+    // Open a blank tab immediately so the browser is less likely
+    // to block WhatsApp after the database request completes.
     const whatsappWindow = window.open("about:blank", "_blank");
 
     try {
       const { error } = await supabase.from("leads").insert([
         {
-          customer_name: cleanName,
-          phone: cleanPhone,
-          pickup: cleanPickup,
-          delivery: cleanDelivery,
+          customer_name: customerName.trim(),
+          phone,
+          pickup: pickup.trim(),
+          delivery: delivery.trim(),
           load_type: service,
           truck_type: truck,
           pickup_date: pickupDate,
@@ -106,20 +85,22 @@ export default function TransportEnquiryForm() {
       if (error) {
         console.error("Hebbagodi enquiry error:", error);
 
-        if (whatsappWindow && !whatsappWindow.closed) {
+        if (whatsappWindow) {
           whatsappWindow.close();
         }
 
-        setMessage("Unable to save your enquiry. Please try again.");
+        setMessage(
+          "Unable to save your enquiry. Please try again."
+        );
         return;
       }
 
       const whatsappMessage = `🚚 LOADZY Transport Enquiry
 
-Customer Name: ${cleanName}
-Phone: ${cleanPhone}
-Pickup: ${cleanPickup}
-Delivery: ${cleanDelivery}
+Customer Name: ${customerName.trim()}
+Phone: ${phone}
+Pickup: ${pickup.trim()}
+Delivery: ${delivery.trim()}
 Service: ${service}
 Truck: ${truck}
 Pickup Date: ${pickupDate}
@@ -130,30 +111,35 @@ Source: Hebbagodi Transport Page`;
           whatsappMessage
         )}`;
 
-      if (whatsappWindow && !whatsappWindow.closed) {
+      if (whatsappWindow) {
         whatsappWindow.location.href = whatsappUrl;
-        setMessage("✅ Enquiry saved successfully! WhatsApp is opening.");
       } else {
         setMessage(
-          "✅ Enquiry saved successfully, but WhatsApp could not open. Please allow pop-ups or contact LOADZY."
+          "Your enquiry was saved. Please allow pop-ups to open WhatsApp, or use the Contact page to reach LOADZY."
         );
       }
 
+      setMessage(
+        "✅ Enquiry saved successfully! WhatsApp is opening."
+      );
+
       setCustomerName("");
       setPhone("");
-      setPickup(DEFAULT_PICKUP);
+      setPickup("Hebbagodi, Bengaluru South, Karnataka");
       setDelivery("");
       setService("");
       setTruck("");
       setPickupDate("");
     } catch (error) {
-      console.error("Unexpected Hebbagodi enquiry error:", error);
+      console.error("Unexpected enquiry error:", error);
 
-      if (whatsappWindow && !whatsappWindow.closed) {
+      if (whatsappWindow) {
         whatsappWindow.close();
       }
 
-      setMessage("Something went wrong. Please try again.");
+      setMessage(
+        "Something went wrong. Please try again."
+      );
     } finally {
       setSaving(false);
     }
@@ -165,17 +151,16 @@ Source: Hebbagodi Transport Page`;
   const labelClass = "text-sm font-semibold text-slate-200";
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 shadow-2xl backdrop-blur-sm md:p-8">
-      <div className="mb-6 flex items-center justify-between gap-3">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-4 shadow-xl backdrop-blur-sm">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <div>
-          <p className="text-sm font-medium text-teal-300">
-            TRANSPORT ENQUIRY
-          </p>
+          <p className="text-sm font-medium text-teal-400">
+  TRANSPORT ENQUIRY
+</p>
           <h2 className="mt-2 text-2xl font-bold text-white">
-            Move Goods from Hebbagodi
+            Move goods from Hebbagodi
           </h2>
         </div>
-
         <span className="text-4xl" aria-hidden="true">
           🚚
         </span>
@@ -228,7 +213,7 @@ Source: Hebbagodi Transport Page`;
             required
             value={pickup}
             onChange={(e) => setPickup(e.target.value)}
-            placeholder="Enter pickup location"
+            placeholder="Pickup location"
             className={inputClass}
           />
         </div>
@@ -296,7 +281,7 @@ Source: Hebbagodi Transport Page`;
             id="hebbagodi-date"
             type="date"
             required
-            min={minPickupDate}
+            min={new Date().toLocaleDateString("en-CA")}
             value={pickupDate}
             onChange={(e) => setPickupDate(e.target.value)}
             className={inputClass}
@@ -323,8 +308,8 @@ Source: Hebbagodi Transport Page`;
       </form>
 
       <p className="mt-4 text-center text-xs leading-5 text-slate-400">
-        Your enquiry is saved before WhatsApp opens. Truck availability and
-        freight charges must be confirmed.
+        Your enquiry is saved before WhatsApp opens. Truck availability
+        and freight charges must be confirmed.
       </p>
     </div>
   );
