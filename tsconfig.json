@@ -31,8 +31,8 @@
     "**/*.mts"
   ],
   "exclude": [
-  "node_modules",
-  "backups",
-  "LOADZY-safety-backup-*"
-]
+    "node_modules",
+    "backups",
+    "LOADZY-safety-backup-*"
+  ]
 }

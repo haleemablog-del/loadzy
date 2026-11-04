@@ -1,720 +1,950 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TransportEnquiryForm from "./TransportEnquiryForm";
+
+const SITE_URL = "https://www.loadzyinfra.in";
+const PAGE_URL = `${SITE_URL}/tirupattur-transport`;
 
 export const metadata: Metadata = {
-  title: "Tirupattur Truck Transport & Packers Movers | LOADZY",
-  description:
-    "Find truck transport, lorry transport, packers and movers, house shifting, full load, part load and commercial transport services in Tirupattur with LOADZY.",
+  title: "Tirupattur Transport Service | Truck Booking | LOADZY",
+  description: "Find goods transport and truck booking options in Tirupattur, Tirupattur, Tamil Nadu. Explore full load, part load, commercial transport and household shifting enquiries with LOADZY.",
   keywords: [
-    "Tirupattur truck transport",
-    "Tirupattur lorry transport",
-    "Tirupattur transport services",
-    "Tirupattur logistics",
-    "packers and movers in Tirupattur",
-    "house shifting in Tirupattur",
-    "full load transport Tirupattur",
-    "part load transport Tirupattur",
-    "commercial transport Tirupattur",
-    "industrial transport Tirupattur",
-  ],
-  alternates: {
-    canonical: "https://www.loadzyinfra.in/tirupattur-transport",
-  },
+      "Tirupattur transport service",
+      "Tirupattur truck booking",
+      "Tirupattur goods transport",
+      "Tirupattur lorry booking",
+      "Tirupattur full load transport",
+      "Tirupattur part load transport",
+      "Tirupattur house shifting",
+      "Tirupattur packers and movers",
+      "LOADZY transport",
+    ],
+  alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Tirupattur Truck Transport & Packers Movers | LOADZY",
-    description:
-      "Book trucks from Tirupattur for house shifting, packers and movers, full load, part load and commercial goods transport with LOADZY.",
-    url: "https://www.loadzyinfra.in/tirupattur-transport",
-    siteName: "LOADZY",
-    type: "website",
-  },
+      title: "Tirupattur Transport Service | LOADZY",
+      description: "Submit a truck booking or goods transport enquiry from Tirupattur, Tirupattur, Tamil Nadu.",
+      url: PAGE_URL,
+      siteName: "LOADZY",
+      locale: "en_IN",
+      type: "website",
+    },
+  robots: { index: true, follow: true },
 };
 
 const services = [
   {
-    name: "Truck & Lorry Transport",
+    icon: "🚛",
+    title: "Full Load Transport",
     description:
-      "Find suitable truck and lorry transport options for goods movement from Tirupattur to major destinations.",
-    href: "/services",
-  },
-  {
-    name: "Packers & Movers",
-    description:
-      "Transport support for household shifting and moving requirements from Tirupattur.",
-    href: "/packers-movers",
-  },
-  {
-    name: "House Shifting",
-    description:
-      "Book transport support for household goods and relocation requirements from Tirupattur.",
-    href: "/house-shifting",
-  },
-  {
-    name: "Full Load Transport",
-    description:
-      "Full load truck transport for customers who need a dedicated vehicle for their goods.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
-    name: "Part Load Transport",
+    icon: "📦",
+    title: "Part Load Transport",
     description:
-      "Part load transport options for customers moving smaller quantities of goods.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
-    name: "Commercial Transport",
+    icon: "🏠",
+    title: "House Shifting",
     description:
-      "Transport solutions for commercial goods and business requirements from Tirupattur.",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
+    href: "/house-shifting",
+  },
+  {
+    icon: "🧰",
+    title: "Packers and Movers",
+    description:
+      "Explore vehicle arrangements for household and office relocation requirements.",
+    href: "/packers-movers",
+  },
+  {
+    icon: "🏪",
+    title: "Commercial Transport",
+    description:
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
-    name: "Industrial Transport",
+    icon: "🏭",
+    title: "Industrial Transport",
     description:
-      "Truck transport support for industrial goods and business logistics requirements.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
   },
-  {
-    name: "Fruits & Vegetables",
-    description:
-      "Transport support for fruits, vegetables and other time-sensitive goods.",
-    href: "/fruits-vegetables",
-  },
 ];
 
-const routes = [
-  {
-    name: "Tirupattur → Chennai",
-    href: "/routes/tirupattur/chennai",
-  },
-  {
-    name: "Chennai → Tirupattur",
-    href: "/routes/chennai/tirupattur",
-  },
-  {
-    name: "Tirupattur → Bangalore",
-    href: "/routes/tirupattur/bangalore",
-  },
-  {
-    name: "Bangalore → Tirupattur",
-    href: "/routes/bangalore/tirupattur",
-  },
-  {
-    name: "Tirupattur → Vellore",
-    href: "/routes/tirupattur/vellore",
-  },
-  {
-    name: "Vellore → Tirupattur",
-    href: "/routes/vellore/tirupattur",
-  },
-  {
-    name: "Tirupattur → Salem",
-    href: "/routes/tirupattur/salem",
-  },
-  {
-    name: "Salem → Tirupattur",
-    href: "/routes/salem/tirupattur",
-  },
-  {
-    name: "Tirupattur → Krishnagiri",
-    href: "/routes/tirupattur/krishnagiri",
-  },
-  {
-    name: "Krishnagiri → Tirupattur",
-    href: "/routes/krishnagiri/tirupattur",
-  },
-  {
-    name: "Tirupattur → Hosur",
-    href: "/routes/tirupattur/hosur",
-  },
-  {
-    name: "Hosur → Tirupattur",
-    href: "/routes/hosur/tirupattur",
-  },
-    {
-    name: "Tirupattur → Coimbatore",
-    href: "/routes/tirupattur/coimbatore",
-  },
-  {
-    name: "Coimbatore → Tirupattur",
-    href: "/routes/coimbatore/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Hyderabad",
-    href: "/routes/tirupattur/hyderabad",
-  },
-  {
-    name: "Hyderabad → Tirupattur",
-    href: "/routes/hyderabad/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Madurai",
-    href: "/routes/tirupattur/madurai",
-  },
-  {
-    name: "Madurai → Tirupattur",
-    href: "/routes/madurai/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Tiruchirappalli",
-    href: "/routes/tirupattur/tiruchirappalli",
-  },
-  {
-    name: "Tiruchirappalli → Tirupattur",
-    href: "/routes/tiruchirappalli/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Tirupati",
-    href: "/routes/tirupattur/tirupati",
-  },
-  {
-    name: "Tirupati → Tirupattur",
-    href: "/routes/tirupati/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Tiruvannamalai",
-    href: "/routes/tirupattur/tiruvannamalai",
-  },
-  {
-    name: "Tiruvannamalai → Tirupattur",
-    href: "/routes/tiruvannamalai/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Dharmapuri",
-    href: "/routes/tirupattur/dharmapuri",
-  },
-  {
-    name: "Dharmapuri → Tirupattur",
-    href: "/routes/dharmapuri/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Erode",
-    href: "/routes/tirupattur/erode",
-  },
-  {
-    name: "Erode → Tirupattur",
-    href: "/routes/erode/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Namakkal",
-    href: "/routes/tirupattur/namakkal",
-  },
-  {
-    name: "Namakkal → Tirupattur",
-    href: "/routes/namakkal/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Puducherry",
-    href: "/routes/tirupattur/puducherry",
-  },
-  {
-    name: "Puducherry → Tirupattur",
-    href: "/routes/puducherry/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Mysore",
-    href: "/routes/tirupattur/mysore",
-  },
-  {
-    name: "Mysore → Tirupattur",
-    href: "/routes/mysore/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Kochi",
-    href: "/routes/tirupattur/kochi",
-  },
-  {
-    name: "Kochi → Tirupattur",
-    href: "/routes/kochi/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Vijayawada",
-    href: "/routes/tirupattur/vijayawada",
-  },
-  {
-    name: "Vijayawada → Tirupattur",
-    href: "/routes/vijayawada/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Tirunelveli",
-    href: "/routes/tirupattur/tirunelveli",
-  },
-  {
-    name: "Tirunelveli → Tirupattur",
-    href: "/routes/tirunelveli/tirupattur",
-  },
-
-  {
-    name: "Tirupattur → Kanyakumari",
-    href: "/routes/tirupattur/kanyakumari",
-  },
-    {
-    name: "Kanyakumari → Tirupattur",
-    href: "/routes/kanyakumari/tirupattur",
-  },
-  {
-    name: "Tirupattur → Ambur",
-    href: "/routes/tirupattur/ambur",
-  },
-  {
-    name: "Ambur → Tirupattur",
-    href: "/routes/ambur/tirupattur",
-  },
-  {
-    name: "Tirupattur → Vaniyambadi",
-    href: "/routes/tirupattur/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Tirupattur",
-    href: "/routes/vaniyambadi/tirupattur",
-  },
-  
-  {
-    name: "Tirupattur → Jolarpettai",
-    href: "/routes/tirupattur/jolarpettai",
-  },
-  {
-    name: "Jolarpettai → Tirupattur",
-    href: "/routes/jolarpettai/tirupattur",
-  },
+const destinations = [
+  "Chennai",
+  "Bangalore",
+  "Coimbatore",
+  "Vellore",
+  "Tirupattur",
+  "Madurai",
+  "Salem",
+  "Hosur",
+  "Hyderabad",
+  "Tirupati",
+  "Kochi",
+  "Tiruchirappalli",
 ];
-    
 
 const nearbyAreas = [
-  { name: "Vaniyambadi", href: "/vaniyambadi-transport" },
-  { name: "Ambur", href: "/ambur-transport" },
-  { name: "Jolarpettai", href: "/jolarpettai-transport" },
-  { name: "Natrampalli", href: "/natrampalli-transport" },
-  { name: "Vellore", href: "/vellore-transport" },
-  { name: "Krishnagiri", href: "/krishnagiri-transport" },
-  { name: "Hosur", href: "/hosur-transport" },
-  { name: "Alangayam", href: "/alangayam-transport" },
+  "Jolarpet",
+  "Natrampalli",
+  "Vaniyambadi",
+  "Ambur",
+  "Alangayam",
+  "Kandili",
 ];
-
 
 const faqs = [
   {
-    question: "Can I book a truck from Tirupattur with LOADZY?",
+    question: "How can I book a truck in Tirupattur?",
     answer:
-      "Yes. LOADZY helps customers submit truck transport requirements from Tirupattur for different load types, destinations and vehicle requirements.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Does LOADZY provide packers and movers transport in Tirupattur?",
+    question: "Can I enquire about full load transport from Tirupattur?",
     answer:
-      "Yes. LOADZY supports transport requirements for house shifting and packers and movers services from Tirupattur.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Can I arrange house shifting transport from Tirupattur?",
+    question: "Does LOADZY support part load transport?",
     answer:
-      "Yes. You can submit a house shifting transport requirement through LOADZY and provide your pickup, delivery and vehicle requirements.",
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I book full load transport from Tirupattur?",
+    question: "Can I arrange house shifting from Tirupattur?",
     answer:
-      "Yes. LOADZY supports full load transport requirements where a dedicated truck is needed for the customer's goods.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I find part load transport from Tirupattur?",
+    question: "Can I book transport from Tirupattur to Bangalore?",
     answer:
-      "Yes. LOADZY supports part load transport requirements depending on route, load type, availability and pickup date.",
+      "You can submit a transport enquiry for Tirupattur to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
-    question: "Which areas near Tirupattur can LOADZY serve?",
+    question: "How are freight charges calculated?",
     answer:
-      "LOADZY's transport network covers South India. Customers can submit requirements from Tirupattur and nearby locations such as Vaniyambadi, Ambur, Jolarpettai and other service areas.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "Which truck should I choose for my load?",
+    question: "Can I request a return load?",
     answer:
-      "The suitable truck depends on the type, quantity, size and weight of the goods, as well as the route and pickup date. LOADZY can help you submit the transport requirement.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
   },
   {
-    question: "How can I request transport from Tirupattur?",
+    question: "Does submitting the enquiry guarantee a truck?",
     answer:
-      "Use LOADZY to submit your transport requirement with pickup location, delivery location, load details and truck requirements.",
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
-export default function TirupatturTransportPage() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "LOADZY",
-            item: "https://www.loadzyinfra.in/",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Tirupattur Transport",
-            item: "https://www.loadzyinfra.in/tirupattur-transport",
-          },
-        ],
-      },
-      {
-        "@type": "Service",
-        name: "Tirupattur Truck Transport",
-        description:
-          "Truck booking, lorry transport, house shifting, packers and movers, full load, part load and commercial transport services from Tirupattur.",
-        provider: {
-          "@type": "Organization",
-          name: "LOADZY",
-          url: "https://www.loadzyinfra.in",
-        },
-        areaServed: {
-          "@type": "City",
-          name: "Tirupattur",
-        },
-        serviceType: "Truck Transport",
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: faq.answer,
-          },
-        })),
-      },
-    ],
-  };
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Tirupattur Goods Transport and Truck Booking",
+  description:
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Tirupattur, Tirupattur, Tamil Nadu.",
+  serviceType: [
+    "Full load transport",
+    "Part load transport",
+    "Commercial goods transport",
+    "Household shifting transport",
+  ],
+  url: PAGE_URL,
+  provider: {
+    "@type": "Organization",
+    name: "LOADZY",
+    url: SITE_URL,
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Tirupattur, Tirupattur, Tamil Nadu, India",
+  },
+};
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE_URL,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Tirupattur Transport",
+      item: PAGE_URL,
+    },
+  ],
+};
+
+export default function TirupatturTransportPage() {
   return (
-    <main className="bg-white text-slate-900">
+    <main className="min-h-screen bg-white text-slate-800">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
+          __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
         }}
       />
 
-      {/* Hero */}
-      <section className="bg-blue-950 px-6 py-20 text-white">
-        <div className="mx-auto max-w-7xl">
-          <div className="max-w-4xl">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-300">
-              LOADZY TRANSPORT SERVICES
+      {/* HERO: heading left, enquiry form right */}
+      <section className="relative overflow-hidden bg-[#10182D] text-white">
+        <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
+        <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
+          <div>
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
+              <Link href="/" className="hover:text-teal-300">
+                Home
+              </Link>
+              <span className="mx-2">/</span>
+              <span>Tirupattur Transport</span>
+            </nav>
+
+            <p className="inline-flex rounded-full border border-[#08A99F]/40 bg-[#08A99F]/10 px-4 py-2 text-sm font-bold tracking-wider text-teal-300">
+              MOVE. CONNECT. DELIVER.
             </p>
 
-            <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-              Tirupattur Truck Transport & Packers Movers
+            <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
+              Tirupattur Transport Service
+              <span className="mt-3 block text-[#08A99F]">
+                Truck Booking Made Easier
+              </span>
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 md:text-xl">
-              Book truck and lorry transport from Tirupattur for house
-              shifting, packers and movers, full load, part load, commercial
-              goods and industrial transport with LOADZY.
+            <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
+              Looking for goods transport in Tirupattur, Tirupattur, Tamil Nadu? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="/"
-                className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link
+               href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
-              </a>
-
+              </Link>
               <Link
-                href="/routes"
-                className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-yellow-300"
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Explore Routes →
+                Contact LOADZY
               </Link>
             </div>
+
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
+            </div>
           </div>
+
+          {/* The enquiry form stays inside the same two-column hero grid */}
+          <TransportEnquiryForm />
         </div>
       </section>
 
-      {/* Introduction */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-            TIRUPATTUR TRANSPORT
-          </p>
+      {/* SERVICES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Transport solutions
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Goods Transport Services in Tirupattur
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
+        </p>
 
-          <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-            Truck Transport & Logistics Services in Tirupattur
-          </h2>
-
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            LOADZY helps customers arrange transport requirements from
-            Tirupattur for household goods, commercial loads, business
-            shipments and other freight requirements. Whether you need a
-            truck, lorry, full load or part load transport, you can submit
-            your requirement through LOADZY.
-          </p>
-
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            Tirupattur is connected to important transport destinations across
-            Tamil Nadu, Karnataka and other parts of South India. LOADZY
-            connects transport requirements with suitable truck options based
-            on the pickup location, delivery location, load type, vehicle
-            requirement and pickup date.
-          </p>
-
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            Customers looking for Tirupattur lorry transport, packers and
-            movers, house shifting, full load, part load or commercial goods
-            transport can use LOADZY to submit their requirement.
-          </p>
-        </div>
-      </section>
-      {/* About Tirupattur */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-            ABOUT TIRUPATTUR
-          </p>
-
-          <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-            About Tirupattur, Tamil Nadu
-          </h2>
-
-          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
-            <p>
-              Tirupattur is a town in Tirupattur district in Tamil Nadu. It is
-              connected by road to nearby towns such as Vaniyambadi, Ambur and
-              Jolarpettai, as well as important destinations across Tamil Nadu
-              and neighbouring states.
-            </p>
-
-            <p>
-              The surrounding area has local businesses, traders, shops and
-              other commercial activities that may require goods transportation.
-              Households also need transport when moving furniture and personal
-              belongings between locations.
-            </p>
-
-            <p>
-              LOADZY helps customers and businesses submit truck transport
-              requirements from Tirupattur. Depending on the route and vehicle
-              availability, customers can request transport for commercial
-              goods, full loads, part loads, industrial consignments, house
-              shifting and packers and movers.
-            </p>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Services */}
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-              TRANSPORT SOLUTIONS
-            </p>
-
-            <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-              Transport Services in Tirupattur
-            </h2>
-
-            <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-600">
-              Explore LOADZY transport solutions for household shifting,
-              freight, commercial goods and different truck requirements from
-              Tirupattur.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
-              >
-                <div className="text-2xl">🚚</div>
-
-                <h3 className="mt-4 text-xl font-black text-blue-950">
-                  {service.name}
-                </h3>
-
-                <p className="mt-2 leading-7 text-slate-600">
-                  {service.description}
-                </p>
-
-                <span className="mt-4 block font-black text-teal-600">
-                  View service →
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Popular Routes */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-7xl">
-          <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-            ROUTES
-          </p>
-
-          <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-            Popular Truck Transport Routes from Tirupattur
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-            Explore dedicated LOADZY route pages for transport between
-            Tirupattur and major South India destinations.
-          </p>
-
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {routes.map((route) => (
-              <Link
-                key={route.href}
-                href={route.href}
-                className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
-              >
-                {route.name}
-
-                <span className="mt-2 block text-sm font-bold text-teal-600">
-                  View route →
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Nearby Areas */}
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <div className="text-center">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-              NEARBY LOCATIONS
-            </p>
-
-            <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-              Transport Around Tirupattur
-            </h2>
-
-            <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-600">
-              LOADZY's South India transport network connects Tirupattur with
-              nearby towns and major cities. Service availability depends on
-              the specific transport requirement and route.
-            </p>
-          </div>
-
-          <div className="mt-10 flex flex-wrap justify-center gap-3">
-            {nearbyAreas.map((area) => (
-              <span
-                key={area.name}
-                className="rounded-full border border-slate-200 bg-white px-5 py-3 font-bold text-blue-950 shadow-sm"
-              >
-                {area.name}
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
+            <Link
+              key={service.title}
+              href={service.href}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
+            >
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
+                {service.icon}
               </span>
+              <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
+                {service.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">
+                {service.description}
+              </p>
+              <span className="mt-5 inline-flex font-bold text-teal-700">
+                Explore service →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* LOCAL INFORMATION */}
+      <section className="bg-slate-50">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2 md:items-start md:px-8 md:py-20">
+          <div>
+            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+              Local transport
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+              Transport and Truck Booking in Tirupattur, Tirupattur, Tamil Nadu
+            </h2>
+            <p className="mt-5 leading-8 text-slate-600">
+              Tirupattur is a locality in the southern Chennai urban area, with
+              residential neighbourhoods and access to surrounding commercial
+              areas. Transport needs may include household moves, shop
+              deliveries, business goods and intercity consignments.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              When requesting a truck, provide the exact pickup and delivery
+              addresses, goods description, approximate weight and dimensions,
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
+            </p>
+          </div>
+
+          <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
+            <ul className="mt-6 space-y-4">
+              {[
+                "Pickup and delivery addresses",
+                "Goods description and approximate load size",
+                "Required truck type or capacity",
+                "Preferred pickup date",
+                "Loading and unloading requirements",
+                "Contact details for confirmation",
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
+                  <span className="font-bold text-[#08A99F]">✓</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/contact"
+              className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Get Transport Assistance →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+    
+      {/* FORWARD ROUTES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Forward routes
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Transport Routes from Tirupattur
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport enquiry routes from Tirupattur.
+          Vehicle availability, freight charges and schedules must be confirmed.
+        </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
+              <Link
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Chennai
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Vellore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vaniyambadi"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Ambur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Jolarpet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Jolarpet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Natrampalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Natrampalli
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Bangalore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Hosur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Krishnagiri
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Dharmapuri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Dharmapuri
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Salem
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Coimbatore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Erode
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Tiruppur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Madurai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Madurai
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+        </div>
+      </section>
+
+      {/* RETURN ROUTES */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Return routes
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Transport Routes to Tirupattur
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore return-direction transport enquiries to Tirupattur.
+            Return-load availability must be confirmed for each shipment.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+              <Link
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Chennai to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vellore to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vaniyambadi"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ambur to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Jolarpet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Jolarpet to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Natrampalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Natrampalli to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Bangalore to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Hosur to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Krishnagiri to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Dharmapuri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Dharmapuri to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Salem to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Coimbatore to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Erode to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tiruppur to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Madurai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Madurai to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+          </div>
+        </div>
+      </section>
+
+      /* NEARBY AREAS */
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Nearby areas
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Nearby Locations Around Tirupattur
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore other Chennai-area localities when planning a transport
+            enquiry. Select a locality to open the corresponding transport page.
+          </p>
+
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
+              <Link
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
+                </span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Why LOADZY */}
-      <section className="bg-blue-950 px-6 py-16 text-white">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="font-black uppercase tracking-[0.2em] text-teal-300">
-                WHY LOADZY
-              </p>
+      {/* WHY LOADZY */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Why LOADZY
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            A Simpler Way to Explore Transport Options
+          </h2>
+          <p className="mt-4 leading-7 text-slate-600">
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
+          </p>
+        </div>
 
-              <h2 className="mt-4 text-3xl font-black md:text-4xl">
-                A simple way to manage your Tirupattur transport requirement
-              </h2>
-
-              <p className="mt-5 max-w-2xl leading-8 text-blue-100">
-                Tell LOADZY where your goods need to go, what you are
-                transporting and what type of truck you need. We help connect
-                your requirement with available transport options.
-              </p>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: "📍",
+              title: "Route Enquiries",
+              text: "Share pickup and delivery details for your shipment.",
+            },
+            {
+              icon: "🚚",
+              title: "Different Load Needs",
+              text: "Explore full load, part load and suitable truck options.",
+            },
+            {
+              icon: "💬",
+              title: "Clear Requirements",
+              text: "Provide cargo details and pickup preferences.",
+            },
+            {
+              icon: "📦",
+              title: "Multiple Use Cases",
+              text: "Enquire about shifting, commercial goods and consignments.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="mt-4 text-lg font-bold text-slate-900">
+                {item.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
             </div>
+          ))}
+        </div>
+      </section>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {[
-                "On-Time Delivery",
-                "Safe Delivery",
-                "Affordable Freight",
-                "Return Load Availability",
-              ].map((benefit) => (
-                <div
-                  key={benefit}
-                  className="rounded-2xl border border-white/10 bg-white/10 p-5"
-                >
-                  <div className="text-2xl">✓</div>
-                  <h3 className="mt-3 font-black">{benefit}</h3>
-                </div>
-              ))}
-            </div>
+      {/* BOOKING STEPS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            How to Request Transport from Tirupattur
+          </h2>
+
+          <div className="mt-9 grid gap-5 md:grid-cols-4">
+            {[
+              {
+                number: "01",
+                title: "Enter Locations",
+                text: "Provide pickup and delivery addresses.",
+              },
+              {
+                number: "02",
+                title: "Share Load Details",
+                text: "Choose your service, truck type and pickup date.",
+              },
+              {
+                number: "03",
+                title: "Submit Enquiry",
+                text: "Send your booking details through the form.",
+              },
+              {
+                number: "04",
+                title: "Confirm Details",
+                text: "Confirm availability, freight charges and timing.",
+              },
+            ].map((step) => (
+              <div
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6"
+              >
+                <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
+                  STEP {step.number}
+                </p>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">
+                  {step.title}
+                </h3>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-9 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
+            >
+              Submit a Transport Enquiry →
+            </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-center font-black uppercase tracking-[0.2em] text-teal-600">
-            FAQ
+      <section className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
+        <div className="text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            FAQs
           </p>
-
-          <h2 className="mt-3 text-center text-3xl font-black text-blue-950 md:text-4xl">
-            Tirupattur Truck Transport FAQs
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Tirupattur Transport — Frequently Asked Questions
           </h2>
+        </div>
 
-          <div className="mt-10 space-y-4">
-            {faqs.map((faq) => (
-              <details
-                key={faq.question}
-                className="rounded-2xl border border-slate-200 bg-white p-5"
-              >
-                <summary className="cursor-pointer font-black text-blue-950">
-                  {faq.question}
-                </summary>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {faq.answer}
-                </p>
-              </details>
-            ))}
-          </div>
+        <div className="mt-9 space-y-4">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-slate-200 bg-white p-5"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
+                <span>{faq.question}</span>
+                <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
+            </details>
+          ))}
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-5xl rounded-3xl bg-blue-950 p-8 text-center text-white md:p-12">
-          <h2 className="text-3xl font-black md:text-4xl">
-            Need a truck from Tirupattur?
-          </h2>
-
-          <p className="mx-auto mt-4 max-w-2xl leading-7 text-blue-100">
-            Submit your pickup, delivery and load requirements and explore
-            truck transport options with LOADZY.
+      {/* FINAL CTA */}
+      <section className="bg-[#10182D] px-5 py-16 text-white md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
+            LOADZY Transport
           </p>
-
-          <a
-            href="/"
-            className="mt-7 inline-block rounded-xl bg-teal-500 px-8 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
-          >
-            Book a Truck with LOADZY →
-          </a>
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
+            Looking for Goods Transport from Tirupattur?
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
+            Share your pickup location, destination and load requirements to
+            explore a suitable transport option for your shipment.
+          </p>
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Book a Truck →
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
+            >
+              Back to LOADZY Home
+            </Link>
+          </div>
+          <p className="mt-6 text-sm text-slate-400">
+            LOADZY — MOVE. CONNECT. DELIVER.
+          </p>
         </div>
       </section>
     </main>

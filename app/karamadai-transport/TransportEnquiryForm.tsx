@@ -1,0 +1,286 @@
+"use client";
+
+import { useState, type FormEvent } from "react";
+import { supabase } from "@/app/lib/supabase";
+
+const services = [
+  "Full Load Transport",
+  "Part Load Transport",
+  "House Shifting",
+  "Packers and Movers",
+  "Commercial Transport",
+  "Industrial Transport",
+  "Agricultural Goods Transport",
+  "Other",
+];
+
+const truckTypes = [
+  "Mini Truck",
+  "Pickup Truck",
+  "Tata Ace",
+  "14 Feet Truck",
+  "17 Feet Truck",
+  "19 Feet Truck",
+  "22 Feet Truck",
+  "Container Truck",
+  "Open Truck",
+  "Not Sure",
+];
+
+export default function TransportEnquiryForm() {
+  const [customerName, setCustomerName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [pickup, setPickup] = useState("Karamadai, Coimbatore district, Tamil Nadu");
+  const [delivery, setDelivery] = useState("");
+  const [loadType, setLoadType] = useState("Full Load Transport");
+  const [truckType, setTruckType] = useState("Not Sure");
+  const [pickupDate, setPickupDate] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
+  const [messageType, setMessageType] = useState<"success" | "error">("success");
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setMessage("");
+
+    const cleanPhone = phone.replace(/\D/g, "").slice(-10);
+
+    if (customerName.trim().length < 2) {
+      setMessageType("error");
+      setMessage("Please enter your name.");
+      return;
+    }
+
+    if (cleanPhone.length !== 10) {
+      setMessageType("error");
+      setMessage("Please enter a valid 10-digit phone number.");
+      return;
+    }
+
+    if (!pickup.trim() || !delivery.trim()) {
+      setMessageType("error");
+      setMessage("Please enter both pickup and delivery locations.");
+      return;
+    }
+
+    setLoading(true);
+
+    const enquiry = {
+      customer_name: customerName.trim(),
+      phone: cleanPhone,
+      pickup: pickup.trim(),
+      delivery: delivery.trim(),
+      load_type: loadType,
+      truck_type: truckType,
+      pickup_date: pickupDate || null,
+      source: "karamadai_transport_page",
+      status: "new",
+    };
+
+    try {
+      const { error } = await supabase.from("leads").insert([enquiry]);
+
+      if (error) {
+        console.error("Karamadai enquiry save error:", error);
+        setMessageType("error");
+        setMessage("We couldn't submit your enquiry right now. Please try WhatsApp.");
+        return;
+      }
+
+      const whatsappMessage = [
+        "Hello LOADZY, I need a transport enquiry from the Karamadai page.",
+        "",
+        `Name: ${customerName.trim()}`,
+        `Phone: ${cleanPhone}`,
+        `Pickup: ${pickup.trim()}`,
+        `Delivery: ${delivery.trim()}`,
+        `Service: ${loadType}`,
+        `Truck Type: ${truckType}`,
+        `Pickup Date: ${pickupDate || "Not decided"}`,
+      ].join("\n");
+
+      setMessageType("success");
+      setMessage("Your enquiry has been submitted. You can also send the details through WhatsApp.");
+
+      window.open(
+        `https://wa.me/919019499448?text=${encodeURIComponent(whatsappMessage)}`,
+        "_blank",
+        "noopener,noreferrer"
+      );
+
+      setCustomerName("");
+      setPhone("");
+      setDelivery("");
+      setLoadType("Full Load Transport");
+      setTruckType("Not Sure");
+      setPickupDate("");
+    } catch (error) {
+      console.error("Karamadai enquiry error:", error);
+      setMessageType("error");
+      setMessage("Something went wrong. Please try again or contact us through WhatsApp.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const inputClass =
+    "mt-2 w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-[#08A99F] focus:ring-2 focus:ring-[#08A99F]/20";
+
+  return (
+    <div
+      id="transport-enquiry"
+      className="rounded-3xl bg-white p-6 text-slate-800 shadow-2xl sm:p-8"
+    >
+      <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+        Transport enquiry
+      </p>
+      <h2 className="mt-2 text-2xl font-extrabold text-slate-900 sm:text-3xl">
+        Book a Truck in Karamadai
+      </h2>
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        Share your route and load details to enquire about transport options,
+        vehicle availability, and freight charges.
+      </p>
+
+      <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+        <div>
+          <label htmlFor="karamadai-name" className="text-sm font-semibold">
+            Customer Name *
+          </label>
+          <input
+            id="karamadai-name"
+            className={inputClass}
+            value={customerName}
+            onChange={(e) => setCustomerName(e.target.value)}
+            placeholder="Enter your full name"
+            autoComplete="name"
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-phone" className="text-sm font-semibold">
+            Mobile Number *
+          </label>
+          <input
+            id="karamadai-phone"
+            className={inputClass}
+            type="tel"
+            inputMode="numeric"
+            autoComplete="tel"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
+            placeholder="10-digit mobile number"
+            maxLength={10}
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-pickup" className="text-sm font-semibold">
+            Pickup Location *
+          </label>
+          <input
+            id="karamadai-pickup"
+            className={inputClass}
+            value={pickup}
+            onChange={(e) => setPickup(e.target.value)}
+            placeholder="Enter pickup location"
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-delivery" className="text-sm font-semibold">
+            Delivery Location *
+          </label>
+          <input
+            id="karamadai-delivery"
+            className={inputClass}
+            value={delivery}
+            onChange={(e) => setDelivery(e.target.value)}
+            placeholder="Where should the goods go?"
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-service" className="text-sm font-semibold">
+            Service Required *
+          </label>
+          <select
+            id="karamadai-service"
+            className={inputClass}
+            value={loadType}
+            onChange={(e) => setLoadType(e.target.value)}
+            required
+          >
+            {services.map((service) => (
+              <option key={service} value={service}>
+                {service}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-truck" className="text-sm font-semibold">
+            Truck Type
+          </label>
+          <select
+            id="karamadai-truck"
+            className={inputClass}
+            value={truckType}
+            onChange={(e) => setTruckType(e.target.value)}
+          >
+            {truckTypes.map((truck) => (
+              <option key={truck} value={truck}>
+                {truck}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label htmlFor="karamadai-date" className="text-sm font-semibold">
+            Preferred Pickup Date
+          </label>
+          <input
+            id="karamadai-date"
+            className={inputClass}
+            type="date"
+            min={new Date().toISOString().split("T")[0]}
+            value={pickupDate}
+            onChange={(e) => setPickupDate(e.target.value)}
+          />
+        </div>
+
+        {message && (
+          <p
+            role="status"
+            className={`rounded-xl p-3 text-sm leading-6 ${
+              messageType === "success"
+                ? "bg-teal-50 text-teal-800"
+                : "bg-red-50 text-red-700"
+            }`}
+          >
+            {message}
+          </p>
+        )}
+
+        <button
+          type="submit"
+          disabled={loading}
+          className="flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-extrabold text-slate-950 transition hover:bg-yellow-300 disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          {loading ? "Submitting..." : "Submit Enquiry & Continue to WhatsApp →"}
+        </button>
+
+        <p className="text-center text-xs leading-5 text-slate-500">
+          Truck availability, pickup timing, and freight charges must be
+          confirmed before booking.
+        </p>
+      </form>
+    </div>
+  );
+}

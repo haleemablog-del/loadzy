@@ -1,449 +1,949 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TransportEnquiryForm from "./TransportEnquiryForm";
+
+const SITE_URL = "https://www.loadzyinfra.in";
+const PAGE_URL = `${SITE_URL}/ranipet-transport`;
 
 export const metadata: Metadata = {
-  title: "Ranipet Truck Transport & Packers Movers | LOADZY",
-  description:
-    "Find truck transport from Ranipet for leather goods, industrial materials, commercial loads, full loads, part loads and household shifting with LOADZY.",
+  title: "Ranipet Transport Service | Truck Booking | LOADZY",
+  description: "Find goods transport and truck booking options in Ranipet, Ranipet, Tamil Nadu. Explore full load, part load, commercial transport and household shifting enquiries with LOADZY.",
   keywords: [
-    "Ranipet truck transport",
-    "Ranipet lorry transport",
-    "Ranipet goods transport",
-    "Ranipet industrial transport",
-    "Ranipet leather goods transport",
-    "Ranipet packers and movers",
-    "Ranipet house shifting",
-    "Ranipet truck booking",
-    "Ranipet to Chennai transport",
-    "Ranipet to Bangalore transport",
-    "LOADZY Ranipet",
-  ],
-  alternates: {
-    canonical: "https://www.loadzyinfra.in/ranipet-transport",
-  },
+      "Ranipet transport service",
+      "Ranipet truck booking",
+      "Ranipet goods transport",
+      "Ranipet lorry booking",
+      "Ranipet full load transport",
+      "Ranipet part load transport",
+      "Ranipet house shifting",
+      "Ranipet packers and movers",
+      "LOADZY transport",
+    ],
+  alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Ranipet Truck Transport & Packers Movers | LOADZY",
-    description:
-      "Truck transport for industrial goods, commercial loads, full loads, part loads and household shifting from Ranipet.",
-    url: "https://www.loadzyinfra.in/ranipet-transport",
-    siteName: "LOADZY",
-    type: "website",
-  },
+      title: "Ranipet Transport Service | LOADZY",
+      description: "Submit a truck booking or goods transport enquiry from Ranipet, Ranipet, Tamil Nadu.",
+      url: PAGE_URL,
+      siteName: "LOADZY",
+      locale: "en_IN",
+      type: "website",
+    },
+  robots: { index: true, follow: true },
 };
 
 const services = [
   {
-    name: "Truck Transport",
-    description: "Truck and lorry transport for goods moving from Ranipet to nearby towns and major destinations.",
-    href: "/services",
-  },
-  {
-    name: "Industrial Transport",
-    description: "Transport enquiries for industrial materials, factory goods and suitable commercial consignments.",
-    href: "/industrial-transport",
-  },
-  {
-    name: "Full Load",
-    description: "Dedicated truck transport for customers who need a vehicle for their complete consignment.",
+    icon: "🚛",
+    title: "Full Load Transport",
+    description:
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
-    name: "Part Load",
-    description: "Transport enquiries for smaller consignments that do not need a complete truck.",
+    icon: "📦",
+    title: "Part Load Transport",
+    description:
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
-    name: "Packers & Movers",
-    description: "Transport support for household shifting, office relocation and moving requirements.",
-    href: "/packers-movers",
-  },
-  {
-    name: "House Shifting",
-    description: "Truck transport for household goods moving from Ranipet to other locations.",
+    icon: "🏠",
+    title: "House Shifting",
+    description:
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
     href: "/house-shifting",
   },
   {
-    name: "Commercial Transport",
-    description: "Transport enquiries for shop goods, business consignments and commercial materials.",
+    icon: "🧰",
+    title: "Packers and Movers",
+    description:
+      "Explore vehicle arrangements for household and office relocation requirements.",
+    href: "/packers-movers",
+  },
+  {
+    icon: "🏪",
+    title: "Commercial Transport",
+    description:
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
-    name: "Find My Truck",
-    description: "Submit your pickup, delivery and load details to explore suitable truck options.",
-    href: "/load-search",
+    icon: "🏭",
+    title: "Industrial Transport",
+    description:
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
+    href: "/industrial-transport",
   },
 ];
 
-const routes = [
-  { from: "Ranipet", to: "Chennai", href: "/routes/ranipet/chennai" },
-  { from: "Chennai", to: "Ranipet", href: "/routes/chennai/ranipet" },
-  { from: "Ranipet", to: "Bangalore", href: "/routes/ranipet/bangalore" },
-  { from: "Bangalore", to: "Ranipet", href: "/routes/bangalore/ranipet" },
-  { from: "Ranipet", to: "Vellore", href: "/routes/ranipet/vellore" },
-  { from: "Vellore", to: "Ranipet", href: "/routes/vellore/ranipet" },
-  { from: "Ranipet", to: "Ambur", href: "/routes/ranipet/ambur" },
-  { from: "Ambur", to: "Ranipet", href: "/routes/ambur/ranipet" },
-  { from: "Ranipet", to: "Kanchipuram", href: "/routes/ranipet/kanchipuram" },
-  { from: "Kanchipuram", to: "Ranipet", href: "/routes/kanchipuram/ranipet" },
-  { from: "Ranipet", to: "Tirupattur", href: "/routes/ranipet/tirupattur" },
-  { from: "Tirupattur", to: "Ranipet", href: "/routes/tirupattur/ranipet" },
+const destinations = [
+  "Chennai",
+  "Bangalore",
+  "Coimbatore",
+  "Vellore",
+  "Tirupattur",
+  "Madurai",
+  "Salem",
+  "Hosur",
+  "Hyderabad",
+  "Tirupati",
+  "Kochi",
+  "Tiruchirappalli",
 ];
 
 const nearbyAreas = [
-  { name: "Vellore", href: "/vellore-transport" },
-  { name: "Ambur", href: "/ambur-transport" },
-  { name: "Vaniyambadi", href: "/vaniyambadi-transport" },
-  { name: "Tirupattur", href: "/tirupattur-transport" },
-  { name: "Kanchipuram", href: "/kanchipuram-transport" },
-  { name: "Chennai", href: "/chennai-transport" },
+  "Walajapet",
+  "Arcot",
+  "Sholinghur",
+  "Vellore",
+  "Kaveripakkam",
 ];
 
 const faqs = [
   {
-    question: "Can I book a truck from Ranipet with LOADZY?",
+    question: "How can I book a truck in Ranipet?",
     answer:
-      "You can submit your transport requirement through LOADZY with your pickup location, delivery location, cargo details and preferred date. Vehicle options depend on availability.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Does LOADZY support industrial goods transport from Ranipet?",
+    question: "Can I enquire about full load transport from Ranipet?",
     answer:
-      "LOADZY supports transport enquiries for suitable industrial materials, factory goods and commercial consignments, depending on the cargo and truck requirements.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Can I arrange transport from Ranipet to Chennai?",
+    question: "Does LOADZY support part load transport?",
     answer:
-      "You can submit a transport enquiry for the Ranipet to Chennai route. Suitable vehicle options depend on availability and your load details.",
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I transport goods from Ranipet to Bangalore?",
+    question: "Can I arrange house shifting from Ranipet?",
     answer:
-      "You can submit a transport enquiry for goods moving from Ranipet to Bangalore and provide your cargo and delivery details.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Does LOADZY support full-load and part-load transport?",
+    question: "Can I book transport from Ranipet to Bangalore?",
     answer:
-      "LOADZY supports enquiries for full-load and part-load transport. Suitable options depend on the shipment size, vehicle requirements and availability.",
+      "You can submit a transport enquiry for Ranipet to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
-    question: "Can I arrange household shifting from Ranipet?",
+    question: "How are freight charges calculated?",
     answer:
-      "You can submit a household shifting or packers and movers transport enquiry with the pickup, destination and household goods details.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
+  },
+  {
+    question: "Can I request a return load?",
+    answer:
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
+  },
+  {
+    question: "Does submitting the enquiry guarantee a truck?",
+    answer:
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
-const structuredData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Service",
+  name: "Ranipet Goods Transport and Truck Booking",
+  description:
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Ranipet, Ranipet, Tamil Nadu.",
+  serviceType: [
+    "Full load transport",
+    "Part load transport",
+    "Commercial goods transport",
+    "Household shifting transport",
+  ],
+  url: PAGE_URL,
+  provider: {
+    "@type": "Organization",
+    name: "LOADZY",
+    url: SITE_URL,
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Ranipet, Ranipet, Tamil Nadu, India",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
     {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.loadzyinfra.in",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Ranipet Transport",
-          item: "https://www.loadzyinfra.in/ranipet-transport",
-        },
-      ],
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE_URL,
     },
     {
-      "@type": "Service",
-      name: "Ranipet Truck Transport & Packers Movers",
-      serviceType: [
-        "Truck Transport",
-        "Lorry Transport",
-        "Industrial Transport",
-        "Commercial Transport",
-        "Full Load Transport",
-        "Part Load Transport",
-        "House Shifting",
-      ],
-      areaServed: {
-        "@type": "Place",
-        name: "Ranipet, Tamil Nadu, India",
-      },
-      provider: {
-        "@type": "Organization",
-        name: "LOADZY",
-        url: "https://www.loadzyinfra.in",
-      },
-      url: "https://www.loadzyinfra.in/ranipet-transport",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: faq.answer,
-        },
-      })),
+      "@type": "ListItem",
+      position: 2,
+      name: "Ranipet Transport",
+      item: PAGE_URL,
     },
   ],
 };
 
 export default function RanipetTransportPage() {
   return (
-    <main className="min-h-screen bg-white text-slate-900">
+    <main className="min-h-screen bg-white text-slate-800">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
+          __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
         }}
       />
 
-      <section className="bg-slate-950 px-6 py-20 text-white">
-        <div className="mx-auto max-w-6xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-teal-400">
-            LOADZY • Ranipet Transport Services
-          </p>
-          <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl">
-            Ranipet Truck Transport & Packers Movers
-          </h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-            Find transport options for industrial goods, commercial loads,
-            full loads, part loads and household shifting from Ranipet with
-            LOADZY.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+      {/* HERO: heading left, enquiry form right */}
+      <section className="relative overflow-hidden bg-[#10182D] text-white">
+        <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
+        <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
+          <div>
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
+              <Link href="/" className="hover:text-teal-300">
+                Home
+              </Link>
+              <span className="mx-2">/</span>
+              <span>Ranipet Transport</span>
+            </nav>
+
+            <p className="inline-flex rounded-full border border-[#08A99F]/40 bg-[#08A99F]/10 px-4 py-2 text-sm font-bold tracking-wider text-teal-300">
+              MOVE. CONNECT. DELIVER.
+            </p>
+
+            <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
+              Ranipet Transport Service
+              <span className="mt-3 block text-[#08A99F]">
+                Truck Booking Made Easier
+              </span>
+            </h1>
+
+            <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
+              Looking for goods transport in Ranipet, Ranipet, Tamil Nadu? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link
+               href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+              >
+                Book a Truck →
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
+              >
+                Contact LOADZY
+              </Link>
+            </div>
+
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
+            </div>
+          </div>
+
+          {/* The enquiry form stays inside the same two-column hero grid */}
+          <TransportEnquiryForm />
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Transport solutions
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Goods Transport Services in Ranipet
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
+        </p>
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
             <Link
-              href="/load-search"
-              className="rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
+              key={service.title}
+              href={service.href}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
             >
-              Find My Truck
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
+                {service.icon}
+              </span>
+              <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
+                {service.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">
+                {service.description}
+              </p>
+              <span className="mt-5 inline-flex font-bold text-teal-700">
+                Explore service →
+              </span>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* LOCAL INFORMATION */}
+      <section className="bg-slate-50">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2 md:items-start md:px-8 md:py-20">
+          <div>
+            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+              Local transport
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+              Transport and Truck Booking in Ranipet, Ranipet, Tamil Nadu
+            </h2>
+            <p className="mt-5 leading-8 text-slate-600">
+              Ranipet is a locality in the southern Chennai urban area, with
+              residential neighbourhoods and access to surrounding commercial
+              areas. Transport needs may include household moves, shop
+              deliveries, business goods and intercity consignments.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              When requesting a truck, provide the exact pickup and delivery
+              addresses, goods description, approximate weight and dimensions,
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
+            </p>
+          </div>
+
+          <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
+            <ul className="mt-6 space-y-4">
+              {[
+                "Pickup and delivery addresses",
+                "Goods description and approximate load size",
+                "Required truck type or capacity",
+                "Preferred pickup date",
+                "Loading and unloading requirements",
+                "Contact details for confirmation",
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
+                  <span className="font-bold text-[#08A99F]">✓</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
             <Link
               href="/contact"
-              className="rounded-xl border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+              className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Contact LOADZY
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-3xl font-bold">
-            Truck & Lorry Transport Services in Ranipet
-          </h2>
-          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
-            <p>
-              Ranipet is an important industrial and commercial area in
-              northern Tamil Nadu. Road connections link the area with Vellore,
-              Chennai, Kanchipuram and other regional destinations.
-            </p>
-            <p>
-              Businesses may need transport for industrial materials, factory
-              goods, packaged products, shop merchandise, equipment and other
-              suitable consignments. Households may also need vehicles for
-              furniture and relocation.
-            </p>
-            <p>
-              LOADZY provides a platform to submit transport enquiries for
-              suitable truck options. Share accurate pickup and delivery
-              addresses, cargo details, load dimensions and preferred dates
-              when making an enquiry.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
-            ABOUT RANIPET
-          </p>
-          <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
-            Ranipet: Local Economy, Industries and Goods Transport
-          </h2>
-          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
-            <p>
-              Ranipet district has industrial, trading and service activities
-              that generate different transport requirements. The wider area
-              includes manufacturing businesses, commercial establishments
-              and industrial facilities.
-            </p>
-            <p>
-              Depending on the business and consignment, transport needs may
-              include raw materials, packaged goods, machinery, equipment,
-              finished products and shop supplies. Cargo handling and vehicle
-              selection should be based on the actual load and delivery
-              requirements.
-            </p>
-            <p>
-              LOADZY helps businesses, traders and households submit transport
-              enquiries for full-load, part-load, commercial goods and
-              household shifting requirements from Ranipet.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">
-            Transport Services Available from Ranipet
-          </h2>
-          <p className="mt-4 max-w-3xl text-lg text-slate-600">
-            Choose a service based on your cargo, vehicle and delivery
-            requirements.
-          </p>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {services.map((service) => (
+    
+      {/* FORWARD ROUTES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Forward routes
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Transport Routes from Ranipet
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport enquiry routes from Ranipet.
+          Vehicle availability, freight charges and schedules must be confirmed.
+        </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
               <Link
-                key={service.name}
-                href={service.href}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                <h3 className="text-xl font-bold">{service.name}</h3>
-                <p className="mt-3 leading-7 text-slate-600">
-                  {service.description}
-                </p>
-                <span className="mt-5 inline-block font-semibold text-teal-600">
-                  Explore service →
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Chennai
                 </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">Ranipet Truck Transport Routes</h2>
-          <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600">
-            Explore transport enquiries for routes between Ranipet and major
-            destinations. Route availability depends on your load and vehicle
-            requirements.
-          </p>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {routes.map((route) => (
               <Link
-                key={route.href}
-                href={route.href}
-                className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-teal-400 hover:shadow-md"
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                <p className="text-lg font-bold">
-                  {route.from} → {route.to}
-                </p>
-                <p className="mt-2 text-sm text-slate-500">
-                  Truck transport route
-                </p>
-                <span className="mt-4 inline-block font-semibold text-teal-600">
-                  View route →
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Vellore
                 </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
               </Link>
-            ))}
+
+              <Link
+                key={"Arcot"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Arcot
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Walajapet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Walajapet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Ambur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vaniyambadi"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tirupattur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Bangalore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Hosur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Krishnagiri
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Salem
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Coimbatore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Erode
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Tiruppur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruchirappalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Tiruchirappalli
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+        </div>
+      </section>
+
+      {/* RETURN ROUTES */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Return routes
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Transport Routes to Ranipet
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore return-direction transport enquiries to Ranipet.
+            Return-load availability must be confirmed for each shipment.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+              <Link
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Chennai to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vellore to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Arcot"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Arcot to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Walajapet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Walajapet to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ambur to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vaniyambadi"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tirupattur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Bangalore to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Hosur to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Krishnagiri to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Salem to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Coimbatore to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Erode to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tiruppur to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruchirappalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tiruchirappalli to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">Nearby Areas We Serve</h2>
-          <p className="mt-4 max-w-3xl text-lg text-slate-600">
-            Explore nearby transport pages to learn more about LOADZY service
-            enquiries in surrounding areas.
+      /* NEARBY AREAS */
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Nearby areas
           </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Nearby Locations Around Ranipet
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore other Chennai-area localities when planning a transport
+            enquiry. Select a locality to open the corresponding transport page.
+          </p>
+
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (
               <Link
-                key={area.name}
-                href={area.href}
-                className="rounded-xl border border-slate-200 bg-white p-5 font-semibold shadow-sm transition hover:border-teal-400"
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                {area.name} Transport →
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
+                </span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">
-            Why Use LOADZY for Ranipet Transport?
+      {/* WHY LOADZY */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Why LOADZY
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            A Simpler Way to Explore Transport Options
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <p className="mt-4 leading-7 text-slate-600">
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: "📍",
+              title: "Route Enquiries",
+              text: "Share pickup and delivery details for your shipment.",
+            },
+            {
+              icon: "🚚",
+              title: "Different Load Needs",
+              text: "Explore full load, part load and suitable truck options.",
+            },
+            {
+              icon: "💬",
+              title: "Clear Requirements",
+              text: "Provide cargo details and pickup preferences.",
+            },
+            {
+              icon: "📦",
+              title: "Multiple Use Cases",
+              text: "Enquire about shifting, commercial goods and consignments.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="mt-4 text-lg font-bold text-slate-900">
+                {item.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BOOKING STEPS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            How to Request Transport from Ranipet
+          </h2>
+
+          <div className="mt-9 grid gap-5 md:grid-cols-4">
             {[
               {
-                title: "Truck Options",
-                text: "Submit load details to explore suitable vehicle options.",
+                number: "01",
+                title: "Enter Locations",
+                text: "Provide pickup and delivery addresses.",
               },
               {
-                title: "Multiple Load Types",
-                text: "Transport enquiries for full loads, part loads and commercial consignments.",
+                number: "02",
+                title: "Share Load Details",
+                text: "Choose your service, truck type and pickup date.",
               },
               {
-                title: "Regional Connectivity",
-                text: "Explore transport routes connecting Ranipet with nearby towns and major cities.",
+                number: "03",
+                title: "Submit Enquiry",
+                text: "Send your booking details through the form.",
               },
               {
-                title: "Simple Enquiry",
-                text: "Share your pickup, destination and cargo details through LOADZY.",
+                number: "04",
+                title: "Confirm Details",
+                text: "Confirm availability, freight charges and timing.",
               },
-            ].map((item) => (
+            ].map((step) => (
               <div
-                key={item.title}
-                className="rounded-2xl border border-slate-200 p-6"
-              >
-                <h3 className="text-xl font-bold">{item.title}</h3>
-                <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-3xl font-bold">
-            Frequently Asked Questions About Ranipet Transport
-          </h2>
-          <div className="mt-10 space-y-5">
-            {faqs.map((faq) => (
-              <div
-                key={faq.question}
+                key={step.number}
                 className="rounded-2xl border border-slate-200 bg-white p-6"
               >
-                <h3 className="text-lg font-bold">{faq.question}</h3>
-                <p className="mt-3 leading-7 text-slate-600">{faq.answer}</p>
+                <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
+                  STEP {step.number}
+                </p>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">
+                  {step.title}
+                </h3>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
+          </div>
+          <div className="mt-9 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
+            >
+              Submit a Transport Enquiry →
+            </Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-slate-950 px-6 py-16 text-white">
-        <div className="mx-auto max-w-5xl text-center">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Need a Truck from Ranipet?
-          </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-            Share your pickup location, delivery location and cargo details
-            to start a transport enquiry with LOADZY.
+      {/* FAQ */}
+      <section className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
+        <div className="text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            FAQs
           </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/load-search"
-              className="rounded-xl bg-teal-500 px-7 py-3 font-semibold text-white transition hover:bg-teal-600"
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Ranipet Transport — Frequently Asked Questions
+          </h2>
+        </div>
+
+        <div className="mt-9 space-y-4">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-slate-200 bg-white p-5"
             >
-              Find My Truck
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
+                <span>{faq.question}</span>
+                <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="bg-[#10182D] px-5 py-16 text-white md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
+            LOADZY Transport
+          </p>
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
+            Looking for Goods Transport from Ranipet?
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
+            Share your pickup location, destination and load requirements to
+            explore a suitable transport option for your shipment.
+          </p>
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Book a Truck →
             </Link>
             <Link
-              href="/services"
-              className="rounded-xl border border-white/30 px-7 py-3 font-semibold text-white transition hover:bg-white/10"
+              href="/"
+              className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
             >
-              View Services
+              Back to LOADZY Home
             </Link>
           </div>
+          <p className="mt-6 text-sm text-slate-400">
+            LOADZY — MOVE. CONNECT. DELIVER.
+          </p>
         </div>
       </section>
     </main>

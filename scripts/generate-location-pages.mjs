@@ -49,6 +49,9 @@ const bengaluruRuralSlugs = new Set([
   "bengaluru-rural-agricultural-markets-transport",
 ]);
 const targetOnly = process.argv.includes("--target-bengaluru-13");
+const targetTamilNaduBatch = process.argv.includes(
+  "--target-tamil-nadu-batch"
+);
 const targetAnekalMissing = process.argv.includes("--target-anekal-missing");
 
 const anekalMissingSlugs = new Set([
@@ -164,6 +167,148 @@ const targetSlugs = new Set([
   "cessna-business-park-transport",
   "wipro-technology-campus-transport",
   "biocon-campus-transport",
+
+  "periyanaickenpalayam-transport",
+  "vellalore-transport",
+  "kinathukadavu-transport",
+  "perur-transport",
+  "vedapatti-transport",
+  "othakkalmandapam-transport",
+  "anaimalai-transport",
+  "samathur-transport",
+  "suleeswaranpatti-transport",
+  "thondamuthur-transport",
+  "chettipalayam-transport",
+  "ettimadai-transport",
+
+    "cuddalore-transport",
+  "chidambaram-transport",
+  "neyveli-transport",
+  "virudhachalam-transport",
+  "panruti-transport",
+  "vadalur-transport",
+  "nellikuppam-transport",
+  "tittakudi-transport",
+  "kurinjipadi-transport",
+  "parangipettai-transport",
+  "bhuvanagiri-transport",
+  "kattumannarkoil-transport",
+  "srimushnam-transport",
+  "annamalai-nagar-transport",
+  "killai-transport",
+  "melpattampakkam-transport",
+
+  "dharmapuri-transport",
+"harur-transport",
+"palacode-transport",
+"pennagaram-transport",
+"pappireddipatti-transport",
+"karimangalam-transport",
+"nallampalli-transport",
+"morappur-transport",
+  "bommidi-transport",
+  "kadathur-transport",
+
+  "dindigul-transport",
+  "palani-transport",
+  "kodaikanal-transport",
+  "oddanchatram-transport",
+  "vedasandur-transport",
+  "natham-transport",
+  "nilakottai-transport",
+  "batlagundu-transport",
+  "ayyalur-transport",
+  "chinnalapatti-transport",
+  "guziliamparai-transport",
+  "sithayankottai-transport",
+  
+    "erode-transport",
+  "gobichettipalayam-transport",
+  "bhavani-transport",
+  "sathyamangalam-transport",
+  "perundurai-transport",
+  "kangeyam-transport",
+  "modakurichi-transport",
+  "kodumudi-transport",
+  "anthiyur-transport",
+  "chennimalai-transport",
+  "nambiyur-transport",
+  "arachalur-transport",
+  "avalpoondurai-transport",
+  "sivagiri-transport",
+    "kallakurichi-transport",
+  "chinnasalem-transport",
+  "ulundurpet-transport",
+  "sankarapuram-transport",
+  "tirukoilur-transport",
+  "thiyagadurgam-transport",
+  "rishivandiyam-transport",
+  "kalvarayan-hills-transport",
+  "manalurpet-transport",
+    // Kancheepuram
+  "kancheepuram-transport",
+  "kundrathur-transport",
+  "sriperumbudur-transport",
+  "uthiramerur-transport",
+  "walajabad-transport",
+  "oragadam-transport",
+  "sunguvarchatram-transport",
+  "padappai-transport",
+  "manimangalam-transport",
+
+  // Kanniyakumari
+  "nagercoil-transport",
+  "marthandam-transport",
+  "kuzhithurai-transport",
+  "colachel-transport",
+  "padmanabhapuram-transport",
+  "thuckalay-transport",
+  "kanyakumari-transport",
+  "suchindram-transport",
+  "boothapandi-transport",
+  "aralvaimozhi-transport",
+  "eraniel-transport",
+  "monday-market-transport",
+  "karungal-transport",
+  "thingalnagar-transport",
+
+  // Karur
+  "karur-transport",
+  "kulithalai-transport",
+  "aravakurichi-transport",
+  "pugalur-transport",
+  "krishnarayapuram-transport",
+  "pallapatti-transport",
+  "thanthoni-transport",
+  "vangal-transport",
+  "nerur-transport",
+
+  // Krishnagiri
+  "krishnagiri-transport",
+  "hosur-transport",
+  "denkanikottai-transport",
+  "kaveripattinam-transport",
+  "uthangarai-transport",
+  "pochampalli-transport",
+  "bargur-transport",
+  "shoolagiri-transport",
+  "kelamangalam-transport",
+  "mathigiri-transport",
+
+  // Madurai
+  "madurai-transport",
+  "melur-transport",
+  "usilampatti-transport",
+  "thirumangalam-transport",
+  "vadipatti-transport",
+  "sholavandan-transport",
+  "alanganallur-transport",
+  "peraiyur-transport",
+  "t-kallupatti-transport",
+  "paravai-transport",
+  "avaniyapuram-transport",
+  "thirunagar-transport",
+  "othakadai-transport",
 ]);
 
 function stop(message) {
@@ -453,6 +598,9 @@ function replaceRoutesBlock(page, location) {
   );
 }
 
+
+
+
 function replaceLocalIntro(page, location) {
   const name = String(location.name).trim();
   const famousFor = getList(location.famousFor, 10);
@@ -658,6 +806,12 @@ for (const location of locations) {
   if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
     continue;
   }
+  if (
+  targetTamilNaduBatch &&
+  location.batchTag !== "tamil-nadu-2026-11"
+) {
+  continue;
+}
   const validationError = validateLocation(location);
 
   if (validationError) {

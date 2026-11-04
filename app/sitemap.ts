@@ -306,11 +306,71 @@ const discoveredTransportPages = readdirSync(
     "/yelahanka-new-town-transport",
     "/yelahanka-old-town-transport",
     "/yelahanka-transport",
+        // Kancheepuram locations
+    "/kancheepuram-transport",
+    "/uthiramerur-transport",
+    "/walajabad-transport",
+    "/sunguvarchatram-transport",
+    "/padappai-transport",
+    "/manimangalam-transport",
+
+    // Kanniyakumari locations
+    "/nagercoil-transport",
+    "/marthandam-transport",
+    "/kuzhithurai-transport",
+    "/colachel-transport",
+    "/padmanabhapuram-transport",
+    "/thuckalay-transport",
+    "/kanyakumari-transport",
+    "/suchindram-transport",
+    "/boothapandi-transport",
+    "/aralvaimozhi-transport",
+    "/eraniel-transport",
+    "/monday-market-transport",
+    "/karungal-transport",
+    "/thingalnagar-transport",
+
+    // Karur locations
+    "/karur-transport",
+    "/kulithalai-transport",
+    "/aravakurichi-transport",
+    "/pugalur-transport",
+    "/krishnarayapuram-transport",
+    "/pallapatti-transport",
+    "/thanthoni-transport",
+    "/vangal-transport",
+    "/nerur-transport",
+
+    // Krishnagiri locations
+    "/denkanikottai-transport",
+    "/kaveripattinam-transport",
+    "/uthangarai-transport",
+    "/pochampalli-transport",
+    "/bargur-transport",
+    "/shoolagiri-transport",
+    "/kelamangalam-transport",
+    "/mathigiri-transport",
+
+    // Madurai locations
+    "/melur-transport",
+    "/usilampatti-transport",
+    "/thirumangalam-transport",
+    "/vadipatti-transport",
+    "/sholavandan-transport",
+    "/alanganallur-transport",
+    "/peraiyur-transport",
+    "/t-kallupatti-transport",
+    "/paravai-transport",
+    "/avaniyapuram-transport",
+    "/thirunagar-transport",
+    "/othakadai-transport",
   ];
+  
   
   const staticSitemap: MetadataRoute.Sitemap = [
     ...new Set([
       ...staticPages,
+      ...discoveredTransportPages,
       ...additionalTransportPages,
       ...bagalkotePages,
       ...completedTransportPages,
@@ -323,6 +383,7 @@ const discoveredTransportPages = readdirSync(
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
   }));
+
 
    
   // Individual transport route pages

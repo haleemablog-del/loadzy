@@ -28,17 +28,12 @@ export default function TamilNaduRoutesPage() {
           </p>
         </div>
 
+        
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {districts.map((district) => (
             <Link
               key={district.slug}
-              
-href={
-  standaloneTransportSlugs.has(district.slug)
-    ? `/${district.slug}-transport`
-    : `/tamil-nadu/${district.slug}`
-}
-
+              href={`/${district.slug}-transport`}
               className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <h2 className="text-xl font-black text-[#062B55]">

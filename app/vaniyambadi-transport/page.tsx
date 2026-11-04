@@ -1,691 +1,950 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TransportEnquiryForm from "./TransportEnquiryForm";
+
+const SITE_URL = "https://www.loadzyinfra.in";
+const PAGE_URL = `${SITE_URL}/vaniyambadi-transport`;
 
 export const metadata: Metadata = {
-  title: "Vaniyambadi Truck Transport, Lorry & Goods Transport | LOADZY",
-  description:
-    "Book truck and lorry transport from Vaniyambadi for commercial goods, footwear-related consignments, factory goods, full load, part load, house shifting and packers & movers with LOADZY.",
+  title: "Vaniyambadi Transport Service | Truck Booking | LOADZY",
+  description: "Find goods transport and truck booking options in Vaniyambadi, Tirupattur, Tamil Nadu. Explore full load, part load, commercial transport and household shifting enquiries with LOADZY.",
   keywords: [
-    "Vaniyambadi truck transport",
-    "Vaniyambadi lorry transport",
-    "Vaniyambadi goods transport",
-    "Vaniyambadi commercial transport",
-    "Vaniyambadi industrial transport",
-    "Vaniyambadi factory goods transport",
-    "Vaniyambadi packers and movers",
-    "Vaniyambadi house shifting",
-    "Vaniyambadi truck booking",
-    "Vaniyambadi transport services",
-    "Vaniyambadi to Chennai truck",
-    "Vaniyambadi to Bangalore truck",
-    "Vaniyambadi to Vellore truck",
-    "Vaniyambadi to Hosur truck",
-    "Vaniyambadi to Krishnagiri truck",
-    "LOADZY Vaniyambadi",
-  ],
-  alternates: {
-    canonical: "https://www.loadzyinfra.in/vaniyambadi-transport",
-  },
+      "Vaniyambadi transport service",
+      "Vaniyambadi truck booking",
+      "Vaniyambadi goods transport",
+      "Vaniyambadi lorry booking",
+      "Vaniyambadi full load transport",
+      "Vaniyambadi part load transport",
+      "Vaniyambadi house shifting",
+      "Vaniyambadi packers and movers",
+      "LOADZY transport",
+    ],
+  alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Vaniyambadi Truck Transport, Lorry & Goods Transport | LOADZY",
-    description:
-      "Truck booking, lorry transport, commercial goods transport, house shifting and packers & movers from Vaniyambadi with LOADZY.",
-    url: "https://www.loadzyinfra.in/vaniyambadi-transport",
-    siteName: "LOADZY",
-    type: "website",
-  },
+      title: "Vaniyambadi Transport Service | LOADZY",
+      description: "Submit a truck booking or goods transport enquiry from Vaniyambadi, Tirupattur, Tamil Nadu.",
+      url: PAGE_URL,
+      siteName: "LOADZY",
+      locale: "en_IN",
+      type: "website",
+    },
+  robots: { index: true, follow: true },
 };
 
 const services = [
   {
-    name: "Truck Transport",
+    icon: "🚛",
+    title: "Full Load Transport",
     description:
-      "Book suitable trucks for goods movement from Vaniyambadi to different destinations.",
-    href: "/services",
-  },
-  {
-    name: "Packers & Movers",
-    description:
-      "Transport support for household shifting, furniture and moving requirements.",
-    href: "/packers-movers",
-  },
-  {
-    name: "House Shifting",
-    description:
-      "Truck transport support for moving household goods from Vaniyambadi.",
-    href: "/house-shifting",
-  },
-  {
-    name: "Full Load Transport",
-    description:
-      "Suitable transport options when you need a dedicated truck for your load.",
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
     href: "/full-load",
   },
   {
-    name: "Part Load Transport",
+    icon: "📦",
+    title: "Part Load Transport",
     description:
-      "Transport options for smaller shipments that do not require a full truck.",
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
     href: "/part-load",
   },
   {
-    name: "Commercial Transport",
+    icon: "🏠",
+    title: "House Shifting",
     description:
-      "Move business goods, cartons, furniture, inventory and commercial shipments.",
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
+    href: "/house-shifting",
+  },
+  {
+    icon: "🧰",
+    title: "Packers and Movers",
+    description:
+      "Explore vehicle arrangements for household and office relocation requirements.",
+    href: "/packers-movers",
+  },
+  {
+    icon: "🏪",
+    title: "Commercial Transport",
+    description:
+      "Enquire about moving shop stock, business goods and commercial consignments.",
     href: "/commercial-transport",
   },
   {
-    name: "Industrial Transport",
+    icon: "🏭",
+    title: "Industrial Transport",
     description:
-      "Transport support for industrial goods and larger business requirements.",
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
     href: "/industrial-transport",
-  },
-  {
-    name: "Fruits & Vegetables",
-    description:
-      "Transport support for fruits, vegetables and agricultural loads.",
-    href: "/fruits-vegetables",
   },
 ];
 
-const routes = [
-  {
-    name: "Vaniyambadi → Chennai",
-    href: "/routes/vaniyambadi/chennai",
-  },
-  {
-    name: "Chennai → Vaniyambadi",
-    href: "/routes/chennai/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Bangalore",
-    href: "/routes/vaniyambadi/bangalore",
-  },
-  {
-    name: "Bangalore → Vaniyambadi",
-    href: "/routes/bangalore/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Vellore",
-    href: "/routes/vaniyambadi/vellore",
-  },
-  {
-    name: "Vellore → Vaniyambadi",
-    href: "/routes/vellore/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Krishnagiri",
-    href: "/routes/vaniyambadi/krishnagiri",
-  },
-  {
-    name: "Krishnagiri → Vaniyambadi",
-    href: "/routes/krishnagiri/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Hosur",
-    href: "/routes/vaniyambadi/hosur",
-  },
-  {
-    name: "Hosur → Vaniyambadi",
-    href: "/routes/hosur/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Salem",
-    href: "/routes/vaniyambadi/salem",
-  },
-  {
-    name: "Salem → Vaniyambadi",
-    href: "/routes/salem/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Tirupattur",
-    href: "/routes/vaniyambadi/tirupattur",
-  },
-  {
-    name: "Tirupattur → Vaniyambadi",
-    href: "/routes/tirupattur/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Ambur",
-    href: "/routes/vaniyambadi/ambur",
-  },
-  {
-    name: "Ambur → Vaniyambadi",
-    href: "/routes/ambur/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Gudiyatham",
-    href: "/routes/vaniyambadi/gudiyatham",
-  },
-  {
-    name: "Gudiyatham → Vaniyambadi",
-    href: "/routes/gudiyatham/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Alangayam",
-    href: "/routes/vaniyambadi/alangayam",
-  },
-  {
-    name: "Alangayam → Vaniyambadi",
-    href: "/routes/alangayam/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Polur",
-    href: "/routes/vaniyambadi/polur",
-  },
-  {
-    name: "Polur → Vaniyambadi",
-    href: "/routes/polur/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Kuppam",
-    href: "/routes/vaniyambadi/kuppam",
-  },
-  {
-    name: "Kuppam → Vaniyambadi",
-    href: "/routes/kuppam/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Dharmapuri",
-    href: "/routes/vaniyambadi/dharmapuri",
-  },
-  {
-    name: "Dharmapuri → Vaniyambadi",
-    href: "/routes/dharmapuri/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Thiruvannamalai",
-    href: "/routes/vaniyambadi/thiruvannamalai",
-  },
-  {
-    name: "Thiruvannamalai → Vaniyambadi",
-    href: "/routes/thiruvannamalai/vaniyambadi",
-  },
-  {
-    name: "Vaniyambadi → Tirupati",
-    href: "/routes/vaniyambadi/tirupati",
-  },
-  {
-    name: "Tirupati → Vaniyambadi",
-    href: "/routes/tirupati/vaniyambadi",
-  },
+const destinations = [
+  "Chennai",
+  "Bangalore",
+  "Coimbatore",
+  "Vellore",
+  "Tirupattur",
+  "Madurai",
+  "Salem",
+  "Hosur",
+  "Hyderabad",
+  "Tirupati",
+  "Kochi",
+  "Tiruchirappalli",
 ];
 
 const nearbyAreas = [
-  { name: "Tirupattur", href: "/tirupattur-transport" },
-  { name: "Ambur" },
-  { name: "Jolarpettai" },
-  { name: "Natrampalli" },
-  { name: "Alangayam" },
-  { name: "Vellore" },
-  { name: "Krishnagiri" },
-  { name: "Hosur" },
+  "Ambur",
+  "Alangayam",
+  "Natrampalli",
+  "Tirupattur",
+  "Jolarpet",
+  "Pernambut",
 ];
 
 const faqs = [
   {
-    question: "Can I book a truck from Vaniyambadi with LOADZY?",
+    question: "How can I book a truck in Vaniyambadi?",
     answer:
-      "Yes. LOADZY helps customers submit truck transport requirements from Vaniyambadi based on their pickup location, delivery location, load type and truck requirement.",
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
   },
   {
-    question: "Does LOADZY provide lorry transport from Vaniyambadi?",
+    question: "Can I enquire about full load transport from Vaniyambadi?",
     answer:
-      "Yes. LOADZY supports truck and lorry transport requirements for household, commercial and other goods transportation.",
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
   },
   {
-    question: "Can I get packers and movers transport from Vaniyambadi?",
+    question: "Does LOADZY support part load transport?",
     answer:
-      "Yes. LOADZY supports transport requirements for packers and movers and household shifting from Vaniyambadi.",
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
   },
   {
-    question: "Can I book a full load truck from Vaniyambadi?",
+    question: "Can I arrange house shifting from Vaniyambadi?",
     answer:
-      "Yes. Full load transport is available as a LOADZY service, subject to truck availability for the requested route and pickup date.",
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
   },
   {
-    question: "Can I transport a part load from Vaniyambadi?",
+    question: "Can I book transport from Vaniyambadi to Bangalore?",
     answer:
-      "Yes. LOADZY supports part load transport requirements for suitable routes and available vehicles.",
+      "You can submit a transport enquiry for Vaniyambadi to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
   },
   {
-    question: "Can I book a truck from Vaniyambadi to Chennai?",
+    question: "How are freight charges calculated?",
     answer:
-      "Yes. LOADZY provides a route page for Vaniyambadi to Chennai truck transport where customers can explore the route and submit their requirement.",
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
   },
   {
-    question: "Can I book a truck from Vaniyambadi to Bangalore?",
+    question: "Can I request a return load?",
     answer:
-      "Yes. LOADZY provides a Vaniyambadi to Bangalore transport route for suitable truck and load requirements.",
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
   },
   {
-    question: "What truck size should I choose?",
+    question: "Does submitting the enquiry guarantee a truck?",
     answer:
-      "The suitable truck depends on the type, volume and weight of the goods, as well as the pickup and delivery requirements.",
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
   },
 ];
 
-export default function VaniyambadiTransportPage() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: "https://www.loadzyinfra.in/",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Vaniyambadi Truck Transport",
-            item: "https://www.loadzyinfra.in/vaniyambadi-transport",
-          },
-        ],
-      },
-      {
-        "@type": "Service",
-        name: "Vaniyambadi Truck Transport",
-        description:
-          "Truck booking, lorry transport, packers and movers, house shifting and commercial goods transport services from Vaniyambadi with LOADZY.",
-        provider: {
-          "@type": "Organization",
-          name: "LOADZY",
-          url: "https://www.loadzyinfra.in",
-        },
-        areaServed: {
-          "@type": "City",
-          name: "Vaniyambadi",
-        },
-        serviceType: "Truck Transport",
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: faq.answer,
-          },
-        })),
-      },
-    ],
-  };
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Vaniyambadi Goods Transport and Truck Booking",
+  description:
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Vaniyambadi, Tirupattur, Tamil Nadu.",
+  serviceType: [
+    "Full load transport",
+    "Part load transport",
+    "Commercial goods transport",
+    "Household shifting transport",
+  ],
+  url: PAGE_URL,
+  provider: {
+    "@type": "Organization",
+    name: "LOADZY",
+    url: SITE_URL,
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Vaniyambadi, Tirupattur, Tamil Nadu, India",
+  },
+};
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE_URL,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Vaniyambadi Transport",
+      item: PAGE_URL,
+    },
+  ],
+};
+
+export default function VaniyambadiTransportPage() {
   return (
-    <main className="bg-white text-slate-900">
+    <main className="min-h-screen bg-white text-slate-800">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
+          __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
         }}
       />
 
-      {/* HERO */}
-      <section className="bg-blue-950 px-6 py-20 text-white">
-        <div className="mx-auto max-w-7xl">
-          <div className="max-w-4xl">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-300">
-              LOADZY TRANSPORT SERVICES
+      {/* HERO: heading left, enquiry form right */}
+      <section className="relative overflow-hidden bg-[#10182D] text-white">
+        <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
+        <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
+          <div>
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
+              <Link href="/" className="hover:text-teal-300">
+                Home
+              </Link>
+              <span className="mx-2">/</span>
+              <span>Vaniyambadi Transport</span>
+            </nav>
+
+            <p className="inline-flex rounded-full border border-[#08A99F]/40 bg-[#08A99F]/10 px-4 py-2 text-sm font-bold tracking-wider text-teal-300">
+              MOVE. CONNECT. DELIVER.
             </p>
 
-            <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
-              Vaniyambadi Truck Transport & Packers Movers
+            <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
+              Vaniyambadi Transport Service
+              <span className="mt-3 block text-[#08A99F]">
+                Truck Booking Made Easier
+              </span>
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-100 md:text-xl">
-              Book trucks and lorries from Vaniyambadi for house shifting,
-              packers and movers, full load, part load, commercial goods and
-              industrial transport with LOADZY.
+            <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
+              Looking for goods transport in Vaniyambadi, Tirupattur, Tamil Nadu? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/"
-                className="rounded-xl bg-teal-500 px-7 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
+               href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
               >
                 Book a Truck →
               </Link>
-
               <Link
-                href="/routes"
-                className="rounded-xl bg-yellow-400 px-7 py-4 font-black text-blue-950 shadow-lg transition hover:bg-yellow-300"
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
               >
-                Explore Routes →
+                Contact LOADZY
               </Link>
             </div>
+
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
+            </div>
           </div>
+
+          {/* The enquiry form stays inside the same two-column hero grid */}
+          <TransportEnquiryForm />
         </div>
       </section>
 
-      {/* INTRO */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-3xl font-black text-blue-950 md:text-4xl">
-            Truck Booking in Vaniyambadi
-          </h2>
-
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            LOADZY helps customers find transport solutions for different
-            types of loads from Vaniyambadi. Whether you need a lorry for
-            household shifting, business goods, part load, full load or
-            commercial transportation, you can submit your transport
-            requirement through LOADZY.
-          </p>
-
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            Customers looking for Vaniyambadi truck transport, lorry
-            transport, packers and movers or house shifting services can use
-            LOADZY to request suitable transport based on their route, load
-            type and pickup date.
-          </p>
-        </div>
-      </section>
-      {/* ABOUT VANIYAMBADI */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
-            ABOUT VANIYAMBADI
-          </p>
-
-          <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
-            About Vaniyambadi, Tamil Nadu
-          </h2>
-
-          <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
-                  <p>
-        Vaniyambadi is an important town in Tirupattur district, Tamil Nadu,
-        known for its leather and leather-related manufacturing industries.
-        It is connected by road to nearby locations such as Ambur, Tirupattur
-        and Vellore, as well as major destinations including Chennai and Bangalore.
-      </p>
-
-      <p>
-        Vaniyambadi's leather and manufacturing businesses create transport
-        requirements for suitable finished goods, commercial consignments
-        and manufacturing materials. Local traders and businesses may also
-        need transport for other goods moving between towns and cities.
-      </p>
-
-      <p>
-        LOADZY helps businesses, manufacturers, traders and households find
-        suitable truck transport from Vaniyambadi. Customers can explore
-        transport options for commercial goods, industrial consignments,
-        full loads, part loads and household shifting, depending on pickup
-        location, delivery destination, load requirements and truck availability.
-      </p>
-          </div>
-        </div>
-      </section>
       {/* SERVICES */}
-      <section className="bg-slate-50 px-6 py-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-              TRANSPORT SERVICES
-            </p>
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Transport solutions
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Goods Transport Services in Vaniyambadi
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
+        </p>
 
-            <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-              Transport Services in Vaniyambadi
-            </h2>
-          </div>
-
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {services.map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
-              >
-                <h3 className="text-xl font-black text-blue-950">
-                  {service.name}
-                </h3>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {service.description}
-                </p>
-
-                <span className="mt-5 block font-bold text-teal-600">
-                  Explore Service →
-                </span>
-              </Link>
-            ))}
-          </div>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
+            <Link
+              key={service.title}
+              href={service.href}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
+            >
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
+                {service.icon}
+              </span>
+              <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
+                {service.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">
+                {service.description}
+              </p>
+              <span className="mt-5 inline-flex font-bold text-teal-700">
+                Explore service →
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
-      {/* VANIYAMBADI INDUSTRIES & GOODS TRANSPORT */}
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-600">
-            VANIYAMBADI INDUSTRIAL TRANSPORT
-          </p>
 
-          <h2 className="mt-3 text-3xl font-bold text-slate-950 md:text-4xl">
-            Industries & Goods Transport from Vaniyambadi
-          </h2>
-
-          <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
-            Vaniyambadi is known for leather and leather-related manufacturing.
-            LOADZY helps businesses and customers request suitable truck
-            transport for commercial consignments, finished goods, manufacturing
-            materials and other suitable loads moving from Vaniyambadi to
-            major destinations.
-          </p>
-
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              {
-                title: "Leather & Related Goods",
-                text: "Transport support for suitable leather products and related commercial consignments.",
-              },
-              {
-                title: "Finished Goods",
-                text: "Truck transport options for suitable finished products moving from local businesses to destinations.",
-              },
-              {
-                title: "Commercial Loads",
-                text: "Full-load and part-load transport options for suitable business consignments.",
-              },
-              {
-                title: "Manufacturing Materials",
-                text: "Transport support for suitable materials and other goods required by manufacturing businesses.",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <h3 className="text-xl font-bold text-slate-950">
-                  {item.title}
-                </h3>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {item.text}
-                </p>
-              </div>
-            ))}
+      {/* LOCAL INFORMATION */}
+      <section className="bg-slate-50">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2 md:items-start md:px-8 md:py-20">
+          <div>
+            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+              Local transport
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+              Transport and Truck Booking in Vaniyambadi, Tirupattur, Tamil Nadu
+            </h2>
+            <p className="mt-5 leading-8 text-slate-600">
+              Vaniyambadi is a locality in the southern Chennai urban area, with
+              residential neighbourhoods and access to surrounding commercial
+              areas. Transport needs may include household moves, shop
+              deliveries, business goods and intercity consignments.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              When requesting a truck, provide the exact pickup and delivery
+              addresses, goods description, approximate weight and dimensions,
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
+            </p>
           </div>
 
-          <div className="mt-10 rounded-2xl border border-teal-100 bg-white p-6">
-            <h3 className="text-2xl font-bold text-slate-950">
-              Vaniyambadi Commercial & Industrial Transport
+          <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
             </h3>
-
-            <p className="mt-3 leading-7 text-slate-600">
-              Tell LOADZY your pickup location, delivery destination and load
-              requirements to request suitable truck options, subject to
-              vehicle availability.
-            </p>
-
+            <ul className="mt-6 space-y-4">
+              {[
+                "Pickup and delivery addresses",
+                "Goods description and approximate load size",
+                "Required truck type or capacity",
+                "Preferred pickup date",
+                "Loading and unloading requirements",
+                "Contact details for confirmation",
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
+                  <span className="font-bold text-[#08A99F]">✓</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
             <Link
-              href="/load-search"
-              className="mt-6 inline-block rounded-xl bg-teal-500 px-6 py-3 font-semibold text-white transition hover:bg-teal-600"
+              href="/contact"
+              className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
             >
-              Find My Truck →
+              Get Transport Assistance →
             </Link>
           </div>
         </div>
       </section>
-      {/* ROUTES */}
-      <section className="px-6 py-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center">
-           
 
-            <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-              Vaniyambadi Truck Transport Routes
-            </h2>
-
-            <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-600">
-              Explore truck transport routes connecting Vaniyambadi with
-              important cities and towns across Tamil Nadu, Karnataka and
-              nearby regions.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {routes.map((route) => (
+    
+      {/* FORWARD ROUTES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Forward routes
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Transport Routes from Vaniyambadi
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport enquiry routes from Vaniyambadi.
+          Vehicle availability, freight charges and schedules must be confirmed.
+        </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+          
               <Link
-                key={route.href}
-                href={route.href}
-                className="rounded-2xl border border-slate-200 bg-white p-6 font-black text-blue-950 shadow-sm transition hover:-translate-y-1 hover:border-teal-400 hover:shadow-lg"
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
-                🚚 {route.name}
-
-                <span className="mt-2 block text-sm font-bold text-teal-600">
-                  View Route →
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Chennai
                 </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
               </Link>
-            ))}
+
+              <Link
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Vellore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tirupattur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Tirupattur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Ambur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Jolarpet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Jolarpet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Natrampalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Natrampalli
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Bangalore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Hosur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Krishnagiri
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Salem
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Coimbatore
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Erode
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Tiruppur
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ranipet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Ranipet
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Gudiyatham"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vaniyambadi to Gudiyatham
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+        </div>
+      </section>
+
+      {/* RETURN ROUTES */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Return routes
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Transport Routes to Vaniyambadi
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore return-direction transport enquiries to Vaniyambadi.
+            Return-load availability must be confirmed for each shipment.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+            
+              <Link
+                key={"Chennai"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Chennai to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Vellore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Vellore to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tirupattur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tirupattur to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ambur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ambur to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Jolarpet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Jolarpet to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Natrampalli"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Natrampalli to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Bangalore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Bangalore to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Hosur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Hosur to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Krishnagiri"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Krishnagiri to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Salem"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Salem to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Coimbatore"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Coimbatore to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Erode"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Erode to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Tiruppur"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Tiruppur to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Ranipet"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Ranipet to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
+
+              <Link
+                key={"Gudiyatham"}
+                href="/load-search"
+                className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+                  Gudiyatham to Vaniyambadi
+                </span>
+                <span className="ml-2 text-[#08A99F]">→</span>
+              </Link>
           </div>
         </div>
       </section>
 
-      {/* NEARBY LOCATIONS */}
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-            NEARBY LOCATIONS
+      /* NEARBY AREAS */
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Nearby areas
           </p>
-
-          <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-            Areas Near Vaniyambadi
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Nearby Locations Around Vaniyambadi
           </h2>
-
-          <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-600">
-            LOADZY can support transport requirements around Vaniyambadi and
-            nearby areas depending on route and vehicle availability.
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore other Chennai-area localities when planning a transport
+            enquiry. Select a locality to open the corresponding transport page.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            {nearbyAreas.map((area) =>
-  area.href ? (
-    <Link
-      key={area.name}
-      href={area.href}
-      className="rounded-full border border-slate-200 bg-white px-5 py-3 font-bold text-blue-950 shadow-sm transition hover:border-teal-400 hover:text-teal-600"
-    >
-      {area.name}
-    </Link>
-  ) : (
-    <span
-      key={area.name}
-      className="rounded-full border border-slate-200 bg-white px-5 py-3 font-bold text-blue-950 shadow-sm"
-    >
-      {area.name}
-    </span>
-  )
-)}
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
+              <Link
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
+                </span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
       {/* WHY LOADZY */}
-      <section className="bg-blue-950 px-6 py-20 text-white">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="font-black uppercase tracking-[0.2em] text-yellow-400">
-            WHY LOADZY
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Why LOADZY
           </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            A Simpler Way to Explore Transport Options
+          </h2>
+          <p className="mt-4 leading-7 text-slate-600">
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
+          </p>
+        </div>
 
-          <h2 className="mt-3 text-3xl font-black md:text-4xl">
-            Simple Transport Booking for Vaniyambadi
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: "📍",
+              title: "Route Enquiries",
+              text: "Share pickup and delivery details for your shipment.",
+            },
+            {
+              icon: "🚚",
+              title: "Different Load Needs",
+              text: "Explore full load, part load and suitable truck options.",
+            },
+            {
+              icon: "💬",
+              title: "Clear Requirements",
+              text: "Provide cargo details and pickup preferences.",
+            },
+            {
+              icon: "📦",
+              title: "Multiple Use Cases",
+              text: "Enquire about shifting, commercial goods and consignments.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="mt-4 text-lg font-bold text-slate-900">
+                {item.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BOOKING STEPS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            How to Request Transport from Vaniyambadi
           </h2>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+          <div className="mt-9 grid gap-5 md:grid-cols-4">
             {[
-              "Route-based truck booking",
-              "Support for different truck sizes",
-              "Full load and part load options",
-              "House shifting and packers & movers",
-              "Commercial and industrial transport",
-              "Affordable freight-focused transport options",
-              "On-time and safe delivery focus",
-              "Return-load availability where suitable",
-            ].map((item) => (
+              {
+                number: "01",
+                title: "Enter Locations",
+                text: "Provide pickup and delivery addresses.",
+              },
+              {
+                number: "02",
+                title: "Share Load Details",
+                text: "Choose your service, truck type and pickup date.",
+              },
+              {
+                number: "03",
+                title: "Submit Enquiry",
+                text: "Send your booking details through the form.",
+              },
+              {
+                number: "04",
+                title: "Confirm Details",
+                text: "Confirm availability, freight charges and timing.",
+              },
+            ].map((step) => (
               <div
-                key={item}
-                className="rounded-2xl border border-white/10 bg-white/5 p-5 text-left font-bold text-blue-100"
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6"
               >
-                ✓ {item}
+                <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
+                  STEP {step.number}
+                </p>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">
+                  {step.title}
+                </h3>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
               </div>
             ))}
+          </div>
+          <div className="mt-9 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
+            >
+              Submit a Transport Enquiry →
+            </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="bg-slate-50 px-6 py-20">
-        <div className="mx-auto max-w-4xl">
-          <div className="text-center">
-            <p className="font-black uppercase tracking-[0.2em] text-teal-600">
-              FAQ
-            </p>
+      <section className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
+        <div className="text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            FAQs
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Vaniyambadi Transport — Frequently Asked Questions
+          </h2>
+        </div>
 
-            <h2 className="mt-3 text-3xl font-black text-blue-950 md:text-4xl">
-              Vaniyambadi Transport Questions
-            </h2>
-          </div>
-
-          <div className="mt-10 space-y-5">
-            {faqs.map((faq) => (
-              <div
-                key={faq.question}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <h3 className="text-lg font-black text-blue-950">
-                  {faq.question}
-                </h3>
-
-                <p className="mt-3 leading-7 text-slate-600">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
+        <div className="mt-9 space-y-4">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-slate-200 bg-white p-5"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
+                <span>{faq.question}</span>
+                <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
+            </details>
+          ))}
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-blue-950 px-6 py-16 text-center text-white">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="text-3xl font-black md:text-5xl">
-            Need a Truck from Vaniyambadi?
-          </h2>
-
-          <p className="mt-4 leading-7 text-blue-100">
-            Submit your pickup, delivery and load requirements and get started
-            with LOADZY.
+      {/* FINAL CTA */}
+      <section className="bg-[#10182D] px-5 py-16 text-white md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
+            LOADZY Transport
           </p>
-
-          <Link
-            href="/"
-            className="mt-8 inline-block rounded-xl bg-teal-500 px-8 py-4 font-black text-white shadow-lg transition hover:bg-teal-600"
-          >
-            Book a Truck →
-          </Link>
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
+            Looking for Goods Transport from Vaniyambadi?
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
+            Share your pickup location, destination and load requirements to
+            explore a suitable transport option for your shipment.
+          </p>
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Book a Truck →
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
+            >
+              Back to LOADZY Home
+            </Link>
+          </div>
+          <p className="mt-6 text-sm text-slate-400">
+            LOADZY — MOVE. CONNECT. DELIVER.
+          </p>
         </div>
       </section>
     </main>
