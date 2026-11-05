@@ -372,6 +372,7 @@ const discoveredTransportPages = readdirSync(
       ...staticPages,
       ...discoveredTransportPages,
       ...additionalTransportPages,
+          ...discoveredTransportPages,
       ...bagalkotePages,
       ...completedTransportPages,
       ...ballariPages,
