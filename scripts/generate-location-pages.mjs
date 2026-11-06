@@ -52,6 +52,9 @@ const targetOnly = process.argv.includes("--target-bengaluru-13");
 const targetTamilNaduBatch = process.argv.includes(
   "--target-tamil-nadu-batch"
 );
+const targetKeralaBatch = process.argv.includes(
+  "--target-kerala-batch"
+);
 const targetKarnatakaDistricts = process.argv.includes(
   "--target-karnataka-districts-08-31"
 );
@@ -515,19 +518,22 @@ function makeRouteCards(routes, getLabel) {
 }
 
 
+
 function makeRoutesSection(location) {
   const name = escapeJsxText(String(location.name).trim());
+
   const forwardRoutes = getList(location.routes, 25);
   const returnRoutes = getList(location.returnRoutes, 25);
 
+  // Kerala routes already contain complete origin and destination names.
   const forwardItems = makeRouteCards(
     forwardRoutes,
-    (destination) => `${String(location.name).trim()} to ${destination}`
+    (route) => String(route)
   );
 
   const returnItems = makeRouteCards(
     returnRoutes,
-    (origin) => `${origin} to ${String(location.name).trim()}`
+    (route) => String(route)
   );
 
   return `
@@ -823,6 +829,12 @@ for (const location of locations) {
   if (
   targetTamilNaduBatch &&
   location.batchTag !== "tamil-nadu-2026-11"
+) {
+  continue;
+}
+if (
+  targetKeralaBatch &&
+  location.batchTag !== "kerala-2026-11"
 ) {
   continue;
 }
