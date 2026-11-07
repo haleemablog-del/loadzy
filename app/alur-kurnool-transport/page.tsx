@@ -1,0 +1,1210 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import TransportEnquiryForm from "./TransportEnquiryForm";
+
+const SITE_URL = "https://www.loadzyinfra.in";
+const PAGE_URL = `${SITE_URL}/alur-kurnool-transport`;
+
+export const metadata: Metadata = {
+  title: "Alur Transport Service | Truck Booking | LOADZY",
+  description:
+    "Find goods transport and truck booking options in Alur, Kurnool, Andhra Pradesh. Explore full load, part load, commercial transport and household shifting with LOADZY.",
+  keywords: [
+    "Alur transport service",
+    "Alur truck booking",
+    "Alur goods transport",
+    "Alur lorry booking",
+    "Alur full load transport",
+    "Alur part load transport",
+    "Alur house shifting",
+    "Alur packers and movers",
+    "Alur to Chennai transport",
+    "Alur to Bangalore transport",
+    "LOADZY transport",
+  ],
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    title: "Alur Transport Service | LOADZY",
+    description:
+      "Submit a truck booking or goods transport enquiry from Alur, Kurnool, Andhra Pradesh.",
+    url: PAGE_URL,
+    siteName: "LOADZY",
+    locale: "en_IN",
+    type: "website",
+  },
+  robots: { index: true, follow: true },
+};
+
+const services = [
+  {
+    icon: "🚛",
+    title: "Full Load Transport",
+    description:
+      "Explore dedicated truck options for larger consignments and goods requiring a full vehicle.",
+    href: "/full-load",
+  },
+  {
+    icon: "📦",
+    title: "Part Load Transport",
+    description:
+      "Enquire about transport options for smaller consignments that may not require a full truck.",
+    href: "/part-load",
+  },
+  {
+    icon: "🏠",
+    title: "House Shifting",
+    description:
+      "Plan the transportation of furniture, appliances, cartons and household belongings.",
+    href: "/house-shifting",
+  },
+  {
+    icon: "🧰",
+    title: "Packers and Movers",
+    description:
+      "Explore vehicle arrangements for household and office relocation requirements.",
+    href: "/packers-movers",
+  },
+  {
+    icon: "🏪",
+    title: "Commercial Transport",
+    description:
+      "Enquire about moving shop stock, business goods and commercial consignments.",
+    href: "/commercial-transport",
+  },
+  {
+    icon: "🏭",
+    title: "Industrial Transport",
+    description:
+      "Share your shipment details to enquire about suitable transport for materials and equipment.",
+    href: "/industrial-transport",
+  },
+];
+
+const destinations = [
+  "Alur to Visakhapatnam",
+  "Alur to Vijayawada",
+  "Alur to Guntur",
+  "Alur to Tirupati",
+  "Alur to Nellore",
+  "Alur to Kurnool",
+  "Alur to Rajamahendravaram",
+  "Alur to Kakinada",
+  "Alur to Anantapur",
+  "Alur to Kadapa",
+  "Alur to Chennai",
+  "Alur to Bengaluru",
+  "Alur to Hyderabad",
+  "Alur to Coimbatore",
+  "Alur to Salem",
+  "Alur to Tiruppur",
+  "Alur to Mysuru",
+  "Alur to Kochi",
+  "Alur to Thiruvananthapuram",
+  "Alur to Mumbai",
+  "Alur to Pune",
+  "Alur to Vellore",
+  "Alur to Hosur",
+  "Alur to Krishnagiri",
+  "Alur to Madurai",
+];
+
+const nearbyAreas = [
+  "Kurnool",
+  "Adoni",
+  "Yemmiganur",
+  "Dhone",
+  "Pattikonda",
+  "Kodumur",
+  "Mantralayam",
+  "Nandikotkur",
+  "Town Centre",
+  "Industrial Estate",
+  "Market Yard",
+  "Orvakal Industrial Area",
+  "Cotton Market",
+  "Railway Station Area",
+  "Textile Area",
+];
+
+const faqs = [
+  {
+    question: "How can I book a truck in Alur?",
+    answer:
+      "Fill in the transport enquiry form with your name, phone number, pickup and delivery locations, service, truck type and pickup date. Submit the request and confirm availability and freight charges before finalising your booking.",
+  },
+  {
+    question: "Can I enquire about full load transport from Alur?",
+    answer:
+      "You can submit an enquiry for full load transport. Vehicle suitability, availability and freight charges depend on your goods, route and pickup date.",
+  },
+  {
+    question: "Does LOADZY support part load transport?",
+    answer:
+      "You can enquire about part load transport for smaller consignments. Availability depends on the route, load size, timing and suitable transport options.",
+  },
+  {
+    question: "Can I arrange house shifting from Alur?",
+    answer:
+      "You can submit a household shifting enquiry. Provide your pickup and delivery addresses, preferred moving date and details about your belongings.",
+  },
+  {
+    question: "Can I book transport from Alur to Bangalore?",
+    answer:
+      "You can submit a transport enquiry for Alur to Bangalore. The vehicle, price and pickup schedule must be confirmed for your specific shipment.",
+  },
+  {
+    question: "How are freight charges calculated?",
+    answer:
+      "Freight charges may depend on distance, vehicle type, load weight and dimensions, loading requirements, pickup date and availability. Confirm the final quotation before booking.",
+  },
+  {
+    question: "Can I request a return load?",
+    answer:
+      "You can enquire about return-load options for your route. Availability is not guaranteed and depends on matching loads and trucks.",
+  },
+  {
+    question: "Does submitting the enquiry guarantee a truck?",
+    answer:
+      "Submitting an enquiry does not automatically confirm a vehicle or price. Wait for confirmation of truck availability, freight charges and pickup arrangements.",
+  },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Alur Goods Transport and Truck Booking",
+  description:
+    "Transport enquiries for full load, part load, commercial goods and household shifting from Alur, Kurnool, Andhra Pradesh.",
+  serviceType: [
+    "Full load transport",
+    "Part load transport",
+    "Commercial goods transport",
+    "Household shifting transport",
+  ],
+  url: PAGE_URL,
+  provider: {
+    "@type": "Organization",
+    name: "LOADZY",
+    url: SITE_URL,
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Alur, Kurnool, Andhra Pradesh, India",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE_URL,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Alur Transport",
+      item: PAGE_URL,
+    },
+  ],
+};
+function getLocationUrl(route: string): string {
+  const slug = route
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `/${slug}-transport`;
+}
+
+export default function AlurKurnoolTransportPage() {
+  return (
+    <main className="min-h-screen bg-white text-slate-800">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(serviceSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }).replace(/</g, "\\u003c"),
+        }}
+      />
+
+      {/* HERO: heading left, enquiry form right */}
+      <section className="relative overflow-hidden bg-[#10182D] text-white">
+        <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#08A99F]/20 blur-3xl" />
+        <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:px-8 md:py-20">
+          <div>
+            <nav aria-label="Breadcrumb" className="mb-7 text-sm text-slate-300">
+              <Link href="/" className="hover:text-teal-300">
+                Home
+              </Link>
+              <span className="mx-2">/</span>
+              <span>Alur Transport</span>
+            </nav>
+
+            <p className="inline-flex rounded-full border border-[#08A99F]/40 bg-[#08A99F]/10 px-4 py-2 text-sm font-bold tracking-wider text-teal-300">
+              MOVE. CONNECT. DELIVER.
+            </p>
+
+            <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
+              Alur Transport Service
+              <span className="mt-3 block text-[#08A99F]">
+                Truck Booking Made Easier
+              </span>
+            </h1>
+
+            <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
+              Looking for goods transport in Alur, Kurnool, Andhra Pradesh? Explore LOADZY
+              for full load, part load, commercial goods transport and
+              household shifting enquiries for local and intercity routes.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link
+               href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+              >
+                Book a Truck →
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-white/25 px-7 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
+              >
+                Contact LOADZY
+              </Link>
+            </div>
+
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
+              {["Full Load", "Part Load", "House Shifting", "Commercial Goods"].map(
+                (item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-4 py-2"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
+            </div>
+          </div>
+
+          {/* The enquiry form stays inside the same two-column hero grid */}
+          <TransportEnquiryForm />
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Transport solutions
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Goods Transport Services in Alur
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport options for household goods, business stock and
+          suitable consignments. Choose the service that matches your pickup,
+          destination and load requirements.
+        </p>
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
+            <Link
+              key={service.title}
+              href={service.href}
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-[#08A99F] hover:shadow-lg"
+            >
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
+                {service.icon}
+              </span>
+              <h3 className="mt-5 text-xl font-bold text-slate-900 group-hover:text-teal-700">
+                {service.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">
+                {service.description}
+              </p>
+              <span className="mt-5 inline-flex font-bold text-teal-700">
+                Explore service →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* LOCAL INFORMATION */}
+      <section className="bg-slate-50">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2 md:items-start md:px-8 md:py-20">
+          <div>
+            <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+              Local transport
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+              Transport and Truck Booking in Alur, Kurnool, Andhra Pradesh
+            </h2>
+            <p className="mt-5 leading-8 text-slate-600">
+              Alur is a location in Kurnool. Transport requirements can vary depending on the shipment, destination and vehicle type.
+
+Goods that may require transport include Commercial goods, Agricultural produce, Industrial goods, Household shifting goods, Retail and wholesale goods.
+
+When requesting a truck, provide pickup and delivery addresses, goods details, approximate load size, loading requirements and the preferred pickup date. Confirm vehicle availability, freight charges and schedules before booking.</p>
+            <p className="mt-4 leading-8 text-slate-600">
+              When requesting a truck, provide the exact pickup and delivery
+              addresses, goods description, approximate weight and dimensions,
+              loading requirements and preferred pickup date. These details
+              help determine a suitable vehicle and quotation.
+            </p>
+            <p className="mt-4 leading-8 text-slate-600">
+              Vehicle availability, rates and schedules depend on the
+              individual booking and must be confirmed before transport.
+            </p>
+          </div>
+
+          <div className="rounded-3xl bg-[#10182D] p-7 text-white md:p-9">
+            <h3 className="text-2xl font-bold">
+              Prepare Before Booking
+            </h3>
+            <ul className="mt-6 space-y-4">
+              {[
+                "Pickup and delivery addresses",
+                "Goods description and approximate load size",
+                "Required truck type or capacity",
+                "Preferred pickup date",
+                "Loading and unloading requirements",
+                "Contact details for confirmation",
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-6 text-slate-200">
+                  <span className="font-bold text-[#08A99F]">✓</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/contact"
+              className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-6 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Get Transport Assistance →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
+      {/* FORWARD ROUTES */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+          Forward routes
+        </p>
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Transport Routes from Alur
+        </h2>
+        <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore transport enquiry routes from Alur. Vehicle availability,
+          freight charges and schedules must be confirmed.
+        </p>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+
+        <Link
+          key={"Alur to Visakhapatnam"}
+          href="/alur-to-visakhapatnam-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Visakhapatnam
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Vijayawada"}
+          href="/alur-to-vijayawada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Vijayawada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Guntur"}
+          href="/alur-to-guntur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Guntur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Tirupati"}
+          href="/alur-to-tirupati-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Tirupati
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Nellore"}
+          href="/alur-to-nellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Nellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Kurnool"}
+          href="/alur-to-kurnool-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Kurnool
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Rajamahendravaram"}
+          href="/alur-to-rajamahendravaram-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Rajamahendravaram
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Kakinada"}
+          href="/alur-to-kakinada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Kakinada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Anantapur"}
+          href="/alur-to-anantapur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Anantapur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Kadapa"}
+          href="/alur-to-kadapa-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Kadapa
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Chennai"}
+          href="/alur-to-chennai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Chennai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Bengaluru"}
+          href="/alur-to-bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Hyderabad"}
+          href="/alur-to-hyderabad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Hyderabad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Coimbatore"}
+          href="/alur-to-coimbatore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Coimbatore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Salem"}
+          href="/alur-to-salem-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Salem
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Tiruppur"}
+          href="/alur-to-tiruppur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Tiruppur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Mysuru"}
+          href="/alur-to-mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Kochi"}
+          href="/alur-to-kochi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Kochi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Thiruvananthapuram"}
+          href="/alur-to-thiruvananthapuram-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Thiruvananthapuram
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Mumbai"}
+          href="/alur-to-mumbai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Mumbai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Pune"}
+          href="/alur-to-pune-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Pune
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Vellore"}
+          href="/alur-to-vellore-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Vellore
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Hosur"}
+          href="/alur-to-hosur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Hosur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Krishnagiri"}
+          href="/alur-to-krishnagiri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Krishnagiri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alur to Madurai"}
+          href="/alur-to-madurai-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alur to Madurai
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+        </div>
+      </section>
+
+      {/* RETURN ROUTES */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Return routes
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Transport Routes to Alur
+          </h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+            Explore return-direction transport enquiries to Alur.
+            Vehicle availability, freight charges and schedules must be confirmed.
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+
+        <Link
+          key={"Visakhapatnam to Alur"}
+          href="/visakhapatnam-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Visakhapatnam to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vijayawada to Alur"}
+          href="/vijayawada-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vijayawada to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Guntur to Alur"}
+          href="/guntur-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Guntur to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tirupati to Alur"}
+          href="/tirupati-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tirupati to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Nellore to Alur"}
+          href="/nellore-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Nellore to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kurnool to Alur"}
+          href="/kurnool-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kurnool to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Rajamahendravaram to Alur"}
+          href="/rajamahendravaram-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Rajamahendravaram to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kakinada to Alur"}
+          href="/kakinada-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kakinada to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Anantapur to Alur"}
+          href="/anantapur-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Anantapur to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kadapa to Alur"}
+          href="/kadapa-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kadapa to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Chennai to Alur"}
+          href="/chennai-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Chennai to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Bengaluru to Alur"}
+          href="/bengaluru-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hyderabad to Alur"}
+          href="/hyderabad-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hyderabad to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Coimbatore to Alur"}
+          href="/coimbatore-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Coimbatore to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Salem to Alur"}
+          href="/salem-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Salem to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Tiruppur to Alur"}
+          href="/tiruppur-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Tiruppur to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru to Alur"}
+          href="/mysuru-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kochi to Alur"}
+          href="/kochi-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kochi to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Thiruvananthapuram to Alur"}
+          href="/thiruvananthapuram-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Thiruvananthapuram to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mumbai to Alur"}
+          href="/mumbai-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mumbai to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Pune to Alur"}
+          href="/pune-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Pune to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Vellore to Alur"}
+          href="/vellore-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Vellore to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hosur to Alur"}
+          href="/hosur-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hosur to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Krishnagiri to Alur"}
+          href="/krishnagiri-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Krishnagiri to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Madurai to Alur"}
+          href="/madurai-to-alur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Madurai to Alur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* NEARBY AREAS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Nearby areas
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Nearby Locations Around Alur
+          </h2>
+
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
+
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {nearbyAreas.map((area) => (
+              <Link
+                key={area}
+                href={`/${area.toLowerCase().replace(/\s+/g, "-")}-transport`}
+                className="group flex min-h-14 items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
+              >
+                <span className="font-medium text-slate-700 group-hover:text-teal-800">
+                  {area}
+                </span>
+                <span className="shrink-0 text-[#08A99F]">→</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* WHY LOADZY */}
+      <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            Why LOADZY
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            A Simpler Way to Explore Transport Options
+          </h2>
+          <p className="mt-4 leading-7 text-slate-600">
+            Share your shipment details, explore available transport options
+            and confirm the arrangements for your route.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: "📍",
+              title: "Route Enquiries",
+              text: "Share pickup and delivery details for your shipment.",
+            },
+            {
+              icon: "🚚",
+              title: "Different Load Needs",
+              text: "Explore full load, part load and suitable truck options.",
+            },
+            {
+              icon: "💬",
+              title: "Clear Requirements",
+              text: "Provide cargo details and pickup preferences.",
+            },
+            {
+              icon: "📦",
+              title: "Multiple Use Cases",
+              text: "Enquire about shifting, commercial goods and consignments.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="mt-4 text-lg font-bold text-slate-900">
+                {item.title}
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BOOKING STEPS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            How to Request Transport from Alur
+          </h2>
+
+          <div className="mt-9 grid gap-5 md:grid-cols-4">
+            {[
+              {
+                number: "01",
+                title: "Enter Locations",
+                text: "Provide pickup and delivery addresses.",
+              },
+              {
+                number: "02",
+                title: "Share Load Details",
+                text: "Choose your service, truck type and pickup date.",
+              },
+              {
+                number: "03",
+                title: "Submit Enquiry",
+                text: "Send your booking details through the form.",
+              },
+              {
+                number: "04",
+                title: "Confirm Details",
+                text: "Confirm availability, freight charges and timing.",
+              },
+            ].map((step) => (
+              <div
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6"
+              >
+                <p className="text-sm font-extrabold tracking-widest text-[#08A99F]">
+                  STEP {step.number}
+                </p>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">
+                  {step.title}
+                </h3>
+                <p className="mt-3 leading-7 text-slate-600">{step.text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-9 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-[#08A99F] px-8 py-4 font-bold text-white transition hover:bg-teal-700"
+            >
+              Submit a Transport Enquiry →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="mx-auto max-w-4xl px-5 py-16 md:px-8 md:py-20">
+        <div className="text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
+            FAQs
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+            Alur Transport — Frequently Asked Questions
+          </h2>
+        </div>
+
+        <div className="mt-9 space-y-4">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-slate-200 bg-white p-5"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
+                <span>{faq.question}</span>
+                <span className="text-xl text-[#08A99F] transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-4 leading-7 text-slate-600">{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="bg-[#10182D] px-5 py-16 text-white md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="font-bold uppercase tracking-[0.18em] text-teal-300">
+            LOADZY Transport
+          </p>
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">
+            Looking for Goods Transport from Alur?
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
+            Share your pickup location, destination and load requirements to
+            explore a suitable transport option for your shipment.
+          </p>
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-8 py-4 font-bold text-slate-950 transition hover:bg-yellow-300"
+            >
+              Book a Truck →
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-xl border border-white/25 px-8 py-4 font-semibold text-white transition hover:border-[#08A99F] hover:bg-white/5"
+            >
+              Back to LOADZY Home
+            </Link>
+          </div>
+          <p className="mt-6 text-sm text-slate-400">
+            LOADZY — MOVE. CONNECT. DELIVER.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}

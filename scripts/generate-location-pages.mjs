@@ -64,6 +64,9 @@ const targetAnekalMissing = process.argv.includes(
 const targetKarnatakaDistrictPages = process.argv.includes(
   "--target-karnataka-district-pages"
 );
+const targetAndhraPradeshBatch = process.argv.includes(
+  "--target-andhra-pradesh-batch"
+);
 
 const karnatakaDistrictSlugs = new Set([
   "gundlupet-transport",
@@ -835,6 +838,15 @@ for (const location of locations) {
 if (
   targetKeralaBatch &&
   location.batchTag !== "kerala-2026-11"
+) {
+  continue;
+}
+if (
+  targetAndhraPradeshBatch &&
+  (
+    location.state !== "Andhra Pradesh" ||
+    location.batchTag !== "andhra-pradesh-2026-11"
+  )
 ) {
   continue;
 }
