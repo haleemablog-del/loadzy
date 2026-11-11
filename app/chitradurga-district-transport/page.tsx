@@ -425,275 +425,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Molakalmuru"}
-          href="/molakalmuru-transport"
+          href="/routes/chitradurga-district-transport/molakalmuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Molakalmuru
+            Molakalmuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Challakere"}
-          href="/challakere-transport"
+          href="/routes/chitradurga-district-transport/challakere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Challakere
+            Challakere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Holalkere"}
-          href="/holalkere-transport"
+          href="/routes/chitradurga-district-transport/holalkere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Holalkere
+            Holalkere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosadurga"}
-          href="/hosadurga-transport"
+          href="/routes/chitradurga-district-transport/hosadurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Hosadurga
+            Hosadurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hiriyur"}
-          href="/hiriyur-transport"
+          href="/routes/chitradurga-district-transport/hiriyur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Hiriyur
+            Hiriyur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Bengaluru"}
-          href="/chitradurga-to-bengaluru-transport"
+          href="/routes/chitradurga-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Bengaluru
+            Chitradurga to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Mysuru"}
-          href="/chitradurga-to-mysuru-transport"
+          href="/routes/chitradurga-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Mysuru
+            Chitradurga to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Mangaluru"}
-          href="/chitradurga-to-mangaluru-transport"
+          href="/routes/chitradurga-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Mangaluru
+            Chitradurga to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Hubballi"}
-          href="/chitradurga-to-hubballi-transport"
+          href="/routes/chitradurga-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Hubballi
+            Chitradurga to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Belagavi"}
-          href="/chitradurga-to-belagavi-transport"
+          href="/routes/chitradurga-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Belagavi
+            Chitradurga to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Chennai"}
-          href="/chitradurga-to-chennai-transport"
+          href="/routes/chitradurga-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Chennai
+            Chitradurga to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Hyderabad"}
-          href="/chitradurga-to-hyderabad-transport"
+          href="/routes/chitradurga-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Hyderabad
+            Chitradurga to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Kochi"}
-          href="/chitradurga-to-kochi-transport"
+          href="/routes/chitradurga-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Kochi
+            Chitradurga to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Coimbatore"}
-          href="/chitradurga-to-coimbatore-transport"
+          href="/routes/chitradurga-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Coimbatore
+            Chitradurga to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Tiruppur"}
-          href="/chitradurga-to-tiruppur-transport"
+          href="/routes/chitradurga-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Tiruppur
+            Chitradurga to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Salem"}
-          href="/chitradurga-to-salem-transport"
+          href="/routes/chitradurga-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Salem
+            Chitradurga to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Hosur"}
-          href="/chitradurga-to-hosur-transport"
+          href="/routes/chitradurga-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Hosur
+            Chitradurga to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Tumakuru"}
-          href="/chitradurga-to-tumakuru-transport"
+          href="/routes/chitradurga-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Tumakuru
+            Chitradurga to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Davanagere"}
-          href="/chitradurga-to-davanagere-transport"
+          href="/routes/chitradurga-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Davanagere
+            Chitradurga to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Shivamogga"}
-          href="/chitradurga-to-shivamogga-transport"
+          href="/routes/chitradurga-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Shivamogga
+            Chitradurga to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Hassan"}
-          href="/chitradurga-to-hassan-transport"
+          href="/routes/chitradurga-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Hassan
+            Chitradurga to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Kolar"}
-          href="/chitradurga-to-kolar-transport"
+          href="/routes/chitradurga-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Kolar
+            Chitradurga to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Vijayapura"}
-          href="/chitradurga-to-vijayapura-transport"
+          href="/routes/chitradurga-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Vijayapura
+            Chitradurga to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Kalaburagi"}
-          href="/chitradurga-to-kalaburagi-transport"
+          href="/routes/chitradurga-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Kalaburagi
+            Chitradurga to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chitradurga to Raichur"}
-          href="/chitradurga-to-raichur-transport"
+          href="/routes/chitradurga-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Chitradurga to Raichur
+            Chitradurga to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -717,275 +717,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Molakalmuru"}
-          href="/molakalmuru-transport"
+          href="/routes/molakalmuru-transport/chitradurga-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Molakalmuru to Chitradurga
+            Molakalmuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Challakere"}
-          href="/challakere-transport"
+          href="/routes/challakere-transport/chitradurga-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Challakere to Chitradurga
+            Challakere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Holalkere"}
-          href="/holalkere-transport"
+          href="/routes/holalkere-transport/chitradurga-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Holalkere to Chitradurga
+            Holalkere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosadurga"}
-          href="/hosadurga-transport"
+          href="/routes/hosadurga-transport/chitradurga-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosadurga to Chitradurga
+            Hosadurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hiriyur"}
-          href="/hiriyur-transport"
+          href="/routes/hiriyur-transport/chitradurga-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hiriyur to Chitradurga
+            Hiriyur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Chitradurga"}
-          href="/bengaluru-to-chitradurga-transport"
+          href="/routes/bengaluru-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Chitradurga to Chitradurga
+            Bengaluru to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Chitradurga"}
-          href="/mysuru-to-chitradurga-transport"
+          href="/routes/mysuru-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Chitradurga to Chitradurga
+            Mysuru to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Chitradurga"}
-          href="/mangaluru-to-chitradurga-transport"
+          href="/routes/mangaluru-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Chitradurga to Chitradurga
+            Mangaluru to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Chitradurga"}
-          href="/hubballi-to-chitradurga-transport"
+          href="/routes/hubballi-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Chitradurga to Chitradurga
+            Hubballi to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Chitradurga"}
-          href="/belagavi-to-chitradurga-transport"
+          href="/routes/belagavi-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Chitradurga to Chitradurga
+            Belagavi to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Chitradurga"}
-          href="/chennai-to-chitradurga-transport"
+          href="/routes/chennai-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Chitradurga to Chitradurga
+            Chennai to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Chitradurga"}
-          href="/hyderabad-to-chitradurga-transport"
+          href="/routes/hyderabad-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Chitradurga to Chitradurga
+            Hyderabad to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Chitradurga"}
-          href="/kochi-to-chitradurga-transport"
+          href="/routes/kochi-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Chitradurga to Chitradurga
+            Kochi to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Chitradurga"}
-          href="/coimbatore-to-chitradurga-transport"
+          href="/routes/coimbatore-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Chitradurga to Chitradurga
+            Coimbatore to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Chitradurga"}
-          href="/tiruppur-to-chitradurga-transport"
+          href="/routes/tiruppur-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Chitradurga to Chitradurga
+            Tiruppur to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Chitradurga"}
-          href="/salem-to-chitradurga-transport"
+          href="/routes/salem-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Chitradurga to Chitradurga
+            Salem to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Chitradurga"}
-          href="/hosur-to-chitradurga-transport"
+          href="/routes/hosur-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Chitradurga to Chitradurga
+            Hosur to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Chitradurga"}
-          href="/tumakuru-to-chitradurga-transport"
+          href="/routes/tumakuru-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Chitradurga to Chitradurga
+            Tumakuru to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Chitradurga"}
-          href="/davanagere-to-chitradurga-transport"
+          href="/routes/davanagere-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Chitradurga to Chitradurga
+            Davanagere to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Chitradurga"}
-          href="/shivamogga-to-chitradurga-transport"
+          href="/routes/shivamogga-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Chitradurga to Chitradurga
+            Shivamogga to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Chitradurga"}
-          href="/hassan-to-chitradurga-transport"
+          href="/routes/hassan-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Chitradurga to Chitradurga
+            Hassan to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Chitradurga"}
-          href="/kolar-to-chitradurga-transport"
+          href="/routes/kolar-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Chitradurga to Chitradurga
+            Kolar to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Chitradurga"}
-          href="/vijayapura-to-chitradurga-transport"
+          href="/routes/vijayapura-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Chitradurga to Chitradurga
+            Vijayapura to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Chitradurga"}
-          href="/kalaburagi-to-chitradurga-transport"
+          href="/routes/kalaburagi-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Chitradurga to Chitradurga
+            Kalaburagi to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Chitradurga"}
-          href="/raichur-to-chitradurga-transport"
+          href="/routes/raichur-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Chitradurga to Chitradurga
+            Raichur to Chitradurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1002,10 +1002,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chitradurga
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

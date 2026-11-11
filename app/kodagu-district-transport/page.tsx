@@ -424,275 +424,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Madikeri"}
-          href="/madikeri-transport"
+          href="/routes/kodagu-district-transport/madikeri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Madikeri
+            Madikeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Somwarpet"}
-          href="/somwarpet-transport"
+          href="/routes/kodagu-district-transport/somwarpet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Somwarpet
+            Somwarpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushalnagar"}
-          href="/kushalnagar-transport"
+          href="/routes/kodagu-district-transport/kushalnagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kushalnagar
+            Kushalnagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Virajpet"}
-          href="/virajpet-transport"
+          href="/routes/kodagu-district-transport/virajpet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Virajpet
+            Virajpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Bengaluru"}
-          href="/kodagu-to-bengaluru-transport"
+          href="/routes/kodagu-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Bengaluru
+            Kodagu to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Mysuru"}
-          href="/kodagu-to-mysuru-transport"
+          href="/routes/kodagu-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Mysuru
+            Kodagu to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Mangaluru"}
-          href="/kodagu-to-mangaluru-transport"
+          href="/routes/kodagu-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Mangaluru
+            Kodagu to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Hubballi"}
-          href="/kodagu-to-hubballi-transport"
+          href="/routes/kodagu-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Hubballi
+            Kodagu to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Belagavi"}
-          href="/kodagu-to-belagavi-transport"
+          href="/routes/kodagu-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Belagavi
+            Kodagu to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Chennai"}
-          href="/kodagu-to-chennai-transport"
+          href="/routes/kodagu-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Chennai
+            Kodagu to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Hyderabad"}
-          href="/kodagu-to-hyderabad-transport"
+          href="/routes/kodagu-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Hyderabad
+            Kodagu to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Kochi"}
-          href="/kodagu-to-kochi-transport"
+          href="/routes/kodagu-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Kochi
+            Kodagu to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Coimbatore"}
-          href="/kodagu-to-coimbatore-transport"
+          href="/routes/kodagu-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Coimbatore
+            Kodagu to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Tiruppur"}
-          href="/kodagu-to-tiruppur-transport"
+          href="/routes/kodagu-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Tiruppur
+            Kodagu to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Salem"}
-          href="/kodagu-to-salem-transport"
+          href="/routes/kodagu-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Salem
+            Kodagu to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Hosur"}
-          href="/kodagu-to-hosur-transport"
+          href="/routes/kodagu-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Hosur
+            Kodagu to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Tumakuru"}
-          href="/kodagu-to-tumakuru-transport"
+          href="/routes/kodagu-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Tumakuru
+            Kodagu to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Davanagere"}
-          href="/kodagu-to-davanagere-transport"
+          href="/routes/kodagu-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Davanagere
+            Kodagu to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Shivamogga"}
-          href="/kodagu-to-shivamogga-transport"
+          href="/routes/kodagu-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Shivamogga
+            Kodagu to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Hassan"}
-          href="/kodagu-to-hassan-transport"
+          href="/routes/kodagu-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Hassan
+            Kodagu to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Kolar"}
-          href="/kodagu-to-kolar-transport"
+          href="/routes/kodagu-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Kolar
+            Kodagu to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Vijayapura"}
-          href="/kodagu-to-vijayapura-transport"
+          href="/routes/kodagu-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Vijayapura
+            Kodagu to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Kalaburagi"}
-          href="/kodagu-to-kalaburagi-transport"
+          href="/routes/kodagu-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Kalaburagi
+            Kodagu to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Raichur"}
-          href="/kodagu-to-raichur-transport"
+          href="/routes/kodagu-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Raichur
+            Kodagu to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kodagu to Pune"}
-          href="/kodagu-to-pune-transport"
+          href="/routes/kodagu-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kodagu to Pune
+            Kodagu to Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -716,275 +716,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Madikeri"}
-          href="/madikeri-transport"
+          href="/routes/madikeri-transport/kodagu-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Madikeri to Kodagu
+            Madikeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Somwarpet"}
-          href="/somwarpet-transport"
+          href="/routes/somwarpet-transport/kodagu-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Somwarpet to Kodagu
+            Somwarpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushalnagar"}
-          href="/kushalnagar-transport"
+          href="/routes/kushalnagar-transport/kodagu-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kushalnagar to Kodagu
+            Kushalnagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Virajpet"}
-          href="/virajpet-transport"
+          href="/routes/virajpet-transport/kodagu-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Virajpet to Kodagu
+            Virajpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Kodagu"}
-          href="/bengaluru-to-kodagu-transport"
+          href="/routes/bengaluru-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Kodagu to Kodagu
+            Bengaluru to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Kodagu"}
-          href="/mysuru-to-kodagu-transport"
+          href="/routes/mysuru-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Kodagu to Kodagu
+            Mysuru to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Kodagu"}
-          href="/mangaluru-to-kodagu-transport"
+          href="/routes/mangaluru-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Kodagu to Kodagu
+            Mangaluru to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Kodagu"}
-          href="/hubballi-to-kodagu-transport"
+          href="/routes/hubballi-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Kodagu to Kodagu
+            Hubballi to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Kodagu"}
-          href="/belagavi-to-kodagu-transport"
+          href="/routes/belagavi-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Kodagu to Kodagu
+            Belagavi to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Kodagu"}
-          href="/chennai-to-kodagu-transport"
+          href="/routes/chennai-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Kodagu to Kodagu
+            Chennai to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Kodagu"}
-          href="/hyderabad-to-kodagu-transport"
+          href="/routes/hyderabad-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Kodagu to Kodagu
+            Hyderabad to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Kodagu"}
-          href="/kochi-to-kodagu-transport"
+          href="/routes/kochi-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Kodagu to Kodagu
+            Kochi to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Kodagu"}
-          href="/coimbatore-to-kodagu-transport"
+          href="/routes/coimbatore-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Kodagu to Kodagu
+            Coimbatore to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Kodagu"}
-          href="/tiruppur-to-kodagu-transport"
+          href="/routes/tiruppur-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Kodagu to Kodagu
+            Tiruppur to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Kodagu"}
-          href="/salem-to-kodagu-transport"
+          href="/routes/salem-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Kodagu to Kodagu
+            Salem to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Kodagu"}
-          href="/hosur-to-kodagu-transport"
+          href="/routes/hosur-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Kodagu to Kodagu
+            Hosur to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Kodagu"}
-          href="/tumakuru-to-kodagu-transport"
+          href="/routes/tumakuru-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Kodagu to Kodagu
+            Tumakuru to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Kodagu"}
-          href="/davanagere-to-kodagu-transport"
+          href="/routes/davanagere-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Kodagu to Kodagu
+            Davanagere to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Kodagu"}
-          href="/shivamogga-to-kodagu-transport"
+          href="/routes/shivamogga-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Kodagu to Kodagu
+            Shivamogga to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Kodagu"}
-          href="/hassan-to-kodagu-transport"
+          href="/routes/hassan-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Kodagu to Kodagu
+            Hassan to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Kodagu"}
-          href="/kolar-to-kodagu-transport"
+          href="/routes/kolar-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kodagu to Kodagu
+            Kolar to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Kodagu"}
-          href="/vijayapura-to-kodagu-transport"
+          href="/routes/vijayapura-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Kodagu to Kodagu
+            Vijayapura to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Kodagu"}
-          href="/kalaburagi-to-kodagu-transport"
+          href="/routes/kalaburagi-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Kodagu to Kodagu
+            Kalaburagi to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Kodagu"}
-          href="/raichur-to-kodagu-transport"
+          href="/routes/raichur-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Kodagu to Kodagu
+            Raichur to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune to Kodagu"}
-          href="/pune-to-kodagu-transport"
+          href="/routes/pune-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Kodagu to Kodagu
+            Pune to Kodagu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1001,10 +1001,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Kodagu
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

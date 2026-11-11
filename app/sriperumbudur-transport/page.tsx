@@ -2,6 +2,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+
+const toRouteSlug = (value: string) =>
+  `${value.trim().toLowerCase().replace(/-transport$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-transport`;
+
 export const metadata: Metadata = {
   title: "Sriperumbudur Truck Transport & Packers Movers | LOADZY",
   description:
@@ -294,15 +298,11 @@ export default function SriperumbudurTransportPage() {
               .flatMap((destination) => [
                 {
                   label: `Sriperumbudur → ${destination}`,
-                  href: `/routes/sriperumbudur/${destination
-                    .toLowerCase()
-                    .replace(/\s+/g, "-")}`,
+                  href: `/routes/${toRouteSlug('Sriperumbudur')}/${toRouteSlug(destination)}`,
                 },
                 {
                   label: `${destination} → Sriperumbudur`,
-                  href: `/routes/${destination
-                    .toLowerCase()
-                    .replace(/\s+/g, "-")}/sriperumbudur`,
+                  href: `/routes/${toRouteSlug(destination)}/${toRouteSlug('Sriperumbudur')}`,
                 },
               ])
               .map((route) => (

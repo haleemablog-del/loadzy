@@ -424,7 +424,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
           <Link
             key={"Palani to Chennai"}
-            href="/load-search"
+            href="/routes/palani-transport/chennai-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -435,7 +435,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Palani to Coimbatore"}
-            href="/load-search"
+            href="/routes/palani-transport/coimbatore-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -446,7 +446,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Palani to Madurai"}
-            href="/load-search"
+            href="/routes/palani-transport/madurai-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -457,7 +457,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Palani to Bengaluru"}
-            href="/load-search"
+            href="/routes/palani-transport/bengaluru-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -468,7 +468,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Coimbatore"}
-            href="/load-search"
+            href="/routes/palani-transport/coimbatore-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -479,7 +479,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Tiruppur"}
-            href="/load-search"
+            href="/routes/palani-transport/tiruppur-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -490,7 +490,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Erode"}
-            href="/load-search"
+            href="/routes/palani-transport/erode-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -501,7 +501,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Salem"}
-            href="/load-search"
+            href="/routes/palani-transport/salem-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -512,7 +512,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Chennai"}
-            href="/load-search"
+            href="/routes/palani-transport/chennai-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -523,7 +523,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Bengaluru"}
-            href="/load-search"
+            href="/routes/palani-transport/bengaluru-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -534,7 +534,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Hosur"}
-            href="/load-search"
+            href="/routes/palani-transport/hosur-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -545,7 +545,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Krishnagiri"}
-            href="/load-search"
+            href="/routes/palani-transport/krishnagiri-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -556,7 +556,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Dharmapuri"}
-            href="/load-search"
+            href="/routes/palani-transport/dharmapuri-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -567,7 +567,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Vellore"}
-            href="/load-search"
+            href="/routes/palani-transport/vellore-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -578,7 +578,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Tiruchirappalli"}
-            href="/load-search"
+            href="/routes/palani-transport/tiruchirappalli-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -589,7 +589,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Madurai"}
-            href="/load-search"
+            href="/routes/palani-transport/madurai-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -600,7 +600,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Dindigul"}
-            href="/load-search"
+            href="/routes/palani-transport/dindigul-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -611,7 +611,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Karur"}
-            href="/load-search"
+            href="/routes/palani-transport/karur-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -622,7 +622,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Namakkal"}
-            href="/load-search"
+            href="/routes/palani-transport/namakkal-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -633,7 +633,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Pollachi"}
-            href="/load-search"
+            href="/routes/palani-transport/pollachi-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -644,7 +644,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Mettupalayam"}
-            href="/load-search"
+            href="/routes/palani-transport/mettupalayam-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -655,7 +655,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Ooty"}
-            href="/load-search"
+            href="/routes/palani-transport/ooty-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -666,7 +666,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Palakkad"}
-            href="/load-search"
+            href="/routes/palani-transport/palakkad-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -677,7 +677,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Thrissur"}
-            href="/load-search"
+            href="/routes/palani-transport/thrissur-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -688,7 +688,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Kochi"}
-            href="/load-search"
+            href="/routes/palani-transport/kochi-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -716,7 +716,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
           <Link
             key={"Chennai to Palani"}
-            href="/load-search"
+            href="/routes/chennai-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -727,7 +727,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Coimbatore to Palani"}
-            href="/load-search"
+            href="/routes/coimbatore-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -738,7 +738,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Madurai to Palani"}
-            href="/load-search"
+            href="/routes/madurai-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -749,7 +749,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Bengaluru to Palani"}
-            href="/load-search"
+            href="/routes/bengaluru-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -760,7 +760,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Coimbatore"}
-            href="/load-search"
+            href="/routes/coimbatore-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -771,7 +771,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Tiruppur"}
-            href="/load-search"
+            href="/routes/tiruppur-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -782,7 +782,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Erode"}
-            href="/load-search"
+            href="/routes/erode-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -793,7 +793,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Salem"}
-            href="/load-search"
+            href="/routes/salem-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -804,7 +804,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Chennai"}
-            href="/load-search"
+            href="/routes/chennai-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -815,7 +815,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Bengaluru"}
-            href="/load-search"
+            href="/routes/bengaluru-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -826,7 +826,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Hosur"}
-            href="/load-search"
+            href="/routes/hosur-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -837,7 +837,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Krishnagiri"}
-            href="/load-search"
+            href="/routes/krishnagiri-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -848,7 +848,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Dharmapuri"}
-            href="/load-search"
+            href="/routes/dharmapuri-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -859,7 +859,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Vellore"}
-            href="/load-search"
+            href="/routes/vellore-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -870,7 +870,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Tiruchirappalli"}
-            href="/load-search"
+            href="/routes/tiruchirappalli-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -881,7 +881,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Madurai"}
-            href="/load-search"
+            href="/routes/madurai-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -892,7 +892,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Dindigul"}
-            href="/load-search"
+            href="/routes/dindigul-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -903,7 +903,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Karur"}
-            href="/load-search"
+            href="/routes/karur-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -914,7 +914,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Namakkal"}
-            href="/load-search"
+            href="/routes/namakkal-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -925,7 +925,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Pollachi"}
-            href="/load-search"
+            href="/routes/pollachi-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -936,7 +936,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Mettupalayam"}
-            href="/load-search"
+            href="/routes/mettupalayam-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -947,7 +947,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Ooty"}
-            href="/load-search"
+            href="/routes/ooty-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -958,7 +958,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Palakkad"}
-            href="/load-search"
+            href="/routes/palakkad-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -969,7 +969,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Thrissur"}
-            href="/load-search"
+            href="/routes/thrissur-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -980,7 +980,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
           <Link
             key={"Kochi"}
-            href="/load-search"
+            href="/routes/kochi-transport/palani-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">

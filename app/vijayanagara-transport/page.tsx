@@ -403,44 +403,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Hosapete"}
-          href="/hosapete-transport"
+          href="/routes/vijayanagara-transport/hosapete-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Hosapete
+            Hosapete
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kotturu"}
-          href="/kotturu-transport"
+          href="/routes/vijayanagara-transport/kotturu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Kotturu
+            Kotturu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudligi"}
-          href="/kudligi-transport"
+          href="/routes/vijayanagara-transport/kudligi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Kudligi
+            Kudligi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Harapanahalli"}
-          href="/harapanahalli-transport"
+          href="/routes/vijayanagara-transport/harapanahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Harapanahalli
+            Harapanahalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -464,44 +464,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Hosapete"}
-          href="/hosapete-transport"
+          href="/routes/hosapete-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosapete to Vijayanagara
+            Hosapete
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kotturu"}
-          href="/kotturu-transport"
+          href="/routes/kotturu-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kotturu to Vijayanagara
+            Kotturu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudligi"}
-          href="/kudligi-transport"
+          href="/routes/kudligi-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kudligi to Vijayanagara
+            Kudligi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Harapanahalli"}
-          href="/harapanahalli-transport"
+          href="/routes/harapanahalli-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Harapanahalli to Vijayanagara
+            Harapanahalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -518,10 +518,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Vijayanagara
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

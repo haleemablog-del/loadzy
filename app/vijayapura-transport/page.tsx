@@ -405,55 +405,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Indi"}
-          href="/indi-transport"
+          href="/routes/vijayapura-transport/indi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Indi
+            Indi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sindgi"}
-          href="/sindgi-transport"
+          href="/routes/vijayapura-transport/sindgi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Sindgi
+            Sindgi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Basavana Bagevadi"}
-          href="/basavana-bagevadi-transport"
+          href="/routes/vijayapura-transport/basavana-bagevadi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Basavana Bagevadi
+            Basavana Bagevadi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Muddebihal"}
-          href="/muddebihal-transport"
+          href="/routes/vijayapura-transport/muddebihal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Muddebihal
+            Muddebihal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Talikota"}
-          href="/talikota-transport"
+          href="/routes/vijayapura-transport/talikota-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Talikota
+            Talikota
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -477,55 +477,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Indi"}
-          href="/indi-transport"
+          href="/routes/indi-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Indi to Vijayapura
+            Indi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sindgi"}
-          href="/sindgi-transport"
+          href="/routes/sindgi-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Sindgi to Vijayapura
+            Sindgi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Basavana Bagevadi"}
-          href="/basavana-bagevadi-transport"
+          href="/routes/basavana-bagevadi-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Basavana Bagevadi to Vijayapura
+            Basavana Bagevadi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Muddebihal"}
-          href="/muddebihal-transport"
+          href="/routes/muddebihal-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Muddebihal to Vijayapura
+            Muddebihal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Talikota"}
-          href="/talikota-transport"
+          href="/routes/talikota-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Talikota to Vijayapura
+            Talikota
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -542,10 +542,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Vijayapura
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

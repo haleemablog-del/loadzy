@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Visakhapatnam"}
-          href="/stone-slab-industry-area-to-visakhapatnam-transport"
+          href="/routes/stone-slab-industry-area-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Vijayawada"}
-          href="/stone-slab-industry-area-to-vijayawada-transport"
+          href="/routes/stone-slab-industry-area-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Guntur"}
-          href="/stone-slab-industry-area-to-guntur-transport"
+          href="/routes/stone-slab-industry-area-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Tirupati"}
-          href="/stone-slab-industry-area-to-tirupati-transport"
+          href="/routes/stone-slab-industry-area-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Nellore"}
-          href="/stone-slab-industry-area-to-nellore-transport"
+          href="/routes/stone-slab-industry-area-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Kurnool"}
-          href="/stone-slab-industry-area-to-kurnool-transport"
+          href="/routes/stone-slab-industry-area-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Rajamahendravaram"}
-          href="/stone-slab-industry-area-to-rajamahendravaram-transport"
+          href="/routes/stone-slab-industry-area-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Kakinada"}
-          href="/stone-slab-industry-area-to-kakinada-transport"
+          href="/routes/stone-slab-industry-area-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Anantapur"}
-          href="/stone-slab-industry-area-to-anantapur-transport"
+          href="/routes/stone-slab-industry-area-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Kadapa"}
-          href="/stone-slab-industry-area-to-kadapa-transport"
+          href="/routes/stone-slab-industry-area-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Chennai"}
-          href="/stone-slab-industry-area-to-chennai-transport"
+          href="/routes/stone-slab-industry-area-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Bengaluru"}
-          href="/stone-slab-industry-area-to-bengaluru-transport"
+          href="/routes/stone-slab-industry-area-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Hyderabad"}
-          href="/stone-slab-industry-area-to-hyderabad-transport"
+          href="/routes/stone-slab-industry-area-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Coimbatore"}
-          href="/stone-slab-industry-area-to-coimbatore-transport"
+          href="/routes/stone-slab-industry-area-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Salem"}
-          href="/stone-slab-industry-area-to-salem-transport"
+          href="/routes/stone-slab-industry-area-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Tiruppur"}
-          href="/stone-slab-industry-area-to-tiruppur-transport"
+          href="/routes/stone-slab-industry-area-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Mysuru"}
-          href="/stone-slab-industry-area-to-mysuru-transport"
+          href="/routes/stone-slab-industry-area-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Kochi"}
-          href="/stone-slab-industry-area-to-kochi-transport"
+          href="/routes/stone-slab-industry-area-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Thiruvananthapuram"}
-          href="/stone-slab-industry-area-to-thiruvananthapuram-transport"
+          href="/routes/stone-slab-industry-area-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Mumbai"}
-          href="/stone-slab-industry-area-to-mumbai-transport"
+          href="/routes/stone-slab-industry-area-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Pune"}
-          href="/stone-slab-industry-area-to-pune-transport"
+          href="/routes/stone-slab-industry-area-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Vellore"}
-          href="/stone-slab-industry-area-to-vellore-transport"
+          href="/routes/stone-slab-industry-area-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Hosur"}
-          href="/stone-slab-industry-area-to-hosur-transport"
+          href="/routes/stone-slab-industry-area-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Krishnagiri"}
-          href="/stone-slab-industry-area-to-krishnagiri-transport"
+          href="/routes/stone-slab-industry-area-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Stone/Slab Industry Area to Madurai"}
-          href="/stone-slab-industry-area-to-madurai-transport"
+          href="/routes/stone-slab-industry-area-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Stone/Slab Industry Area"}
-          href="/visakhapatnam-to-stone-slab-industry-area-transport"
+          href="/routes/visakhapatnam-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Stone/Slab Industry Area"}
-          href="/vijayawada-to-stone-slab-industry-area-transport"
+          href="/routes/vijayawada-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Stone/Slab Industry Area"}
-          href="/guntur-to-stone-slab-industry-area-transport"
+          href="/routes/guntur-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Stone/Slab Industry Area"}
-          href="/tirupati-to-stone-slab-industry-area-transport"
+          href="/routes/tirupati-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Stone/Slab Industry Area"}
-          href="/nellore-to-stone-slab-industry-area-transport"
+          href="/routes/nellore-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Stone/Slab Industry Area"}
-          href="/kurnool-to-stone-slab-industry-area-transport"
+          href="/routes/kurnool-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Stone/Slab Industry Area"}
-          href="/rajamahendravaram-to-stone-slab-industry-area-transport"
+          href="/routes/rajamahendravaram-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Stone/Slab Industry Area"}
-          href="/kakinada-to-stone-slab-industry-area-transport"
+          href="/routes/kakinada-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Stone/Slab Industry Area"}
-          href="/anantapur-to-stone-slab-industry-area-transport"
+          href="/routes/anantapur-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Stone/Slab Industry Area"}
-          href="/kadapa-to-stone-slab-industry-area-transport"
+          href="/routes/kadapa-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Stone/Slab Industry Area"}
-          href="/chennai-to-stone-slab-industry-area-transport"
+          href="/routes/chennai-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Stone/Slab Industry Area"}
-          href="/bengaluru-to-stone-slab-industry-area-transport"
+          href="/routes/bengaluru-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Stone/Slab Industry Area"}
-          href="/hyderabad-to-stone-slab-industry-area-transport"
+          href="/routes/hyderabad-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Stone/Slab Industry Area"}
-          href="/coimbatore-to-stone-slab-industry-area-transport"
+          href="/routes/coimbatore-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Stone/Slab Industry Area"}
-          href="/salem-to-stone-slab-industry-area-transport"
+          href="/routes/salem-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Stone/Slab Industry Area"}
-          href="/tiruppur-to-stone-slab-industry-area-transport"
+          href="/routes/tiruppur-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Stone/Slab Industry Area"}
-          href="/mysuru-to-stone-slab-industry-area-transport"
+          href="/routes/mysuru-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Stone/Slab Industry Area"}
-          href="/kochi-to-stone-slab-industry-area-transport"
+          href="/routes/kochi-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Stone/Slab Industry Area"}
-          href="/thiruvananthapuram-to-stone-slab-industry-area-transport"
+          href="/routes/thiruvananthapuram-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Stone/Slab Industry Area"}
-          href="/mumbai-to-stone-slab-industry-area-transport"
+          href="/routes/mumbai-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Stone/Slab Industry Area"}
-          href="/pune-to-stone-slab-industry-area-transport"
+          href="/routes/pune-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Stone/Slab Industry Area"}
-          href="/vellore-to-stone-slab-industry-area-transport"
+          href="/routes/vellore-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Stone/Slab Industry Area"}
-          href="/hosur-to-stone-slab-industry-area-transport"
+          href="/routes/hosur-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Stone/Slab Industry Area"}
-          href="/krishnagiri-to-stone-slab-industry-area-transport"
+          href="/routes/krishnagiri-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Stone/Slab Industry Area"}
-          href="/madurai-to-stone-slab-industry-area-transport"
+          href="/routes/madurai-transport/stone-slab-industry-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

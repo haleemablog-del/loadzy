@@ -424,275 +424,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Hosapete"}
-          href="/hosapete-transport"
+          href="/routes/vijayanagara-district-transport/hosapete-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Hosapete
+            Hosapete
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kotturu"}
-          href="/kotturu-transport"
+          href="/routes/vijayanagara-district-transport/kotturu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Kotturu
+            Kotturu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudligi"}
-          href="/kudligi-transport"
+          href="/routes/vijayanagara-district-transport/kudligi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Kudligi
+            Kudligi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Harapanahalli"}
-          href="/harapanahalli-transport"
+          href="/routes/vijayanagara-district-transport/harapanahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Harapanahalli
+            Harapanahalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Bengaluru"}
-          href="/vijayanagara-to-bengaluru-transport"
+          href="/routes/vijayanagara-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Bengaluru
+            Vijayanagara to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Mysuru"}
-          href="/vijayanagara-to-mysuru-transport"
+          href="/routes/vijayanagara-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Mysuru
+            Vijayanagara to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Mangaluru"}
-          href="/vijayanagara-to-mangaluru-transport"
+          href="/routes/vijayanagara-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Mangaluru
+            Vijayanagara to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Hubballi"}
-          href="/vijayanagara-to-hubballi-transport"
+          href="/routes/vijayanagara-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Hubballi
+            Vijayanagara to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Belagavi"}
-          href="/vijayanagara-to-belagavi-transport"
+          href="/routes/vijayanagara-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Belagavi
+            Vijayanagara to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Chennai"}
-          href="/vijayanagara-to-chennai-transport"
+          href="/routes/vijayanagara-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Chennai
+            Vijayanagara to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Hyderabad"}
-          href="/vijayanagara-to-hyderabad-transport"
+          href="/routes/vijayanagara-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Hyderabad
+            Vijayanagara to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Kochi"}
-          href="/vijayanagara-to-kochi-transport"
+          href="/routes/vijayanagara-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Kochi
+            Vijayanagara to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Coimbatore"}
-          href="/vijayanagara-to-coimbatore-transport"
+          href="/routes/vijayanagara-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Coimbatore
+            Vijayanagara to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Tiruppur"}
-          href="/vijayanagara-to-tiruppur-transport"
+          href="/routes/vijayanagara-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Tiruppur
+            Vijayanagara to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Salem"}
-          href="/vijayanagara-to-salem-transport"
+          href="/routes/vijayanagara-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Salem
+            Vijayanagara to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Hosur"}
-          href="/vijayanagara-to-hosur-transport"
+          href="/routes/vijayanagara-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Hosur
+            Vijayanagara to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Tumakuru"}
-          href="/vijayanagara-to-tumakuru-transport"
+          href="/routes/vijayanagara-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Tumakuru
+            Vijayanagara to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Davanagere"}
-          href="/vijayanagara-to-davanagere-transport"
+          href="/routes/vijayanagara-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Davanagere
+            Vijayanagara to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Shivamogga"}
-          href="/vijayanagara-to-shivamogga-transport"
+          href="/routes/vijayanagara-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Shivamogga
+            Vijayanagara to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Hassan"}
-          href="/vijayanagara-to-hassan-transport"
+          href="/routes/vijayanagara-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Hassan
+            Vijayanagara to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Kolar"}
-          href="/vijayanagara-to-kolar-transport"
+          href="/routes/vijayanagara-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Kolar
+            Vijayanagara to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Vijayapura"}
-          href="/vijayanagara-to-vijayapura-transport"
+          href="/routes/vijayanagara-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Vijayapura
+            Vijayanagara to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Kalaburagi"}
-          href="/vijayanagara-to-kalaburagi-transport"
+          href="/routes/vijayanagara-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Kalaburagi
+            Vijayanagara to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Raichur"}
-          href="/vijayanagara-to-raichur-transport"
+          href="/routes/vijayanagara-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Raichur
+            Vijayanagara to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayanagara to Pune"}
-          href="/vijayanagara-to-pune-transport"
+          href="/routes/vijayanagara-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayanagara to Vijayanagara to Pune
+            Vijayanagara to Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -716,275 +716,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Hosapete"}
-          href="/hosapete-transport"
+          href="/routes/hosapete-transport/vijayanagara-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosapete to Vijayanagara
+            Hosapete
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kotturu"}
-          href="/kotturu-transport"
+          href="/routes/kotturu-transport/vijayanagara-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kotturu to Vijayanagara
+            Kotturu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudligi"}
-          href="/kudligi-transport"
+          href="/routes/kudligi-transport/vijayanagara-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kudligi to Vijayanagara
+            Kudligi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Harapanahalli"}
-          href="/harapanahalli-transport"
+          href="/routes/harapanahalli-transport/vijayanagara-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Harapanahalli to Vijayanagara
+            Harapanahalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Vijayanagara"}
-          href="/bengaluru-to-vijayanagara-transport"
+          href="/routes/bengaluru-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Vijayanagara to Vijayanagara
+            Bengaluru to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Vijayanagara"}
-          href="/mysuru-to-vijayanagara-transport"
+          href="/routes/mysuru-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Vijayanagara to Vijayanagara
+            Mysuru to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Vijayanagara"}
-          href="/mangaluru-to-vijayanagara-transport"
+          href="/routes/mangaluru-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Vijayanagara to Vijayanagara
+            Mangaluru to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Vijayanagara"}
-          href="/hubballi-to-vijayanagara-transport"
+          href="/routes/hubballi-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Vijayanagara to Vijayanagara
+            Hubballi to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Vijayanagara"}
-          href="/belagavi-to-vijayanagara-transport"
+          href="/routes/belagavi-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Vijayanagara to Vijayanagara
+            Belagavi to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Vijayanagara"}
-          href="/chennai-to-vijayanagara-transport"
+          href="/routes/chennai-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Vijayanagara to Vijayanagara
+            Chennai to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Vijayanagara"}
-          href="/hyderabad-to-vijayanagara-transport"
+          href="/routes/hyderabad-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Vijayanagara to Vijayanagara
+            Hyderabad to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Vijayanagara"}
-          href="/kochi-to-vijayanagara-transport"
+          href="/routes/kochi-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Vijayanagara to Vijayanagara
+            Kochi to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Vijayanagara"}
-          href="/coimbatore-to-vijayanagara-transport"
+          href="/routes/coimbatore-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Vijayanagara to Vijayanagara
+            Coimbatore to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Vijayanagara"}
-          href="/tiruppur-to-vijayanagara-transport"
+          href="/routes/tiruppur-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Vijayanagara to Vijayanagara
+            Tiruppur to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Vijayanagara"}
-          href="/salem-to-vijayanagara-transport"
+          href="/routes/salem-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Vijayanagara to Vijayanagara
+            Salem to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Vijayanagara"}
-          href="/hosur-to-vijayanagara-transport"
+          href="/routes/hosur-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Vijayanagara to Vijayanagara
+            Hosur to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Vijayanagara"}
-          href="/tumakuru-to-vijayanagara-transport"
+          href="/routes/tumakuru-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Vijayanagara to Vijayanagara
+            Tumakuru to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Vijayanagara"}
-          href="/davanagere-to-vijayanagara-transport"
+          href="/routes/davanagere-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Vijayanagara to Vijayanagara
+            Davanagere to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Vijayanagara"}
-          href="/shivamogga-to-vijayanagara-transport"
+          href="/routes/shivamogga-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Vijayanagara to Vijayanagara
+            Shivamogga to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Vijayanagara"}
-          href="/hassan-to-vijayanagara-transport"
+          href="/routes/hassan-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Vijayanagara to Vijayanagara
+            Hassan to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Vijayanagara"}
-          href="/kolar-to-vijayanagara-transport"
+          href="/routes/kolar-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Vijayanagara to Vijayanagara
+            Kolar to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Vijayanagara"}
-          href="/vijayapura-to-vijayanagara-transport"
+          href="/routes/vijayapura-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Vijayanagara to Vijayanagara
+            Vijayapura to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Vijayanagara"}
-          href="/kalaburagi-to-vijayanagara-transport"
+          href="/routes/kalaburagi-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Vijayanagara to Vijayanagara
+            Kalaburagi to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Vijayanagara"}
-          href="/raichur-to-vijayanagara-transport"
+          href="/routes/raichur-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Vijayanagara to Vijayanagara
+            Raichur to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune to Vijayanagara"}
-          href="/pune-to-vijayanagara-transport"
+          href="/routes/pune-transport/vijayanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Vijayanagara to Vijayanagara
+            Pune to Vijayanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1001,10 +1001,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Vijayanagara
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

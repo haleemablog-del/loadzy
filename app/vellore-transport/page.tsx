@@ -31,19 +31,19 @@ const services = [
 ];
 
 const routes = [
-  ["Vellore → Chennai", "/routes/vellore/chennai"],
-  ["Vellore → Bangalore", "/routes/vellore/bangalore"],
-  ["Vellore → Tirupati", "/routes/vellore/tirupati"],
-  ["Vellore → Vaniyambadi", "/routes/vellore/vaniyambadi"],
-  ["Vellore → Ambur", "/routes/vellore/ambur"],
-  ["Vellore → Tirupattur", "/routes/vellore/tirupattur"],
+  ["Vellore → Chennai", "/routes/vellore-transport/chennai-transport"],
+  ["Vellore → Bangalore", "/routes/vellore-transport/bangalore-transport"],
+  ["Vellore → Tirupati", "/routes/vellore-transport/tirupati-transport"],
+  ["Vellore → Vaniyambadi", "/routes/vellore-transport/vaniyambadi-transport"],
+  ["Vellore → Ambur", "/routes/vellore-transport/ambur-transport"],
+  ["Vellore → Tirupattur", "/routes/vellore-transport/tirupattur-transport"],
   
-  ["Chennai → Vellore", "/routes/chennai/vellore"],
-  ["Bangalore → Vellore", "/routes/bangalore/vellore"],
-  ["Tirupati → Vellore", "/routes/tirupati/vellore"],
-  ["Vaniyambadi → Vellore", "/routes/vaniyambadi/vellore"],
-  ["Ambur → Vellore", "/routes/ambur/vellore"],
-  ["Tirupattur → Vellore", "/routes/tirupattur/vellore"],
+  ["Chennai → Vellore", "/routes/chennai-transport/vellore-transport"],
+  ["Bangalore → Vellore", "/routes/bangalore-transport/vellore-transport"],
+  ["Tirupati → Vellore", "/routes/tirupati-transport/vellore-transport"],
+  ["Vaniyambadi → Vellore", "/routes/vaniyambadi-transport/vellore-transport"],
+  ["Ambur → Vellore", "/routes/ambur-transport/vellore-transport"],
+  ["Tirupattur → Vellore", "/routes/tirupattur-transport/vellore-transport"],
 ];
 
 const faqs = [

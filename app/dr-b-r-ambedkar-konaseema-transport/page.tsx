@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Visakhapatnam"}
-          href="/dr-b-r-ambedkar-konaseema-to-visakhapatnam-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Vijayawada"}
-          href="/dr-b-r-ambedkar-konaseema-to-vijayawada-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Guntur"}
-          href="/dr-b-r-ambedkar-konaseema-to-guntur-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Tirupati"}
-          href="/dr-b-r-ambedkar-konaseema-to-tirupati-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Nellore"}
-          href="/dr-b-r-ambedkar-konaseema-to-nellore-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Kurnool"}
-          href="/dr-b-r-ambedkar-konaseema-to-kurnool-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Rajamahendravaram"}
-          href="/dr-b-r-ambedkar-konaseema-to-rajamahendravaram-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Kakinada"}
-          href="/dr-b-r-ambedkar-konaseema-to-kakinada-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Anantapur"}
-          href="/dr-b-r-ambedkar-konaseema-to-anantapur-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Kadapa"}
-          href="/dr-b-r-ambedkar-konaseema-to-kadapa-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Chennai"}
-          href="/dr-b-r-ambedkar-konaseema-to-chennai-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Bengaluru"}
-          href="/dr-b-r-ambedkar-konaseema-to-bengaluru-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Hyderabad"}
-          href="/dr-b-r-ambedkar-konaseema-to-hyderabad-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Coimbatore"}
-          href="/dr-b-r-ambedkar-konaseema-to-coimbatore-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Salem"}
-          href="/dr-b-r-ambedkar-konaseema-to-salem-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Tiruppur"}
-          href="/dr-b-r-ambedkar-konaseema-to-tiruppur-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Mysuru"}
-          href="/dr-b-r-ambedkar-konaseema-to-mysuru-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Kochi"}
-          href="/dr-b-r-ambedkar-konaseema-to-kochi-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Thiruvananthapuram"}
-          href="/dr-b-r-ambedkar-konaseema-to-thiruvananthapuram-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Mumbai"}
-          href="/dr-b-r-ambedkar-konaseema-to-mumbai-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Pune"}
-          href="/dr-b-r-ambedkar-konaseema-to-pune-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Vellore"}
-          href="/dr-b-r-ambedkar-konaseema-to-vellore-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Hosur"}
-          href="/dr-b-r-ambedkar-konaseema-to-hosur-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Krishnagiri"}
-          href="/dr-b-r-ambedkar-konaseema-to-krishnagiri-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Dr. B.R. Ambedkar Konaseema to Madurai"}
-          href="/dr-b-r-ambedkar-konaseema-to-madurai-transport"
+          href="/routes/dr-b-r-ambedkar-konaseema-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Dr. B.R. Ambedkar Konaseema"}
-          href="/visakhapatnam-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/visakhapatnam-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Dr. B.R. Ambedkar Konaseema"}
-          href="/vijayawada-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/vijayawada-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Dr. B.R. Ambedkar Konaseema"}
-          href="/guntur-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/guntur-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Dr. B.R. Ambedkar Konaseema"}
-          href="/tirupati-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/tirupati-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Dr. B.R. Ambedkar Konaseema"}
-          href="/nellore-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/nellore-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Dr. B.R. Ambedkar Konaseema"}
-          href="/kurnool-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/kurnool-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Dr. B.R. Ambedkar Konaseema"}
-          href="/rajamahendravaram-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/rajamahendravaram-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Dr. B.R. Ambedkar Konaseema"}
-          href="/kakinada-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/kakinada-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Dr. B.R. Ambedkar Konaseema"}
-          href="/anantapur-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/anantapur-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Dr. B.R. Ambedkar Konaseema"}
-          href="/kadapa-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/kadapa-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Dr. B.R. Ambedkar Konaseema"}
-          href="/chennai-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/chennai-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Dr. B.R. Ambedkar Konaseema"}
-          href="/bengaluru-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/bengaluru-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Dr. B.R. Ambedkar Konaseema"}
-          href="/hyderabad-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/hyderabad-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Dr. B.R. Ambedkar Konaseema"}
-          href="/coimbatore-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/coimbatore-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Dr. B.R. Ambedkar Konaseema"}
-          href="/salem-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/salem-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Dr. B.R. Ambedkar Konaseema"}
-          href="/tiruppur-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/tiruppur-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Dr. B.R. Ambedkar Konaseema"}
-          href="/mysuru-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/mysuru-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Dr. B.R. Ambedkar Konaseema"}
-          href="/kochi-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/kochi-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Dr. B.R. Ambedkar Konaseema"}
-          href="/thiruvananthapuram-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/thiruvananthapuram-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Dr. B.R. Ambedkar Konaseema"}
-          href="/mumbai-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/mumbai-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Dr. B.R. Ambedkar Konaseema"}
-          href="/pune-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/pune-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Dr. B.R. Ambedkar Konaseema"}
-          href="/vellore-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/vellore-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Dr. B.R. Ambedkar Konaseema"}
-          href="/hosur-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/hosur-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Dr. B.R. Ambedkar Konaseema"}
-          href="/krishnagiri-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/krishnagiri-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Dr. B.R. Ambedkar Konaseema"}
-          href="/madurai-to-dr-b-r-ambedkar-konaseema-transport"
+          href="/routes/madurai-transport/dr-b-r-ambedkar-konaseema-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

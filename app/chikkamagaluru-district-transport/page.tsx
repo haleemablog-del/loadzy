@@ -428,275 +428,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Sringeri"}
-          href="/sringeri-transport"
+          href="/routes/chikkamagaluru-district-transport/sringeri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Sringeri
+            Sringeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppa"}
-          href="/koppa-transport"
+          href="/routes/chikkamagaluru-district-transport/koppa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Koppa
+            Koppa
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Narasimharajapura"}
-          href="/narasimharajapura-transport"
+          href="/routes/chikkamagaluru-district-transport/narasimharajapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Narasimharajapura
+            Narasimharajapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tarikere"}
-          href="/tarikere-transport"
+          href="/routes/chikkamagaluru-district-transport/tarikere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Tarikere
+            Tarikere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Birur"}
-          href="/birur-transport"
+          href="/routes/chikkamagaluru-district-transport/birur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Birur
+            Birur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kadur"}
-          href="/kadur-transport"
+          href="/routes/chikkamagaluru-district-transport/kadur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Kadur
+            Kadur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mudigere"}
-          href="/mudigere-transport"
+          href="/routes/chikkamagaluru-district-transport/mudigere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Mudigere
+            Mudigere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudremukh"}
-          href="/kudremukh-transport"
+          href="/routes/chikkamagaluru-district-transport/kudremukh-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Kudremukh
+            Kudremukh
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Bengaluru"}
-          href="/chikkamagaluru-to-bengaluru-transport"
+          href="/routes/chikkamagaluru-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Bengaluru
+            Chikkamagaluru to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Mysuru"}
-          href="/chikkamagaluru-to-mysuru-transport"
+          href="/routes/chikkamagaluru-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Mysuru
+            Chikkamagaluru to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Mangaluru"}
-          href="/chikkamagaluru-to-mangaluru-transport"
+          href="/routes/chikkamagaluru-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Mangaluru
+            Chikkamagaluru to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Hubballi"}
-          href="/chikkamagaluru-to-hubballi-transport"
+          href="/routes/chikkamagaluru-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Hubballi
+            Chikkamagaluru to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Belagavi"}
-          href="/chikkamagaluru-to-belagavi-transport"
+          href="/routes/chikkamagaluru-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Belagavi
+            Chikkamagaluru to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Chennai"}
-          href="/chikkamagaluru-to-chennai-transport"
+          href="/routes/chikkamagaluru-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Chennai
+            Chikkamagaluru to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Hyderabad"}
-          href="/chikkamagaluru-to-hyderabad-transport"
+          href="/routes/chikkamagaluru-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Hyderabad
+            Chikkamagaluru to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Kochi"}
-          href="/chikkamagaluru-to-kochi-transport"
+          href="/routes/chikkamagaluru-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Kochi
+            Chikkamagaluru to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Coimbatore"}
-          href="/chikkamagaluru-to-coimbatore-transport"
+          href="/routes/chikkamagaluru-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Coimbatore
+            Chikkamagaluru to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Tiruppur"}
-          href="/chikkamagaluru-to-tiruppur-transport"
+          href="/routes/chikkamagaluru-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Tiruppur
+            Chikkamagaluru to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Salem"}
-          href="/chikkamagaluru-to-salem-transport"
+          href="/routes/chikkamagaluru-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Salem
+            Chikkamagaluru to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Hosur"}
-          href="/chikkamagaluru-to-hosur-transport"
+          href="/routes/chikkamagaluru-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Hosur
+            Chikkamagaluru to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Tumakuru"}
-          href="/chikkamagaluru-to-tumakuru-transport"
+          href="/routes/chikkamagaluru-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Tumakuru
+            Chikkamagaluru to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Davanagere"}
-          href="/chikkamagaluru-to-davanagere-transport"
+          href="/routes/chikkamagaluru-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Davanagere
+            Chikkamagaluru to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Shivamogga"}
-          href="/chikkamagaluru-to-shivamogga-transport"
+          href="/routes/chikkamagaluru-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Shivamogga
+            Chikkamagaluru to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Hassan"}
-          href="/chikkamagaluru-to-hassan-transport"
+          href="/routes/chikkamagaluru-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Hassan
+            Chikkamagaluru to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkamagaluru to Kolar"}
-          href="/chikkamagaluru-to-kolar-transport"
+          href="/routes/chikkamagaluru-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkamagaluru to Chikkamagaluru to Kolar
+            Chikkamagaluru to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -720,275 +720,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Sringeri"}
-          href="/sringeri-transport"
+          href="/routes/sringeri-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Sringeri to Chikkamagaluru
+            Sringeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppa"}
-          href="/koppa-transport"
+          href="/routes/koppa-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppa to Chikkamagaluru
+            Koppa
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Narasimharajapura"}
-          href="/narasimharajapura-transport"
+          href="/routes/narasimharajapura-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Narasimharajapura to Chikkamagaluru
+            Narasimharajapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tarikere"}
-          href="/tarikere-transport"
+          href="/routes/tarikere-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tarikere to Chikkamagaluru
+            Tarikere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Birur"}
-          href="/birur-transport"
+          href="/routes/birur-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Birur to Chikkamagaluru
+            Birur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kadur"}
-          href="/kadur-transport"
+          href="/routes/kadur-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kadur to Chikkamagaluru
+            Kadur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mudigere"}
-          href="/mudigere-transport"
+          href="/routes/mudigere-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mudigere to Chikkamagaluru
+            Mudigere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kudremukh"}
-          href="/kudremukh-transport"
+          href="/routes/kudremukh-transport/chikkamagaluru-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kudremukh to Chikkamagaluru
+            Kudremukh
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Chikkamagaluru"}
-          href="/bengaluru-to-chikkamagaluru-transport"
+          href="/routes/bengaluru-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Chikkamagaluru to Chikkamagaluru
+            Bengaluru to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Chikkamagaluru"}
-          href="/mysuru-to-chikkamagaluru-transport"
+          href="/routes/mysuru-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Chikkamagaluru to Chikkamagaluru
+            Mysuru to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Chikkamagaluru"}
-          href="/mangaluru-to-chikkamagaluru-transport"
+          href="/routes/mangaluru-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Chikkamagaluru to Chikkamagaluru
+            Mangaluru to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Chikkamagaluru"}
-          href="/hubballi-to-chikkamagaluru-transport"
+          href="/routes/hubballi-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Chikkamagaluru to Chikkamagaluru
+            Hubballi to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Chikkamagaluru"}
-          href="/belagavi-to-chikkamagaluru-transport"
+          href="/routes/belagavi-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Chikkamagaluru to Chikkamagaluru
+            Belagavi to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Chikkamagaluru"}
-          href="/chennai-to-chikkamagaluru-transport"
+          href="/routes/chennai-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Chikkamagaluru to Chikkamagaluru
+            Chennai to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Chikkamagaluru"}
-          href="/hyderabad-to-chikkamagaluru-transport"
+          href="/routes/hyderabad-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Chikkamagaluru to Chikkamagaluru
+            Hyderabad to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Chikkamagaluru"}
-          href="/kochi-to-chikkamagaluru-transport"
+          href="/routes/kochi-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Chikkamagaluru to Chikkamagaluru
+            Kochi to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Chikkamagaluru"}
-          href="/coimbatore-to-chikkamagaluru-transport"
+          href="/routes/coimbatore-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Chikkamagaluru to Chikkamagaluru
+            Coimbatore to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Chikkamagaluru"}
-          href="/tiruppur-to-chikkamagaluru-transport"
+          href="/routes/tiruppur-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Chikkamagaluru to Chikkamagaluru
+            Tiruppur to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Chikkamagaluru"}
-          href="/salem-to-chikkamagaluru-transport"
+          href="/routes/salem-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Chikkamagaluru to Chikkamagaluru
+            Salem to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Chikkamagaluru"}
-          href="/hosur-to-chikkamagaluru-transport"
+          href="/routes/hosur-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Chikkamagaluru to Chikkamagaluru
+            Hosur to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Chikkamagaluru"}
-          href="/tumakuru-to-chikkamagaluru-transport"
+          href="/routes/tumakuru-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Chikkamagaluru to Chikkamagaluru
+            Tumakuru to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Chikkamagaluru"}
-          href="/davanagere-to-chikkamagaluru-transport"
+          href="/routes/davanagere-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Chikkamagaluru to Chikkamagaluru
+            Davanagere to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Chikkamagaluru"}
-          href="/shivamogga-to-chikkamagaluru-transport"
+          href="/routes/shivamogga-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Chikkamagaluru to Chikkamagaluru
+            Shivamogga to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Chikkamagaluru"}
-          href="/hassan-to-chikkamagaluru-transport"
+          href="/routes/hassan-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Chikkamagaluru to Chikkamagaluru
+            Hassan to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Chikkamagaluru"}
-          href="/kolar-to-chikkamagaluru-transport"
+          href="/routes/kolar-transport/chikkamagaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Chikkamagaluru to Chikkamagaluru
+            Kolar to Chikkamagaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1005,10 +1005,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chikkamagaluru
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

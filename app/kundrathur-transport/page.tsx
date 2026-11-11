@@ -186,24 +186,23 @@ export default function KundrathurTransportPage() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {routeDestinations.map((destination) => {
-              const slug = destination
-                .toLowerCase()
-                .replace(/\s+/g, "-");
-
+              const originSlug = "kundrathur-transport";
+const destinationSlug =
+  `${destination.toLowerCase().replace(/\s+/g, "-")}-transport`;
               return (
                 <div
                   key={destination}
                   className="grid gap-3 sm:grid-cols-2"
                 >
                   <Link
-                    href={`/routes/kundrathur/${slug}`}
+                    href={`/routes/${originSlug}/${destinationSlug}`}
                     className="rounded-xl border border-slate-200 p-5 font-bold shadow-sm transition hover:border-[#00b9a7]"
                   >
                     Kundrathur → {destination} →
                   </Link>
 
                   <Link
-                    href={`/routes/${slug}/kundrathur`}
+                    href={`/routes/${destinationSlug}/${originSlug}`}
                     className="rounded-xl border border-slate-200 p-5 font-bold shadow-sm transition hover:border-[#00b9a7]"
                   >
                     {destination} → Kundrathur →

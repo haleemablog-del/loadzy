@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Visakhapatnam"}
-          href="/automotive-manufacturing-area-to-visakhapatnam-transport"
+          href="/routes/automotive-manufacturing-area-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Vijayawada"}
-          href="/automotive-manufacturing-area-to-vijayawada-transport"
+          href="/routes/automotive-manufacturing-area-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Guntur"}
-          href="/automotive-manufacturing-area-to-guntur-transport"
+          href="/routes/automotive-manufacturing-area-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Tirupati"}
-          href="/automotive-manufacturing-area-to-tirupati-transport"
+          href="/routes/automotive-manufacturing-area-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Nellore"}
-          href="/automotive-manufacturing-area-to-nellore-transport"
+          href="/routes/automotive-manufacturing-area-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Kurnool"}
-          href="/automotive-manufacturing-area-to-kurnool-transport"
+          href="/routes/automotive-manufacturing-area-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Rajamahendravaram"}
-          href="/automotive-manufacturing-area-to-rajamahendravaram-transport"
+          href="/routes/automotive-manufacturing-area-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Kakinada"}
-          href="/automotive-manufacturing-area-to-kakinada-transport"
+          href="/routes/automotive-manufacturing-area-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Anantapur"}
-          href="/automotive-manufacturing-area-to-anantapur-transport"
+          href="/routes/automotive-manufacturing-area-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Kadapa"}
-          href="/automotive-manufacturing-area-to-kadapa-transport"
+          href="/routes/automotive-manufacturing-area-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Chennai"}
-          href="/automotive-manufacturing-area-to-chennai-transport"
+          href="/routes/automotive-manufacturing-area-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Bengaluru"}
-          href="/automotive-manufacturing-area-to-bengaluru-transport"
+          href="/routes/automotive-manufacturing-area-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Hyderabad"}
-          href="/automotive-manufacturing-area-to-hyderabad-transport"
+          href="/routes/automotive-manufacturing-area-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Coimbatore"}
-          href="/automotive-manufacturing-area-to-coimbatore-transport"
+          href="/routes/automotive-manufacturing-area-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Salem"}
-          href="/automotive-manufacturing-area-to-salem-transport"
+          href="/routes/automotive-manufacturing-area-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Tiruppur"}
-          href="/automotive-manufacturing-area-to-tiruppur-transport"
+          href="/routes/automotive-manufacturing-area-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Mysuru"}
-          href="/automotive-manufacturing-area-to-mysuru-transport"
+          href="/routes/automotive-manufacturing-area-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Kochi"}
-          href="/automotive-manufacturing-area-to-kochi-transport"
+          href="/routes/automotive-manufacturing-area-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Thiruvananthapuram"}
-          href="/automotive-manufacturing-area-to-thiruvananthapuram-transport"
+          href="/routes/automotive-manufacturing-area-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Mumbai"}
-          href="/automotive-manufacturing-area-to-mumbai-transport"
+          href="/routes/automotive-manufacturing-area-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Pune"}
-          href="/automotive-manufacturing-area-to-pune-transport"
+          href="/routes/automotive-manufacturing-area-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Vellore"}
-          href="/automotive-manufacturing-area-to-vellore-transport"
+          href="/routes/automotive-manufacturing-area-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Hosur"}
-          href="/automotive-manufacturing-area-to-hosur-transport"
+          href="/routes/automotive-manufacturing-area-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Krishnagiri"}
-          href="/automotive-manufacturing-area-to-krishnagiri-transport"
+          href="/routes/automotive-manufacturing-area-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Automotive Manufacturing Area to Madurai"}
-          href="/automotive-manufacturing-area-to-madurai-transport"
+          href="/routes/automotive-manufacturing-area-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Automotive Manufacturing Area"}
-          href="/visakhapatnam-to-automotive-manufacturing-area-transport"
+          href="/routes/visakhapatnam-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Automotive Manufacturing Area"}
-          href="/vijayawada-to-automotive-manufacturing-area-transport"
+          href="/routes/vijayawada-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Automotive Manufacturing Area"}
-          href="/guntur-to-automotive-manufacturing-area-transport"
+          href="/routes/guntur-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Automotive Manufacturing Area"}
-          href="/tirupati-to-automotive-manufacturing-area-transport"
+          href="/routes/tirupati-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Automotive Manufacturing Area"}
-          href="/nellore-to-automotive-manufacturing-area-transport"
+          href="/routes/nellore-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Automotive Manufacturing Area"}
-          href="/kurnool-to-automotive-manufacturing-area-transport"
+          href="/routes/kurnool-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Automotive Manufacturing Area"}
-          href="/rajamahendravaram-to-automotive-manufacturing-area-transport"
+          href="/routes/rajamahendravaram-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Automotive Manufacturing Area"}
-          href="/kakinada-to-automotive-manufacturing-area-transport"
+          href="/routes/kakinada-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Automotive Manufacturing Area"}
-          href="/anantapur-to-automotive-manufacturing-area-transport"
+          href="/routes/anantapur-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Automotive Manufacturing Area"}
-          href="/kadapa-to-automotive-manufacturing-area-transport"
+          href="/routes/kadapa-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Automotive Manufacturing Area"}
-          href="/chennai-to-automotive-manufacturing-area-transport"
+          href="/routes/chennai-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Automotive Manufacturing Area"}
-          href="/bengaluru-to-automotive-manufacturing-area-transport"
+          href="/routes/bengaluru-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Automotive Manufacturing Area"}
-          href="/hyderabad-to-automotive-manufacturing-area-transport"
+          href="/routes/hyderabad-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Automotive Manufacturing Area"}
-          href="/coimbatore-to-automotive-manufacturing-area-transport"
+          href="/routes/coimbatore-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Automotive Manufacturing Area"}
-          href="/salem-to-automotive-manufacturing-area-transport"
+          href="/routes/salem-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Automotive Manufacturing Area"}
-          href="/tiruppur-to-automotive-manufacturing-area-transport"
+          href="/routes/tiruppur-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Automotive Manufacturing Area"}
-          href="/mysuru-to-automotive-manufacturing-area-transport"
+          href="/routes/mysuru-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Automotive Manufacturing Area"}
-          href="/kochi-to-automotive-manufacturing-area-transport"
+          href="/routes/kochi-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Automotive Manufacturing Area"}
-          href="/thiruvananthapuram-to-automotive-manufacturing-area-transport"
+          href="/routes/thiruvananthapuram-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Automotive Manufacturing Area"}
-          href="/mumbai-to-automotive-manufacturing-area-transport"
+          href="/routes/mumbai-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Automotive Manufacturing Area"}
-          href="/pune-to-automotive-manufacturing-area-transport"
+          href="/routes/pune-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Automotive Manufacturing Area"}
-          href="/vellore-to-automotive-manufacturing-area-transport"
+          href="/routes/vellore-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Automotive Manufacturing Area"}
-          href="/hosur-to-automotive-manufacturing-area-transport"
+          href="/routes/hosur-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Automotive Manufacturing Area"}
-          href="/krishnagiri-to-automotive-manufacturing-area-transport"
+          href="/routes/krishnagiri-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Automotive Manufacturing Area"}
-          href="/madurai-to-automotive-manufacturing-area-transport"
+          href="/routes/madurai-transport/automotive-manufacturing-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

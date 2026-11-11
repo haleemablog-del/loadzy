@@ -431,275 +431,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Karwar"}
-          href="/karwar-transport"
+          href="/routes/uttara-kannada-district-transport/karwar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Karwar
+            Karwar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dandeli"}
-          href="/dandeli-transport"
+          href="/routes/uttara-kannada-district-transport/dandeli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Dandeli
+            Dandeli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Haliyal"}
-          href="/haliyal-transport"
+          href="/routes/uttara-kannada-district-transport/haliyal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Haliyal
+            Haliyal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yellapur"}
-          href="/yellapur-transport"
+          href="/routes/uttara-kannada-district-transport/yellapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Yellapur
+            Yellapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mundgod"}
-          href="/mundgod-transport"
+          href="/routes/uttara-kannada-district-transport/mundgod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Mundgod
+            Mundgod
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sirsi"}
-          href="/sirsi-transport"
+          href="/routes/uttara-kannada-district-transport/sirsi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Sirsi
+            Sirsi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ankola"}
-          href="/ankola-transport"
+          href="/routes/uttara-kannada-district-transport/ankola-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Ankola
+            Ankola
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kumta"}
-          href="/kumta-transport"
+          href="/routes/uttara-kannada-district-transport/kumta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Kumta
+            Kumta
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Siddapur"}
-          href="/siddapur-transport"
+          href="/routes/uttara-kannada-district-transport/siddapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Siddapur
+            Siddapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Honnavar"}
-          href="/honnavar-transport"
+          href="/routes/uttara-kannada-district-transport/honnavar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Honnavar
+            Honnavar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bhatkal"}
-          href="/bhatkal-transport"
+          href="/routes/uttara-kannada-district-transport/bhatkal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Bhatkal
+            Bhatkal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Bengaluru"}
-          href="/uttara-kannada-to-bengaluru-transport"
+          href="/routes/uttara-kannada-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Bengaluru
+            Uttara Kannada to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Mysuru"}
-          href="/uttara-kannada-to-mysuru-transport"
+          href="/routes/uttara-kannada-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Mysuru
+            Uttara Kannada to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Mangaluru"}
-          href="/uttara-kannada-to-mangaluru-transport"
+          href="/routes/uttara-kannada-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Mangaluru
+            Uttara Kannada to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Hubballi"}
-          href="/uttara-kannada-to-hubballi-transport"
+          href="/routes/uttara-kannada-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Hubballi
+            Uttara Kannada to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Belagavi"}
-          href="/uttara-kannada-to-belagavi-transport"
+          href="/routes/uttara-kannada-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Belagavi
+            Uttara Kannada to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Chennai"}
-          href="/uttara-kannada-to-chennai-transport"
+          href="/routes/uttara-kannada-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Chennai
+            Uttara Kannada to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Hyderabad"}
-          href="/uttara-kannada-to-hyderabad-transport"
+          href="/routes/uttara-kannada-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Hyderabad
+            Uttara Kannada to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Kochi"}
-          href="/uttara-kannada-to-kochi-transport"
+          href="/routes/uttara-kannada-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Kochi
+            Uttara Kannada to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Coimbatore"}
-          href="/uttara-kannada-to-coimbatore-transport"
+          href="/routes/uttara-kannada-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Coimbatore
+            Uttara Kannada to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Tiruppur"}
-          href="/uttara-kannada-to-tiruppur-transport"
+          href="/routes/uttara-kannada-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Tiruppur
+            Uttara Kannada to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Salem"}
-          href="/uttara-kannada-to-salem-transport"
+          href="/routes/uttara-kannada-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Salem
+            Uttara Kannada to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Hosur"}
-          href="/uttara-kannada-to-hosur-transport"
+          href="/routes/uttara-kannada-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Hosur
+            Uttara Kannada to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Tumakuru"}
-          href="/uttara-kannada-to-tumakuru-transport"
+          href="/routes/uttara-kannada-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Tumakuru
+            Uttara Kannada to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Uttara Kannada to Davanagere"}
-          href="/uttara-kannada-to-davanagere-transport"
+          href="/routes/uttara-kannada-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Uttara Kannada to Uttara Kannada to Davanagere
+            Uttara Kannada to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -723,275 +723,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Karwar"}
-          href="/karwar-transport"
+          href="/routes/karwar-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Karwar to Uttara Kannada
+            Karwar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dandeli"}
-          href="/dandeli-transport"
+          href="/routes/dandeli-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dandeli to Uttara Kannada
+            Dandeli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Haliyal"}
-          href="/haliyal-transport"
+          href="/routes/haliyal-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haliyal to Uttara Kannada
+            Haliyal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yellapur"}
-          href="/yellapur-transport"
+          href="/routes/yellapur-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yellapur to Uttara Kannada
+            Yellapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mundgod"}
-          href="/mundgod-transport"
+          href="/routes/mundgod-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mundgod to Uttara Kannada
+            Mundgod
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sirsi"}
-          href="/sirsi-transport"
+          href="/routes/sirsi-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Sirsi to Uttara Kannada
+            Sirsi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ankola"}
-          href="/ankola-transport"
+          href="/routes/ankola-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ankola to Uttara Kannada
+            Ankola
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kumta"}
-          href="/kumta-transport"
+          href="/routes/kumta-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kumta to Uttara Kannada
+            Kumta
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Siddapur"}
-          href="/siddapur-transport"
+          href="/routes/siddapur-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Siddapur to Uttara Kannada
+            Siddapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Honnavar"}
-          href="/honnavar-transport"
+          href="/routes/honnavar-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Honnavar to Uttara Kannada
+            Honnavar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bhatkal"}
-          href="/bhatkal-transport"
+          href="/routes/bhatkal-transport/uttara-kannada-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bhatkal to Uttara Kannada
+            Bhatkal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Uttara Kannada"}
-          href="/bengaluru-to-uttara-kannada-transport"
+          href="/routes/bengaluru-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Uttara Kannada to Uttara Kannada
+            Bengaluru to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Uttara Kannada"}
-          href="/mysuru-to-uttara-kannada-transport"
+          href="/routes/mysuru-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Uttara Kannada to Uttara Kannada
+            Mysuru to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Uttara Kannada"}
-          href="/mangaluru-to-uttara-kannada-transport"
+          href="/routes/mangaluru-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Uttara Kannada to Uttara Kannada
+            Mangaluru to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Uttara Kannada"}
-          href="/hubballi-to-uttara-kannada-transport"
+          href="/routes/hubballi-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Uttara Kannada to Uttara Kannada
+            Hubballi to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Uttara Kannada"}
-          href="/belagavi-to-uttara-kannada-transport"
+          href="/routes/belagavi-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Uttara Kannada to Uttara Kannada
+            Belagavi to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Uttara Kannada"}
-          href="/chennai-to-uttara-kannada-transport"
+          href="/routes/chennai-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Uttara Kannada to Uttara Kannada
+            Chennai to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Uttara Kannada"}
-          href="/hyderabad-to-uttara-kannada-transport"
+          href="/routes/hyderabad-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Uttara Kannada to Uttara Kannada
+            Hyderabad to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Uttara Kannada"}
-          href="/kochi-to-uttara-kannada-transport"
+          href="/routes/kochi-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Uttara Kannada to Uttara Kannada
+            Kochi to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Uttara Kannada"}
-          href="/coimbatore-to-uttara-kannada-transport"
+          href="/routes/coimbatore-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Uttara Kannada to Uttara Kannada
+            Coimbatore to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Uttara Kannada"}
-          href="/tiruppur-to-uttara-kannada-transport"
+          href="/routes/tiruppur-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Uttara Kannada to Uttara Kannada
+            Tiruppur to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Uttara Kannada"}
-          href="/salem-to-uttara-kannada-transport"
+          href="/routes/salem-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Uttara Kannada to Uttara Kannada
+            Salem to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Uttara Kannada"}
-          href="/hosur-to-uttara-kannada-transport"
+          href="/routes/hosur-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Uttara Kannada to Uttara Kannada
+            Hosur to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Uttara Kannada"}
-          href="/tumakuru-to-uttara-kannada-transport"
+          href="/routes/tumakuru-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Uttara Kannada to Uttara Kannada
+            Tumakuru to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Uttara Kannada"}
-          href="/davanagere-to-uttara-kannada-transport"
+          href="/routes/davanagere-transport/uttara-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Uttara Kannada to Uttara Kannada
+            Davanagere to Uttara Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1008,10 +1008,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Uttara Kannada
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

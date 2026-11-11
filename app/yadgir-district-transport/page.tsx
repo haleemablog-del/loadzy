@@ -425,275 +425,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Yadgir"}
-          href="/yadgir-transport"
+          href="/routes/yadgir-district-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir
+            Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shorapur"}
-          href="/shorapur-transport"
+          href="/routes/yadgir-district-transport/shorapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Shorapur
+            Shorapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shahapur"}
-          href="/shahapur-transport"
+          href="/routes/yadgir-district-transport/shahapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Shahapur
+            Shahapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gurmitkal"}
-          href="/gurmitkal-transport"
+          href="/routes/yadgir-district-transport/gurmitkal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Gurmitkal
+            Gurmitkal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bhimarayanagudi"}
-          href="/bhimarayanagudi-transport"
+          href="/routes/yadgir-district-transport/bhimarayanagudi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Bhimarayanagudi
+            Bhimarayanagudi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Bengaluru"}
-          href="/yadgir-to-bengaluru-transport"
+          href="/routes/yadgir-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Bengaluru
+            Yadgir to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Mysuru"}
-          href="/yadgir-to-mysuru-transport"
+          href="/routes/yadgir-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Mysuru
+            Yadgir to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Mangaluru"}
-          href="/yadgir-to-mangaluru-transport"
+          href="/routes/yadgir-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Mangaluru
+            Yadgir to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Hubballi"}
-          href="/yadgir-to-hubballi-transport"
+          href="/routes/yadgir-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Hubballi
+            Yadgir to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Belagavi"}
-          href="/yadgir-to-belagavi-transport"
+          href="/routes/yadgir-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Belagavi
+            Yadgir to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Chennai"}
-          href="/yadgir-to-chennai-transport"
+          href="/routes/yadgir-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Chennai
+            Yadgir to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Hyderabad"}
-          href="/yadgir-to-hyderabad-transport"
+          href="/routes/yadgir-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Hyderabad
+            Yadgir to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Kochi"}
-          href="/yadgir-to-kochi-transport"
+          href="/routes/yadgir-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Kochi
+            Yadgir to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Coimbatore"}
-          href="/yadgir-to-coimbatore-transport"
+          href="/routes/yadgir-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Coimbatore
+            Yadgir to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Tiruppur"}
-          href="/yadgir-to-tiruppur-transport"
+          href="/routes/yadgir-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Tiruppur
+            Yadgir to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Salem"}
-          href="/yadgir-to-salem-transport"
+          href="/routes/yadgir-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Salem
+            Yadgir to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Hosur"}
-          href="/yadgir-to-hosur-transport"
+          href="/routes/yadgir-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Hosur
+            Yadgir to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Tumakuru"}
-          href="/yadgir-to-tumakuru-transport"
+          href="/routes/yadgir-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Tumakuru
+            Yadgir to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Davanagere"}
-          href="/yadgir-to-davanagere-transport"
+          href="/routes/yadgir-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Davanagere
+            Yadgir to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Shivamogga"}
-          href="/yadgir-to-shivamogga-transport"
+          href="/routes/yadgir-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Shivamogga
+            Yadgir to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Hassan"}
-          href="/yadgir-to-hassan-transport"
+          href="/routes/yadgir-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Hassan
+            Yadgir to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Kolar"}
-          href="/yadgir-to-kolar-transport"
+          href="/routes/yadgir-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Kolar
+            Yadgir to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Vijayapura"}
-          href="/yadgir-to-vijayapura-transport"
+          href="/routes/yadgir-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Vijayapura
+            Yadgir to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Kalaburagi"}
-          href="/yadgir-to-kalaburagi-transport"
+          href="/routes/yadgir-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Kalaburagi
+            Yadgir to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yadgir to Raichur"}
-          href="/yadgir-to-raichur-transport"
+          href="/routes/yadgir-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir to Raichur
+            Yadgir to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -717,275 +717,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Yadgir"}
-          href="/yadgir-transport"
+          href="/routes/yadgir-transport/yadgir-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yadgir to Yadgir
+            Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shorapur"}
-          href="/shorapur-transport"
+          href="/routes/shorapur-transport/yadgir-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shorapur to Yadgir
+            Shorapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shahapur"}
-          href="/shahapur-transport"
+          href="/routes/shahapur-transport/yadgir-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shahapur to Yadgir
+            Shahapur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gurmitkal"}
-          href="/gurmitkal-transport"
+          href="/routes/gurmitkal-transport/yadgir-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gurmitkal to Yadgir
+            Gurmitkal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bhimarayanagudi"}
-          href="/bhimarayanagudi-transport"
+          href="/routes/bhimarayanagudi-transport/yadgir-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bhimarayanagudi to Yadgir
+            Bhimarayanagudi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Yadgir"}
-          href="/bengaluru-to-yadgir-transport"
+          href="/routes/bengaluru-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Yadgir to Yadgir
+            Bengaluru to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Yadgir"}
-          href="/mysuru-to-yadgir-transport"
+          href="/routes/mysuru-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Yadgir to Yadgir
+            Mysuru to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Yadgir"}
-          href="/mangaluru-to-yadgir-transport"
+          href="/routes/mangaluru-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Yadgir to Yadgir
+            Mangaluru to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Yadgir"}
-          href="/hubballi-to-yadgir-transport"
+          href="/routes/hubballi-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Yadgir to Yadgir
+            Hubballi to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Yadgir"}
-          href="/belagavi-to-yadgir-transport"
+          href="/routes/belagavi-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Yadgir to Yadgir
+            Belagavi to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Yadgir"}
-          href="/chennai-to-yadgir-transport"
+          href="/routes/chennai-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Yadgir to Yadgir
+            Chennai to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Yadgir"}
-          href="/hyderabad-to-yadgir-transport"
+          href="/routes/hyderabad-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Yadgir to Yadgir
+            Hyderabad to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Yadgir"}
-          href="/kochi-to-yadgir-transport"
+          href="/routes/kochi-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Yadgir to Yadgir
+            Kochi to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Yadgir"}
-          href="/coimbatore-to-yadgir-transport"
+          href="/routes/coimbatore-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Yadgir to Yadgir
+            Coimbatore to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Yadgir"}
-          href="/tiruppur-to-yadgir-transport"
+          href="/routes/tiruppur-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Yadgir to Yadgir
+            Tiruppur to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Yadgir"}
-          href="/salem-to-yadgir-transport"
+          href="/routes/salem-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Yadgir to Yadgir
+            Salem to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Yadgir"}
-          href="/hosur-to-yadgir-transport"
+          href="/routes/hosur-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Yadgir to Yadgir
+            Hosur to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Yadgir"}
-          href="/tumakuru-to-yadgir-transport"
+          href="/routes/tumakuru-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Yadgir to Yadgir
+            Tumakuru to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Yadgir"}
-          href="/davanagere-to-yadgir-transport"
+          href="/routes/davanagere-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Yadgir to Yadgir
+            Davanagere to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Yadgir"}
-          href="/shivamogga-to-yadgir-transport"
+          href="/routes/shivamogga-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Yadgir to Yadgir
+            Shivamogga to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Yadgir"}
-          href="/hassan-to-yadgir-transport"
+          href="/routes/hassan-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Yadgir to Yadgir
+            Hassan to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Yadgir"}
-          href="/kolar-to-yadgir-transport"
+          href="/routes/kolar-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Yadgir to Yadgir
+            Kolar to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Yadgir"}
-          href="/vijayapura-to-yadgir-transport"
+          href="/routes/vijayapura-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Yadgir to Yadgir
+            Vijayapura to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Yadgir"}
-          href="/kalaburagi-to-yadgir-transport"
+          href="/routes/kalaburagi-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Yadgir to Yadgir
+            Kalaburagi to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Yadgir"}
-          href="/raichur-to-yadgir-transport"
+          href="/routes/raichur-transport/yadgir-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Yadgir to Yadgir
+            Raichur to Yadgir
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1002,10 +1002,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Yadgir
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

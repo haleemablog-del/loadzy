@@ -403,44 +403,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Madikeri"}
-          href="/madikeri-transport"
+          href="/routes/kodagu-transport/madikeri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Madikeri
+            Madikeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Somwarpet"}
-          href="/somwarpet-transport"
+          href="/routes/kodagu-transport/somwarpet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Somwarpet
+            Somwarpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushalnagar"}
-          href="/kushalnagar-transport"
+          href="/routes/kodagu-transport/kushalnagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Kushalnagar
+            Kushalnagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Virajpet"}
-          href="/virajpet-transport"
+          href="/routes/kodagu-transport/virajpet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kodagu to Virajpet
+            Virajpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -464,44 +464,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Madikeri"}
-          href="/madikeri-transport"
+          href="/routes/madikeri-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Madikeri to Kodagu
+            Madikeri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Somwarpet"}
-          href="/somwarpet-transport"
+          href="/routes/somwarpet-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Somwarpet to Kodagu
+            Somwarpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushalnagar"}
-          href="/kushalnagar-transport"
+          href="/routes/kushalnagar-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kushalnagar to Kodagu
+            Kushalnagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Virajpet"}
-          href="/virajpet-transport"
+          href="/routes/virajpet-transport/kodagu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Virajpet to Kodagu
+            Virajpet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -518,10 +518,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Kodagu
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

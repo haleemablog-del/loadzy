@@ -413,99 +413,99 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Gadag-Betageri"}
-          href="/gadag-betageri-transport"
+          href="/routes/gadag-transport/gadag-betageri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Gadag-Betageri
+            Gadag-Betageri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nargund"}
-          href="/nargund-transport"
+          href="/routes/gadag-transport/nargund-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Nargund
+            Nargund
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ron"}
-          href="/ron-transport"
+          href="/routes/gadag-transport/ron-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Ron
+            Ron
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gajendragad"}
-          href="/gajendragad-transport"
+          href="/routes/gadag-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Gajendragad
+            Gajendragad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Naregal"}
-          href="/naregal-transport"
+          href="/routes/gadag-transport/naregal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Naregal
+            Naregal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulgund"}
-          href="/mulgund-transport"
+          href="/routes/gadag-transport/mulgund-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Mulgund
+            Mulgund
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shirhatti"}
-          href="/shirhatti-transport"
+          href="/routes/gadag-transport/shirhatti-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Shirhatti
+            Shirhatti
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Lakshmeshwar"}
-          href="/lakshmeshwar-transport"
+          href="/routes/gadag-transport/lakshmeshwar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Lakshmeshwar
+            Lakshmeshwar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mundargi"}
-          href="/mundargi-transport"
+          href="/routes/gadag-transport/mundargi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag to Mundargi
+            Mundargi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -529,99 +529,99 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Gadag-Betageri"}
-          href="/gadag-betageri-transport"
+          href="/routes/gadag-betageri-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gadag-Betageri to Gadag
+            Gadag-Betageri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nargund"}
-          href="/nargund-transport"
+          href="/routes/nargund-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Nargund to Gadag
+            Nargund
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ron"}
-          href="/ron-transport"
+          href="/routes/ron-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ron to Gadag
+            Ron
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gajendragad"}
-          href="/gajendragad-transport"
+          href="/routes/gajendragad-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Gadag
+            Gajendragad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Naregal"}
-          href="/naregal-transport"
+          href="/routes/naregal-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Naregal to Gadag
+            Naregal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulgund"}
-          href="/mulgund-transport"
+          href="/routes/mulgund-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mulgund to Gadag
+            Mulgund
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shirhatti"}
-          href="/shirhatti-transport"
+          href="/routes/shirhatti-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shirhatti to Gadag
+            Shirhatti
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Lakshmeshwar"}
-          href="/lakshmeshwar-transport"
+          href="/routes/lakshmeshwar-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Lakshmeshwar to Gadag
+            Lakshmeshwar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mundargi"}
-          href="/mundargi-transport"
+          href="/routes/mundargi-transport/gadag-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mundargi to Gadag
+            Mundargi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -638,10 +638,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Gadag
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

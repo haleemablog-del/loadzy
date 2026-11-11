@@ -31,14 +31,14 @@ const services = [
 ];
 
 const routes = [
-  ["Vijayawada → Chennai", "/routes/vijayawada/chennai"],
-  ["Chennai → Vijayawada", "/routes/chennai/vijayawada"],
-  ["Vijayawada → Bangalore", "/routes/vijayawada/bangalore"],
-  ["Bangalore → Vijayawada", "/routes/bangalore/vijayawada"],
-  ["Vijayawada → Hyderabad", "/routes/vijayawada/hyderabad"],
-  ["Hyderabad → Vijayawada", "/routes/hyderabad/vijayawada"],
-  ["Vijayawada → Visakhapatnam", "/routes/vijayawada/visakhapatnam"],
-  ["Visakhapatnam → Vijayawada", "/routes/visakhapatnam/vijayawada"],
+  ["Vijayawada → Chennai", "/routes/vijayawada-transport/chennai-transport"],
+  ["Chennai → Vijayawada", "/routes/chennai-transport/vijayawada-transport"],
+  ["Vijayawada → Bangalore", "/routes/vijayawada-transport/bangalore-transport"],
+  ["Bangalore → Vijayawada", "/routes/bangalore-transport/vijayawada-transport"],
+  ["Vijayawada → Hyderabad", "/routes/vijayawada-transport/hyderabad-transport"],
+  ["Hyderabad → Vijayawada", "/routes/hyderabad-transport/vijayawada-transport"],
+  ["Vijayawada → Visakhapatnam", "/routes/vijayawada-transport/visakhapatnam-transport"],
+  ["Visakhapatnam → Vijayawada", "/routes/visakhapatnam-transport/vijayawada-transport"],
 ];
 
 const faqs = [

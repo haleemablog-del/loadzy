@@ -31,8 +31,8 @@ const services = [
 ];
 
 const routes = [
-  ["Tiruchirappalli → Chennai", "/routes/tiruchirappalli/chennai"],
-  ["Chennai → Tiruchirappalli", "/routes/chennai/tiruchirappalli"],
+  ["Tiruchirappalli → Chennai", "/routes/tiruchirappalli-transport/chennai-transport"],
+  ["Chennai → Tiruchirappalli", "/routes/chennai-transport/tiruchirappalli-transport"],
 ];
 
 const faqs = [

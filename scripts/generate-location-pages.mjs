@@ -61,6 +61,41 @@ const targetKarnatakaDistricts = process.argv.includes(
 const targetAnekalMissing = process.argv.includes(
   "--target-anekal-missing"
 );
+const anekalMissingSlugs = new Set([
+  "anekal-transport",
+  "attibele-transport",
+  "chandapura-transport",
+  "bommasandra-industrial-area-transport",
+  "jigani-transport",
+  "electronic-city-phase-1-transport",
+  "electronic-city-phase-2-transport",
+  "hebbagodi-transport",
+  "singasandra-transport",
+  "begur-transport",
+  "bannerghatta-transport",
+  "hulimangala-transport",
+  "hennagara-transport",
+  "haragadde-transport",
+  "bommasandra-transport",
+  "muthanallur-transport",
+  "suryanagar-transport",
+  "neeladri-nagar-transport",
+  "konappana-agrahara-transport",
+  "doddathoguru-transport",
+  "veerasandra-transport",
+  "bettadasanapura-transport",
+  "kammasandra-transport",
+  "ananth-nagar-transport",
+  "huskur-road-transport",
+  "rayasandra-transport",
+  "gollahalli-transport",
+  "chandapura-circle-transport",
+  "attibele-industrial-area-transport",
+]);
+const targetKarnatakaAll = process.argv.includes(
+  "--target-karnataka-all"
+);
+
 const targetKarnatakaDistrictPages = process.argv.includes(
   "--target-karnataka-district-pages"
 );
@@ -70,6 +105,24 @@ const targetAndhraPradeshBatch = process.argv.includes(
 const targetPuducherryBatch = process.argv.includes(
   "--target-puducherry-batch"
 );
+
+const targetTelanganaBatch = process.argv.includes(
+  "--target-telangana-batch"
+);
+const targetTelanganaDistrictPages = process.argv.includes(
+  "--target-telangana-district-pages"
+);
+
+const telanganaDistrictPageSlugs = new Set([
+  "bhadradri-kothagudem-transport",
+  "jayashankar-bhupalpally-transport",
+  "jogulamba-gadwal-transport",
+  "kumuram-bheem-asifabad-transport",
+  "medchal-malkajgiri-transport",
+  "rajanna-sircilla-transport",
+  "rangareddy-transport",
+  "yadadri-bhuvanagiri-transport",
+]);
 
 const karnatakaDistrictSlugs = new Set([
   "gundlupet-transport",
@@ -503,8 +556,11 @@ function makeRouteCards(routes, getLabel, getHref) {
       </p>`;
   }
 
+  const originSlug = toTransportSlug(getBaseSlug(location));
+
   return routes
     .map((route) => {
+      const routeText = String(route).trim();
       const label = escapeJsxText(getLabel(route));
       const href = getHref(route);
 
@@ -727,7 +783,10 @@ function makePage(location) {
   );
 
   const destinations = getList(location.routes, 25);
-  const nearbyAreas = getList(location.nearbyAreas, 40);
+  const nearbyAreas = getList(
+  location.nearbyAreas,
+  targetTelanganaBatch ? 10 : 40
+);
 
   if (destinations.length) {
     page = replaceArray(page, "destinations", destinations);
@@ -782,7 +841,6 @@ function validateLocation(location) {
 
   const name = String(location.name ?? "").trim();
   const slug = getSlug(location);
-
   if (!name) {
     return "Missing location name.";
   }
@@ -811,22 +869,27 @@ const seenSlugs = new Set();
 
 for (const location of locations) {
   const slug = getSlug(location);
-  if (
+
+    if (
+    targetTelanganaDistrictPages &&
+    !telanganaDistrictPageSlugs.has(slug)
+  ) {
+    continue;
+  }
+  if (targetKarnatakaAll && location.state !== "Karnataka") {
+  continue;
+}if (
   targetKarnatakaDistrictPages &&
   location.state === "Karnataka" &&
   !slug.endsWith("-district-transport")
 ) {
   continue;
-}
-
-  if (
+}if (
     targetBengaluruLocalities &&
     !bengaluruLocalityDistricts.has(location.district)
   ) {
     continue;
-  }
-
-  if (
+  }if (
     targetBengaluruRural &&
     !bengaluruRuralSlugs.has(slug)
   ) {
@@ -846,13 +909,9 @@ for (const location of locations) {
   !bengaluruCentralWestSlugs.has(slug)
 ) {
   continue;
-}
-
-  if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
+}if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
     continue;
-  }
-
-  if (
+  }if (
   targetTamilNaduBatch &&
   location.batchTag !== "tamil-nadu-2026-11"
 ) {
@@ -872,12 +931,19 @@ if (
   )
 ) {
   continue;
-}
-if (
+}if (
   targetPuducherryBatch &&
   (
     location.state !== "Puducherry" ||
     location.batchTag !== "puducherry-2026-11"
+  )
+) {
+  continue;
+}if (
+  targetTelanganaBatch &&
+  (
+    location.state !== "Telangana" ||
+    location.batchTag !== "telangana-2026-11"
   )
 ) {
   continue;
@@ -980,7 +1046,10 @@ fs.writeFileSync(formPath, newForm, "utf8");
   console.log(
     `  Routes: ${getList(location.routes, 25).length} forward, ` +
       `${getList(location.returnRoutes, 25).length} return; ` +
-      `nearby areas: ${getList(location.nearbyAreas, 40).length}`
+     `nearby areas: ${getList(
+  location.nearbyAreas,
+  targetTelanganaBatch ? 10 : 40
+).length}`
   );
 }
 

@@ -10,6 +10,7 @@ type RoutePageProps = {
 
 function formatCity(slug: string) {
   return slug
+    .replace(/-transport$/, "")
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
@@ -62,13 +63,12 @@ const famousForBySlug: Record<string, string> = {
   
 };
 function getFamousFor(slug: string): string {
-  const normalizedSlug = slug.toLowerCase();
+  const normalizedSlug = slug
+    .toLowerCase()
+    .replace(/-transport$/, "");
 
-  return (
-    famousForBySlug[normalizedSlug] ||
-    "Local trade, businesses and regional transport needs. Specific products and industries should be verified before publication."
-  );
-  
+  return famousForBySlug[normalizedSlug] ||
+    "Local trade, businesses and regional transport needs. Specific products and industries should be verified before publication.";
 }
 
 
@@ -519,12 +519,11 @@ export default async function RoutePage({
         </div>
       </section>
 
-      {/* RELATED ROUTES */}
+            {/* RELATED ROUTES */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-6xl">
 
           <div className="text-center">
-
             <div className="font-black tracking-widest text-[#08a99f]">
               RELATED ROUTES
             </div>
@@ -532,22 +531,19 @@ export default async function RoutePage({
             <h2 className="mt-3 text-4xl font-black text-[#09264b]">
               Explore more LOADZY routes
             </h2>
-
           </div>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
             {relatedRoutes.map((route) => {
-              const fromSlug = route.from
-                .toLowerCase()
-                .replace(/\s+/g, "-");
+              const fromSlug =
+                `${route.from.toLowerCase().trim().replace(/\s+/g, "-").replace(/-transport$/, "")}-transport`;
 
-              const toSlug = route.to
-                .toLowerCase()
-                .replace(/\s+/g, "-");
+              const toSlug =
+                `${route.to.toLowerCase().trim().replace(/\s+/g, "-").replace(/-transport$/, "")}-transport`;
 
               return (
-                <a
+                <Link
                   key={`${fromSlug}-${toSlug}`}
                   href={`/routes/${fromSlug}/${toSlug}`}
                   className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-[#09264b] shadow-sm transition hover:-translate-y-1 hover:border-[#1ee1d3] hover:shadow-md"
@@ -557,7 +553,7 @@ export default async function RoutePage({
                   <span className="mt-2 block text-sm text-[#08a99f]">
                     View Route →
                   </span>
-                </a>
+                </Link>
               );
             })}
 

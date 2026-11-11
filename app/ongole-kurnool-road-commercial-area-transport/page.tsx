@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Visakhapatnam"}
-          href="/kurnool-road-commercial-area-to-visakhapatnam-transport"
+          href="/routes/kurnool-road-commercial-area-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Vijayawada"}
-          href="/kurnool-road-commercial-area-to-vijayawada-transport"
+          href="/routes/kurnool-road-commercial-area-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Guntur"}
-          href="/kurnool-road-commercial-area-to-guntur-transport"
+          href="/routes/kurnool-road-commercial-area-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Tirupati"}
-          href="/kurnool-road-commercial-area-to-tirupati-transport"
+          href="/routes/kurnool-road-commercial-area-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Nellore"}
-          href="/kurnool-road-commercial-area-to-nellore-transport"
+          href="/routes/kurnool-road-commercial-area-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Kurnool"}
-          href="/kurnool-road-commercial-area-to-kurnool-transport"
+          href="/routes/kurnool-road-commercial-area-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Rajamahendravaram"}
-          href="/kurnool-road-commercial-area-to-rajamahendravaram-transport"
+          href="/routes/kurnool-road-commercial-area-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Kakinada"}
-          href="/kurnool-road-commercial-area-to-kakinada-transport"
+          href="/routes/kurnool-road-commercial-area-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Anantapur"}
-          href="/kurnool-road-commercial-area-to-anantapur-transport"
+          href="/routes/kurnool-road-commercial-area-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Kadapa"}
-          href="/kurnool-road-commercial-area-to-kadapa-transport"
+          href="/routes/kurnool-road-commercial-area-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Chennai"}
-          href="/kurnool-road-commercial-area-to-chennai-transport"
+          href="/routes/kurnool-road-commercial-area-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Bengaluru"}
-          href="/kurnool-road-commercial-area-to-bengaluru-transport"
+          href="/routes/kurnool-road-commercial-area-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Hyderabad"}
-          href="/kurnool-road-commercial-area-to-hyderabad-transport"
+          href="/routes/kurnool-road-commercial-area-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Coimbatore"}
-          href="/kurnool-road-commercial-area-to-coimbatore-transport"
+          href="/routes/kurnool-road-commercial-area-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Salem"}
-          href="/kurnool-road-commercial-area-to-salem-transport"
+          href="/routes/kurnool-road-commercial-area-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Tiruppur"}
-          href="/kurnool-road-commercial-area-to-tiruppur-transport"
+          href="/routes/kurnool-road-commercial-area-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Mysuru"}
-          href="/kurnool-road-commercial-area-to-mysuru-transport"
+          href="/routes/kurnool-road-commercial-area-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Kochi"}
-          href="/kurnool-road-commercial-area-to-kochi-transport"
+          href="/routes/kurnool-road-commercial-area-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Thiruvananthapuram"}
-          href="/kurnool-road-commercial-area-to-thiruvananthapuram-transport"
+          href="/routes/kurnool-road-commercial-area-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Mumbai"}
-          href="/kurnool-road-commercial-area-to-mumbai-transport"
+          href="/routes/kurnool-road-commercial-area-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Pune"}
-          href="/kurnool-road-commercial-area-to-pune-transport"
+          href="/routes/kurnool-road-commercial-area-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Vellore"}
-          href="/kurnool-road-commercial-area-to-vellore-transport"
+          href="/routes/kurnool-road-commercial-area-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Hosur"}
-          href="/kurnool-road-commercial-area-to-hosur-transport"
+          href="/routes/kurnool-road-commercial-area-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Krishnagiri"}
-          href="/kurnool-road-commercial-area-to-krishnagiri-transport"
+          href="/routes/kurnool-road-commercial-area-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool Road Commercial Area to Madurai"}
-          href="/kurnool-road-commercial-area-to-madurai-transport"
+          href="/routes/kurnool-road-commercial-area-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Kurnool Road Commercial Area"}
-          href="/visakhapatnam-to-kurnool-road-commercial-area-transport"
+          href="/routes/visakhapatnam-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Kurnool Road Commercial Area"}
-          href="/vijayawada-to-kurnool-road-commercial-area-transport"
+          href="/routes/vijayawada-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Kurnool Road Commercial Area"}
-          href="/guntur-to-kurnool-road-commercial-area-transport"
+          href="/routes/guntur-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Kurnool Road Commercial Area"}
-          href="/tirupati-to-kurnool-road-commercial-area-transport"
+          href="/routes/tirupati-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Kurnool Road Commercial Area"}
-          href="/nellore-to-kurnool-road-commercial-area-transport"
+          href="/routes/nellore-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Kurnool Road Commercial Area"}
-          href="/kurnool-to-kurnool-road-commercial-area-transport"
+          href="/routes/kurnool-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Kurnool Road Commercial Area"}
-          href="/rajamahendravaram-to-kurnool-road-commercial-area-transport"
+          href="/routes/rajamahendravaram-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Kurnool Road Commercial Area"}
-          href="/kakinada-to-kurnool-road-commercial-area-transport"
+          href="/routes/kakinada-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Kurnool Road Commercial Area"}
-          href="/anantapur-to-kurnool-road-commercial-area-transport"
+          href="/routes/anantapur-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Kurnool Road Commercial Area"}
-          href="/kadapa-to-kurnool-road-commercial-area-transport"
+          href="/routes/kadapa-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Kurnool Road Commercial Area"}
-          href="/chennai-to-kurnool-road-commercial-area-transport"
+          href="/routes/chennai-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Kurnool Road Commercial Area"}
-          href="/bengaluru-to-kurnool-road-commercial-area-transport"
+          href="/routes/bengaluru-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Kurnool Road Commercial Area"}
-          href="/hyderabad-to-kurnool-road-commercial-area-transport"
+          href="/routes/hyderabad-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Kurnool Road Commercial Area"}
-          href="/coimbatore-to-kurnool-road-commercial-area-transport"
+          href="/routes/coimbatore-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Kurnool Road Commercial Area"}
-          href="/salem-to-kurnool-road-commercial-area-transport"
+          href="/routes/salem-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Kurnool Road Commercial Area"}
-          href="/tiruppur-to-kurnool-road-commercial-area-transport"
+          href="/routes/tiruppur-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Kurnool Road Commercial Area"}
-          href="/mysuru-to-kurnool-road-commercial-area-transport"
+          href="/routes/mysuru-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Kurnool Road Commercial Area"}
-          href="/kochi-to-kurnool-road-commercial-area-transport"
+          href="/routes/kochi-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Kurnool Road Commercial Area"}
-          href="/thiruvananthapuram-to-kurnool-road-commercial-area-transport"
+          href="/routes/thiruvananthapuram-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Kurnool Road Commercial Area"}
-          href="/mumbai-to-kurnool-road-commercial-area-transport"
+          href="/routes/mumbai-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Kurnool Road Commercial Area"}
-          href="/pune-to-kurnool-road-commercial-area-transport"
+          href="/routes/pune-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Kurnool Road Commercial Area"}
-          href="/vellore-to-kurnool-road-commercial-area-transport"
+          href="/routes/vellore-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Kurnool Road Commercial Area"}
-          href="/hosur-to-kurnool-road-commercial-area-transport"
+          href="/routes/hosur-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Kurnool Road Commercial Area"}
-          href="/krishnagiri-to-kurnool-road-commercial-area-transport"
+          href="/routes/krishnagiri-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Kurnool Road Commercial Area"}
-          href="/madurai-to-kurnool-road-commercial-area-transport"
+          href="/routes/madurai-transport/kurnool-road-commercial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
