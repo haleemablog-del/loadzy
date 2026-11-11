@@ -67,6 +67,9 @@ const targetKarnatakaDistrictPages = process.argv.includes(
 const targetAndhraPradeshBatch = process.argv.includes(
   "--target-andhra-pradesh-batch"
 );
+const targetPuducherryBatch = process.argv.includes(
+  "--target-puducherry-batch"
+);
 
 const karnatakaDistrictSlugs = new Set([
   "gundlupet-transport",
@@ -492,7 +495,7 @@ function escapeJsxText(value) {
 }
 
 
-function makeRouteCards(routes, getLabel) {
+function makeRouteCards(routes, getLabel, getHref) {
   if (!routes.length) {
     return `
       <p className="col-span-full text-slate-600">
@@ -503,11 +506,11 @@ function makeRouteCards(routes, getLabel) {
   return routes
     .map((route) => {
       const label = escapeJsxText(getLabel(route));
-      const href = `/${slugify(route)}-transport`;
+      const href = getHref(route);
 
       return `
         <Link
-          key={${JSON.stringify(route)}}
+          key=${JSON.stringify(route)}
           href=${JSON.stringify(href)}
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
@@ -522,6 +525,25 @@ function makeRouteCards(routes, getLabel) {
 
 
 
+function buildRouteHref(location, route, direction) {
+  const routeText = String(route).trim();
+
+  // Kerala route entries may already contain both locations.
+  const completeRoute = routeText.split(/\s+(?:to|→)\s+/i);
+
+  if (completeRoute.length === 2) {
+    return `/${slugify(completeRoute[0])}-transport/to-${slugify(completeRoute[1])}-transport`;
+  }
+
+  const origin =
+    direction === "forward" ? location.name : routeText;
+
+  const destination =
+    direction === "forward" ? routeText : location.name;
+
+  return `/${slugify(origin)}-transport/to-${slugify(destination)}-transport`;
+}
+
 function makeRoutesSection(location) {
   const name = escapeJsxText(String(location.name).trim());
 
@@ -529,16 +551,17 @@ function makeRoutesSection(location) {
   const returnRoutes = getList(location.returnRoutes, 25);
 
   // Kerala routes already contain complete origin and destination names.
-  const forwardItems = makeRouteCards(
-    forwardRoutes,
-    (route) => String(route)
-  );
+ const forwardItems = makeRouteCards(
+  forwardRoutes,
+  (route) => String(route),
+  (route) => buildRouteHref(location, route, "forward")
+);
 
-  const returnItems = makeRouteCards(
-    returnRoutes,
-    (route) => String(route)
-  );
-
+const returnItems = makeRouteCards(
+  returnRoutes,
+  (route) => String(route),
+  (route) => buildRouteHref(location, route, "return")
+);
   return `
       {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
@@ -846,6 +869,15 @@ if (
   (
     location.state !== "Andhra Pradesh" ||
     location.batchTag !== "andhra-pradesh-2026-11"
+  )
+) {
+  continue;
+}
+if (
+  targetPuducherryBatch &&
+  (
+    location.state !== "Puducherry" ||
+    location.batchTag !== "puducherry-2026-11"
   )
 ) {
   continue;
