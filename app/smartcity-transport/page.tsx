@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Thiruvananthapuram"}
-          href="/smartcity-to-thiruvananthapuram-transport"
+          href="/routes/smartcity-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kollam"}
-          href="/smartcity-to-kollam-transport"
+          href="/routes/smartcity-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Pathanamthitta"}
-          href="/smartcity-to-pathanamthitta-transport"
+          href="/routes/smartcity-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Alappuzha"}
-          href="/smartcity-to-alappuzha-transport"
+          href="/routes/smartcity-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kottayam"}
-          href="/smartcity-to-kottayam-transport"
+          href="/routes/smartcity-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Idukki"}
-          href="/smartcity-to-idukki-transport"
+          href="/routes/smartcity-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kochi"}
-          href="/smartcity-to-kochi-transport"
+          href="/routes/smartcity-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Thrissur"}
-          href="/smartcity-to-thrissur-transport"
+          href="/routes/smartcity-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Palakkad"}
-          href="/smartcity-to-palakkad-transport"
+          href="/routes/smartcity-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Malappuram"}
-          href="/smartcity-to-malappuram-transport"
+          href="/routes/smartcity-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kozhikode"}
-          href="/smartcity-to-kozhikode-transport"
+          href="/routes/smartcity-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Wayanad"}
-          href="/smartcity-to-wayanad-transport"
+          href="/routes/smartcity-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kannur"}
-          href="/smartcity-to-kannur-transport"
+          href="/routes/smartcity-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Kasaragod"}
-          href="/smartcity-to-kasaragod-transport"
+          href="/routes/smartcity-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Bengaluru"}
-          href="/smartcity-to-bengaluru-transport"
+          href="/routes/smartcity-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Chennai"}
-          href="/smartcity-to-chennai-transport"
+          href="/routes/smartcity-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Coimbatore"}
-          href="/smartcity-to-coimbatore-transport"
+          href="/routes/smartcity-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Madurai"}
-          href="/smartcity-to-madurai-transport"
+          href="/routes/smartcity-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Salem"}
-          href="/smartcity-to-salem-transport"
+          href="/routes/smartcity-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Tiruppur"}
-          href="/smartcity-to-tiruppur-transport"
+          href="/routes/smartcity-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Erode"}
-          href="/smartcity-to-erode-transport"
+          href="/routes/smartcity-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Mysuru"}
-          href="/smartcity-to-mysuru-transport"
+          href="/routes/smartcity-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Mangaluru"}
-          href="/smartcity-to-mangaluru-transport"
+          href="/routes/smartcity-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Hyderabad"}
-          href="/smartcity-to-hyderabad-transport"
+          href="/routes/smartcity-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"SmartCity to Vijayawada"}
-          href="/smartcity-to-vijayawada-transport"
+          href="/routes/smartcity-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to SmartCity"}
-          href="/thiruvananthapuram-to-smartcity-transport"
+          href="/routes/thiruvananthapuram-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to SmartCity"}
-          href="/kollam-to-smartcity-transport"
+          href="/routes/kollam-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to SmartCity"}
-          href="/pathanamthitta-to-smartcity-transport"
+          href="/routes/pathanamthitta-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to SmartCity"}
-          href="/alappuzha-to-smartcity-transport"
+          href="/routes/alappuzha-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to SmartCity"}
-          href="/kottayam-to-smartcity-transport"
+          href="/routes/kottayam-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to SmartCity"}
-          href="/idukki-to-smartcity-transport"
+          href="/routes/idukki-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to SmartCity"}
-          href="/kochi-to-smartcity-transport"
+          href="/routes/kochi-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to SmartCity"}
-          href="/thrissur-to-smartcity-transport"
+          href="/routes/thrissur-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to SmartCity"}
-          href="/palakkad-to-smartcity-transport"
+          href="/routes/palakkad-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to SmartCity"}
-          href="/malappuram-to-smartcity-transport"
+          href="/routes/malappuram-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to SmartCity"}
-          href="/kozhikode-to-smartcity-transport"
+          href="/routes/kozhikode-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to SmartCity"}
-          href="/wayanad-to-smartcity-transport"
+          href="/routes/wayanad-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to SmartCity"}
-          href="/kannur-to-smartcity-transport"
+          href="/routes/kannur-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to SmartCity"}
-          href="/kasaragod-to-smartcity-transport"
+          href="/routes/kasaragod-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to SmartCity"}
-          href="/bengaluru-to-smartcity-transport"
+          href="/routes/bengaluru-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to SmartCity"}
-          href="/chennai-to-smartcity-transport"
+          href="/routes/chennai-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to SmartCity"}
-          href="/coimbatore-to-smartcity-transport"
+          href="/routes/coimbatore-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to SmartCity"}
-          href="/madurai-to-smartcity-transport"
+          href="/routes/madurai-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to SmartCity"}
-          href="/salem-to-smartcity-transport"
+          href="/routes/salem-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to SmartCity"}
-          href="/tiruppur-to-smartcity-transport"
+          href="/routes/tiruppur-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to SmartCity"}
-          href="/erode-to-smartcity-transport"
+          href="/routes/erode-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to SmartCity"}
-          href="/mysuru-to-smartcity-transport"
+          href="/routes/mysuru-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to SmartCity"}
-          href="/mangaluru-to-smartcity-transport"
+          href="/routes/mangaluru-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to SmartCity"}
-          href="/hyderabad-to-smartcity-transport"
+          href="/routes/hyderabad-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to SmartCity"}
-          href="/vijayawada-to-smartcity-transport"
+          href="/routes/vijayawada-transport/smartcity-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

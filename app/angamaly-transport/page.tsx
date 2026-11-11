@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Thiruvananthapuram"}
-          href="/angamaly-to-thiruvananthapuram-transport"
+          href="/routes/angamaly-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kollam"}
-          href="/angamaly-to-kollam-transport"
+          href="/routes/angamaly-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Pathanamthitta"}
-          href="/angamaly-to-pathanamthitta-transport"
+          href="/routes/angamaly-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Alappuzha"}
-          href="/angamaly-to-alappuzha-transport"
+          href="/routes/angamaly-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kottayam"}
-          href="/angamaly-to-kottayam-transport"
+          href="/routes/angamaly-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Idukki"}
-          href="/angamaly-to-idukki-transport"
+          href="/routes/angamaly-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kochi"}
-          href="/angamaly-to-kochi-transport"
+          href="/routes/angamaly-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Thrissur"}
-          href="/angamaly-to-thrissur-transport"
+          href="/routes/angamaly-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Palakkad"}
-          href="/angamaly-to-palakkad-transport"
+          href="/routes/angamaly-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Malappuram"}
-          href="/angamaly-to-malappuram-transport"
+          href="/routes/angamaly-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kozhikode"}
-          href="/angamaly-to-kozhikode-transport"
+          href="/routes/angamaly-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Wayanad"}
-          href="/angamaly-to-wayanad-transport"
+          href="/routes/angamaly-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kannur"}
-          href="/angamaly-to-kannur-transport"
+          href="/routes/angamaly-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Kasaragod"}
-          href="/angamaly-to-kasaragod-transport"
+          href="/routes/angamaly-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Bengaluru"}
-          href="/angamaly-to-bengaluru-transport"
+          href="/routes/angamaly-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Chennai"}
-          href="/angamaly-to-chennai-transport"
+          href="/routes/angamaly-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Coimbatore"}
-          href="/angamaly-to-coimbatore-transport"
+          href="/routes/angamaly-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Madurai"}
-          href="/angamaly-to-madurai-transport"
+          href="/routes/angamaly-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Salem"}
-          href="/angamaly-to-salem-transport"
+          href="/routes/angamaly-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Tiruppur"}
-          href="/angamaly-to-tiruppur-transport"
+          href="/routes/angamaly-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Erode"}
-          href="/angamaly-to-erode-transport"
+          href="/routes/angamaly-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Mysuru"}
-          href="/angamaly-to-mysuru-transport"
+          href="/routes/angamaly-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Mangaluru"}
-          href="/angamaly-to-mangaluru-transport"
+          href="/routes/angamaly-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Hyderabad"}
-          href="/angamaly-to-hyderabad-transport"
+          href="/routes/angamaly-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Angamaly to Vijayawada"}
-          href="/angamaly-to-vijayawada-transport"
+          href="/routes/angamaly-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Angamaly"}
-          href="/thiruvananthapuram-to-angamaly-transport"
+          href="/routes/thiruvananthapuram-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to Angamaly"}
-          href="/kollam-to-angamaly-transport"
+          href="/routes/kollam-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to Angamaly"}
-          href="/pathanamthitta-to-angamaly-transport"
+          href="/routes/pathanamthitta-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to Angamaly"}
-          href="/alappuzha-to-angamaly-transport"
+          href="/routes/alappuzha-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to Angamaly"}
-          href="/kottayam-to-angamaly-transport"
+          href="/routes/kottayam-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to Angamaly"}
-          href="/idukki-to-angamaly-transport"
+          href="/routes/idukki-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Angamaly"}
-          href="/kochi-to-angamaly-transport"
+          href="/routes/kochi-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to Angamaly"}
-          href="/thrissur-to-angamaly-transport"
+          href="/routes/thrissur-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to Angamaly"}
-          href="/palakkad-to-angamaly-transport"
+          href="/routes/palakkad-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to Angamaly"}
-          href="/malappuram-to-angamaly-transport"
+          href="/routes/malappuram-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to Angamaly"}
-          href="/kozhikode-to-angamaly-transport"
+          href="/routes/kozhikode-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to Angamaly"}
-          href="/wayanad-to-angamaly-transport"
+          href="/routes/wayanad-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to Angamaly"}
-          href="/kannur-to-angamaly-transport"
+          href="/routes/kannur-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to Angamaly"}
-          href="/kasaragod-to-angamaly-transport"
+          href="/routes/kasaragod-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Angamaly"}
-          href="/bengaluru-to-angamaly-transport"
+          href="/routes/bengaluru-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Angamaly"}
-          href="/chennai-to-angamaly-transport"
+          href="/routes/chennai-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Angamaly"}
-          href="/coimbatore-to-angamaly-transport"
+          href="/routes/coimbatore-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Angamaly"}
-          href="/madurai-to-angamaly-transport"
+          href="/routes/madurai-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Angamaly"}
-          href="/salem-to-angamaly-transport"
+          href="/routes/salem-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Angamaly"}
-          href="/tiruppur-to-angamaly-transport"
+          href="/routes/tiruppur-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to Angamaly"}
-          href="/erode-to-angamaly-transport"
+          href="/routes/erode-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Angamaly"}
-          href="/mysuru-to-angamaly-transport"
+          href="/routes/mysuru-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to Angamaly"}
-          href="/mangaluru-to-angamaly-transport"
+          href="/routes/mangaluru-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Angamaly"}
-          href="/hyderabad-to-angamaly-transport"
+          href="/routes/hyderabad-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Angamaly"}
-          href="/vijayawada-to-angamaly-transport"
+          href="/routes/vijayawada-transport/angamaly-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

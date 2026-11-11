@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Visakhapatnam"}
-          href="/orvakal-industrial-area-to-visakhapatnam-transport"
+          href="/routes/orvakal-industrial-area-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Vijayawada"}
-          href="/orvakal-industrial-area-to-vijayawada-transport"
+          href="/routes/orvakal-industrial-area-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Guntur"}
-          href="/orvakal-industrial-area-to-guntur-transport"
+          href="/routes/orvakal-industrial-area-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Tirupati"}
-          href="/orvakal-industrial-area-to-tirupati-transport"
+          href="/routes/orvakal-industrial-area-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Nellore"}
-          href="/orvakal-industrial-area-to-nellore-transport"
+          href="/routes/orvakal-industrial-area-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Kurnool"}
-          href="/orvakal-industrial-area-to-kurnool-transport"
+          href="/routes/orvakal-industrial-area-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Rajamahendravaram"}
-          href="/orvakal-industrial-area-to-rajamahendravaram-transport"
+          href="/routes/orvakal-industrial-area-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Kakinada"}
-          href="/orvakal-industrial-area-to-kakinada-transport"
+          href="/routes/orvakal-industrial-area-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Anantapur"}
-          href="/orvakal-industrial-area-to-anantapur-transport"
+          href="/routes/orvakal-industrial-area-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Kadapa"}
-          href="/orvakal-industrial-area-to-kadapa-transport"
+          href="/routes/orvakal-industrial-area-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Chennai"}
-          href="/orvakal-industrial-area-to-chennai-transport"
+          href="/routes/orvakal-industrial-area-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Bengaluru"}
-          href="/orvakal-industrial-area-to-bengaluru-transport"
+          href="/routes/orvakal-industrial-area-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Hyderabad"}
-          href="/orvakal-industrial-area-to-hyderabad-transport"
+          href="/routes/orvakal-industrial-area-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Coimbatore"}
-          href="/orvakal-industrial-area-to-coimbatore-transport"
+          href="/routes/orvakal-industrial-area-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Salem"}
-          href="/orvakal-industrial-area-to-salem-transport"
+          href="/routes/orvakal-industrial-area-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Tiruppur"}
-          href="/orvakal-industrial-area-to-tiruppur-transport"
+          href="/routes/orvakal-industrial-area-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Mysuru"}
-          href="/orvakal-industrial-area-to-mysuru-transport"
+          href="/routes/orvakal-industrial-area-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Kochi"}
-          href="/orvakal-industrial-area-to-kochi-transport"
+          href="/routes/orvakal-industrial-area-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Thiruvananthapuram"}
-          href="/orvakal-industrial-area-to-thiruvananthapuram-transport"
+          href="/routes/orvakal-industrial-area-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Mumbai"}
-          href="/orvakal-industrial-area-to-mumbai-transport"
+          href="/routes/orvakal-industrial-area-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Pune"}
-          href="/orvakal-industrial-area-to-pune-transport"
+          href="/routes/orvakal-industrial-area-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Vellore"}
-          href="/orvakal-industrial-area-to-vellore-transport"
+          href="/routes/orvakal-industrial-area-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Hosur"}
-          href="/orvakal-industrial-area-to-hosur-transport"
+          href="/routes/orvakal-industrial-area-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Krishnagiri"}
-          href="/orvakal-industrial-area-to-krishnagiri-transport"
+          href="/routes/orvakal-industrial-area-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Orvakal Industrial Area to Madurai"}
-          href="/orvakal-industrial-area-to-madurai-transport"
+          href="/routes/orvakal-industrial-area-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Orvakal Industrial Area"}
-          href="/visakhapatnam-to-orvakal-industrial-area-transport"
+          href="/routes/visakhapatnam-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Orvakal Industrial Area"}
-          href="/vijayawada-to-orvakal-industrial-area-transport"
+          href="/routes/vijayawada-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Orvakal Industrial Area"}
-          href="/guntur-to-orvakal-industrial-area-transport"
+          href="/routes/guntur-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Orvakal Industrial Area"}
-          href="/tirupati-to-orvakal-industrial-area-transport"
+          href="/routes/tirupati-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Orvakal Industrial Area"}
-          href="/nellore-to-orvakal-industrial-area-transport"
+          href="/routes/nellore-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Orvakal Industrial Area"}
-          href="/kurnool-to-orvakal-industrial-area-transport"
+          href="/routes/kurnool-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Orvakal Industrial Area"}
-          href="/rajamahendravaram-to-orvakal-industrial-area-transport"
+          href="/routes/rajamahendravaram-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Orvakal Industrial Area"}
-          href="/kakinada-to-orvakal-industrial-area-transport"
+          href="/routes/kakinada-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Orvakal Industrial Area"}
-          href="/anantapur-to-orvakal-industrial-area-transport"
+          href="/routes/anantapur-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Orvakal Industrial Area"}
-          href="/kadapa-to-orvakal-industrial-area-transport"
+          href="/routes/kadapa-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Orvakal Industrial Area"}
-          href="/chennai-to-orvakal-industrial-area-transport"
+          href="/routes/chennai-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Orvakal Industrial Area"}
-          href="/bengaluru-to-orvakal-industrial-area-transport"
+          href="/routes/bengaluru-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Orvakal Industrial Area"}
-          href="/hyderabad-to-orvakal-industrial-area-transport"
+          href="/routes/hyderabad-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Orvakal Industrial Area"}
-          href="/coimbatore-to-orvakal-industrial-area-transport"
+          href="/routes/coimbatore-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Orvakal Industrial Area"}
-          href="/salem-to-orvakal-industrial-area-transport"
+          href="/routes/salem-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Orvakal Industrial Area"}
-          href="/tiruppur-to-orvakal-industrial-area-transport"
+          href="/routes/tiruppur-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Orvakal Industrial Area"}
-          href="/mysuru-to-orvakal-industrial-area-transport"
+          href="/routes/mysuru-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Orvakal Industrial Area"}
-          href="/kochi-to-orvakal-industrial-area-transport"
+          href="/routes/kochi-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Orvakal Industrial Area"}
-          href="/thiruvananthapuram-to-orvakal-industrial-area-transport"
+          href="/routes/thiruvananthapuram-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Orvakal Industrial Area"}
-          href="/mumbai-to-orvakal-industrial-area-transport"
+          href="/routes/mumbai-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Orvakal Industrial Area"}
-          href="/pune-to-orvakal-industrial-area-transport"
+          href="/routes/pune-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Orvakal Industrial Area"}
-          href="/vellore-to-orvakal-industrial-area-transport"
+          href="/routes/vellore-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Orvakal Industrial Area"}
-          href="/hosur-to-orvakal-industrial-area-transport"
+          href="/routes/hosur-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Orvakal Industrial Area"}
-          href="/krishnagiri-to-orvakal-industrial-area-transport"
+          href="/routes/krishnagiri-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Orvakal Industrial Area"}
-          href="/madurai-to-orvakal-industrial-area-transport"
+          href="/routes/madurai-transport/orvakal-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

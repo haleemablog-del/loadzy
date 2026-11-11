@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Visakhapatnam"}
-          href="/kuppam-to-visakhapatnam-transport"
+          href="/routes/kuppam-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Vijayawada"}
-          href="/kuppam-to-vijayawada-transport"
+          href="/routes/kuppam-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Guntur"}
-          href="/kuppam-to-guntur-transport"
+          href="/routes/kuppam-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Tirupati"}
-          href="/kuppam-to-tirupati-transport"
+          href="/routes/kuppam-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Nellore"}
-          href="/kuppam-to-nellore-transport"
+          href="/routes/kuppam-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Kurnool"}
-          href="/kuppam-to-kurnool-transport"
+          href="/routes/kuppam-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Rajamahendravaram"}
-          href="/kuppam-to-rajamahendravaram-transport"
+          href="/routes/kuppam-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Kakinada"}
-          href="/kuppam-to-kakinada-transport"
+          href="/routes/kuppam-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Anantapur"}
-          href="/kuppam-to-anantapur-transport"
+          href="/routes/kuppam-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Kadapa"}
-          href="/kuppam-to-kadapa-transport"
+          href="/routes/kuppam-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Chennai"}
-          href="/kuppam-to-chennai-transport"
+          href="/routes/kuppam-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Bengaluru"}
-          href="/kuppam-to-bengaluru-transport"
+          href="/routes/kuppam-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Hyderabad"}
-          href="/kuppam-to-hyderabad-transport"
+          href="/routes/kuppam-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Coimbatore"}
-          href="/kuppam-to-coimbatore-transport"
+          href="/routes/kuppam-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Salem"}
-          href="/kuppam-to-salem-transport"
+          href="/routes/kuppam-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Tiruppur"}
-          href="/kuppam-to-tiruppur-transport"
+          href="/routes/kuppam-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Mysuru"}
-          href="/kuppam-to-mysuru-transport"
+          href="/routes/kuppam-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Kochi"}
-          href="/kuppam-to-kochi-transport"
+          href="/routes/kuppam-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Thiruvananthapuram"}
-          href="/kuppam-to-thiruvananthapuram-transport"
+          href="/routes/kuppam-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Mumbai"}
-          href="/kuppam-to-mumbai-transport"
+          href="/routes/kuppam-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Pune"}
-          href="/kuppam-to-pune-transport"
+          href="/routes/kuppam-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Vellore"}
-          href="/kuppam-to-vellore-transport"
+          href="/routes/kuppam-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Hosur"}
-          href="/kuppam-to-hosur-transport"
+          href="/routes/kuppam-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Krishnagiri"}
-          href="/kuppam-to-krishnagiri-transport"
+          href="/routes/kuppam-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kuppam to Madurai"}
-          href="/kuppam-to-madurai-transport"
+          href="/routes/kuppam-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Kuppam"}
-          href="/visakhapatnam-to-kuppam-transport"
+          href="/routes/visakhapatnam-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Kuppam"}
-          href="/vijayawada-to-kuppam-transport"
+          href="/routes/vijayawada-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Kuppam"}
-          href="/guntur-to-kuppam-transport"
+          href="/routes/guntur-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Kuppam"}
-          href="/tirupati-to-kuppam-transport"
+          href="/routes/tirupati-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Kuppam"}
-          href="/nellore-to-kuppam-transport"
+          href="/routes/nellore-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Kuppam"}
-          href="/kurnool-to-kuppam-transport"
+          href="/routes/kurnool-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Kuppam"}
-          href="/rajamahendravaram-to-kuppam-transport"
+          href="/routes/rajamahendravaram-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Kuppam"}
-          href="/kakinada-to-kuppam-transport"
+          href="/routes/kakinada-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Kuppam"}
-          href="/anantapur-to-kuppam-transport"
+          href="/routes/anantapur-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Kuppam"}
-          href="/kadapa-to-kuppam-transport"
+          href="/routes/kadapa-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Kuppam"}
-          href="/chennai-to-kuppam-transport"
+          href="/routes/chennai-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Kuppam"}
-          href="/bengaluru-to-kuppam-transport"
+          href="/routes/bengaluru-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Kuppam"}
-          href="/hyderabad-to-kuppam-transport"
+          href="/routes/hyderabad-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Kuppam"}
-          href="/coimbatore-to-kuppam-transport"
+          href="/routes/coimbatore-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Kuppam"}
-          href="/salem-to-kuppam-transport"
+          href="/routes/salem-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Kuppam"}
-          href="/tiruppur-to-kuppam-transport"
+          href="/routes/tiruppur-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Kuppam"}
-          href="/mysuru-to-kuppam-transport"
+          href="/routes/mysuru-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Kuppam"}
-          href="/kochi-to-kuppam-transport"
+          href="/routes/kochi-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Kuppam"}
-          href="/thiruvananthapuram-to-kuppam-transport"
+          href="/routes/thiruvananthapuram-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Kuppam"}
-          href="/mumbai-to-kuppam-transport"
+          href="/routes/mumbai-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Kuppam"}
-          href="/pune-to-kuppam-transport"
+          href="/routes/pune-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Kuppam"}
-          href="/vellore-to-kuppam-transport"
+          href="/routes/vellore-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Kuppam"}
-          href="/hosur-to-kuppam-transport"
+          href="/routes/hosur-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Kuppam"}
-          href="/krishnagiri-to-kuppam-transport"
+          href="/routes/krishnagiri-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Kuppam"}
-          href="/madurai-to-kuppam-transport"
+          href="/routes/madurai-transport/kuppam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

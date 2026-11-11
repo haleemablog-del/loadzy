@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Thiruvananthapuram"}
-          href="/thalassery-to-thiruvananthapuram-transport"
+          href="/routes/thalassery-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kollam"}
-          href="/thalassery-to-kollam-transport"
+          href="/routes/thalassery-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Pathanamthitta"}
-          href="/thalassery-to-pathanamthitta-transport"
+          href="/routes/thalassery-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Alappuzha"}
-          href="/thalassery-to-alappuzha-transport"
+          href="/routes/thalassery-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kottayam"}
-          href="/thalassery-to-kottayam-transport"
+          href="/routes/thalassery-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Idukki"}
-          href="/thalassery-to-idukki-transport"
+          href="/routes/thalassery-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kochi"}
-          href="/thalassery-to-kochi-transport"
+          href="/routes/thalassery-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Thrissur"}
-          href="/thalassery-to-thrissur-transport"
+          href="/routes/thalassery-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Palakkad"}
-          href="/thalassery-to-palakkad-transport"
+          href="/routes/thalassery-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Malappuram"}
-          href="/thalassery-to-malappuram-transport"
+          href="/routes/thalassery-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kozhikode"}
-          href="/thalassery-to-kozhikode-transport"
+          href="/routes/thalassery-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Wayanad"}
-          href="/thalassery-to-wayanad-transport"
+          href="/routes/thalassery-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kannur"}
-          href="/thalassery-to-kannur-transport"
+          href="/routes/thalassery-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Kasaragod"}
-          href="/thalassery-to-kasaragod-transport"
+          href="/routes/thalassery-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Bengaluru"}
-          href="/thalassery-to-bengaluru-transport"
+          href="/routes/thalassery-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Chennai"}
-          href="/thalassery-to-chennai-transport"
+          href="/routes/thalassery-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Coimbatore"}
-          href="/thalassery-to-coimbatore-transport"
+          href="/routes/thalassery-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Madurai"}
-          href="/thalassery-to-madurai-transport"
+          href="/routes/thalassery-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Salem"}
-          href="/thalassery-to-salem-transport"
+          href="/routes/thalassery-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Tiruppur"}
-          href="/thalassery-to-tiruppur-transport"
+          href="/routes/thalassery-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Erode"}
-          href="/thalassery-to-erode-transport"
+          href="/routes/thalassery-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Mysuru"}
-          href="/thalassery-to-mysuru-transport"
+          href="/routes/thalassery-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Mangaluru"}
-          href="/thalassery-to-mangaluru-transport"
+          href="/routes/thalassery-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Hyderabad"}
-          href="/thalassery-to-hyderabad-transport"
+          href="/routes/thalassery-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thalassery to Vijayawada"}
-          href="/thalassery-to-vijayawada-transport"
+          href="/routes/thalassery-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Thalassery"}
-          href="/thiruvananthapuram-to-thalassery-transport"
+          href="/routes/thiruvananthapuram-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to Thalassery"}
-          href="/kollam-to-thalassery-transport"
+          href="/routes/kollam-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to Thalassery"}
-          href="/pathanamthitta-to-thalassery-transport"
+          href="/routes/pathanamthitta-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to Thalassery"}
-          href="/alappuzha-to-thalassery-transport"
+          href="/routes/alappuzha-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to Thalassery"}
-          href="/kottayam-to-thalassery-transport"
+          href="/routes/kottayam-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to Thalassery"}
-          href="/idukki-to-thalassery-transport"
+          href="/routes/idukki-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Thalassery"}
-          href="/kochi-to-thalassery-transport"
+          href="/routes/kochi-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to Thalassery"}
-          href="/thrissur-to-thalassery-transport"
+          href="/routes/thrissur-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to Thalassery"}
-          href="/palakkad-to-thalassery-transport"
+          href="/routes/palakkad-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to Thalassery"}
-          href="/malappuram-to-thalassery-transport"
+          href="/routes/malappuram-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to Thalassery"}
-          href="/kozhikode-to-thalassery-transport"
+          href="/routes/kozhikode-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to Thalassery"}
-          href="/wayanad-to-thalassery-transport"
+          href="/routes/wayanad-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to Thalassery"}
-          href="/kannur-to-thalassery-transport"
+          href="/routes/kannur-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to Thalassery"}
-          href="/kasaragod-to-thalassery-transport"
+          href="/routes/kasaragod-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Thalassery"}
-          href="/bengaluru-to-thalassery-transport"
+          href="/routes/bengaluru-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Thalassery"}
-          href="/chennai-to-thalassery-transport"
+          href="/routes/chennai-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Thalassery"}
-          href="/coimbatore-to-thalassery-transport"
+          href="/routes/coimbatore-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Thalassery"}
-          href="/madurai-to-thalassery-transport"
+          href="/routes/madurai-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Thalassery"}
-          href="/salem-to-thalassery-transport"
+          href="/routes/salem-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Thalassery"}
-          href="/tiruppur-to-thalassery-transport"
+          href="/routes/tiruppur-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to Thalassery"}
-          href="/erode-to-thalassery-transport"
+          href="/routes/erode-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Thalassery"}
-          href="/mysuru-to-thalassery-transport"
+          href="/routes/mysuru-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to Thalassery"}
-          href="/mangaluru-to-thalassery-transport"
+          href="/routes/mangaluru-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Thalassery"}
-          href="/hyderabad-to-thalassery-transport"
+          href="/routes/hyderabad-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Thalassery"}
-          href="/vijayawada-to-thalassery-transport"
+          href="/routes/vijayawada-transport/thalassery-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

@@ -425,242 +425,242 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/gajendragad-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Bengaluru
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/gajendragad-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Chennai
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/gajendragad-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Coimbatore
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/gajendragad-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Hosur
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/gajendragad-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Krishnagiri
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/gajendragad-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Vellore
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupattur"}
-          href="/tirupattur-transport"
+          href="/routes/gajendragad-transport/tirupattur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Tirupattur
+            Tirupattur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/gajendragad-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Salem
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/gajendragad-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Erode
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/gajendragad-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Tiruppur
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/gajendragad-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Madurai
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Trichy"}
-          href="/trichy-transport"
+          href="/routes/gajendragad-transport/trichy-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Trichy
+            Trichy
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/gajendragad-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Mysuru
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mandya"}
-          href="/mandya-transport"
+          href="/routes/gajendragad-transport/mandya-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Mandya
+            Mandya
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/gajendragad-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Tumakuru
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan"}
-          href="/hassan-transport"
+          href="/routes/gajendragad-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Hassan
+            Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/gajendragad-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Mangaluru
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/gajendragad-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Hubballi
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/gajendragad-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Belagavi
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/gajendragad-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Hyderabad
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/gajendragad-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Vijayawada
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/gajendragad-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gajendragad to Kochi
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -684,242 +684,242 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/bengaluru-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Gajendragad
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/chennai-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Gajendragad
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/coimbatore-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Gajendragad
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/hosur-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Gajendragad
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/krishnagiri-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Krishnagiri to Gajendragad
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/vellore-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vellore to Gajendragad
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupattur"}
-          href="/tirupattur-transport"
+          href="/routes/tirupattur-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tirupattur to Gajendragad
+            Tirupattur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/salem-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Gajendragad
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/erode-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Erode to Gajendragad
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/tiruppur-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Gajendragad
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/madurai-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Madurai to Gajendragad
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Trichy"}
-          href="/trichy-transport"
+          href="/routes/trichy-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Trichy to Gajendragad
+            Trichy
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/mysuru-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Gajendragad
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mandya"}
-          href="/mandya-transport"
+          href="/routes/mandya-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mandya to Gajendragad
+            Mandya
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/tumakuru-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Gajendragad
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan"}
-          href="/hassan-transport"
+          href="/routes/hassan-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Gajendragad
+            Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/mangaluru-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Gajendragad
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/hubballi-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Gajendragad
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/belagavi-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Gajendragad
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/hyderabad-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Gajendragad
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/vijayawada-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayawada to Gajendragad
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/kochi-transport/gajendragad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Gajendragad
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -936,10 +936,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Gajendragad
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

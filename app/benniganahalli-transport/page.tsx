@@ -432,275 +432,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/benniganahalli-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Bengaluru
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/benniganahalli-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Chennai
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/benniganahalli-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Mysuru
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/benniganahalli-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Hosur
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/benniganahalli-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Krishnagiri
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/benniganahalli-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Coimbatore
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/benniganahalli-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Salem
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/benniganahalli-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Tiruppur
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/benniganahalli-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Erode
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/benniganahalli-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Madurai
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/benniganahalli-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Vellore
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupati"}
-          href="/tirupati-transport"
+          href="/routes/benniganahalli-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Tirupati
+            Tirupati
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/benniganahalli-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Hyderabad
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/benniganahalli-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Vijayawada
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Visakhapatnam"}
-          href="/visakhapatnam-transport"
+          href="/routes/benniganahalli-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Visakhapatnam
+            Visakhapatnam
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mumbai"}
-          href="/mumbai-transport"
+          href="/routes/benniganahalli-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Mumbai
+            Mumbai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune"}
-          href="/pune-transport"
+          href="/routes/benniganahalli-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Pune
+            Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/benniganahalli-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Kochi
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/benniganahalli-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Mangaluru
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/benniganahalli-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Hubballi
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/benniganahalli-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Belagavi
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/benniganahalli-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Tumakuru
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davangere"}
-          href="/davangere-transport"
+          href="/routes/benniganahalli-transport/davangere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Davangere
+            Davangere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruchirappalli"}
-          href="/tiruchirappalli-transport"
+          href="/routes/benniganahalli-transport/tiruchirappalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Tiruchirappalli
+            Tiruchirappalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nellore"}
-          href="/nellore-transport"
+          href="/routes/benniganahalli-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Benniganahalli to Nellore
+            Nellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -724,275 +724,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/bengaluru-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Benniganahalli
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/chennai-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Benniganahalli
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/mysuru-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Benniganahalli
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/hosur-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Benniganahalli
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/krishnagiri-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Krishnagiri to Benniganahalli
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/coimbatore-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Benniganahalli
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/salem-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Benniganahalli
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/tiruppur-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Benniganahalli
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/erode-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Erode to Benniganahalli
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/madurai-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Madurai to Benniganahalli
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/vellore-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vellore to Benniganahalli
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupati"}
-          href="/tirupati-transport"
+          href="/routes/tirupati-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tirupati to Benniganahalli
+            Tirupati
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/hyderabad-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Benniganahalli
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/vijayawada-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayawada to Benniganahalli
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Visakhapatnam"}
-          href="/visakhapatnam-transport"
+          href="/routes/visakhapatnam-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Visakhapatnam to Benniganahalli
+            Visakhapatnam
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mumbai"}
-          href="/mumbai-transport"
+          href="/routes/mumbai-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mumbai to Benniganahalli
+            Mumbai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune"}
-          href="/pune-transport"
+          href="/routes/pune-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Benniganahalli
+            Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/kochi-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Benniganahalli
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/mangaluru-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Benniganahalli
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/hubballi-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Benniganahalli
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/belagavi-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Benniganahalli
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/tumakuru-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Benniganahalli
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davangere"}
-          href="/davangere-transport"
+          href="/routes/davangere-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davangere to Benniganahalli
+            Davangere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruchirappalli"}
-          href="/tiruchirappalli-transport"
+          href="/routes/tiruchirappalli-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruchirappalli to Benniganahalli
+            Tiruchirappalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nellore"}
-          href="/nellore-transport"
+          href="/routes/nellore-transport/benniganahalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Nellore to Benniganahalli
+            Nellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1009,10 +1009,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Benniganahalli
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

@@ -432,275 +432,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/bannerghatta-road-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Bengaluru
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/bannerghatta-road-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Chennai
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/bannerghatta-road-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Mysuru
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/bannerghatta-road-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Hosur
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/bannerghatta-road-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Krishnagiri
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/bannerghatta-road-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Coimbatore
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/bannerghatta-road-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Salem
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/bannerghatta-road-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Tiruppur
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/bannerghatta-road-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Erode
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/bannerghatta-road-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Madurai
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/bannerghatta-road-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Vellore
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupati"}
-          href="/tirupati-transport"
+          href="/routes/bannerghatta-road-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Tirupati
+            Tirupati
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/bannerghatta-road-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Hyderabad
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/bannerghatta-road-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Vijayawada
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Visakhapatnam"}
-          href="/visakhapatnam-transport"
+          href="/routes/bannerghatta-road-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Visakhapatnam
+            Visakhapatnam
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mumbai"}
-          href="/mumbai-transport"
+          href="/routes/bannerghatta-road-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Mumbai
+            Mumbai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune"}
-          href="/pune-transport"
+          href="/routes/bannerghatta-road-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Pune
+            Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/bannerghatta-road-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Kochi
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/bannerghatta-road-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Mangaluru
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/bannerghatta-road-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Hubballi
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/bannerghatta-road-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Belagavi
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/bannerghatta-road-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Tumakuru
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davangere"}
-          href="/davangere-transport"
+          href="/routes/bannerghatta-road-transport/davangere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Davangere
+            Davangere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruchirappalli"}
-          href="/tiruchirappalli-transport"
+          href="/routes/bannerghatta-road-transport/tiruchirappalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Tiruchirappalli
+            Tiruchirappalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nellore"}
-          href="/nellore-transport"
+          href="/routes/bannerghatta-road-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bannerghatta Road to Nellore
+            Nellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -724,275 +724,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Bengaluru"}
-          href="/bengaluru-transport"
+          href="/routes/bengaluru-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Bannerghatta Road
+            Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai"}
-          href="/chennai-transport"
+          href="/routes/chennai-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Bannerghatta Road
+            Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru"}
-          href="/mysuru-transport"
+          href="/routes/mysuru-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Bannerghatta Road
+            Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur"}
-          href="/hosur-transport"
+          href="/routes/hosur-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Bannerghatta Road
+            Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Krishnagiri"}
-          href="/krishnagiri-transport"
+          href="/routes/krishnagiri-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Krishnagiri to Bannerghatta Road
+            Krishnagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore"}
-          href="/coimbatore-transport"
+          href="/routes/coimbatore-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Bannerghatta Road
+            Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem"}
-          href="/salem-transport"
+          href="/routes/salem-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Bannerghatta Road
+            Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur"}
-          href="/tiruppur-transport"
+          href="/routes/tiruppur-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Bannerghatta Road
+            Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Erode"}
-          href="/erode-transport"
+          href="/routes/erode-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Erode to Bannerghatta Road
+            Erode
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Madurai"}
-          href="/madurai-transport"
+          href="/routes/madurai-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Madurai to Bannerghatta Road
+            Madurai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vellore"}
-          href="/vellore-transport"
+          href="/routes/vellore-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vellore to Bannerghatta Road
+            Vellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tirupati"}
-          href="/tirupati-transport"
+          href="/routes/tirupati-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tirupati to Bannerghatta Road
+            Tirupati
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad"}
-          href="/hyderabad-transport"
+          href="/routes/hyderabad-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Bannerghatta Road
+            Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayawada"}
-          href="/vijayawada-transport"
+          href="/routes/vijayawada-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayawada to Bannerghatta Road
+            Vijayawada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Visakhapatnam"}
-          href="/visakhapatnam-transport"
+          href="/routes/visakhapatnam-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Visakhapatnam to Bannerghatta Road
+            Visakhapatnam
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mumbai"}
-          href="/mumbai-transport"
+          href="/routes/mumbai-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mumbai to Bannerghatta Road
+            Mumbai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune"}
-          href="/pune-transport"
+          href="/routes/pune-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Bannerghatta Road
+            Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi"}
-          href="/kochi-transport"
+          href="/routes/kochi-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Bannerghatta Road
+            Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/mangaluru-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Bannerghatta Road
+            Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/hubballi-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Bannerghatta Road
+            Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi"}
-          href="/belagavi-transport"
+          href="/routes/belagavi-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Bannerghatta Road
+            Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru"}
-          href="/tumakuru-transport"
+          href="/routes/tumakuru-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Bannerghatta Road
+            Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davangere"}
-          href="/davangere-transport"
+          href="/routes/davangere-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davangere to Bannerghatta Road
+            Davangere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruchirappalli"}
-          href="/tiruchirappalli-transport"
+          href="/routes/tiruchirappalli-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruchirappalli to Bannerghatta Road
+            Tiruchirappalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Nellore"}
-          href="/nellore-transport"
+          href="/routes/nellore-transport/bannerghatta-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Nellore to Bannerghatta Road
+            Nellore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1009,10 +1009,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Bannerghatta Road
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

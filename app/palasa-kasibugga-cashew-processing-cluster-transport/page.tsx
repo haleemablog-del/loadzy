@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Visakhapatnam"}
-          href="/cashew-processing-cluster-to-visakhapatnam-transport"
+          href="/routes/cashew-processing-cluster-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Vijayawada"}
-          href="/cashew-processing-cluster-to-vijayawada-transport"
+          href="/routes/cashew-processing-cluster-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Guntur"}
-          href="/cashew-processing-cluster-to-guntur-transport"
+          href="/routes/cashew-processing-cluster-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Tirupati"}
-          href="/cashew-processing-cluster-to-tirupati-transport"
+          href="/routes/cashew-processing-cluster-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Nellore"}
-          href="/cashew-processing-cluster-to-nellore-transport"
+          href="/routes/cashew-processing-cluster-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Kurnool"}
-          href="/cashew-processing-cluster-to-kurnool-transport"
+          href="/routes/cashew-processing-cluster-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Rajamahendravaram"}
-          href="/cashew-processing-cluster-to-rajamahendravaram-transport"
+          href="/routes/cashew-processing-cluster-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Kakinada"}
-          href="/cashew-processing-cluster-to-kakinada-transport"
+          href="/routes/cashew-processing-cluster-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Anantapur"}
-          href="/cashew-processing-cluster-to-anantapur-transport"
+          href="/routes/cashew-processing-cluster-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Kadapa"}
-          href="/cashew-processing-cluster-to-kadapa-transport"
+          href="/routes/cashew-processing-cluster-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Chennai"}
-          href="/cashew-processing-cluster-to-chennai-transport"
+          href="/routes/cashew-processing-cluster-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Bengaluru"}
-          href="/cashew-processing-cluster-to-bengaluru-transport"
+          href="/routes/cashew-processing-cluster-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Hyderabad"}
-          href="/cashew-processing-cluster-to-hyderabad-transport"
+          href="/routes/cashew-processing-cluster-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Coimbatore"}
-          href="/cashew-processing-cluster-to-coimbatore-transport"
+          href="/routes/cashew-processing-cluster-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Salem"}
-          href="/cashew-processing-cluster-to-salem-transport"
+          href="/routes/cashew-processing-cluster-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Tiruppur"}
-          href="/cashew-processing-cluster-to-tiruppur-transport"
+          href="/routes/cashew-processing-cluster-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Mysuru"}
-          href="/cashew-processing-cluster-to-mysuru-transport"
+          href="/routes/cashew-processing-cluster-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Kochi"}
-          href="/cashew-processing-cluster-to-kochi-transport"
+          href="/routes/cashew-processing-cluster-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Thiruvananthapuram"}
-          href="/cashew-processing-cluster-to-thiruvananthapuram-transport"
+          href="/routes/cashew-processing-cluster-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Mumbai"}
-          href="/cashew-processing-cluster-to-mumbai-transport"
+          href="/routes/cashew-processing-cluster-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Pune"}
-          href="/cashew-processing-cluster-to-pune-transport"
+          href="/routes/cashew-processing-cluster-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Vellore"}
-          href="/cashew-processing-cluster-to-vellore-transport"
+          href="/routes/cashew-processing-cluster-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Hosur"}
-          href="/cashew-processing-cluster-to-hosur-transport"
+          href="/routes/cashew-processing-cluster-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Krishnagiri"}
-          href="/cashew-processing-cluster-to-krishnagiri-transport"
+          href="/routes/cashew-processing-cluster-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Cashew Processing Cluster to Madurai"}
-          href="/cashew-processing-cluster-to-madurai-transport"
+          href="/routes/cashew-processing-cluster-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Cashew Processing Cluster"}
-          href="/visakhapatnam-to-cashew-processing-cluster-transport"
+          href="/routes/visakhapatnam-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Cashew Processing Cluster"}
-          href="/vijayawada-to-cashew-processing-cluster-transport"
+          href="/routes/vijayawada-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Cashew Processing Cluster"}
-          href="/guntur-to-cashew-processing-cluster-transport"
+          href="/routes/guntur-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Cashew Processing Cluster"}
-          href="/tirupati-to-cashew-processing-cluster-transport"
+          href="/routes/tirupati-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Cashew Processing Cluster"}
-          href="/nellore-to-cashew-processing-cluster-transport"
+          href="/routes/nellore-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Cashew Processing Cluster"}
-          href="/kurnool-to-cashew-processing-cluster-transport"
+          href="/routes/kurnool-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Cashew Processing Cluster"}
-          href="/rajamahendravaram-to-cashew-processing-cluster-transport"
+          href="/routes/rajamahendravaram-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Cashew Processing Cluster"}
-          href="/kakinada-to-cashew-processing-cluster-transport"
+          href="/routes/kakinada-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Cashew Processing Cluster"}
-          href="/anantapur-to-cashew-processing-cluster-transport"
+          href="/routes/anantapur-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Cashew Processing Cluster"}
-          href="/kadapa-to-cashew-processing-cluster-transport"
+          href="/routes/kadapa-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Cashew Processing Cluster"}
-          href="/chennai-to-cashew-processing-cluster-transport"
+          href="/routes/chennai-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Cashew Processing Cluster"}
-          href="/bengaluru-to-cashew-processing-cluster-transport"
+          href="/routes/bengaluru-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Cashew Processing Cluster"}
-          href="/hyderabad-to-cashew-processing-cluster-transport"
+          href="/routes/hyderabad-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Cashew Processing Cluster"}
-          href="/coimbatore-to-cashew-processing-cluster-transport"
+          href="/routes/coimbatore-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Cashew Processing Cluster"}
-          href="/salem-to-cashew-processing-cluster-transport"
+          href="/routes/salem-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Cashew Processing Cluster"}
-          href="/tiruppur-to-cashew-processing-cluster-transport"
+          href="/routes/tiruppur-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Cashew Processing Cluster"}
-          href="/mysuru-to-cashew-processing-cluster-transport"
+          href="/routes/mysuru-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Cashew Processing Cluster"}
-          href="/kochi-to-cashew-processing-cluster-transport"
+          href="/routes/kochi-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Cashew Processing Cluster"}
-          href="/thiruvananthapuram-to-cashew-processing-cluster-transport"
+          href="/routes/thiruvananthapuram-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Cashew Processing Cluster"}
-          href="/mumbai-to-cashew-processing-cluster-transport"
+          href="/routes/mumbai-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Cashew Processing Cluster"}
-          href="/pune-to-cashew-processing-cluster-transport"
+          href="/routes/pune-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Cashew Processing Cluster"}
-          href="/vellore-to-cashew-processing-cluster-transport"
+          href="/routes/vellore-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Cashew Processing Cluster"}
-          href="/hosur-to-cashew-processing-cluster-transport"
+          href="/routes/hosur-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Cashew Processing Cluster"}
-          href="/krishnagiri-to-cashew-processing-cluster-transport"
+          href="/routes/krishnagiri-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Cashew Processing Cluster"}
-          href="/madurai-to-cashew-processing-cluster-transport"
+          href="/routes/madurai-transport/cashew-processing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

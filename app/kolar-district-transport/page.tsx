@@ -425,275 +425,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Srinivaspur"}
-          href="/srinivaspur-transport"
+          href="/routes/kolar-district-transport/srinivaspur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Srinivaspur
+            Srinivaspur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Malur"}
-          href="/malur-transport"
+          href="/routes/kolar-district-transport/malur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Malur
+            Malur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bangarapet"}
-          href="/bangarapet-transport"
+          href="/routes/kolar-district-transport/bangarapet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Bangarapet
+            Bangarapet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Robertsonpet (K.G.F.)"}
-          href="/robertsonpet-k-g-f-transport"
+          href="/routes/kolar-district-transport/robertsonpet-k-g-f-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Robertsonpet (K.G.F.)
+            Robertsonpet (K.G.F.)
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulbagal"}
-          href="/mulbagal-transport"
+          href="/routes/kolar-district-transport/mulbagal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Mulbagal
+            Mulbagal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Bengaluru"}
-          href="/kolar-to-bengaluru-transport"
+          href="/routes/kolar-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Bengaluru
+            Kolar to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Mysuru"}
-          href="/kolar-to-mysuru-transport"
+          href="/routes/kolar-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Mysuru
+            Kolar to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Mangaluru"}
-          href="/kolar-to-mangaluru-transport"
+          href="/routes/kolar-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Mangaluru
+            Kolar to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Hubballi"}
-          href="/kolar-to-hubballi-transport"
+          href="/routes/kolar-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Hubballi
+            Kolar to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Belagavi"}
-          href="/kolar-to-belagavi-transport"
+          href="/routes/kolar-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Belagavi
+            Kolar to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Chennai"}
-          href="/kolar-to-chennai-transport"
+          href="/routes/kolar-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Chennai
+            Kolar to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Hyderabad"}
-          href="/kolar-to-hyderabad-transport"
+          href="/routes/kolar-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Hyderabad
+            Kolar to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Kochi"}
-          href="/kolar-to-kochi-transport"
+          href="/routes/kolar-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Kochi
+            Kolar to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Coimbatore"}
-          href="/kolar-to-coimbatore-transport"
+          href="/routes/kolar-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Coimbatore
+            Kolar to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Tiruppur"}
-          href="/kolar-to-tiruppur-transport"
+          href="/routes/kolar-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Tiruppur
+            Kolar to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Salem"}
-          href="/kolar-to-salem-transport"
+          href="/routes/kolar-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Salem
+            Kolar to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Hosur"}
-          href="/kolar-to-hosur-transport"
+          href="/routes/kolar-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Hosur
+            Kolar to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Tumakuru"}
-          href="/kolar-to-tumakuru-transport"
+          href="/routes/kolar-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Tumakuru
+            Kolar to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Davanagere"}
-          href="/kolar-to-davanagere-transport"
+          href="/routes/kolar-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Davanagere
+            Kolar to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Shivamogga"}
-          href="/kolar-to-shivamogga-transport"
+          href="/routes/kolar-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Shivamogga
+            Kolar to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Hassan"}
-          href="/kolar-to-hassan-transport"
+          href="/routes/kolar-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Hassan
+            Kolar to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Kolar"}
-          href="/kolar-to-kolar-transport"
+          href="/routes/kolar-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Kolar
+            Kolar to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Vijayapura"}
-          href="/kolar-to-vijayapura-transport"
+          href="/routes/kolar-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Vijayapura
+            Kolar to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Kalaburagi"}
-          href="/kolar-to-kalaburagi-transport"
+          href="/routes/kolar-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Kalaburagi
+            Kolar to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Raichur"}
-          href="/kolar-to-raichur-transport"
+          href="/routes/kolar-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Raichur
+            Kolar to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -717,275 +717,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Srinivaspur"}
-          href="/srinivaspur-transport"
+          href="/routes/srinivaspur-transport/kolar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Srinivaspur to Kolar
+            Srinivaspur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Malur"}
-          href="/malur-transport"
+          href="/routes/malur-transport/kolar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Malur to Kolar
+            Malur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bangarapet"}
-          href="/bangarapet-transport"
+          href="/routes/bangarapet-transport/kolar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bangarapet to Kolar
+            Bangarapet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Robertsonpet (K.G.F.)"}
-          href="/robertsonpet-k-g-f-transport"
+          href="/routes/robertsonpet-k-g-f-transport/kolar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Robertsonpet (K.G.F.) to Kolar
+            Robertsonpet (K.G.F.)
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulbagal"}
-          href="/mulbagal-transport"
+          href="/routes/mulbagal-transport/kolar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mulbagal to Kolar
+            Mulbagal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Kolar"}
-          href="/bengaluru-to-kolar-transport"
+          href="/routes/bengaluru-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Kolar to Kolar
+            Bengaluru to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Kolar"}
-          href="/mysuru-to-kolar-transport"
+          href="/routes/mysuru-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Kolar to Kolar
+            Mysuru to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Kolar"}
-          href="/mangaluru-to-kolar-transport"
+          href="/routes/mangaluru-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Kolar to Kolar
+            Mangaluru to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Kolar"}
-          href="/hubballi-to-kolar-transport"
+          href="/routes/hubballi-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Kolar to Kolar
+            Hubballi to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Kolar"}
-          href="/belagavi-to-kolar-transport"
+          href="/routes/belagavi-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Kolar to Kolar
+            Belagavi to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Kolar"}
-          href="/chennai-to-kolar-transport"
+          href="/routes/chennai-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Kolar to Kolar
+            Chennai to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Kolar"}
-          href="/hyderabad-to-kolar-transport"
+          href="/routes/hyderabad-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Kolar to Kolar
+            Hyderabad to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Kolar"}
-          href="/kochi-to-kolar-transport"
+          href="/routes/kochi-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Kolar to Kolar
+            Kochi to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Kolar"}
-          href="/coimbatore-to-kolar-transport"
+          href="/routes/coimbatore-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Kolar to Kolar
+            Coimbatore to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Kolar"}
-          href="/tiruppur-to-kolar-transport"
+          href="/routes/tiruppur-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Kolar to Kolar
+            Tiruppur to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Kolar"}
-          href="/salem-to-kolar-transport"
+          href="/routes/salem-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Kolar to Kolar
+            Salem to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Kolar"}
-          href="/hosur-to-kolar-transport"
+          href="/routes/hosur-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Kolar to Kolar
+            Hosur to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Kolar"}
-          href="/tumakuru-to-kolar-transport"
+          href="/routes/tumakuru-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Kolar to Kolar
+            Tumakuru to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Kolar"}
-          href="/davanagere-to-kolar-transport"
+          href="/routes/davanagere-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Kolar to Kolar
+            Davanagere to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Kolar"}
-          href="/shivamogga-to-kolar-transport"
+          href="/routes/shivamogga-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Kolar to Kolar
+            Shivamogga to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Kolar"}
-          href="/hassan-to-kolar-transport"
+          href="/routes/hassan-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Kolar to Kolar
+            Hassan to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Kolar"}
-          href="/kolar-to-kolar-transport"
+          href="/routes/kolar-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Kolar to Kolar
+            Kolar to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Kolar"}
-          href="/vijayapura-to-kolar-transport"
+          href="/routes/vijayapura-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Kolar to Kolar
+            Vijayapura to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Kolar"}
-          href="/kalaburagi-to-kolar-transport"
+          href="/routes/kalaburagi-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Kolar to Kolar
+            Kalaburagi to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Kolar"}
-          href="/raichur-to-kolar-transport"
+          href="/routes/raichur-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Kolar to Kolar
+            Raichur to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1002,10 +1002,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Kolar
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

@@ -403,44 +403,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Harihar"}
-          href="/harihar-transport"
+          href="/routes/davanagere-transport/harihar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Harihar
+            Harihar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Honnali"}
-          href="/honnali-transport"
+          href="/routes/davanagere-transport/honnali-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Honnali
+            Honnali
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Channagiri"}
-          href="/channagiri-transport"
+          href="/routes/davanagere-transport/channagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Channagiri
+            Channagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Jagalur"}
-          href="/jagalur-transport"
+          href="/routes/davanagere-transport/jagalur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Jagalur
+            Jagalur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -464,44 +464,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Harihar"}
-          href="/harihar-transport"
+          href="/routes/harihar-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Harihar to Davanagere
+            Harihar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Honnali"}
-          href="/honnali-transport"
+          href="/routes/honnali-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Honnali to Davanagere
+            Honnali
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Channagiri"}
-          href="/channagiri-transport"
+          href="/routes/channagiri-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Channagiri to Davanagere
+            Channagiri
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Jagalur"}
-          href="/jagalur-transport"
+          href="/routes/jagalur-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Jagalur to Davanagere
+            Jagalur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -518,10 +518,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Davanagere
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

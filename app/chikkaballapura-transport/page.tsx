@@ -405,55 +405,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Gauribidanur"}
-          href="/gauribidanur-transport"
+          href="/routes/chikkaballapura-transport/gauribidanur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Gauribidanur
+            Gauribidanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gudibanda"}
-          href="/gudibanda-transport"
+          href="/routes/chikkaballapura-transport/gudibanda-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Gudibanda
+            Gudibanda
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bagepalli"}
-          href="/bagepalli-transport"
+          href="/routes/chikkaballapura-transport/bagepalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Bagepalli
+            Bagepalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sidlaghatta"}
-          href="/sidlaghatta-transport"
+          href="/routes/chikkaballapura-transport/sidlaghatta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Sidlaghatta
+            Sidlaghatta
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chintamani"}
-          href="/chintamani-transport"
+          href="/routes/chikkaballapura-transport/chintamani-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Chintamani
+            Chintamani
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -477,55 +477,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Gauribidanur"}
-          href="/gauribidanur-transport"
+          href="/routes/gauribidanur-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gauribidanur to Chikkaballapura
+            Gauribidanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gudibanda"}
-          href="/gudibanda-transport"
+          href="/routes/gudibanda-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gudibanda to Chikkaballapura
+            Gudibanda
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bagepalli"}
-          href="/bagepalli-transport"
+          href="/routes/bagepalli-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bagepalli to Chikkaballapura
+            Bagepalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Sidlaghatta"}
-          href="/sidlaghatta-transport"
+          href="/routes/sidlaghatta-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Sidlaghatta to Chikkaballapura
+            Sidlaghatta
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chintamani"}
-          href="/chintamani-transport"
+          href="/routes/chintamani-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chintamani to Chikkaballapura
+            Chintamani
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -542,10 +542,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chikkaballapura
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

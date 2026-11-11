@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Visakhapatnam"}
-          href="/av-appa-rao-road-to-visakhapatnam-transport"
+          href="/routes/av-appa-rao-road-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Vijayawada"}
-          href="/av-appa-rao-road-to-vijayawada-transport"
+          href="/routes/av-appa-rao-road-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Guntur"}
-          href="/av-appa-rao-road-to-guntur-transport"
+          href="/routes/av-appa-rao-road-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Tirupati"}
-          href="/av-appa-rao-road-to-tirupati-transport"
+          href="/routes/av-appa-rao-road-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Nellore"}
-          href="/av-appa-rao-road-to-nellore-transport"
+          href="/routes/av-appa-rao-road-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Kurnool"}
-          href="/av-appa-rao-road-to-kurnool-transport"
+          href="/routes/av-appa-rao-road-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Rajamahendravaram"}
-          href="/av-appa-rao-road-to-rajamahendravaram-transport"
+          href="/routes/av-appa-rao-road-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Kakinada"}
-          href="/av-appa-rao-road-to-kakinada-transport"
+          href="/routes/av-appa-rao-road-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Anantapur"}
-          href="/av-appa-rao-road-to-anantapur-transport"
+          href="/routes/av-appa-rao-road-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Kadapa"}
-          href="/av-appa-rao-road-to-kadapa-transport"
+          href="/routes/av-appa-rao-road-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Chennai"}
-          href="/av-appa-rao-road-to-chennai-transport"
+          href="/routes/av-appa-rao-road-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Bengaluru"}
-          href="/av-appa-rao-road-to-bengaluru-transport"
+          href="/routes/av-appa-rao-road-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Hyderabad"}
-          href="/av-appa-rao-road-to-hyderabad-transport"
+          href="/routes/av-appa-rao-road-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Coimbatore"}
-          href="/av-appa-rao-road-to-coimbatore-transport"
+          href="/routes/av-appa-rao-road-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Salem"}
-          href="/av-appa-rao-road-to-salem-transport"
+          href="/routes/av-appa-rao-road-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Tiruppur"}
-          href="/av-appa-rao-road-to-tiruppur-transport"
+          href="/routes/av-appa-rao-road-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Mysuru"}
-          href="/av-appa-rao-road-to-mysuru-transport"
+          href="/routes/av-appa-rao-road-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Kochi"}
-          href="/av-appa-rao-road-to-kochi-transport"
+          href="/routes/av-appa-rao-road-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Thiruvananthapuram"}
-          href="/av-appa-rao-road-to-thiruvananthapuram-transport"
+          href="/routes/av-appa-rao-road-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Mumbai"}
-          href="/av-appa-rao-road-to-mumbai-transport"
+          href="/routes/av-appa-rao-road-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Pune"}
-          href="/av-appa-rao-road-to-pune-transport"
+          href="/routes/av-appa-rao-road-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Vellore"}
-          href="/av-appa-rao-road-to-vellore-transport"
+          href="/routes/av-appa-rao-road-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Hosur"}
-          href="/av-appa-rao-road-to-hosur-transport"
+          href="/routes/av-appa-rao-road-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Krishnagiri"}
-          href="/av-appa-rao-road-to-krishnagiri-transport"
+          href="/routes/av-appa-rao-road-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"AV Appa Rao Road to Madurai"}
-          href="/av-appa-rao-road-to-madurai-transport"
+          href="/routes/av-appa-rao-road-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to AV Appa Rao Road"}
-          href="/visakhapatnam-to-av-appa-rao-road-transport"
+          href="/routes/visakhapatnam-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to AV Appa Rao Road"}
-          href="/vijayawada-to-av-appa-rao-road-transport"
+          href="/routes/vijayawada-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to AV Appa Rao Road"}
-          href="/guntur-to-av-appa-rao-road-transport"
+          href="/routes/guntur-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to AV Appa Rao Road"}
-          href="/tirupati-to-av-appa-rao-road-transport"
+          href="/routes/tirupati-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to AV Appa Rao Road"}
-          href="/nellore-to-av-appa-rao-road-transport"
+          href="/routes/nellore-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to AV Appa Rao Road"}
-          href="/kurnool-to-av-appa-rao-road-transport"
+          href="/routes/kurnool-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to AV Appa Rao Road"}
-          href="/rajamahendravaram-to-av-appa-rao-road-transport"
+          href="/routes/rajamahendravaram-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to AV Appa Rao Road"}
-          href="/kakinada-to-av-appa-rao-road-transport"
+          href="/routes/kakinada-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to AV Appa Rao Road"}
-          href="/anantapur-to-av-appa-rao-road-transport"
+          href="/routes/anantapur-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to AV Appa Rao Road"}
-          href="/kadapa-to-av-appa-rao-road-transport"
+          href="/routes/kadapa-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to AV Appa Rao Road"}
-          href="/chennai-to-av-appa-rao-road-transport"
+          href="/routes/chennai-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to AV Appa Rao Road"}
-          href="/bengaluru-to-av-appa-rao-road-transport"
+          href="/routes/bengaluru-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to AV Appa Rao Road"}
-          href="/hyderabad-to-av-appa-rao-road-transport"
+          href="/routes/hyderabad-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to AV Appa Rao Road"}
-          href="/coimbatore-to-av-appa-rao-road-transport"
+          href="/routes/coimbatore-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to AV Appa Rao Road"}
-          href="/salem-to-av-appa-rao-road-transport"
+          href="/routes/salem-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to AV Appa Rao Road"}
-          href="/tiruppur-to-av-appa-rao-road-transport"
+          href="/routes/tiruppur-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to AV Appa Rao Road"}
-          href="/mysuru-to-av-appa-rao-road-transport"
+          href="/routes/mysuru-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to AV Appa Rao Road"}
-          href="/kochi-to-av-appa-rao-road-transport"
+          href="/routes/kochi-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to AV Appa Rao Road"}
-          href="/thiruvananthapuram-to-av-appa-rao-road-transport"
+          href="/routes/thiruvananthapuram-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to AV Appa Rao Road"}
-          href="/mumbai-to-av-appa-rao-road-transport"
+          href="/routes/mumbai-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to AV Appa Rao Road"}
-          href="/pune-to-av-appa-rao-road-transport"
+          href="/routes/pune-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to AV Appa Rao Road"}
-          href="/vellore-to-av-appa-rao-road-transport"
+          href="/routes/vellore-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to AV Appa Rao Road"}
-          href="/hosur-to-av-appa-rao-road-transport"
+          href="/routes/hosur-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to AV Appa Rao Road"}
-          href="/krishnagiri-to-av-appa-rao-road-transport"
+          href="/routes/krishnagiri-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to AV Appa Rao Road"}
-          href="/madurai-to-av-appa-rao-road-transport"
+          href="/routes/madurai-transport/av-appa-rao-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

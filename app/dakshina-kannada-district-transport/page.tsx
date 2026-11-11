@@ -428,7 +428,117 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/dakshina-kannada-district-transport/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mulki"}
+          href="/routes/dakshina-kannada-district-transport/mulki-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mulki
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Moodabidri"}
+          href="/routes/dakshina-kannada-district-transport/moodabidri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Moodabidri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Ullal"}
+          href="/routes/dakshina-kannada-district-transport/ullal-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Ullal
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Bantwal"}
+          href="/routes/dakshina-kannada-district-transport/bantwal-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bantwal
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Beltangady"}
+          href="/routes/dakshina-kannada-district-transport/beltangady-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Beltangady
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Puttur"}
+          href="/routes/dakshina-kannada-district-transport/puttur-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Puttur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Sullia"}
+          href="/routes/dakshina-kannada-district-transport/sullia-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Sullia
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dakshina Kannada to Bengaluru"}
+          href="/routes/dakshina-kannada-transport/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Dakshina Kannada to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dakshina Kannada to Mysuru"}
+          href="/routes/dakshina-kannada-transport/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Dakshina Kannada to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dakshina Kannada to Mangaluru"}
+          href="/routes/dakshina-kannada-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -438,265 +548,155 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
         </Link>
 
         <Link
-          key={"Mulki"}
-          href="/mulki-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Mulki
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Moodabidri"}
-          href="/moodabidri-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Moodabidri
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Ullal"}
-          href="/ullal-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Ullal
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Bantwal"}
-          href="/bantwal-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Bantwal
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Beltangady"}
-          href="/beltangady-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Beltangady
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Puttur"}
-          href="/puttur-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Puttur
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Sullia"}
-          href="/sullia-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Sullia
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dakshina Kannada to Bengaluru"}
-          href="/dakshina-kannada-to-bengaluru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Bengaluru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dakshina Kannada to Mysuru"}
-          href="/dakshina-kannada-to-mysuru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Mysuru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dakshina Kannada to Mangaluru"}
-          href="/dakshina-kannada-to-mangaluru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Mangaluru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
           key={"Dakshina Kannada to Hubballi"}
-          href="/dakshina-kannada-to-hubballi-transport"
+          href="/routes/dakshina-kannada-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Hubballi
+            Dakshina Kannada to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Belagavi"}
-          href="/dakshina-kannada-to-belagavi-transport"
+          href="/routes/dakshina-kannada-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Belagavi
+            Dakshina Kannada to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Chennai"}
-          href="/dakshina-kannada-to-chennai-transport"
+          href="/routes/dakshina-kannada-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Chennai
+            Dakshina Kannada to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Hyderabad"}
-          href="/dakshina-kannada-to-hyderabad-transport"
+          href="/routes/dakshina-kannada-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Hyderabad
+            Dakshina Kannada to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Kochi"}
-          href="/dakshina-kannada-to-kochi-transport"
+          href="/routes/dakshina-kannada-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Kochi
+            Dakshina Kannada to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Coimbatore"}
-          href="/dakshina-kannada-to-coimbatore-transport"
+          href="/routes/dakshina-kannada-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Coimbatore
+            Dakshina Kannada to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Tiruppur"}
-          href="/dakshina-kannada-to-tiruppur-transport"
+          href="/routes/dakshina-kannada-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Tiruppur
+            Dakshina Kannada to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Salem"}
-          href="/dakshina-kannada-to-salem-transport"
+          href="/routes/dakshina-kannada-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Salem
+            Dakshina Kannada to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Hosur"}
-          href="/dakshina-kannada-to-hosur-transport"
+          href="/routes/dakshina-kannada-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Hosur
+            Dakshina Kannada to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Tumakuru"}
-          href="/dakshina-kannada-to-tumakuru-transport"
+          href="/routes/dakshina-kannada-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Tumakuru
+            Dakshina Kannada to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Davanagere"}
-          href="/dakshina-kannada-to-davanagere-transport"
+          href="/routes/dakshina-kannada-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Davanagere
+            Dakshina Kannada to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Shivamogga"}
-          href="/dakshina-kannada-to-shivamogga-transport"
+          href="/routes/dakshina-kannada-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Shivamogga
+            Dakshina Kannada to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Hassan"}
-          href="/dakshina-kannada-to-hassan-transport"
+          href="/routes/dakshina-kannada-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Hassan
+            Dakshina Kannada to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dakshina Kannada to Kolar"}
-          href="/dakshina-kannada-to-kolar-transport"
+          href="/routes/dakshina-kannada-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dakshina Kannada to Dakshina Kannada to Kolar
+            Dakshina Kannada to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -720,7 +720,117 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Mangaluru"}
-          href="/mangaluru-transport"
+          href="/routes/mangaluru-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mulki"}
+          href="/routes/mulki-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mulki
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Moodabidri"}
+          href="/routes/moodabidri-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Moodabidri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Ullal"}
+          href="/routes/ullal-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Ullal
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Bantwal"}
+          href="/routes/bantwal-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bantwal
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Beltangady"}
+          href="/routes/beltangady-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Beltangady
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Puttur"}
+          href="/routes/puttur-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Puttur
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Sullia"}
+          href="/routes/sullia-transport/dakshina-kannada-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Sullia
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Bengaluru to Dakshina Kannada"}
+          href="/routes/bengaluru-transport/dakshina-kannada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Dakshina Kannada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru to Dakshina Kannada"}
+          href="/routes/mysuru-transport/dakshina-kannada-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Dakshina Kannada
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru to Dakshina Kannada"}
+          href="/routes/mangaluru-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -730,265 +840,155 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
         </Link>
 
         <Link
-          key={"Mulki"}
-          href="/mulki-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mulki to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Moodabidri"}
-          href="/moodabidri-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Moodabidri to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Ullal"}
-          href="/ullal-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ullal to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Bantwal"}
-          href="/bantwal-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bantwal to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Beltangady"}
-          href="/beltangady-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Beltangady to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Puttur"}
-          href="/puttur-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Puttur to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Sullia"}
-          href="/sullia-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Sullia to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Bengaluru to Dakshina Kannada"}
-          href="/bengaluru-to-dakshina-kannada-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Dakshina Kannada to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Mysuru to Dakshina Kannada"}
-          href="/mysuru-to-dakshina-kannada-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Dakshina Kannada to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Mangaluru to Dakshina Kannada"}
-          href="/mangaluru-to-dakshina-kannada-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Dakshina Kannada to Dakshina Kannada
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
           key={"Hubballi to Dakshina Kannada"}
-          href="/hubballi-to-dakshina-kannada-transport"
+          href="/routes/hubballi-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Dakshina Kannada to Dakshina Kannada
+            Hubballi to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Dakshina Kannada"}
-          href="/belagavi-to-dakshina-kannada-transport"
+          href="/routes/belagavi-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Dakshina Kannada to Dakshina Kannada
+            Belagavi to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Dakshina Kannada"}
-          href="/chennai-to-dakshina-kannada-transport"
+          href="/routes/chennai-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Dakshina Kannada to Dakshina Kannada
+            Chennai to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Dakshina Kannada"}
-          href="/hyderabad-to-dakshina-kannada-transport"
+          href="/routes/hyderabad-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Dakshina Kannada to Dakshina Kannada
+            Hyderabad to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Dakshina Kannada"}
-          href="/kochi-to-dakshina-kannada-transport"
+          href="/routes/kochi-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Dakshina Kannada to Dakshina Kannada
+            Kochi to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Dakshina Kannada"}
-          href="/coimbatore-to-dakshina-kannada-transport"
+          href="/routes/coimbatore-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Dakshina Kannada to Dakshina Kannada
+            Coimbatore to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Dakshina Kannada"}
-          href="/tiruppur-to-dakshina-kannada-transport"
+          href="/routes/tiruppur-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Dakshina Kannada to Dakshina Kannada
+            Tiruppur to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Dakshina Kannada"}
-          href="/salem-to-dakshina-kannada-transport"
+          href="/routes/salem-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Dakshina Kannada to Dakshina Kannada
+            Salem to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Dakshina Kannada"}
-          href="/hosur-to-dakshina-kannada-transport"
+          href="/routes/hosur-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Dakshina Kannada to Dakshina Kannada
+            Hosur to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Dakshina Kannada"}
-          href="/tumakuru-to-dakshina-kannada-transport"
+          href="/routes/tumakuru-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Dakshina Kannada to Dakshina Kannada
+            Tumakuru to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Dakshina Kannada"}
-          href="/davanagere-to-dakshina-kannada-transport"
+          href="/routes/davanagere-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Dakshina Kannada to Dakshina Kannada
+            Davanagere to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Dakshina Kannada"}
-          href="/shivamogga-to-dakshina-kannada-transport"
+          href="/routes/shivamogga-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Dakshina Kannada to Dakshina Kannada
+            Shivamogga to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Dakshina Kannada"}
-          href="/hassan-to-dakshina-kannada-transport"
+          href="/routes/hassan-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Dakshina Kannada to Dakshina Kannada
+            Hassan to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Dakshina Kannada"}
-          href="/kolar-to-dakshina-kannada-transport"
+          href="/routes/kolar-transport/dakshina-kannada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Dakshina Kannada to Dakshina Kannada
+            Kolar to Dakshina Kannada
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1005,10 +1005,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Dakshina Kannada
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

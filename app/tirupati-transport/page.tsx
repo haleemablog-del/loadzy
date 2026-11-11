@@ -31,15 +31,15 @@ const services = [
 ];
 
 const routes = [
-  ["Tirupati → Chennai", "/routes/tirupati/chennai"],
-  ["Chennai → Tirupati", "/routes/chennai/tirupati"],
-  ["Tirupati → Bangalore", "/routes/tirupati/bangalore"],
-  ["Bangalore → Tirupati", "/routes/bangalore/tirupati"],
-  ["Tirupati → Vellore", "/routes/tirupati/vellore"],
-  ["Vellore → Tirupati", "/routes/vellore/tirupati"],
-  ["Tirupati → Vaniyambadi", "/routes/tirupati/vaniyambadi"],
-  ["Tirupati → Ambur", "/routes/tirupati/ambur"],
-  ["Tirupati → Tirupattur", "/routes/tirupati/tirupattur"],
+  ["Tirupati → Chennai", "/routes/tirupati-transport/chennai-transport"],
+  ["Chennai → Tirupati", "/routes/chennai-transport/tirupati-transport"],
+  ["Tirupati → Bangalore", "/routes/tirupati-transport/bangalore-transport"],
+  ["Bangalore → Tirupati", "/routes/bangalore-transport/tirupati-transport"],
+  ["Tirupati → Vellore", "/routes/tirupati-transport/vellore-transport"],
+  ["Vellore → Tirupati", "/routes/vellore-transport/tirupati-transport"],
+  ["Tirupati → Vaniyambadi", "/routes/tirupati-transport/vaniyambadi-transport"],
+  ["Tirupati → Ambur", "/routes/tirupati-transport/ambur-transport"],
+  ["Tirupati → Tirupattur", "/routes/tirupati-transport/tirupattur-transport"],
 ];
 
 const faqs = [

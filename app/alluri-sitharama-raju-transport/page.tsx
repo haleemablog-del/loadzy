@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Visakhapatnam"}
-          href="/alluri-sitharama-raju-to-visakhapatnam-transport"
+          href="/routes/alluri-sitharama-raju-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Vijayawada"}
-          href="/alluri-sitharama-raju-to-vijayawada-transport"
+          href="/routes/alluri-sitharama-raju-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Guntur"}
-          href="/alluri-sitharama-raju-to-guntur-transport"
+          href="/routes/alluri-sitharama-raju-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Tirupati"}
-          href="/alluri-sitharama-raju-to-tirupati-transport"
+          href="/routes/alluri-sitharama-raju-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Nellore"}
-          href="/alluri-sitharama-raju-to-nellore-transport"
+          href="/routes/alluri-sitharama-raju-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Kurnool"}
-          href="/alluri-sitharama-raju-to-kurnool-transport"
+          href="/routes/alluri-sitharama-raju-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Rajamahendravaram"}
-          href="/alluri-sitharama-raju-to-rajamahendravaram-transport"
+          href="/routes/alluri-sitharama-raju-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Kakinada"}
-          href="/alluri-sitharama-raju-to-kakinada-transport"
+          href="/routes/alluri-sitharama-raju-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Anantapur"}
-          href="/alluri-sitharama-raju-to-anantapur-transport"
+          href="/routes/alluri-sitharama-raju-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Kadapa"}
-          href="/alluri-sitharama-raju-to-kadapa-transport"
+          href="/routes/alluri-sitharama-raju-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Chennai"}
-          href="/alluri-sitharama-raju-to-chennai-transport"
+          href="/routes/alluri-sitharama-raju-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Bengaluru"}
-          href="/alluri-sitharama-raju-to-bengaluru-transport"
+          href="/routes/alluri-sitharama-raju-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Hyderabad"}
-          href="/alluri-sitharama-raju-to-hyderabad-transport"
+          href="/routes/alluri-sitharama-raju-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Coimbatore"}
-          href="/alluri-sitharama-raju-to-coimbatore-transport"
+          href="/routes/alluri-sitharama-raju-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Salem"}
-          href="/alluri-sitharama-raju-to-salem-transport"
+          href="/routes/alluri-sitharama-raju-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Tiruppur"}
-          href="/alluri-sitharama-raju-to-tiruppur-transport"
+          href="/routes/alluri-sitharama-raju-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Mysuru"}
-          href="/alluri-sitharama-raju-to-mysuru-transport"
+          href="/routes/alluri-sitharama-raju-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Kochi"}
-          href="/alluri-sitharama-raju-to-kochi-transport"
+          href="/routes/alluri-sitharama-raju-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Thiruvananthapuram"}
-          href="/alluri-sitharama-raju-to-thiruvananthapuram-transport"
+          href="/routes/alluri-sitharama-raju-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Mumbai"}
-          href="/alluri-sitharama-raju-to-mumbai-transport"
+          href="/routes/alluri-sitharama-raju-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Pune"}
-          href="/alluri-sitharama-raju-to-pune-transport"
+          href="/routes/alluri-sitharama-raju-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Vellore"}
-          href="/alluri-sitharama-raju-to-vellore-transport"
+          href="/routes/alluri-sitharama-raju-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Hosur"}
-          href="/alluri-sitharama-raju-to-hosur-transport"
+          href="/routes/alluri-sitharama-raju-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Krishnagiri"}
-          href="/alluri-sitharama-raju-to-krishnagiri-transport"
+          href="/routes/alluri-sitharama-raju-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alluri Sitharama Raju to Madurai"}
-          href="/alluri-sitharama-raju-to-madurai-transport"
+          href="/routes/alluri-sitharama-raju-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Alluri Sitharama Raju"}
-          href="/visakhapatnam-to-alluri-sitharama-raju-transport"
+          href="/routes/visakhapatnam-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Alluri Sitharama Raju"}
-          href="/vijayawada-to-alluri-sitharama-raju-transport"
+          href="/routes/vijayawada-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Alluri Sitharama Raju"}
-          href="/guntur-to-alluri-sitharama-raju-transport"
+          href="/routes/guntur-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Alluri Sitharama Raju"}
-          href="/tirupati-to-alluri-sitharama-raju-transport"
+          href="/routes/tirupati-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Alluri Sitharama Raju"}
-          href="/nellore-to-alluri-sitharama-raju-transport"
+          href="/routes/nellore-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Alluri Sitharama Raju"}
-          href="/kurnool-to-alluri-sitharama-raju-transport"
+          href="/routes/kurnool-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Alluri Sitharama Raju"}
-          href="/rajamahendravaram-to-alluri-sitharama-raju-transport"
+          href="/routes/rajamahendravaram-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Alluri Sitharama Raju"}
-          href="/kakinada-to-alluri-sitharama-raju-transport"
+          href="/routes/kakinada-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Alluri Sitharama Raju"}
-          href="/anantapur-to-alluri-sitharama-raju-transport"
+          href="/routes/anantapur-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Alluri Sitharama Raju"}
-          href="/kadapa-to-alluri-sitharama-raju-transport"
+          href="/routes/kadapa-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Alluri Sitharama Raju"}
-          href="/chennai-to-alluri-sitharama-raju-transport"
+          href="/routes/chennai-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Alluri Sitharama Raju"}
-          href="/bengaluru-to-alluri-sitharama-raju-transport"
+          href="/routes/bengaluru-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Alluri Sitharama Raju"}
-          href="/hyderabad-to-alluri-sitharama-raju-transport"
+          href="/routes/hyderabad-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Alluri Sitharama Raju"}
-          href="/coimbatore-to-alluri-sitharama-raju-transport"
+          href="/routes/coimbatore-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Alluri Sitharama Raju"}
-          href="/salem-to-alluri-sitharama-raju-transport"
+          href="/routes/salem-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Alluri Sitharama Raju"}
-          href="/tiruppur-to-alluri-sitharama-raju-transport"
+          href="/routes/tiruppur-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Alluri Sitharama Raju"}
-          href="/mysuru-to-alluri-sitharama-raju-transport"
+          href="/routes/mysuru-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Alluri Sitharama Raju"}
-          href="/kochi-to-alluri-sitharama-raju-transport"
+          href="/routes/kochi-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Alluri Sitharama Raju"}
-          href="/thiruvananthapuram-to-alluri-sitharama-raju-transport"
+          href="/routes/thiruvananthapuram-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Alluri Sitharama Raju"}
-          href="/mumbai-to-alluri-sitharama-raju-transport"
+          href="/routes/mumbai-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Alluri Sitharama Raju"}
-          href="/pune-to-alluri-sitharama-raju-transport"
+          href="/routes/pune-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Alluri Sitharama Raju"}
-          href="/vellore-to-alluri-sitharama-raju-transport"
+          href="/routes/vellore-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Alluri Sitharama Raju"}
-          href="/hosur-to-alluri-sitharama-raju-transport"
+          href="/routes/hosur-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Alluri Sitharama Raju"}
-          href="/krishnagiri-to-alluri-sitharama-raju-transport"
+          href="/routes/krishnagiri-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Alluri Sitharama Raju"}
-          href="/madurai-to-alluri-sitharama-raju-transport"
+          href="/routes/madurai-transport/alluri-sitharama-raju-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

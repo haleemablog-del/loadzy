@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+
+const toRouteSlug = (value: string) =>
+  `${value.trim().toLowerCase().replace(/-transport$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-transport`;
+
 export const metadata: Metadata = {
   title: "Minjur Transport Service | Truck Booking | LOADZY",
   description:
@@ -162,7 +166,7 @@ export default function MinjurTransportPage() {
             {routes.map((route, index) => (
               <Link
                 key={`${route.from}-${route.to}-${index}`}
-                href={`/${route.slug}`}
+                href={`/routes/${toRouteSlug(route.from)}/${toRouteSlug(route.to)}`}
                 className="rounded-lg border border-slate-200 bg-white p-4 hover:border-teal-500"
               >
                 <span className="font-semibold">{route.from}</span>

@@ -61,12 +61,65 @@ const targetKarnatakaDistricts = process.argv.includes(
 const targetAnekalMissing = process.argv.includes(
   "--target-anekal-missing"
 );
+const anekalMissingSlugs = new Set([
+  "anekal-transport",
+  "attibele-transport",
+  "chandapura-transport",
+  "bommasandra-industrial-area-transport",
+  "jigani-transport",
+  "electronic-city-phase-1-transport",
+  "electronic-city-phase-2-transport",
+  "hebbagodi-transport",
+  "singasandra-transport",
+  "begur-transport",
+  "bannerghatta-transport",
+  "hulimangala-transport",
+  "hennagara-transport",
+  "haragadde-transport",
+  "bommasandra-transport",
+  "muthanallur-transport",
+  "suryanagar-transport",
+  "neeladri-nagar-transport",
+  "konappana-agrahara-transport",
+  "doddathoguru-transport",
+  "veerasandra-transport",
+  "bettadasanapura-transport",
+  "kammasandra-transport",
+  "ananth-nagar-transport",
+  "huskur-road-transport",
+  "rayasandra-transport",
+  "gollahalli-transport",
+  "chandapura-circle-transport",
+  "attibele-industrial-area-transport",
+]);
+const targetKarnatakaAll = process.argv.includes(
+  "--target-karnataka-all"
+);
+
 const targetKarnatakaDistrictPages = process.argv.includes(
   "--target-karnataka-district-pages"
 );
 const targetAndhraPradeshBatch = process.argv.includes(
   "--target-andhra-pradesh-batch"
 );
+
+const targetTelanganaBatch = process.argv.includes(
+  "--target-telangana-batch"
+);
+const targetTelanganaDistrictPages = process.argv.includes(
+  "--target-telangana-district-pages"
+);
+
+const telanganaDistrictPageSlugs = new Set([
+  "bhadradri-kothagudem-transport",
+  "jayashankar-bhupalpally-transport",
+  "jogulamba-gadwal-transport",
+  "kumuram-bheem-asifabad-transport",
+  "medchal-malkajgiri-transport",
+  "rajanna-sircilla-transport",
+  "rangareddy-transport",
+  "yadadri-bhuvanagiri-transport",
+]);
 
 const karnatakaDistrictSlugs = new Set([
   "gundlupet-transport",
@@ -491,8 +544,10 @@ function escapeJsxText(value) {
     .replace(/\}/g, "&#125;");
 }
 
-
-function makeRouteCards(routes, getLabel) {
+function toTransportSlug(value) {
+  return `${slugify(value).replace(/(?:-transport)+$/, "")}-transport`;
+}
+function makeRouteCards(routes, location, direction, getLabel) {
   if (!routes.length) {
     return `
       <p className="col-span-full text-slate-600">
@@ -500,10 +555,33 @@ function makeRouteCards(routes, getLabel) {
       </p>`;
   }
 
+  const originSlug = toTransportSlug(getBaseSlug(location));
+
   return routes
     .map((route) => {
+      const routeText = String(route).trim();
       const label = escapeJsxText(getLabel(route));
-      const href = `/${slugify(route)}-transport`;
+
+      // Detect complete routes such as "Ambur to Bangalore".
+      const parts = routeText.split(
+  /\s+to\s+|\s*->\s*|\s*\/\s*/i
+);
+
+      let fromSlug;
+      let toSlug;
+
+      if (parts.length === 2 && parts[0].trim() && parts[1].trim()) {
+        fromSlug = toTransportSlug(parts[0]);
+toSlug = toTransportSlug(parts[1]);
+      } else if (direction === "forward") {
+        fromSlug = originSlug;
+        toSlug = toTransportSlug(routeText);
+      } else {
+        fromSlug = toTransportSlug(routeText);
+        toSlug = originSlug;
+      }
+
+      const href = `/routes/${fromSlug}/${toSlug}`;
 
       return `
         <Link
@@ -521,7 +599,6 @@ function makeRouteCards(routes, getLabel) {
 }
 
 
-
 function makeRoutesSection(location) {
   const name = escapeJsxText(String(location.name).trim());
 
@@ -530,14 +607,24 @@ function makeRoutesSection(location) {
 
   // Kerala routes already contain complete origin and destination names.
   const forwardItems = makeRouteCards(
-    forwardRoutes,
-    (route) => String(route)
-  );
+  forwardRoutes,
+  location,
+  "forward",
+  (route) =>
+    targetTelanganaBatch
+      ? `${location.name} / ${route}`
+      : String(route)
+);
 
-  const returnItems = makeRouteCards(
-    returnRoutes,
-    (route) => String(route)
-  );
+const returnItems = makeRouteCards(
+  returnRoutes,
+  location,
+  "return",
+  (route) =>
+    targetTelanganaBatch
+      ? `${route} / ${location.name}`
+      : String(route)
+);
 
   return `
       {/* FORWARD ROUTES */}
@@ -704,7 +791,10 @@ function makePage(location) {
   );
 
   const destinations = getList(location.routes, 25);
-  const nearbyAreas = getList(location.nearbyAreas, 40);
+  const nearbyAreas = getList(
+  location.nearbyAreas,
+  targetTelanganaBatch ? 10 : 40
+);
 
   if (destinations.length) {
     page = replaceArray(page, "destinations", destinations);
@@ -759,6 +849,7 @@ function validateLocation(location) {
 
   const name = String(location.name ?? "").trim();
   const slug = getSlug(location);
+  
 
   if (!name) {
     return "Missing location name.";
@@ -788,6 +879,17 @@ const seenSlugs = new Set();
 
 for (const location of locations) {
   const slug = getSlug(location);
+
+    if (
+    targetTelanganaDistrictPages &&
+    !telanganaDistrictPageSlugs.has(slug)
+  ) {
+    continue;
+  } 
+  
+  if (targetKarnatakaAll && location.state !== "Karnataka") {
+  continue;
+}
   if (
   targetKarnatakaDistrictPages &&
   location.state === "Karnataka" &&
@@ -846,6 +948,16 @@ if (
   (
     location.state !== "Andhra Pradesh" ||
     location.batchTag !== "andhra-pradesh-2026-11"
+  )
+) {
+  continue;
+}
+
+if (
+  targetTelanganaBatch &&
+  (
+    location.state !== "Telangana" ||
+    location.batchTag !== "telangana-2026-11"
   )
 ) {
   continue;
@@ -948,7 +1060,10 @@ fs.writeFileSync(formPath, newForm, "utf8");
   console.log(
     `  Routes: ${getList(location.routes, 25).length} forward, ` +
       `${getList(location.returnRoutes, 25).length} return; ` +
-      `nearby areas: ${getList(location.nearbyAreas, 40).length}`
+     `nearby areas: ${getList(
+  location.nearbyAreas,
+  targetTelanganaBatch ? 10 : 40
+).length}`
   );
 }
 

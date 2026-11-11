@@ -423,275 +423,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Yelburga"}
-          href="/yelburga-transport"
+          href="/routes/koppal-district-transport/yelburga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Yelburga
+            Yelburga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushtagi"}
-          href="/kushtagi-transport"
+          href="/routes/koppal-district-transport/kushtagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Kushtagi
+            Kushtagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gangavathi"}
-          href="/gangavathi-transport"
+          href="/routes/koppal-district-transport/gangavathi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Gangavathi
+            Gangavathi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Bengaluru"}
-          href="/koppal-to-bengaluru-transport"
+          href="/routes/koppal-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Bengaluru
+            Koppal to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Mysuru"}
-          href="/koppal-to-mysuru-transport"
+          href="/routes/koppal-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Mysuru
+            Koppal to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Mangaluru"}
-          href="/koppal-to-mangaluru-transport"
+          href="/routes/koppal-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Mangaluru
+            Koppal to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Hubballi"}
-          href="/koppal-to-hubballi-transport"
+          href="/routes/koppal-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Hubballi
+            Koppal to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Belagavi"}
-          href="/koppal-to-belagavi-transport"
+          href="/routes/koppal-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Belagavi
+            Koppal to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Chennai"}
-          href="/koppal-to-chennai-transport"
+          href="/routes/koppal-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Chennai
+            Koppal to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Hyderabad"}
-          href="/koppal-to-hyderabad-transport"
+          href="/routes/koppal-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Hyderabad
+            Koppal to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Kochi"}
-          href="/koppal-to-kochi-transport"
+          href="/routes/koppal-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Kochi
+            Koppal to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Coimbatore"}
-          href="/koppal-to-coimbatore-transport"
+          href="/routes/koppal-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Coimbatore
+            Koppal to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Tiruppur"}
-          href="/koppal-to-tiruppur-transport"
+          href="/routes/koppal-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Tiruppur
+            Koppal to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Salem"}
-          href="/koppal-to-salem-transport"
+          href="/routes/koppal-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Salem
+            Koppal to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Hosur"}
-          href="/koppal-to-hosur-transport"
+          href="/routes/koppal-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Hosur
+            Koppal to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Tumakuru"}
-          href="/koppal-to-tumakuru-transport"
+          href="/routes/koppal-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Tumakuru
+            Koppal to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Davanagere"}
-          href="/koppal-to-davanagere-transport"
+          href="/routes/koppal-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Davanagere
+            Koppal to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Shivamogga"}
-          href="/koppal-to-shivamogga-transport"
+          href="/routes/koppal-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Shivamogga
+            Koppal to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Hassan"}
-          href="/koppal-to-hassan-transport"
+          href="/routes/koppal-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Hassan
+            Koppal to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Kolar"}
-          href="/koppal-to-kolar-transport"
+          href="/routes/koppal-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Kolar
+            Koppal to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Vijayapura"}
-          href="/koppal-to-vijayapura-transport"
+          href="/routes/koppal-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Vijayapura
+            Koppal to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Kalaburagi"}
-          href="/koppal-to-kalaburagi-transport"
+          href="/routes/koppal-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Kalaburagi
+            Koppal to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Raichur"}
-          href="/koppal-to-raichur-transport"
+          href="/routes/koppal-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Raichur
+            Koppal to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Pune"}
-          href="/koppal-to-pune-transport"
+          href="/routes/koppal-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Pune
+            Koppal to Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Koppal to Mumbai"}
-          href="/koppal-to-mumbai-transport"
+          href="/routes/koppal-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Koppal to Mumbai
+            Koppal to Mumbai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -715,275 +715,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Yelburga"}
-          href="/yelburga-transport"
+          href="/routes/yelburga-transport/koppal-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yelburga to Koppal
+            Yelburga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushtagi"}
-          href="/kushtagi-transport"
+          href="/routes/kushtagi-transport/koppal-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kushtagi to Koppal
+            Kushtagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gangavathi"}
-          href="/gangavathi-transport"
+          href="/routes/gangavathi-transport/koppal-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gangavathi to Koppal
+            Gangavathi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Koppal"}
-          href="/bengaluru-to-koppal-transport"
+          href="/routes/bengaluru-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Koppal to Koppal
+            Bengaluru to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Koppal"}
-          href="/mysuru-to-koppal-transport"
+          href="/routes/mysuru-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Koppal to Koppal
+            Mysuru to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Koppal"}
-          href="/mangaluru-to-koppal-transport"
+          href="/routes/mangaluru-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Koppal to Koppal
+            Mangaluru to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Koppal"}
-          href="/hubballi-to-koppal-transport"
+          href="/routes/hubballi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Koppal to Koppal
+            Hubballi to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Koppal"}
-          href="/belagavi-to-koppal-transport"
+          href="/routes/belagavi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Koppal to Koppal
+            Belagavi to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Koppal"}
-          href="/chennai-to-koppal-transport"
+          href="/routes/chennai-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Koppal to Koppal
+            Chennai to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Koppal"}
-          href="/hyderabad-to-koppal-transport"
+          href="/routes/hyderabad-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Koppal to Koppal
+            Hyderabad to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Koppal"}
-          href="/kochi-to-koppal-transport"
+          href="/routes/kochi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Koppal to Koppal
+            Kochi to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Koppal"}
-          href="/coimbatore-to-koppal-transport"
+          href="/routes/coimbatore-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Koppal to Koppal
+            Coimbatore to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Koppal"}
-          href="/tiruppur-to-koppal-transport"
+          href="/routes/tiruppur-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Koppal to Koppal
+            Tiruppur to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Koppal"}
-          href="/salem-to-koppal-transport"
+          href="/routes/salem-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Koppal to Koppal
+            Salem to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Koppal"}
-          href="/hosur-to-koppal-transport"
+          href="/routes/hosur-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Koppal to Koppal
+            Hosur to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Koppal"}
-          href="/tumakuru-to-koppal-transport"
+          href="/routes/tumakuru-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Koppal to Koppal
+            Tumakuru to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Koppal"}
-          href="/davanagere-to-koppal-transport"
+          href="/routes/davanagere-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Koppal to Koppal
+            Davanagere to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Koppal"}
-          href="/shivamogga-to-koppal-transport"
+          href="/routes/shivamogga-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Koppal to Koppal
+            Shivamogga to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Koppal"}
-          href="/hassan-to-koppal-transport"
+          href="/routes/hassan-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Koppal to Koppal
+            Hassan to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Koppal"}
-          href="/kolar-to-koppal-transport"
+          href="/routes/kolar-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Koppal to Koppal
+            Kolar to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Koppal"}
-          href="/vijayapura-to-koppal-transport"
+          href="/routes/vijayapura-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Koppal to Koppal
+            Vijayapura to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Koppal"}
-          href="/kalaburagi-to-koppal-transport"
+          href="/routes/kalaburagi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Koppal to Koppal
+            Kalaburagi to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Koppal"}
-          href="/raichur-to-koppal-transport"
+          href="/routes/raichur-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Koppal to Koppal
+            Raichur to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune to Koppal"}
-          href="/pune-to-koppal-transport"
+          href="/routes/pune-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Koppal to Koppal
+            Pune to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mumbai to Koppal"}
-          href="/mumbai-to-koppal-transport"
+          href="/routes/mumbai-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mumbai to Koppal to Koppal
+            Mumbai to Koppal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1000,10 +1000,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Koppal
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

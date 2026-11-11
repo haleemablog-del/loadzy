@@ -395,7 +395,7 @@ export default function HosurTransportPage() {
           
               <Link
                 key={"Bangalore"}
-                href="/load-search"
+                href="/routes/hosur-transport/bangalore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -406,7 +406,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Chennai"}
-                href="/load-search"
+                href="/routes/hosur-transport/chennai-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -417,7 +417,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Krishnagiri"}
-                href="/load-search"
+                href="/routes/hosur-transport/krishnagiri-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -428,7 +428,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Dharmapuri"}
-                href="/load-search"
+                href="/routes/hosur-transport/dharmapuri-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -439,7 +439,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Salem"}
-                href="/load-search"
+                href="/routes/hosur-transport/salem-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -450,7 +450,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Vellore"}
-                href="/load-search"
+                href="/routes/hosur-transport/vellore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -461,7 +461,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Ranipet"}
-                href="/load-search"
+                href="/routes/hosur-transport/ranipet-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -472,7 +472,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Coimbatore"}
-                href="/load-search"
+                href="/routes/hosur-transport/coimbatore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -483,7 +483,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Erode"}
-                href="/load-search"
+                href="/routes/hosur-transport/erode-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -494,7 +494,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Tiruppur"}
-                href="/load-search"
+                href="/routes/hosur-transport/tiruppur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -505,7 +505,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Tirupattur"}
-                href="/load-search"
+                href="/routes/hosur-transport/tirupattur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -516,7 +516,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Vaniyambadi"}
-                href="/load-search"
+                href="/routes/hosur-transport/vaniyambadi-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -527,7 +527,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Hyderabad"}
-                href="/load-search"
+                href="/routes/hosur-transport/hyderabad-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -538,7 +538,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Mysore"}
-                href="/load-search"
+                href="/routes/hosur-transport/mysore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -549,7 +549,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Madurai"}
-                href="/load-search"
+                href="/routes/hosur-transport/madurai-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -577,7 +577,7 @@ export default function HosurTransportPage() {
             
               <Link
                 key={"Bangalore"}
-                href="/load-search"
+                href="/routes/bangalore-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -588,7 +588,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Chennai"}
-                href="/load-search"
+                href="/routes/chennai-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -599,7 +599,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Krishnagiri"}
-                href="/load-search"
+                href="/routes/krishnagiri-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -610,7 +610,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Dharmapuri"}
-                href="/load-search"
+                href="/routes/dharmapuri-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -621,7 +621,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Salem"}
-                href="/load-search"
+                href="/routes/salem-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -632,7 +632,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Vellore"}
-                href="/load-search"
+                href="/routes/vellore-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -643,7 +643,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Ranipet"}
-                href="/load-search"
+                href="/routes/ranipet-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -654,7 +654,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Coimbatore"}
-                href="/load-search"
+                href="/routes/coimbatore-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -665,7 +665,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Erode"}
-                href="/load-search"
+                href="/routes/erode-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -676,7 +676,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Tiruppur"}
-                href="/load-search"
+                href="/routes/tiruppur-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -687,7 +687,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Tirupattur"}
-                href="/load-search"
+                href="/routes/tirupattur-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -698,7 +698,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Vaniyambadi"}
-                href="/load-search"
+                href="/routes/vaniyambadi-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -709,7 +709,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Hyderabad"}
-                href="/load-search"
+                href="/routes/hyderabad-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -720,7 +720,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Mysore"}
-                href="/load-search"
+                href="/routes/mysore-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -731,7 +731,7 @@ export default function HosurTransportPage() {
 
               <Link
                 key={"Madurai"}
-                href="/load-search"
+                href="/routes/madurai-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">

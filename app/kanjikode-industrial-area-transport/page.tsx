@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Thiruvananthapuram"}
-          href="/kanjikode-industrial-area-to-thiruvananthapuram-transport"
+          href="/routes/kanjikode-industrial-area-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kollam"}
-          href="/kanjikode-industrial-area-to-kollam-transport"
+          href="/routes/kanjikode-industrial-area-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Pathanamthitta"}
-          href="/kanjikode-industrial-area-to-pathanamthitta-transport"
+          href="/routes/kanjikode-industrial-area-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Alappuzha"}
-          href="/kanjikode-industrial-area-to-alappuzha-transport"
+          href="/routes/kanjikode-industrial-area-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kottayam"}
-          href="/kanjikode-industrial-area-to-kottayam-transport"
+          href="/routes/kanjikode-industrial-area-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Idukki"}
-          href="/kanjikode-industrial-area-to-idukki-transport"
+          href="/routes/kanjikode-industrial-area-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kochi"}
-          href="/kanjikode-industrial-area-to-kochi-transport"
+          href="/routes/kanjikode-industrial-area-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Thrissur"}
-          href="/kanjikode-industrial-area-to-thrissur-transport"
+          href="/routes/kanjikode-industrial-area-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Palakkad"}
-          href="/kanjikode-industrial-area-to-palakkad-transport"
+          href="/routes/kanjikode-industrial-area-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Malappuram"}
-          href="/kanjikode-industrial-area-to-malappuram-transport"
+          href="/routes/kanjikode-industrial-area-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kozhikode"}
-          href="/kanjikode-industrial-area-to-kozhikode-transport"
+          href="/routes/kanjikode-industrial-area-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Wayanad"}
-          href="/kanjikode-industrial-area-to-wayanad-transport"
+          href="/routes/kanjikode-industrial-area-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kannur"}
-          href="/kanjikode-industrial-area-to-kannur-transport"
+          href="/routes/kanjikode-industrial-area-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Kasaragod"}
-          href="/kanjikode-industrial-area-to-kasaragod-transport"
+          href="/routes/kanjikode-industrial-area-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Bengaluru"}
-          href="/kanjikode-industrial-area-to-bengaluru-transport"
+          href="/routes/kanjikode-industrial-area-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Chennai"}
-          href="/kanjikode-industrial-area-to-chennai-transport"
+          href="/routes/kanjikode-industrial-area-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Coimbatore"}
-          href="/kanjikode-industrial-area-to-coimbatore-transport"
+          href="/routes/kanjikode-industrial-area-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Madurai"}
-          href="/kanjikode-industrial-area-to-madurai-transport"
+          href="/routes/kanjikode-industrial-area-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Salem"}
-          href="/kanjikode-industrial-area-to-salem-transport"
+          href="/routes/kanjikode-industrial-area-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Tiruppur"}
-          href="/kanjikode-industrial-area-to-tiruppur-transport"
+          href="/routes/kanjikode-industrial-area-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Erode"}
-          href="/kanjikode-industrial-area-to-erode-transport"
+          href="/routes/kanjikode-industrial-area-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Mysuru"}
-          href="/kanjikode-industrial-area-to-mysuru-transport"
+          href="/routes/kanjikode-industrial-area-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Mangaluru"}
-          href="/kanjikode-industrial-area-to-mangaluru-transport"
+          href="/routes/kanjikode-industrial-area-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Hyderabad"}
-          href="/kanjikode-industrial-area-to-hyderabad-transport"
+          href="/routes/kanjikode-industrial-area-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kanjikode industrial area to Vijayawada"}
-          href="/kanjikode-industrial-area-to-vijayawada-transport"
+          href="/routes/kanjikode-industrial-area-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Kanjikode industrial area"}
-          href="/thiruvananthapuram-to-kanjikode-industrial-area-transport"
+          href="/routes/thiruvananthapuram-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to Kanjikode industrial area"}
-          href="/kollam-to-kanjikode-industrial-area-transport"
+          href="/routes/kollam-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to Kanjikode industrial area"}
-          href="/pathanamthitta-to-kanjikode-industrial-area-transport"
+          href="/routes/pathanamthitta-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to Kanjikode industrial area"}
-          href="/alappuzha-to-kanjikode-industrial-area-transport"
+          href="/routes/alappuzha-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to Kanjikode industrial area"}
-          href="/kottayam-to-kanjikode-industrial-area-transport"
+          href="/routes/kottayam-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to Kanjikode industrial area"}
-          href="/idukki-to-kanjikode-industrial-area-transport"
+          href="/routes/idukki-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Kanjikode industrial area"}
-          href="/kochi-to-kanjikode-industrial-area-transport"
+          href="/routes/kochi-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to Kanjikode industrial area"}
-          href="/thrissur-to-kanjikode-industrial-area-transport"
+          href="/routes/thrissur-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to Kanjikode industrial area"}
-          href="/palakkad-to-kanjikode-industrial-area-transport"
+          href="/routes/palakkad-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to Kanjikode industrial area"}
-          href="/malappuram-to-kanjikode-industrial-area-transport"
+          href="/routes/malappuram-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to Kanjikode industrial area"}
-          href="/kozhikode-to-kanjikode-industrial-area-transport"
+          href="/routes/kozhikode-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to Kanjikode industrial area"}
-          href="/wayanad-to-kanjikode-industrial-area-transport"
+          href="/routes/wayanad-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to Kanjikode industrial area"}
-          href="/kannur-to-kanjikode-industrial-area-transport"
+          href="/routes/kannur-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to Kanjikode industrial area"}
-          href="/kasaragod-to-kanjikode-industrial-area-transport"
+          href="/routes/kasaragod-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Kanjikode industrial area"}
-          href="/bengaluru-to-kanjikode-industrial-area-transport"
+          href="/routes/bengaluru-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Kanjikode industrial area"}
-          href="/chennai-to-kanjikode-industrial-area-transport"
+          href="/routes/chennai-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Kanjikode industrial area"}
-          href="/coimbatore-to-kanjikode-industrial-area-transport"
+          href="/routes/coimbatore-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Kanjikode industrial area"}
-          href="/madurai-to-kanjikode-industrial-area-transport"
+          href="/routes/madurai-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Kanjikode industrial area"}
-          href="/salem-to-kanjikode-industrial-area-transport"
+          href="/routes/salem-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Kanjikode industrial area"}
-          href="/tiruppur-to-kanjikode-industrial-area-transport"
+          href="/routes/tiruppur-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to Kanjikode industrial area"}
-          href="/erode-to-kanjikode-industrial-area-transport"
+          href="/routes/erode-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Kanjikode industrial area"}
-          href="/mysuru-to-kanjikode-industrial-area-transport"
+          href="/routes/mysuru-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to Kanjikode industrial area"}
-          href="/mangaluru-to-kanjikode-industrial-area-transport"
+          href="/routes/mangaluru-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Kanjikode industrial area"}
-          href="/hyderabad-to-kanjikode-industrial-area-transport"
+          href="/routes/hyderabad-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Kanjikode industrial area"}
-          href="/vijayawada-to-kanjikode-industrial-area-transport"
+          href="/routes/vijayawada-transport/kanjikode-industrial-area-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

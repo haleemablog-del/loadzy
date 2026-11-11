@@ -395,7 +395,7 @@ export default function AlangayamTransportPage() {
           
               <Link
                 key={"Vaniyambadi"}
-                href="/load-search"
+                href="/routes/alangayam-transport/vaniyambadi-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -406,7 +406,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Tirupattur"}
-                href="/load-search"
+                href="/routes/alangayam-transport/tirupattur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -417,7 +417,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Jolarpet"}
-                href="/load-search"
+                href="/routes/alangayam-transport/jolarpet-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -428,7 +428,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Natrampalli"}
-                href="/load-search"
+                href="/routes/alangayam-transport/natrampalli-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -439,7 +439,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Ambur"}
-                href="/load-search"
+                href="/routes/alangayam-transport/ambur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -450,7 +450,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Vellore"}
-                href="/load-search"
+                href="/routes/alangayam-transport/vellore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -461,7 +461,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Chennai"}
-                href="/load-search"
+                href="/routes/alangayam-transport/chennai-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -472,7 +472,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Bangalore"}
-                href="/load-search"
+                href="/routes/alangayam-transport/bangalore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -483,7 +483,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Hosur"}
-                href="/load-search"
+                href="/routes/alangayam-transport/hosur-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -494,7 +494,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Krishnagiri"}
-                href="/load-search"
+                href="/routes/alangayam-transport/krishnagiri-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -505,7 +505,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Salem"}
-                href="/load-search"
+                href="/routes/alangayam-transport/salem-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -516,7 +516,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Coimbatore"}
-                href="/load-search"
+                href="/routes/alangayam-transport/coimbatore-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -544,7 +544,7 @@ export default function AlangayamTransportPage() {
             
               <Link
                 key={"Vaniyambadi"}
-                href="/load-search"
+                href="/routes/vaniyambadi-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -555,7 +555,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Tirupattur"}
-                href="/load-search"
+                href="/routes/tirupattur-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -566,7 +566,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Jolarpet"}
-                href="/load-search"
+                href="/routes/jolarpet-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -577,7 +577,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Natrampalli"}
-                href="/load-search"
+                href="/routes/natrampalli-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -588,7 +588,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Ambur"}
-                href="/load-search"
+                href="/routes/ambur-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -599,7 +599,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Vellore"}
-                href="/load-search"
+                href="/routes/vellore-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -610,7 +610,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Chennai"}
-                href="/load-search"
+                href="/routes/chennai-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -621,7 +621,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Bangalore"}
-                href="/load-search"
+                href="/routes/bangalore-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -632,7 +632,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Hosur"}
-                href="/load-search"
+                href="/routes/hosur-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -643,7 +643,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Krishnagiri"}
-                href="/load-search"
+                href="/routes/krishnagiri-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -654,7 +654,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Salem"}
-                href="/load-search"
+                href="/routes/salem-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -665,7 +665,7 @@ export default function AlangayamTransportPage() {
 
               <Link
                 key={"Coimbatore"}
-                href="/load-search"
+                href="/routes/coimbatore-transport/alangayam-transport"
                 className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
               >
                 <span className="font-semibold text-slate-800 group-hover:text-teal-800">

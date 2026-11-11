@@ -31,14 +31,14 @@ const services = [
 ];
 
 const routes = [
-  ["Tiruppur → Chennai", "/routes/tiruppur/chennai"],
-  ["Tiruppur → Bangalore", "/routes/tiruppur/bangalore"],
-  ["Tiruppur → Coimbatore", "/routes/tiruppur/coimbatore"],
-  ["Tiruppur → Erode", "/routes/tiruppur/erode"],
-  ["Tiruppur → Madurai", "/routes/tiruppur/madurai"],
-  ["Tiruppur → Salem", "/routes/tiruppur/salem"],
-  ["Tiruppur → Kochi", "/routes/tiruppur/kochi"],
-  ["Tiruppur → Hyderabad", "/routes/tiruppur/hyderabad"],
+  ["Tiruppur → Chennai", "/routes/tiruppur-transport/chennai-transport"],
+  ["Tiruppur → Bangalore", "/routes/tiruppur-transport/bangalore-transport"],
+  ["Tiruppur → Coimbatore", "/routes/tiruppur-transport/coimbatore-transport"],
+  ["Tiruppur → Erode", "/routes/tiruppur-transport/erode-transport"],
+  ["Tiruppur → Madurai", "/routes/tiruppur-transport/madurai-transport"],
+  ["Tiruppur → Salem", "/routes/tiruppur-transport/salem-transport"],
+  ["Tiruppur → Kochi", "/routes/tiruppur-transport/kochi-transport"],
+  ["Tiruppur → Hyderabad", "/routes/tiruppur-transport/hyderabad-transport"],
 ];
 
 const faqs = [

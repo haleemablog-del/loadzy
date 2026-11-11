@@ -405,55 +405,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Molakalmuru"}
-          href="/molakalmuru-transport"
+          href="/routes/chitradurga-transport/molakalmuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Molakalmuru
+            Molakalmuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Challakere"}
-          href="/challakere-transport"
+          href="/routes/chitradurga-transport/challakere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Challakere
+            Challakere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Holalkere"}
-          href="/holalkere-transport"
+          href="/routes/chitradurga-transport/holalkere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Holalkere
+            Holalkere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosadurga"}
-          href="/hosadurga-transport"
+          href="/routes/chitradurga-transport/hosadurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Hosadurga
+            Hosadurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hiriyur"}
-          href="/hiriyur-transport"
+          href="/routes/chitradurga-transport/hiriyur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chitradurga to Hiriyur
+            Hiriyur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -477,55 +477,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Molakalmuru"}
-          href="/molakalmuru-transport"
+          href="/routes/molakalmuru-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Molakalmuru to Chitradurga
+            Molakalmuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Challakere"}
-          href="/challakere-transport"
+          href="/routes/challakere-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Challakere to Chitradurga
+            Challakere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Holalkere"}
-          href="/holalkere-transport"
+          href="/routes/holalkere-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Holalkere to Chitradurga
+            Holalkere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosadurga"}
-          href="/hosadurga-transport"
+          href="/routes/hosadurga-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosadurga to Chitradurga
+            Hosadurga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hiriyur"}
-          href="/hiriyur-transport"
+          href="/routes/hiriyur-transport/chitradurga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hiriyur to Chitradurga
+            Hiriyur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -542,10 +542,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chitradurga
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

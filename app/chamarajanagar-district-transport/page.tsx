@@ -424,275 +424,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Gundlupet"}
-          href="/gundlupet-transport"
+          href="/routes/chamarajanagar-district-transport/gundlupet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Gundlupet
+            Gundlupet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yelandur"}
-          href="/yelandur-transport"
+          href="/routes/chamarajanagar-district-transport/yelandur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Yelandur
+            Yelandur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kollegal"}
-          href="/kollegal-transport"
+          href="/routes/chamarajanagar-district-transport/kollegal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Kollegal
+            Kollegal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hanur"}
-          href="/hanur-transport"
+          href="/routes/chamarajanagar-district-transport/hanur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Hanur
+            Hanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Bengaluru"}
-          href="/chamarajanagar-to-bengaluru-transport"
+          href="/routes/chamarajanagar-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Bengaluru
+            Chamarajanagar to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Mysuru"}
-          href="/chamarajanagar-to-mysuru-transport"
+          href="/routes/chamarajanagar-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Mysuru
+            Chamarajanagar to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Mangaluru"}
-          href="/chamarajanagar-to-mangaluru-transport"
+          href="/routes/chamarajanagar-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Mangaluru
+            Chamarajanagar to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Hubballi"}
-          href="/chamarajanagar-to-hubballi-transport"
+          href="/routes/chamarajanagar-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Hubballi
+            Chamarajanagar to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Belagavi"}
-          href="/chamarajanagar-to-belagavi-transport"
+          href="/routes/chamarajanagar-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Belagavi
+            Chamarajanagar to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Chennai"}
-          href="/chamarajanagar-to-chennai-transport"
+          href="/routes/chamarajanagar-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Chennai
+            Chamarajanagar to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Hyderabad"}
-          href="/chamarajanagar-to-hyderabad-transport"
+          href="/routes/chamarajanagar-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Hyderabad
+            Chamarajanagar to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Kochi"}
-          href="/chamarajanagar-to-kochi-transport"
+          href="/routes/chamarajanagar-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Kochi
+            Chamarajanagar to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Coimbatore"}
-          href="/chamarajanagar-to-coimbatore-transport"
+          href="/routes/chamarajanagar-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Coimbatore
+            Chamarajanagar to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Tiruppur"}
-          href="/chamarajanagar-to-tiruppur-transport"
+          href="/routes/chamarajanagar-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Tiruppur
+            Chamarajanagar to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Salem"}
-          href="/chamarajanagar-to-salem-transport"
+          href="/routes/chamarajanagar-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Salem
+            Chamarajanagar to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Hosur"}
-          href="/chamarajanagar-to-hosur-transport"
+          href="/routes/chamarajanagar-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Hosur
+            Chamarajanagar to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Tumakuru"}
-          href="/chamarajanagar-to-tumakuru-transport"
+          href="/routes/chamarajanagar-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Tumakuru
+            Chamarajanagar to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Davanagere"}
-          href="/chamarajanagar-to-davanagere-transport"
+          href="/routes/chamarajanagar-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Davanagere
+            Chamarajanagar to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Shivamogga"}
-          href="/chamarajanagar-to-shivamogga-transport"
+          href="/routes/chamarajanagar-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Shivamogga
+            Chamarajanagar to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Hassan"}
-          href="/chamarajanagar-to-hassan-transport"
+          href="/routes/chamarajanagar-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Hassan
+            Chamarajanagar to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Kolar"}
-          href="/chamarajanagar-to-kolar-transport"
+          href="/routes/chamarajanagar-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Kolar
+            Chamarajanagar to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Vijayapura"}
-          href="/chamarajanagar-to-vijayapura-transport"
+          href="/routes/chamarajanagar-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Vijayapura
+            Chamarajanagar to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Kalaburagi"}
-          href="/chamarajanagar-to-kalaburagi-transport"
+          href="/routes/chamarajanagar-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Kalaburagi
+            Chamarajanagar to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Raichur"}
-          href="/chamarajanagar-to-raichur-transport"
+          href="/routes/chamarajanagar-transport/raichur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Raichur
+            Chamarajanagar to Raichur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chamarajanagar to Pune"}
-          href="/chamarajanagar-to-pune-transport"
+          href="/routes/chamarajanagar-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Chamarajanagar to Pune
+            Chamarajanagar to Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -716,275 +716,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Gundlupet"}
-          href="/gundlupet-transport"
+          href="/routes/gundlupet-transport/chamarajanagar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gundlupet to Chamarajanagar
+            Gundlupet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yelandur"}
-          href="/yelandur-transport"
+          href="/routes/yelandur-transport/chamarajanagar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yelandur to Chamarajanagar
+            Yelandur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kollegal"}
-          href="/kollegal-transport"
+          href="/routes/kollegal-transport/chamarajanagar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kollegal to Chamarajanagar
+            Kollegal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hanur"}
-          href="/hanur-transport"
+          href="/routes/hanur-transport/chamarajanagar-district-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hanur to Chamarajanagar
+            Hanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Chamarajanagar"}
-          href="/bengaluru-to-chamarajanagar-transport"
+          href="/routes/bengaluru-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Chamarajanagar to Chamarajanagar
+            Bengaluru to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Chamarajanagar"}
-          href="/mysuru-to-chamarajanagar-transport"
+          href="/routes/mysuru-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Chamarajanagar to Chamarajanagar
+            Mysuru to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Chamarajanagar"}
-          href="/mangaluru-to-chamarajanagar-transport"
+          href="/routes/mangaluru-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Chamarajanagar to Chamarajanagar
+            Mangaluru to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Chamarajanagar"}
-          href="/hubballi-to-chamarajanagar-transport"
+          href="/routes/hubballi-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Chamarajanagar to Chamarajanagar
+            Hubballi to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Chamarajanagar"}
-          href="/belagavi-to-chamarajanagar-transport"
+          href="/routes/belagavi-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Chamarajanagar to Chamarajanagar
+            Belagavi to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Chamarajanagar"}
-          href="/chennai-to-chamarajanagar-transport"
+          href="/routes/chennai-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Chamarajanagar to Chamarajanagar
+            Chennai to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Chamarajanagar"}
-          href="/hyderabad-to-chamarajanagar-transport"
+          href="/routes/hyderabad-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Chamarajanagar to Chamarajanagar
+            Hyderabad to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Chamarajanagar"}
-          href="/kochi-to-chamarajanagar-transport"
+          href="/routes/kochi-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Chamarajanagar to Chamarajanagar
+            Kochi to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Chamarajanagar"}
-          href="/coimbatore-to-chamarajanagar-transport"
+          href="/routes/coimbatore-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Chamarajanagar to Chamarajanagar
+            Coimbatore to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Chamarajanagar"}
-          href="/tiruppur-to-chamarajanagar-transport"
+          href="/routes/tiruppur-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Chamarajanagar to Chamarajanagar
+            Tiruppur to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Chamarajanagar"}
-          href="/salem-to-chamarajanagar-transport"
+          href="/routes/salem-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Chamarajanagar to Chamarajanagar
+            Salem to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Chamarajanagar"}
-          href="/hosur-to-chamarajanagar-transport"
+          href="/routes/hosur-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Chamarajanagar to Chamarajanagar
+            Hosur to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Chamarajanagar"}
-          href="/tumakuru-to-chamarajanagar-transport"
+          href="/routes/tumakuru-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Chamarajanagar to Chamarajanagar
+            Tumakuru to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Chamarajanagar"}
-          href="/davanagere-to-chamarajanagar-transport"
+          href="/routes/davanagere-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Chamarajanagar to Chamarajanagar
+            Davanagere to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Chamarajanagar"}
-          href="/shivamogga-to-chamarajanagar-transport"
+          href="/routes/shivamogga-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Chamarajanagar to Chamarajanagar
+            Shivamogga to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Chamarajanagar"}
-          href="/hassan-to-chamarajanagar-transport"
+          href="/routes/hassan-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Chamarajanagar to Chamarajanagar
+            Hassan to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Chamarajanagar"}
-          href="/kolar-to-chamarajanagar-transport"
+          href="/routes/kolar-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Chamarajanagar to Chamarajanagar
+            Kolar to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Chamarajanagar"}
-          href="/vijayapura-to-chamarajanagar-transport"
+          href="/routes/vijayapura-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Chamarajanagar to Chamarajanagar
+            Vijayapura to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Chamarajanagar"}
-          href="/kalaburagi-to-chamarajanagar-transport"
+          href="/routes/kalaburagi-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Chamarajanagar to Chamarajanagar
+            Kalaburagi to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Raichur to Chamarajanagar"}
-          href="/raichur-to-chamarajanagar-transport"
+          href="/routes/raichur-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Raichur to Chamarajanagar to Chamarajanagar
+            Raichur to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune to Chamarajanagar"}
-          href="/pune-to-chamarajanagar-transport"
+          href="/routes/pune-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Chamarajanagar to Chamarajanagar
+            Pune to Chamarajanagar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1001,10 +1001,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chamarajanagar
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

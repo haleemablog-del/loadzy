@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TransportEnquiryForm from "./TransportEnquiryForm";
 
+
+const toRouteSlug = (value: string) =>
+  `${value.trim().toLowerCase().replace(/-transport$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-transport`;
+
 const SITE_URL = "https://www.loadzyinfra.in";
 const PAGE_URL = `${SITE_URL}/kolathur-transport`;
 
@@ -446,7 +450,7 @@ export default function KolathurTransportPage() {
           {destinations.map((city) => (
             <Link
               key={`from-${city}`}
-              href="/load-search"
+              href={`/routes/${toRouteSlug("Kolathur")}/${toRouteSlug(city)}`}
               className="group flex items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
             >
               <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -464,7 +468,7 @@ export default function KolathurTransportPage() {
           {destinations.map((city) => (
             <Link
               key={`to-${city}`}
-              href="/load-search"
+              href={`/routes/${toRouteSlug(city)}/${toRouteSlug("Kolathur")}`}
               className="group flex items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
             >
               <span className="font-semibold text-slate-800 group-hover:text-teal-800">

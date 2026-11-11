@@ -405,55 +405,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Srinivaspur"}
-          href="/srinivaspur-transport"
+          href="/routes/kolar-transport/srinivaspur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Srinivaspur
+            Srinivaspur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Malur"}
-          href="/malur-transport"
+          href="/routes/kolar-transport/malur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Malur
+            Malur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bangarapet"}
-          href="/bangarapet-transport"
+          href="/routes/kolar-transport/bangarapet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Bangarapet
+            Bangarapet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Robertsonpet (K.G.F.)"}
-          href="/robertsonpet-k-g-f-transport"
+          href="/routes/kolar-transport/robertsonpet-k-g-f-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Robertsonpet (K.G.F.)
+            Robertsonpet (K.G.F.)
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulbagal"}
-          href="/mulbagal-transport"
+          href="/routes/kolar-transport/mulbagal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Mulbagal
+            Mulbagal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -477,55 +477,55 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Srinivaspur"}
-          href="/srinivaspur-transport"
+          href="/routes/srinivaspur-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Srinivaspur to Kolar
+            Srinivaspur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Malur"}
-          href="/malur-transport"
+          href="/routes/malur-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Malur to Kolar
+            Malur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bangarapet"}
-          href="/bangarapet-transport"
+          href="/routes/bangarapet-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bangarapet to Kolar
+            Bangarapet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Robertsonpet (K.G.F.)"}
-          href="/robertsonpet-k-g-f-transport"
+          href="/routes/robertsonpet-k-g-f-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Robertsonpet (K.G.F.) to Kolar
+            Robertsonpet (K.G.F.)
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mulbagal"}
-          href="/mulbagal-transport"
+          href="/routes/mulbagal-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mulbagal to Kolar
+            Mulbagal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -542,10 +542,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Kolar
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

@@ -431,275 +431,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Ramanagara to Channapatna"}
-          href="/ramanagara-to-channapatna-transport"
+          href="/routes/ramanagara-transport/channapatna-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Channapatna
+            Ramanagara to Channapatna
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Kanakapura"}
-          href="/ramanagara-to-kanakapura-transport"
+          href="/routes/ramanagara-transport/kanakapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Kanakapura
+            Ramanagara to Kanakapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Magadi"}
-          href="/ramanagara-to-magadi-transport"
+          href="/routes/ramanagara-transport/magadi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Magadi
+            Ramanagara to Magadi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Harohalli"}
-          href="/ramanagara-to-harohalli-transport"
+          href="/routes/ramanagara-transport/harohalli-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Harohalli
+            Ramanagara to Harohalli
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Bidadi"}
-          href="/ramanagara-to-bidadi-transport"
+          href="/routes/ramanagara-transport/bidadi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Bidadi
+            Ramanagara to Bidadi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Kumbalgodu"}
-          href="/ramanagara-to-kumbalgodu-transport"
+          href="/routes/ramanagara-transport/kumbalgodu-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Kumbalgodu
+            Ramanagara to Kumbalgodu
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Mysuru Road"}
-          href="/ramanagara-to-mysuru-road-transport"
+          href="/routes/ramanagara-transport/mysuru-road-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Mysuru Road
+            Ramanagara to Mysuru Road
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Bengaluru"}
-          href="/ramanagara-to-bengaluru-transport"
+          href="/routes/ramanagara-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Bengaluru
+            Ramanagara to Bengaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Mandya"}
-          href="/ramanagara-to-mandya-transport"
+          href="/routes/ramanagara-transport/mandya-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Mandya
+            Ramanagara to Mandya
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Mysuru"}
-          href="/ramanagara-to-mysuru-transport"
+          href="/routes/ramanagara-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Mysuru
+            Ramanagara to Mysuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Chikkaballapura"}
-          href="/ramanagara-to-chikkaballapura-transport"
+          href="/routes/ramanagara-transport/chikkaballapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Chikkaballapura
+            Ramanagara to Chikkaballapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Mangaluru"}
-          href="/ramanagara-to-mangaluru-transport"
+          href="/routes/ramanagara-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Mangaluru
+            Ramanagara to Mangaluru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Hubballi"}
-          href="/ramanagara-to-hubballi-transport"
+          href="/routes/ramanagara-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Hubballi
+            Ramanagara to Hubballi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Belagavi"}
-          href="/ramanagara-to-belagavi-transport"
+          href="/routes/ramanagara-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Belagavi
+            Ramanagara to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Tumakuru"}
-          href="/ramanagara-to-tumakuru-transport"
+          href="/routes/ramanagara-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Tumakuru
+            Ramanagara to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Hassan"}
-          href="/ramanagara-to-hassan-transport"
+          href="/routes/ramanagara-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Hassan
+            Ramanagara to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Shivamogga"}
-          href="/ramanagara-to-shivamogga-transport"
+          href="/routes/ramanagara-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Shivamogga
+            Ramanagara to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Chennai"}
-          href="/ramanagara-to-chennai-transport"
+          href="/routes/ramanagara-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Chennai
+            Ramanagara to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Hosur"}
-          href="/ramanagara-to-hosur-transport"
+          href="/routes/ramanagara-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Hosur
+            Ramanagara to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Coimbatore"}
-          href="/ramanagara-to-coimbatore-transport"
+          href="/routes/ramanagara-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Coimbatore
+            Ramanagara to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Tiruppur"}
-          href="/ramanagara-to-tiruppur-transport"
+          href="/routes/ramanagara-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Tiruppur
+            Ramanagara to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Salem"}
-          href="/ramanagara-to-salem-transport"
+          href="/routes/ramanagara-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Salem
+            Ramanagara to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Hyderabad"}
-          href="/ramanagara-to-hyderabad-transport"
+          href="/routes/ramanagara-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Hyderabad
+            Ramanagara to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Pune"}
-          href="/ramanagara-to-pune-transport"
+          href="/routes/ramanagara-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Pune
+            Ramanagara to Pune
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ramanagara to Vijayapura"}
-          href="/ramanagara-to-vijayapura-transport"
+          href="/routes/ramanagara-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ramanagara to Ramanagara to Vijayapura
+            Ramanagara to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -723,275 +723,275 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Channapatna to Ramanagara"}
-          href="/channapatna-to-ramanagara-transport"
+          href="/routes/channapatna-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Channapatna to Ramanagara to Ramanagara
+            Channapatna to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kanakapura to Ramanagara"}
-          href="/kanakapura-to-ramanagara-transport"
+          href="/routes/kanakapura-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kanakapura to Ramanagara to Ramanagara
+            Kanakapura to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Magadi to Ramanagara"}
-          href="/magadi-to-ramanagara-transport"
+          href="/routes/magadi-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Magadi to Ramanagara to Ramanagara
+            Magadi to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Harohalli to Ramanagara"}
-          href="/harohalli-to-ramanagara-transport"
+          href="/routes/harohalli-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Harohalli to Ramanagara to Ramanagara
+            Harohalli to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bidadi to Ramanagara"}
-          href="/bidadi-to-ramanagara-transport"
+          href="/routes/bidadi-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bidadi to Ramanagara to Ramanagara
+            Bidadi to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kumbalgodu to Ramanagara"}
-          href="/kumbalgodu-to-ramanagara-transport"
+          href="/routes/kumbalgodu-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kumbalgodu to Ramanagara to Ramanagara
+            Kumbalgodu to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru Road to Ramanagara"}
-          href="/mysuru-road-to-ramanagara-transport"
+          href="/routes/mysuru-road-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru Road to Ramanagara to Ramanagara
+            Mysuru Road to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bengaluru to Ramanagara"}
-          href="/bengaluru-to-ramanagara-transport"
+          href="/routes/bengaluru-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Ramanagara to Ramanagara
+            Bengaluru to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mandya to Ramanagara"}
-          href="/mandya-to-ramanagara-transport"
+          href="/routes/mandya-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mandya to Ramanagara to Ramanagara
+            Mandya to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mysuru to Ramanagara"}
-          href="/mysuru-to-ramanagara-transport"
+          href="/routes/mysuru-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Ramanagara to Ramanagara
+            Mysuru to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chikkaballapura to Ramanagara"}
-          href="/chikkaballapura-to-ramanagara-transport"
+          href="/routes/chikkaballapura-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chikkaballapura to Ramanagara to Ramanagara
+            Chikkaballapura to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Mangaluru to Ramanagara"}
-          href="/mangaluru-to-ramanagara-transport"
+          href="/routes/mangaluru-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Ramanagara to Ramanagara
+            Mangaluru to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hubballi to Ramanagara"}
-          href="/hubballi-to-ramanagara-transport"
+          href="/routes/hubballi-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Ramanagara to Ramanagara
+            Hubballi to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Belagavi to Ramanagara"}
-          href="/belagavi-to-ramanagara-transport"
+          href="/routes/belagavi-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Ramanagara to Ramanagara
+            Belagavi to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Ramanagara"}
-          href="/tumakuru-to-ramanagara-transport"
+          href="/routes/tumakuru-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Ramanagara to Ramanagara
+            Tumakuru to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Ramanagara"}
-          href="/hassan-to-ramanagara-transport"
+          href="/routes/hassan-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Ramanagara to Ramanagara
+            Hassan to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Ramanagara"}
-          href="/shivamogga-to-ramanagara-transport"
+          href="/routes/shivamogga-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Ramanagara to Ramanagara
+            Shivamogga to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Ramanagara"}
-          href="/chennai-to-ramanagara-transport"
+          href="/routes/chennai-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Ramanagara to Ramanagara
+            Chennai to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Ramanagara"}
-          href="/hosur-to-ramanagara-transport"
+          href="/routes/hosur-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Ramanagara to Ramanagara
+            Hosur to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Ramanagara"}
-          href="/coimbatore-to-ramanagara-transport"
+          href="/routes/coimbatore-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Ramanagara to Ramanagara
+            Coimbatore to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Ramanagara"}
-          href="/tiruppur-to-ramanagara-transport"
+          href="/routes/tiruppur-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Ramanagara to Ramanagara
+            Tiruppur to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Ramanagara"}
-          href="/salem-to-ramanagara-transport"
+          href="/routes/salem-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Ramanagara to Ramanagara
+            Salem to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Ramanagara"}
-          href="/hyderabad-to-ramanagara-transport"
+          href="/routes/hyderabad-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Ramanagara to Ramanagara
+            Hyderabad to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Pune to Ramanagara"}
-          href="/pune-to-ramanagara-transport"
+          href="/routes/pune-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Pune to Ramanagara to Ramanagara
+            Pune to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Ramanagara"}
-          href="/vijayapura-to-ramanagara-transport"
+          href="/routes/vijayapura-transport/ramanagara-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Ramanagara to Ramanagara
+            Vijayapura to Ramanagara
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1008,10 +1008,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Ramanagara
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

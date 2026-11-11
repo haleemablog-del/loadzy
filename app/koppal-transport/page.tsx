@@ -401,33 +401,33 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Yelburga"}
-          href="/yelburga-transport"
+          href="/routes/koppal-transport/yelburga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Yelburga
+            Yelburga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushtagi"}
-          href="/kushtagi-transport"
+          href="/routes/koppal-transport/kushtagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Kushtagi
+            Kushtagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gangavathi"}
-          href="/gangavathi-transport"
+          href="/routes/koppal-transport/gangavathi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Koppal to Gangavathi
+            Gangavathi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -451,33 +451,33 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Yelburga"}
-          href="/yelburga-transport"
+          href="/routes/yelburga-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yelburga to Koppal
+            Yelburga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kushtagi"}
-          href="/kushtagi-transport"
+          href="/routes/kushtagi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kushtagi to Koppal
+            Kushtagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Gangavathi"}
-          href="/gangavathi-transport"
+          href="/routes/gangavathi-transport/koppal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gangavathi to Koppal
+            Gangavathi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -494,10 +494,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Koppal
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

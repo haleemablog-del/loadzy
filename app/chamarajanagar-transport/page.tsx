@@ -403,44 +403,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Gundlupet"}
-          href="/gundlupet-transport"
+          href="/routes/chamarajanagar-transport/gundlupet-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Gundlupet
+            Gundlupet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yelandur"}
-          href="/yelandur-transport"
+          href="/routes/chamarajanagar-transport/yelandur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Yelandur
+            Yelandur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kollegal"}
-          href="/kollegal-transport"
+          href="/routes/chamarajanagar-transport/kollegal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Kollegal
+            Kollegal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hanur"}
-          href="/hanur-transport"
+          href="/routes/chamarajanagar-transport/hanur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chamarajanagar to Hanur
+            Hanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -464,44 +464,44 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Gundlupet"}
-          href="/gundlupet-transport"
+          href="/routes/gundlupet-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Gundlupet to Chamarajanagar
+            Gundlupet
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Yelandur"}
-          href="/yelandur-transport"
+          href="/routes/yelandur-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Yelandur to Chamarajanagar
+            Yelandur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kollegal"}
-          href="/kollegal-transport"
+          href="/routes/kollegal-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kollegal to Chamarajanagar
+            Kollegal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hanur"}
-          href="/hanur-transport"
+          href="/routes/hanur-transport/chamarajanagar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hanur to Chamarajanagar
+            Hanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -518,10 +518,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Chamarajanagar
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

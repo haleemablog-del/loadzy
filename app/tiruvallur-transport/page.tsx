@@ -41,47 +41,47 @@ const services = [
 
 
 const routes = [
-  ["Tiruvallur → Chennai", "/routes/tiruvallur/chennai"],
-  ["Chennai → Tiruvallur", "/routes/chennai/tiruvallur"],
+  ["Tiruvallur → Chennai", "/routes/tiruvallur-transport/chennai-transport"],
+  ["Chennai → Tiruvallur", "/routes/chennai-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Bangalore", "/routes/tiruvallur/bangalore"],
-  ["Bangalore → Tiruvallur", "/routes/bangalore/tiruvallur"],
+  ["Tiruvallur → Bangalore", "/routes/tiruvallur-transport/bangalore-transport"],
+  ["Bangalore → Tiruvallur", "/routes/bangalore-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Vellore", "/routes/tiruvallur/vellore"],
-  ["Vellore → Tiruvallur", "/routes/vellore/tiruvallur"],
+  ["Tiruvallur → Vellore", "/routes/tiruvallur-transport/vellore-transport"],
+  ["Vellore → Tiruvallur", "/routes/vellore-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Coimbatore", "/routes/tiruvallur/coimbatore"],
-  ["Coimbatore → Tiruvallur", "/routes/coimbatore/tiruvallur"],
+  ["Tiruvallur → Coimbatore", "/routes/tiruvallur-transport/coimbatore-transport"],
+  ["Coimbatore → Tiruvallur", "/routes/coimbatore-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Salem", "/routes/tiruvallur/salem"],
-  ["Salem → Tiruvallur", "/routes/salem/tiruvallur"],
+  ["Tiruvallur → Salem", "/routes/tiruvallur-transport/salem-transport"],
+  ["Salem → Tiruvallur", "/routes/salem-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Madurai", "/routes/tiruvallur/madurai"],
-  ["Madurai → Tiruvallur", "/routes/madurai/tiruvallur"],
+  ["Tiruvallur → Madurai", "/routes/tiruvallur-transport/madurai-transport"],
+  ["Madurai → Tiruvallur", "/routes/madurai-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Tiruchirappalli", "/routes/tiruvallur/tiruchirappalli"],
-  ["Tiruchirappalli → Tiruvallur", "/routes/tiruchirappalli/tiruvallur"],
+  ["Tiruvallur → Tiruchirappalli", "/routes/tiruvallur-transport/tiruchirappalli-transport"],
+  ["Tiruchirappalli → Tiruvallur", "/routes/tiruchirappalli-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Tiruppur", "/routes/tiruvallur/tiruppur"],
-  ["Tiruppur → Tiruvallur", "/routes/tiruppur/tiruvallur"],
+  ["Tiruvallur → Tiruppur", "/routes/tiruvallur-transport/tiruppur-transport"],
+  ["Tiruppur → Tiruvallur", "/routes/tiruppur-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Erode", "/routes/tiruvallur/erode"],
-  ["Erode → Tiruvallur", "/routes/erode/tiruvallur"],
+  ["Tiruvallur → Erode", "/routes/tiruvallur-transport/erode-transport"],
+  ["Erode → Tiruvallur", "/routes/erode-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Hyderabad", "/routes/tiruvallur/hyderabad"],
-  ["Hyderabad → Tiruvallur", "/routes/hyderabad/tiruvallur"],
+  ["Tiruvallur → Hyderabad", "/routes/tiruvallur-transport/hyderabad-transport"],
+  ["Hyderabad → Tiruvallur", "/routes/hyderabad-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Vijayawada", "/routes/tiruvallur/vijayawada"],
-  ["Vijayawada → Tiruvallur", "/routes/vijayawada/tiruvallur"],
+  ["Tiruvallur → Vijayawada", "/routes/tiruvallur-transport/vijayawada-transport"],
+  ["Vijayawada → Tiruvallur", "/routes/vijayawada-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Tirupati", "/routes/tiruvallur/tirupati"],
-  ["Tirupati → Tiruvallur", "/routes/tirupati/tiruvallur"],
+  ["Tiruvallur → Tirupati", "/routes/tiruvallur-transport/tirupati-transport"],
+  ["Tirupati → Tiruvallur", "/routes/tirupati-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Kochi", "/routes/tiruvallur/kochi"],
-  ["Kochi → Tiruvallur", "/routes/kochi/tiruvallur"],
+  ["Tiruvallur → Kochi", "/routes/tiruvallur-transport/kochi-transport"],
+  ["Kochi → Tiruvallur", "/routes/kochi-transport/tiruvallur-transport"],
 
-  ["Tiruvallur → Kozhikode", "/routes/tiruvallur/kozhikode"],
-  ["Kozhikode → Tiruvallur", "/routes/kozhikode/tiruvallur"],
+  ["Tiruvallur → Kozhikode", "/routes/tiruvallur-transport/kozhikode-transport"],
+  ["Kozhikode → Tiruvallur", "/routes/kozhikode-transport/tiruvallur-transport"],
 ];
 
 

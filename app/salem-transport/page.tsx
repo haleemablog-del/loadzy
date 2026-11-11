@@ -31,14 +31,14 @@ const services = [
 ];
 
 const routes = [
-  ["Salem → Chennai", "/routes/salem/chennai"],
-  ["Salem → Bangalore", "/routes/salem/bangalore"],
-  ["Salem → Coimbatore", "/routes/salem/coimbatore"],
-  ["Salem → Hosur", "/routes/salem/hosur"],
-  ["Salem → Kochi", "/routes/salem/kochi"],
-  ["Salem → Palakkad", "/routes/salem/palakkad"],
-  ["Salem → Vaniyambadi", "/routes/salem/vaniyambadi"],
-  ["Salem → Ambur", "/routes/salem/ambur"],
+  ["Salem → Chennai", "/routes/salem-transport/chennai-transport"],
+  ["Salem → Bangalore", "/routes/salem-transport/bangalore-transport"],
+  ["Salem → Coimbatore", "/routes/salem-transport/coimbatore-transport"],
+  ["Salem → Hosur", "/routes/salem-transport/hosur-transport"],
+  ["Salem → Kochi", "/routes/salem-transport/kochi-transport"],
+  ["Salem → Palakkad", "/routes/salem-transport/palakkad-transport"],
+  ["Salem → Vaniyambadi", "/routes/salem-transport/vaniyambadi-transport"],
+  ["Salem → Ambur", "/routes/salem-transport/ambur-transport"],
 ];
 
 const faqs = [

@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Visakhapatnam"}
-          href="/sri-city-industrial-area-verify-boundary-to-visakhapatnam-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Vijayawada"}
-          href="/sri-city-industrial-area-verify-boundary-to-vijayawada-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Guntur"}
-          href="/sri-city-industrial-area-verify-boundary-to-guntur-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Tirupati"}
-          href="/sri-city-industrial-area-verify-boundary-to-tirupati-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Nellore"}
-          href="/sri-city-industrial-area-verify-boundary-to-nellore-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Kurnool"}
-          href="/sri-city-industrial-area-verify-boundary-to-kurnool-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Rajamahendravaram"}
-          href="/sri-city-industrial-area-verify-boundary-to-rajamahendravaram-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Kakinada"}
-          href="/sri-city-industrial-area-verify-boundary-to-kakinada-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Anantapur"}
-          href="/sri-city-industrial-area-verify-boundary-to-anantapur-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Kadapa"}
-          href="/sri-city-industrial-area-verify-boundary-to-kadapa-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Chennai"}
-          href="/sri-city-industrial-area-verify-boundary-to-chennai-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Bengaluru"}
-          href="/sri-city-industrial-area-verify-boundary-to-bengaluru-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Hyderabad"}
-          href="/sri-city-industrial-area-verify-boundary-to-hyderabad-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Coimbatore"}
-          href="/sri-city-industrial-area-verify-boundary-to-coimbatore-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Salem"}
-          href="/sri-city-industrial-area-verify-boundary-to-salem-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Tiruppur"}
-          href="/sri-city-industrial-area-verify-boundary-to-tiruppur-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Mysuru"}
-          href="/sri-city-industrial-area-verify-boundary-to-mysuru-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Kochi"}
-          href="/sri-city-industrial-area-verify-boundary-to-kochi-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Thiruvananthapuram"}
-          href="/sri-city-industrial-area-verify-boundary-to-thiruvananthapuram-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Mumbai"}
-          href="/sri-city-industrial-area-verify-boundary-to-mumbai-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Pune"}
-          href="/sri-city-industrial-area-verify-boundary-to-pune-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Vellore"}
-          href="/sri-city-industrial-area-verify-boundary-to-vellore-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Hosur"}
-          href="/sri-city-industrial-area-verify-boundary-to-hosur-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Krishnagiri"}
-          href="/sri-city-industrial-area-verify-boundary-to-krishnagiri-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Sri City Industrial Area - verify boundary to Madurai"}
-          href="/sri-city-industrial-area-verify-boundary-to-madurai-transport"
+          href="/routes/sri-city-industrial-area-verify-boundary-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Sri City Industrial Area - verify boundary"}
-          href="/visakhapatnam-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/visakhapatnam-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Sri City Industrial Area - verify boundary"}
-          href="/vijayawada-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/vijayawada-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Sri City Industrial Area - verify boundary"}
-          href="/guntur-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/guntur-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Sri City Industrial Area - verify boundary"}
-          href="/tirupati-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/tirupati-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Sri City Industrial Area - verify boundary"}
-          href="/nellore-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/nellore-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Sri City Industrial Area - verify boundary"}
-          href="/kurnool-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/kurnool-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Sri City Industrial Area - verify boundary"}
-          href="/rajamahendravaram-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/rajamahendravaram-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Sri City Industrial Area - verify boundary"}
-          href="/kakinada-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/kakinada-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Sri City Industrial Area - verify boundary"}
-          href="/anantapur-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/anantapur-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Sri City Industrial Area - verify boundary"}
-          href="/kadapa-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/kadapa-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Sri City Industrial Area - verify boundary"}
-          href="/chennai-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/chennai-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Sri City Industrial Area - verify boundary"}
-          href="/bengaluru-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/bengaluru-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Sri City Industrial Area - verify boundary"}
-          href="/hyderabad-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/hyderabad-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Sri City Industrial Area - verify boundary"}
-          href="/coimbatore-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/coimbatore-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Sri City Industrial Area - verify boundary"}
-          href="/salem-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/salem-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Sri City Industrial Area - verify boundary"}
-          href="/tiruppur-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/tiruppur-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Sri City Industrial Area - verify boundary"}
-          href="/mysuru-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/mysuru-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Sri City Industrial Area - verify boundary"}
-          href="/kochi-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/kochi-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Sri City Industrial Area - verify boundary"}
-          href="/thiruvananthapuram-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/thiruvananthapuram-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Sri City Industrial Area - verify boundary"}
-          href="/mumbai-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/mumbai-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Sri City Industrial Area - verify boundary"}
-          href="/pune-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/pune-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Sri City Industrial Area - verify boundary"}
-          href="/vellore-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/vellore-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Sri City Industrial Area - verify boundary"}
-          href="/hosur-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/hosur-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Sri City Industrial Area - verify boundary"}
-          href="/krishnagiri-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/krishnagiri-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Sri City Industrial Area - verify boundary"}
-          href="/madurai-to-sri-city-industrial-area-verify-boundary-transport"
+          href="/routes/madurai-transport/sri-city-industrial-area-verify-boundary-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

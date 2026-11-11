@@ -426,7 +426,106 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/dharwad-district-transport/hubballi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alnavar"}
+          href="/routes/dharwad-district-transport/alnavar-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alnavar
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Navalgund"}
+          href="/routes/dharwad-district-transport/navalgund-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Navalgund
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Annigeri"}
+          href="/routes/dharwad-district-transport/annigeri-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Annigeri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kalghatgi"}
+          href="/routes/dharwad-district-transport/kalghatgi-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kalghatgi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kundgol"}
+          href="/routes/dharwad-district-transport/kundgol-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kundgol
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dharwad to Bengaluru"}
+          href="/routes/dharwad-transport/bengaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Dharwad to Bengaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dharwad to Mysuru"}
+          href="/routes/dharwad-transport/mysuru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Dharwad to Mysuru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dharwad to Mangaluru"}
+          href="/routes/dharwad-transport/mangaluru-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Dharwad to Mangaluru
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Dharwad to Hubballi"}
+          href="/routes/dharwad-transport/hubballi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -436,265 +535,166 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
         </Link>
 
         <Link
-          key={"Alnavar"}
-          href="/alnavar-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Alnavar
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Navalgund"}
-          href="/navalgund-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Navalgund
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Annigeri"}
-          href="/annigeri-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Annigeri
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Kalghatgi"}
-          href="/kalghatgi-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Kalghatgi
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Kundgol"}
-          href="/kundgol-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Kundgol
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dharwad to Bengaluru"}
-          href="/dharwad-to-bengaluru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Bengaluru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dharwad to Mysuru"}
-          href="/dharwad-to-mysuru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Mysuru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dharwad to Mangaluru"}
-          href="/dharwad-to-mangaluru-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Mangaluru
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Dharwad to Hubballi"}
-          href="/dharwad-to-hubballi-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Hubballi
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
           key={"Dharwad to Belagavi"}
-          href="/dharwad-to-belagavi-transport"
+          href="/routes/dharwad-transport/belagavi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Belagavi
+            Dharwad to Belagavi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Chennai"}
-          href="/dharwad-to-chennai-transport"
+          href="/routes/dharwad-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Chennai
+            Dharwad to Chennai
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Hyderabad"}
-          href="/dharwad-to-hyderabad-transport"
+          href="/routes/dharwad-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Hyderabad
+            Dharwad to Hyderabad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Kochi"}
-          href="/dharwad-to-kochi-transport"
+          href="/routes/dharwad-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Kochi
+            Dharwad to Kochi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Coimbatore"}
-          href="/dharwad-to-coimbatore-transport"
+          href="/routes/dharwad-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Coimbatore
+            Dharwad to Coimbatore
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Tiruppur"}
-          href="/dharwad-to-tiruppur-transport"
+          href="/routes/dharwad-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Tiruppur
+            Dharwad to Tiruppur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Salem"}
-          href="/dharwad-to-salem-transport"
+          href="/routes/dharwad-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Salem
+            Dharwad to Salem
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Hosur"}
-          href="/dharwad-to-hosur-transport"
+          href="/routes/dharwad-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Hosur
+            Dharwad to Hosur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Tumakuru"}
-          href="/dharwad-to-tumakuru-transport"
+          href="/routes/dharwad-transport/tumakuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Tumakuru
+            Dharwad to Tumakuru
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Davanagere"}
-          href="/dharwad-to-davanagere-transport"
+          href="/routes/dharwad-transport/davanagere-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Davanagere
+            Dharwad to Davanagere
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Shivamogga"}
-          href="/dharwad-to-shivamogga-transport"
+          href="/routes/dharwad-transport/shivamogga-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Shivamogga
+            Dharwad to Shivamogga
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Hassan"}
-          href="/dharwad-to-hassan-transport"
+          href="/routes/dharwad-transport/hassan-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Hassan
+            Dharwad to Hassan
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Kolar"}
-          href="/dharwad-to-kolar-transport"
+          href="/routes/dharwad-transport/kolar-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Kolar
+            Dharwad to Kolar
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Vijayapura"}
-          href="/dharwad-to-vijayapura-transport"
+          href="/routes/dharwad-transport/vijayapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Vijayapura
+            Dharwad to Vijayapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Dharwad to Kalaburagi"}
-          href="/dharwad-to-kalaburagi-transport"
+          href="/routes/dharwad-transport/kalaburagi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Dharwad to Dharwad to Kalaburagi
+            Dharwad to Kalaburagi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -718,7 +718,106 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Hubballi"}
-          href="/hubballi-transport"
+          href="/routes/hubballi-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Hubballi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Alnavar"}
+          href="/routes/alnavar-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Alnavar
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Navalgund"}
+          href="/routes/navalgund-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Navalgund
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Annigeri"}
+          href="/routes/annigeri-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Annigeri
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kalghatgi"}
+          href="/routes/kalghatgi-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kalghatgi
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Kundgol"}
+          href="/routes/kundgol-transport/dharwad-district-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Kundgol
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Bengaluru to Dharwad"}
+          href="/routes/bengaluru-transport/dharwad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Bengaluru to Dharwad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mysuru to Dharwad"}
+          href="/routes/mysuru-transport/dharwad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mysuru to Dharwad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Mangaluru to Dharwad"}
+          href="/routes/mangaluru-transport/dharwad-transport"
+          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
+        >
+          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
+            Mangaluru to Dharwad
+          </span>
+          <span className="ml-2 text-[#08A99F]">→</span>
+        </Link>
+
+        <Link
+          key={"Hubballi to Dharwad"}
+          href="/routes/hubballi-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -728,265 +827,166 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
         </Link>
 
         <Link
-          key={"Alnavar"}
-          href="/alnavar-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Alnavar to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Navalgund"}
-          href="/navalgund-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Navalgund to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Annigeri"}
-          href="/annigeri-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Annigeri to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Kalghatgi"}
-          href="/kalghatgi-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalghatgi to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Kundgol"}
-          href="/kundgol-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kundgol to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Bengaluru to Dharwad"}
-          href="/bengaluru-to-dharwad-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bengaluru to Dharwad to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Mysuru to Dharwad"}
-          href="/mysuru-to-dharwad-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mysuru to Dharwad to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Mangaluru to Dharwad"}
-          href="/mangaluru-to-dharwad-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Mangaluru to Dharwad to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
-          key={"Hubballi to Dharwad"}
-          href="/hubballi-to-dharwad-transport"
-          className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
-          <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hubballi to Dharwad to Dharwad
-          </span>
-          <span className="ml-2 text-[#08A99F]">→</span>
-        </Link>
-
-        <Link
           key={"Belagavi to Dharwad"}
-          href="/belagavi-to-dharwad-transport"
+          href="/routes/belagavi-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Belagavi to Dharwad to Dharwad
+            Belagavi to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Chennai to Dharwad"}
-          href="/chennai-to-dharwad-transport"
+          href="/routes/chennai-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Chennai to Dharwad to Dharwad
+            Chennai to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hyderabad to Dharwad"}
-          href="/hyderabad-to-dharwad-transport"
+          href="/routes/hyderabad-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hyderabad to Dharwad to Dharwad
+            Hyderabad to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kochi to Dharwad"}
-          href="/kochi-to-dharwad-transport"
+          href="/routes/kochi-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kochi to Dharwad to Dharwad
+            Kochi to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Coimbatore to Dharwad"}
-          href="/coimbatore-to-dharwad-transport"
+          href="/routes/coimbatore-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Coimbatore to Dharwad to Dharwad
+            Coimbatore to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tiruppur to Dharwad"}
-          href="/tiruppur-to-dharwad-transport"
+          href="/routes/tiruppur-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tiruppur to Dharwad to Dharwad
+            Tiruppur to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Salem to Dharwad"}
-          href="/salem-to-dharwad-transport"
+          href="/routes/salem-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Salem to Dharwad to Dharwad
+            Salem to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hosur to Dharwad"}
-          href="/hosur-to-dharwad-transport"
+          href="/routes/hosur-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hosur to Dharwad to Dharwad
+            Hosur to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Tumakuru to Dharwad"}
-          href="/tumakuru-to-dharwad-transport"
+          href="/routes/tumakuru-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Tumakuru to Dharwad to Dharwad
+            Tumakuru to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Davanagere to Dharwad"}
-          href="/davanagere-to-dharwad-transport"
+          href="/routes/davanagere-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Davanagere to Dharwad to Dharwad
+            Davanagere to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Shivamogga to Dharwad"}
-          href="/shivamogga-to-dharwad-transport"
+          href="/routes/shivamogga-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shivamogga to Dharwad to Dharwad
+            Shivamogga to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hassan to Dharwad"}
-          href="/hassan-to-dharwad-transport"
+          href="/routes/hassan-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hassan to Dharwad to Dharwad
+            Hassan to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kolar to Dharwad"}
-          href="/kolar-to-dharwad-transport"
+          href="/routes/kolar-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kolar to Dharwad to Dharwad
+            Kolar to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Vijayapura to Dharwad"}
-          href="/vijayapura-to-dharwad-transport"
+          href="/routes/vijayapura-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Vijayapura to Dharwad to Dharwad
+            Vijayapura to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Kalaburagi to Dharwad"}
-          href="/kalaburagi-to-dharwad-transport"
+          href="/routes/kalaburagi-transport/dharwad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Kalaburagi to Dharwad to Dharwad
+            Kalaburagi to Dharwad
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -1003,10 +1003,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Dharwad
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

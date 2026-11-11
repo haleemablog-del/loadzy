@@ -31,14 +31,14 @@ const services = [
 ];
 
 const routes = [
-  ["Madurai → Chennai", "/routes/madurai/chennai"],
-  ["Madurai → Coimbatore", "/routes/madurai/coimbatore"],
-  ["Madurai → Bangalore", "/routes/madurai/bangalore"],
-  ["Madurai → Salem", "/routes/madurai/salem"],
-  ["Madurai → Tiruchirappalli", "/routes/madurai/tiruchirappalli"],
-  ["Madurai → Tirunelveli", "/routes/madurai/tirunelveli"],
-  ["Madurai → Kochi", "/routes/madurai/kochi"],
-  ["Madurai → Thiruvananthapuram", "/routes/madurai/thiruvananthapuram"],
+  ["Madurai → Chennai", "/routes/madurai-transport/chennai-transport"],
+  ["Madurai → Coimbatore", "/routes/madurai-transport/coimbatore-transport"],
+  ["Madurai → Bangalore", "/routes/madurai-transport/bangalore-transport"],
+  ["Madurai → Salem", "/routes/madurai-transport/salem-transport"],
+  ["Madurai → Tiruchirappalli", "/routes/madurai-transport/tiruchirappalli-transport"],
+  ["Madurai → Tirunelveli", "/routes/madurai-transport/tirunelveli-transport"],
+  ["Madurai → Kochi", "/routes/madurai-transport/kochi-transport"],
+  ["Madurai → Thiruvananthapuram", "/routes/madurai-transport/thiruvananthapuram-transport"],
 ];
 
 const faqs = [

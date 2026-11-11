@@ -409,77 +409,77 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           
         <Link
           key={"Shiggaon"}
-          href="/shiggaon-transport"
+          href="/routes/haveri-transport/shiggaon-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Shiggaon
+            Shiggaon
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bankapura"}
-          href="/bankapura-transport"
+          href="/routes/haveri-transport/bankapura-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Bankapura
+            Bankapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Savanur"}
-          href="/savanur-transport"
+          href="/routes/haveri-transport/savanur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Savanur
+            Savanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hangal"}
-          href="/hangal-transport"
+          href="/routes/haveri-transport/hangal-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Hangal
+            Hangal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Byadgi"}
-          href="/byadgi-transport"
+          href="/routes/haveri-transport/byadgi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Byadgi
+            Byadgi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hirekerur"}
-          href="/hirekerur-transport"
+          href="/routes/haveri-transport/hirekerur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Hirekerur
+            Hirekerur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ranebennur"}
-          href="/ranebennur-transport"
+          href="/routes/haveri-transport/ranebennur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Haveri to Ranebennur
+            Ranebennur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -503,77 +503,77 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             
         <Link
           key={"Shiggaon"}
-          href="/shiggaon-transport"
+          href="/routes/shiggaon-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Shiggaon to Haveri
+            Shiggaon
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Bankapura"}
-          href="/bankapura-transport"
+          href="/routes/bankapura-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Bankapura to Haveri
+            Bankapura
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Savanur"}
-          href="/savanur-transport"
+          href="/routes/savanur-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Savanur to Haveri
+            Savanur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hangal"}
-          href="/hangal-transport"
+          href="/routes/hangal-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hangal to Haveri
+            Hangal
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Byadgi"}
-          href="/byadgi-transport"
+          href="/routes/byadgi-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Byadgi to Haveri
+            Byadgi
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Hirekerur"}
-          href="/hirekerur-transport"
+          href="/routes/hirekerur-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Hirekerur to Haveri
+            Hirekerur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
 
         <Link
           key={"Ranebennur"}
-          href="/ranebennur-transport"
+          href="/routes/ranebennur-transport/haveri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            Ranebennur to Haveri
+            Ranebennur
           </span>
           <span className="ml-2 text-[#08A99F]">→</span>
         </Link>
@@ -590,10 +590,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Haveri
           </h2>
-          <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-           Explore nearby localities when planning a transport enquiry.
-            Select a locality to open its corresponding transport page.
-          </p>
+          
+<p className="mt-4 max-w-3xl leading-7 text-slate-600">
+  Explore nearby localities when planning a transport enquiry.
+  Select a locality to open its corresponding transport page.
+</p>
+
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {nearbyAreas.map((area) => (

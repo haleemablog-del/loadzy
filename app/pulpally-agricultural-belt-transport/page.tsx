@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Thiruvananthapuram"}
-          href="/pulpally-agricultural-belt-to-thiruvananthapuram-transport"
+          href="/routes/pulpally-agricultural-belt-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kollam"}
-          href="/pulpally-agricultural-belt-to-kollam-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Pathanamthitta"}
-          href="/pulpally-agricultural-belt-to-pathanamthitta-transport"
+          href="/routes/pulpally-agricultural-belt-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Alappuzha"}
-          href="/pulpally-agricultural-belt-to-alappuzha-transport"
+          href="/routes/pulpally-agricultural-belt-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kottayam"}
-          href="/pulpally-agricultural-belt-to-kottayam-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Idukki"}
-          href="/pulpally-agricultural-belt-to-idukki-transport"
+          href="/routes/pulpally-agricultural-belt-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kochi"}
-          href="/pulpally-agricultural-belt-to-kochi-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Thrissur"}
-          href="/pulpally-agricultural-belt-to-thrissur-transport"
+          href="/routes/pulpally-agricultural-belt-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Palakkad"}
-          href="/pulpally-agricultural-belt-to-palakkad-transport"
+          href="/routes/pulpally-agricultural-belt-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Malappuram"}
-          href="/pulpally-agricultural-belt-to-malappuram-transport"
+          href="/routes/pulpally-agricultural-belt-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kozhikode"}
-          href="/pulpally-agricultural-belt-to-kozhikode-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Wayanad"}
-          href="/pulpally-agricultural-belt-to-wayanad-transport"
+          href="/routes/pulpally-agricultural-belt-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kannur"}
-          href="/pulpally-agricultural-belt-to-kannur-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Kasaragod"}
-          href="/pulpally-agricultural-belt-to-kasaragod-transport"
+          href="/routes/pulpally-agricultural-belt-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Bengaluru"}
-          href="/pulpally-agricultural-belt-to-bengaluru-transport"
+          href="/routes/pulpally-agricultural-belt-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Chennai"}
-          href="/pulpally-agricultural-belt-to-chennai-transport"
+          href="/routes/pulpally-agricultural-belt-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Coimbatore"}
-          href="/pulpally-agricultural-belt-to-coimbatore-transport"
+          href="/routes/pulpally-agricultural-belt-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Madurai"}
-          href="/pulpally-agricultural-belt-to-madurai-transport"
+          href="/routes/pulpally-agricultural-belt-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Salem"}
-          href="/pulpally-agricultural-belt-to-salem-transport"
+          href="/routes/pulpally-agricultural-belt-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Tiruppur"}
-          href="/pulpally-agricultural-belt-to-tiruppur-transport"
+          href="/routes/pulpally-agricultural-belt-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Erode"}
-          href="/pulpally-agricultural-belt-to-erode-transport"
+          href="/routes/pulpally-agricultural-belt-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Mysuru"}
-          href="/pulpally-agricultural-belt-to-mysuru-transport"
+          href="/routes/pulpally-agricultural-belt-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Mangaluru"}
-          href="/pulpally-agricultural-belt-to-mangaluru-transport"
+          href="/routes/pulpally-agricultural-belt-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Hyderabad"}
-          href="/pulpally-agricultural-belt-to-hyderabad-transport"
+          href="/routes/pulpally-agricultural-belt-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pulpally agricultural belt to Vijayawada"}
-          href="/pulpally-agricultural-belt-to-vijayawada-transport"
+          href="/routes/pulpally-agricultural-belt-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Pulpally agricultural belt"}
-          href="/thiruvananthapuram-to-pulpally-agricultural-belt-transport"
+          href="/routes/thiruvananthapuram-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to Pulpally agricultural belt"}
-          href="/kollam-to-pulpally-agricultural-belt-transport"
+          href="/routes/kollam-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to Pulpally agricultural belt"}
-          href="/pathanamthitta-to-pulpally-agricultural-belt-transport"
+          href="/routes/pathanamthitta-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to Pulpally agricultural belt"}
-          href="/alappuzha-to-pulpally-agricultural-belt-transport"
+          href="/routes/alappuzha-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to Pulpally agricultural belt"}
-          href="/kottayam-to-pulpally-agricultural-belt-transport"
+          href="/routes/kottayam-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to Pulpally agricultural belt"}
-          href="/idukki-to-pulpally-agricultural-belt-transport"
+          href="/routes/idukki-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Pulpally agricultural belt"}
-          href="/kochi-to-pulpally-agricultural-belt-transport"
+          href="/routes/kochi-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to Pulpally agricultural belt"}
-          href="/thrissur-to-pulpally-agricultural-belt-transport"
+          href="/routes/thrissur-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to Pulpally agricultural belt"}
-          href="/palakkad-to-pulpally-agricultural-belt-transport"
+          href="/routes/palakkad-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to Pulpally agricultural belt"}
-          href="/malappuram-to-pulpally-agricultural-belt-transport"
+          href="/routes/malappuram-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to Pulpally agricultural belt"}
-          href="/kozhikode-to-pulpally-agricultural-belt-transport"
+          href="/routes/kozhikode-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to Pulpally agricultural belt"}
-          href="/wayanad-to-pulpally-agricultural-belt-transport"
+          href="/routes/wayanad-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to Pulpally agricultural belt"}
-          href="/kannur-to-pulpally-agricultural-belt-transport"
+          href="/routes/kannur-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to Pulpally agricultural belt"}
-          href="/kasaragod-to-pulpally-agricultural-belt-transport"
+          href="/routes/kasaragod-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Pulpally agricultural belt"}
-          href="/bengaluru-to-pulpally-agricultural-belt-transport"
+          href="/routes/bengaluru-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Pulpally agricultural belt"}
-          href="/chennai-to-pulpally-agricultural-belt-transport"
+          href="/routes/chennai-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Pulpally agricultural belt"}
-          href="/coimbatore-to-pulpally-agricultural-belt-transport"
+          href="/routes/coimbatore-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Pulpally agricultural belt"}
-          href="/madurai-to-pulpally-agricultural-belt-transport"
+          href="/routes/madurai-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Pulpally agricultural belt"}
-          href="/salem-to-pulpally-agricultural-belt-transport"
+          href="/routes/salem-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Pulpally agricultural belt"}
-          href="/tiruppur-to-pulpally-agricultural-belt-transport"
+          href="/routes/tiruppur-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to Pulpally agricultural belt"}
-          href="/erode-to-pulpally-agricultural-belt-transport"
+          href="/routes/erode-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Pulpally agricultural belt"}
-          href="/mysuru-to-pulpally-agricultural-belt-transport"
+          href="/routes/mysuru-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to Pulpally agricultural belt"}
-          href="/mangaluru-to-pulpally-agricultural-belt-transport"
+          href="/routes/mangaluru-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Pulpally agricultural belt"}
-          href="/hyderabad-to-pulpally-agricultural-belt-transport"
+          href="/routes/hyderabad-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Pulpally agricultural belt"}
-          href="/vijayawada-to-pulpally-agricultural-belt-transport"
+          href="/routes/vijayawada-transport/pulpally-agricultural-belt-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

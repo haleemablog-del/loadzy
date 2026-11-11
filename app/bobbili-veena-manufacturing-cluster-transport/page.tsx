@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Visakhapatnam"}
-          href="/veena-manufacturing-cluster-to-visakhapatnam-transport"
+          href="/routes/veena-manufacturing-cluster-transport/visakhapatnam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Vijayawada"}
-          href="/veena-manufacturing-cluster-to-vijayawada-transport"
+          href="/routes/veena-manufacturing-cluster-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Guntur"}
-          href="/veena-manufacturing-cluster-to-guntur-transport"
+          href="/routes/veena-manufacturing-cluster-transport/guntur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Tirupati"}
-          href="/veena-manufacturing-cluster-to-tirupati-transport"
+          href="/routes/veena-manufacturing-cluster-transport/tirupati-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Nellore"}
-          href="/veena-manufacturing-cluster-to-nellore-transport"
+          href="/routes/veena-manufacturing-cluster-transport/nellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Kurnool"}
-          href="/veena-manufacturing-cluster-to-kurnool-transport"
+          href="/routes/veena-manufacturing-cluster-transport/kurnool-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Rajamahendravaram"}
-          href="/veena-manufacturing-cluster-to-rajamahendravaram-transport"
+          href="/routes/veena-manufacturing-cluster-transport/rajamahendravaram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Kakinada"}
-          href="/veena-manufacturing-cluster-to-kakinada-transport"
+          href="/routes/veena-manufacturing-cluster-transport/kakinada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Anantapur"}
-          href="/veena-manufacturing-cluster-to-anantapur-transport"
+          href="/routes/veena-manufacturing-cluster-transport/anantapur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Kadapa"}
-          href="/veena-manufacturing-cluster-to-kadapa-transport"
+          href="/routes/veena-manufacturing-cluster-transport/kadapa-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Chennai"}
-          href="/veena-manufacturing-cluster-to-chennai-transport"
+          href="/routes/veena-manufacturing-cluster-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Bengaluru"}
-          href="/veena-manufacturing-cluster-to-bengaluru-transport"
+          href="/routes/veena-manufacturing-cluster-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Hyderabad"}
-          href="/veena-manufacturing-cluster-to-hyderabad-transport"
+          href="/routes/veena-manufacturing-cluster-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Coimbatore"}
-          href="/veena-manufacturing-cluster-to-coimbatore-transport"
+          href="/routes/veena-manufacturing-cluster-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Salem"}
-          href="/veena-manufacturing-cluster-to-salem-transport"
+          href="/routes/veena-manufacturing-cluster-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Tiruppur"}
-          href="/veena-manufacturing-cluster-to-tiruppur-transport"
+          href="/routes/veena-manufacturing-cluster-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Mysuru"}
-          href="/veena-manufacturing-cluster-to-mysuru-transport"
+          href="/routes/veena-manufacturing-cluster-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Kochi"}
-          href="/veena-manufacturing-cluster-to-kochi-transport"
+          href="/routes/veena-manufacturing-cluster-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Thiruvananthapuram"}
-          href="/veena-manufacturing-cluster-to-thiruvananthapuram-transport"
+          href="/routes/veena-manufacturing-cluster-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Mumbai"}
-          href="/veena-manufacturing-cluster-to-mumbai-transport"
+          href="/routes/veena-manufacturing-cluster-transport/mumbai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Pune"}
-          href="/veena-manufacturing-cluster-to-pune-transport"
+          href="/routes/veena-manufacturing-cluster-transport/pune-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Vellore"}
-          href="/veena-manufacturing-cluster-to-vellore-transport"
+          href="/routes/veena-manufacturing-cluster-transport/vellore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Hosur"}
-          href="/veena-manufacturing-cluster-to-hosur-transport"
+          href="/routes/veena-manufacturing-cluster-transport/hosur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Krishnagiri"}
-          href="/veena-manufacturing-cluster-to-krishnagiri-transport"
+          href="/routes/veena-manufacturing-cluster-transport/krishnagiri-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Veena Manufacturing Cluster to Madurai"}
-          href="/veena-manufacturing-cluster-to-madurai-transport"
+          href="/routes/veena-manufacturing-cluster-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Visakhapatnam to Veena Manufacturing Cluster"}
-          href="/visakhapatnam-to-veena-manufacturing-cluster-transport"
+          href="/routes/visakhapatnam-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Veena Manufacturing Cluster"}
-          href="/vijayawada-to-veena-manufacturing-cluster-transport"
+          href="/routes/vijayawada-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Guntur to Veena Manufacturing Cluster"}
-          href="/guntur-to-veena-manufacturing-cluster-transport"
+          href="/routes/guntur-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tirupati to Veena Manufacturing Cluster"}
-          href="/tirupati-to-veena-manufacturing-cluster-transport"
+          href="/routes/tirupati-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Nellore to Veena Manufacturing Cluster"}
-          href="/nellore-to-veena-manufacturing-cluster-transport"
+          href="/routes/nellore-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kurnool to Veena Manufacturing Cluster"}
-          href="/kurnool-to-veena-manufacturing-cluster-transport"
+          href="/routes/kurnool-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Rajamahendravaram to Veena Manufacturing Cluster"}
-          href="/rajamahendravaram-to-veena-manufacturing-cluster-transport"
+          href="/routes/rajamahendravaram-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kakinada to Veena Manufacturing Cluster"}
-          href="/kakinada-to-veena-manufacturing-cluster-transport"
+          href="/routes/kakinada-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Anantapur to Veena Manufacturing Cluster"}
-          href="/anantapur-to-veena-manufacturing-cluster-transport"
+          href="/routes/anantapur-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kadapa to Veena Manufacturing Cluster"}
-          href="/kadapa-to-veena-manufacturing-cluster-transport"
+          href="/routes/kadapa-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Veena Manufacturing Cluster"}
-          href="/chennai-to-veena-manufacturing-cluster-transport"
+          href="/routes/chennai-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Veena Manufacturing Cluster"}
-          href="/bengaluru-to-veena-manufacturing-cluster-transport"
+          href="/routes/bengaluru-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Veena Manufacturing Cluster"}
-          href="/hyderabad-to-veena-manufacturing-cluster-transport"
+          href="/routes/hyderabad-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Veena Manufacturing Cluster"}
-          href="/coimbatore-to-veena-manufacturing-cluster-transport"
+          href="/routes/coimbatore-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Veena Manufacturing Cluster"}
-          href="/salem-to-veena-manufacturing-cluster-transport"
+          href="/routes/salem-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Veena Manufacturing Cluster"}
-          href="/tiruppur-to-veena-manufacturing-cluster-transport"
+          href="/routes/tiruppur-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Veena Manufacturing Cluster"}
-          href="/mysuru-to-veena-manufacturing-cluster-transport"
+          href="/routes/mysuru-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Veena Manufacturing Cluster"}
-          href="/kochi-to-veena-manufacturing-cluster-transport"
+          href="/routes/kochi-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Veena Manufacturing Cluster"}
-          href="/thiruvananthapuram-to-veena-manufacturing-cluster-transport"
+          href="/routes/thiruvananthapuram-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mumbai to Veena Manufacturing Cluster"}
-          href="/mumbai-to-veena-manufacturing-cluster-transport"
+          href="/routes/mumbai-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pune to Veena Manufacturing Cluster"}
-          href="/pune-to-veena-manufacturing-cluster-transport"
+          href="/routes/pune-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vellore to Veena Manufacturing Cluster"}
-          href="/vellore-to-veena-manufacturing-cluster-transport"
+          href="/routes/vellore-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hosur to Veena Manufacturing Cluster"}
-          href="/hosur-to-veena-manufacturing-cluster-transport"
+          href="/routes/hosur-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Krishnagiri to Veena Manufacturing Cluster"}
-          href="/krishnagiri-to-veena-manufacturing-cluster-transport"
+          href="/routes/krishnagiri-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Veena Manufacturing Cluster"}
-          href="/madurai-to-veena-manufacturing-cluster-transport"
+          href="/routes/madurai-transport/veena-manufacturing-cluster-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">

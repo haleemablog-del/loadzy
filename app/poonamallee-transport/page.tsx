@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+
+const toRouteSlug = (value: string) =>
+  `${value.trim().toLowerCase().replace(/-transport$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-transport`;
+
 export const metadata: Metadata = {
   title: "Poonamallee Truck Transport & Packers Movers | LOADZY",
   description:
@@ -249,11 +253,11 @@ export default function PoonamalleeTransportPage() {
               .flatMap(([origin, destination]) => [
                 {
                   label: `${origin} → ${destination}`,
-                  href: `/routes/${origin.toLowerCase()}/${destination.toLowerCase()}`,
+                  href: `/routes/${toRouteSlug(origin)}/${toRouteSlug(destination)}`,
                 },
                 {
                   label: `${destination} → ${origin}`,
-                  href: `/routes/${destination.toLowerCase()}/${origin.toLowerCase()}`,
+                  href: `/routes/${toRouteSlug(destination)}/${toRouteSlug(origin)}`,
                 },
               ])
               .map((route) => (

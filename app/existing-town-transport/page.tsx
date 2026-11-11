@@ -386,7 +386,7 @@ export default function ExistingTownTransportPage() {
           
           <Link
             key={"Coimbatore"}
-            href="/load-search"
+            href="/routes/existing-town-transport/coimbatore-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -397,7 +397,7 @@ export default function ExistingTownTransportPage() {
 
           <Link
             key={"Chennai"}
-            href="/load-search"
+            href="/routes/existing-town-transport/chennai-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -425,7 +425,7 @@ export default function ExistingTownTransportPage() {
             
           <Link
             key={"Coimbatore"}
-            href="/load-search"
+            href="/routes/coimbatore-transport/existing-town-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -436,7 +436,7 @@ export default function ExistingTownTransportPage() {
 
           <Link
             key={"Chennai"}
-            href="/load-search"
+            href="/routes/chennai-transport/existing-town-transport"
             className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
           >
             <span className="font-semibold text-slate-800 group-hover:text-teal-800">

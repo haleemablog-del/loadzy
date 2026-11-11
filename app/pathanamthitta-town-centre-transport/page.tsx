@@ -433,7 +433,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Thiruvananthapuram"}
-          href="/pathanamthitta-town-centre-to-thiruvananthapuram-transport"
+          href="/routes/pathanamthitta-town-centre-transport/thiruvananthapuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -444,7 +444,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kollam"}
-          href="/pathanamthitta-town-centre-to-kollam-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kollam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -455,7 +455,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Pathanamthitta"}
-          href="/pathanamthitta-town-centre-to-pathanamthitta-transport"
+          href="/routes/pathanamthitta-town-centre-transport/pathanamthitta-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -466,7 +466,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Alappuzha"}
-          href="/pathanamthitta-town-centre-to-alappuzha-transport"
+          href="/routes/pathanamthitta-town-centre-transport/alappuzha-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -477,7 +477,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kottayam"}
-          href="/pathanamthitta-town-centre-to-kottayam-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kottayam-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -488,7 +488,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Idukki"}
-          href="/pathanamthitta-town-centre-to-idukki-transport"
+          href="/routes/pathanamthitta-town-centre-transport/idukki-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -499,7 +499,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kochi"}
-          href="/pathanamthitta-town-centre-to-kochi-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kochi-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -510,7 +510,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Thrissur"}
-          href="/pathanamthitta-town-centre-to-thrissur-transport"
+          href="/routes/pathanamthitta-town-centre-transport/thrissur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -521,7 +521,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Palakkad"}
-          href="/pathanamthitta-town-centre-to-palakkad-transport"
+          href="/routes/pathanamthitta-town-centre-transport/palakkad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -532,7 +532,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Malappuram"}
-          href="/pathanamthitta-town-centre-to-malappuram-transport"
+          href="/routes/pathanamthitta-town-centre-transport/malappuram-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -543,7 +543,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kozhikode"}
-          href="/pathanamthitta-town-centre-to-kozhikode-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kozhikode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -554,7 +554,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Wayanad"}
-          href="/pathanamthitta-town-centre-to-wayanad-transport"
+          href="/routes/pathanamthitta-town-centre-transport/wayanad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -565,7 +565,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kannur"}
-          href="/pathanamthitta-town-centre-to-kannur-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kannur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -576,7 +576,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Kasaragod"}
-          href="/pathanamthitta-town-centre-to-kasaragod-transport"
+          href="/routes/pathanamthitta-town-centre-transport/kasaragod-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -587,7 +587,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Bengaluru"}
-          href="/pathanamthitta-town-centre-to-bengaluru-transport"
+          href="/routes/pathanamthitta-town-centre-transport/bengaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -598,7 +598,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Chennai"}
-          href="/pathanamthitta-town-centre-to-chennai-transport"
+          href="/routes/pathanamthitta-town-centre-transport/chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -609,7 +609,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Coimbatore"}
-          href="/pathanamthitta-town-centre-to-coimbatore-transport"
+          href="/routes/pathanamthitta-town-centre-transport/coimbatore-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -620,7 +620,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Madurai"}
-          href="/pathanamthitta-town-centre-to-madurai-transport"
+          href="/routes/pathanamthitta-town-centre-transport/madurai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -631,7 +631,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Salem"}
-          href="/pathanamthitta-town-centre-to-salem-transport"
+          href="/routes/pathanamthitta-town-centre-transport/salem-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -642,7 +642,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Tiruppur"}
-          href="/pathanamthitta-town-centre-to-tiruppur-transport"
+          href="/routes/pathanamthitta-town-centre-transport/tiruppur-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -653,7 +653,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Erode"}
-          href="/pathanamthitta-town-centre-to-erode-transport"
+          href="/routes/pathanamthitta-town-centre-transport/erode-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -664,7 +664,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Mysuru"}
-          href="/pathanamthitta-town-centre-to-mysuru-transport"
+          href="/routes/pathanamthitta-town-centre-transport/mysuru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -675,7 +675,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Mangaluru"}
-          href="/pathanamthitta-town-centre-to-mangaluru-transport"
+          href="/routes/pathanamthitta-town-centre-transport/mangaluru-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -686,7 +686,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Hyderabad"}
-          href="/pathanamthitta-town-centre-to-hyderabad-transport"
+          href="/routes/pathanamthitta-town-centre-transport/hyderabad-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -697,7 +697,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta town centre to Vijayawada"}
-          href="/pathanamthitta-town-centre-to-vijayawada-transport"
+          href="/routes/pathanamthitta-town-centre-transport/vijayawada-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -725,7 +725,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thiruvananthapuram to Pathanamthitta town centre"}
-          href="/thiruvananthapuram-to-pathanamthitta-town-centre-transport"
+          href="/routes/thiruvananthapuram-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -736,7 +736,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kollam to Pathanamthitta town centre"}
-          href="/kollam-to-pathanamthitta-town-centre-transport"
+          href="/routes/kollam-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -747,7 +747,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Pathanamthitta to Pathanamthitta town centre"}
-          href="/pathanamthitta-to-pathanamthitta-town-centre-transport"
+          href="/routes/pathanamthitta-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -758,7 +758,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Alappuzha to Pathanamthitta town centre"}
-          href="/alappuzha-to-pathanamthitta-town-centre-transport"
+          href="/routes/alappuzha-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -769,7 +769,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kottayam to Pathanamthitta town centre"}
-          href="/kottayam-to-pathanamthitta-town-centre-transport"
+          href="/routes/kottayam-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -780,7 +780,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Idukki to Pathanamthitta town centre"}
-          href="/idukki-to-pathanamthitta-town-centre-transport"
+          href="/routes/idukki-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -791,7 +791,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kochi to Pathanamthitta town centre"}
-          href="/kochi-to-pathanamthitta-town-centre-transport"
+          href="/routes/kochi-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -802,7 +802,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Thrissur to Pathanamthitta town centre"}
-          href="/thrissur-to-pathanamthitta-town-centre-transport"
+          href="/routes/thrissur-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -813,7 +813,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Palakkad to Pathanamthitta town centre"}
-          href="/palakkad-to-pathanamthitta-town-centre-transport"
+          href="/routes/palakkad-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -824,7 +824,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Malappuram to Pathanamthitta town centre"}
-          href="/malappuram-to-pathanamthitta-town-centre-transport"
+          href="/routes/malappuram-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -835,7 +835,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kozhikode to Pathanamthitta town centre"}
-          href="/kozhikode-to-pathanamthitta-town-centre-transport"
+          href="/routes/kozhikode-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -846,7 +846,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Wayanad to Pathanamthitta town centre"}
-          href="/wayanad-to-pathanamthitta-town-centre-transport"
+          href="/routes/wayanad-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -857,7 +857,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kannur to Pathanamthitta town centre"}
-          href="/kannur-to-pathanamthitta-town-centre-transport"
+          href="/routes/kannur-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -868,7 +868,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Kasaragod to Pathanamthitta town centre"}
-          href="/kasaragod-to-pathanamthitta-town-centre-transport"
+          href="/routes/kasaragod-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -879,7 +879,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Bengaluru to Pathanamthitta town centre"}
-          href="/bengaluru-to-pathanamthitta-town-centre-transport"
+          href="/routes/bengaluru-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -890,7 +890,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Chennai to Pathanamthitta town centre"}
-          href="/chennai-to-pathanamthitta-town-centre-transport"
+          href="/routes/chennai-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -901,7 +901,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Coimbatore to Pathanamthitta town centre"}
-          href="/coimbatore-to-pathanamthitta-town-centre-transport"
+          href="/routes/coimbatore-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -912,7 +912,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Madurai to Pathanamthitta town centre"}
-          href="/madurai-to-pathanamthitta-town-centre-transport"
+          href="/routes/madurai-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -923,7 +923,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Salem to Pathanamthitta town centre"}
-          href="/salem-to-pathanamthitta-town-centre-transport"
+          href="/routes/salem-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -934,7 +934,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Tiruppur to Pathanamthitta town centre"}
-          href="/tiruppur-to-pathanamthitta-town-centre-transport"
+          href="/routes/tiruppur-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -945,7 +945,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Erode to Pathanamthitta town centre"}
-          href="/erode-to-pathanamthitta-town-centre-transport"
+          href="/routes/erode-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -956,7 +956,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mysuru to Pathanamthitta town centre"}
-          href="/mysuru-to-pathanamthitta-town-centre-transport"
+          href="/routes/mysuru-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -967,7 +967,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Mangaluru to Pathanamthitta town centre"}
-          href="/mangaluru-to-pathanamthitta-town-centre-transport"
+          href="/routes/mangaluru-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -978,7 +978,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Hyderabad to Pathanamthitta town centre"}
-          href="/hyderabad-to-pathanamthitta-town-centre-transport"
+          href="/routes/hyderabad-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
@@ -989,7 +989,7 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
 
         <Link
           key={"Vijayawada to Pathanamthitta town centre"}
-          href="/vijayawada-to-pathanamthitta-town-centre-transport"
+          href="/routes/vijayawada-transport/pathanamthitta-town-centre-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
