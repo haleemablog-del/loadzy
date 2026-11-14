@@ -102,6 +102,9 @@ const targetKarnatakaDistrictPages = process.argv.includes(
 const targetAndhraPradeshBatch = process.argv.includes(
   "--target-andhra-pradesh-batch"
 );
+const targetPuducherryBatch = process.argv.includes(
+  "--target-puducherry-batch"
+);
 
 const targetTelanganaBatch = process.argv.includes(
   "--target-telangana-batch"
@@ -544,10 +547,8 @@ function escapeJsxText(value) {
     .replace(/\}/g, "&#125;");
 }
 
-function toTransportSlug(value) {
-  return `${slugify(value).replace(/(?:-transport)+$/, "")}-transport`;
-}
-function makeRouteCards(routes, location, direction, getLabel) {
+
+function makeRouteCards(routes, getLabel, getHref) {
   if (!routes.length) {
     return `
       <p className="col-span-full text-slate-600">
@@ -561,31 +562,11 @@ function makeRouteCards(routes, location, direction, getLabel) {
     .map((route) => {
       const routeText = String(route).trim();
       const label = escapeJsxText(getLabel(route));
-
-      // Detect complete routes such as "Ambur to Bangalore".
-      const parts = routeText.split(
-  /\s+to\s+|\s*->\s*|\s*\/\s*/i
-);
-
-      let fromSlug;
-      let toSlug;
-
-      if (parts.length === 2 && parts[0].trim() && parts[1].trim()) {
-        fromSlug = toTransportSlug(parts[0]);
-toSlug = toTransportSlug(parts[1]);
-      } else if (direction === "forward") {
-        fromSlug = originSlug;
-        toSlug = toTransportSlug(routeText);
-      } else {
-        fromSlug = toTransportSlug(routeText);
-        toSlug = originSlug;
-      }
-
-      const href = `/routes/${fromSlug}/${toSlug}`;
+      const href = getHref(route);
 
       return `
         <Link
-          key={${JSON.stringify(route)}}
+          key=${JSON.stringify(route)}
           href=${JSON.stringify(href)}
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
@@ -599,6 +580,26 @@ toSlug = toTransportSlug(parts[1]);
 }
 
 
+
+function buildRouteHref(location, route, direction) {
+  const routeText = String(route).trim();
+
+  // Kerala route entries may already contain both locations.
+  const completeRoute = routeText.split(/\s+(?:to|→)\s+/i);
+
+  if (completeRoute.length === 2) {
+    return `/${slugify(completeRoute[0])}-transport/to-${slugify(completeRoute[1])}-transport`;
+  }
+
+  const origin =
+    direction === "forward" ? location.name : routeText;
+
+  const destination =
+    direction === "forward" ? routeText : location.name;
+
+  return `/${slugify(origin)}-transport/to-${slugify(destination)}-transport`;
+}
+
 function makeRoutesSection(location) {
   const name = escapeJsxText(String(location.name).trim());
 
@@ -606,26 +607,17 @@ function makeRoutesSection(location) {
   const returnRoutes = getList(location.returnRoutes, 25);
 
   // Kerala routes already contain complete origin and destination names.
-  const forwardItems = makeRouteCards(
+ const forwardItems = makeRouteCards(
   forwardRoutes,
-  location,
-  "forward",
-  (route) =>
-    targetTelanganaBatch
-      ? `${location.name} / ${route}`
-      : String(route)
+  (route) => String(route),
+  (route) => buildRouteHref(location, route, "forward")
 );
 
 const returnItems = makeRouteCards(
   returnRoutes,
-  location,
-  "return",
-  (route) =>
-    targetTelanganaBatch
-      ? `${route} / ${location.name}`
-      : String(route)
+  (route) => String(route),
+  (route) => buildRouteHref(location, route, "return")
 );
-
   return `
       {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
@@ -849,8 +841,6 @@ function validateLocation(location) {
 
   const name = String(location.name ?? "").trim();
   const slug = getSlug(location);
-  
-
   if (!name) {
     return "Missing location name.";
   }
@@ -885,27 +875,21 @@ for (const location of locations) {
     !telanganaDistrictPageSlugs.has(slug)
   ) {
     continue;
-  } 
-  
+  }
   if (targetKarnatakaAll && location.state !== "Karnataka") {
   continue;
-}
-  if (
+}if (
   targetKarnatakaDistrictPages &&
   location.state === "Karnataka" &&
   !slug.endsWith("-district-transport")
 ) {
   continue;
-}
-
-  if (
+}if (
     targetBengaluruLocalities &&
     !bengaluruLocalityDistricts.has(location.district)
   ) {
     continue;
-  }
-
-  if (
+  }if (
     targetBengaluruRural &&
     !bengaluruRuralSlugs.has(slug)
   ) {
@@ -925,13 +909,9 @@ for (const location of locations) {
   !bengaluruCentralWestSlugs.has(slug)
 ) {
   continue;
-}
-
-  if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
+}if (targetAnekalMissing && !anekalMissingSlugs.has(slug)) {
     continue;
-  }
-
-  if (
+  }if (
   targetTamilNaduBatch &&
   location.batchTag !== "tamil-nadu-2026-11"
 ) {
@@ -951,9 +931,15 @@ if (
   )
 ) {
   continue;
-}
-
-if (
+}if (
+  targetPuducherryBatch &&
+  (
+    location.state !== "Puducherry" ||
+    location.batchTag !== "puducherry-2026-11"
+  )
+) {
+  continue;
+}if (
   targetTelanganaBatch &&
   (
     location.state !== "Telangana" ||
