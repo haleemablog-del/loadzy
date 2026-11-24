@@ -372,6 +372,7 @@ const discoveredTransportPages = readdirSync(
       ...staticPages,
       ...discoveredTransportPages,
       ...additionalTransportPages,
+          ...discoveredTransportPages,
       ...bagalkotePages,
       ...completedTransportPages,
       ...ballariPages,
@@ -404,8 +405,19 @@ const discoveredTransportPages = readdirSync(
   );
 
   // Tamil Nadu district pages
-  
-  // Tamil Nadu district slugs
+  const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
+    loadzyLocations
+      .filter(
+        (location) =>
+          location.type === "district" &&
+          location.parent === "tamil-nadu"
+      )
+      .map((district) => ({
+        url: `${baseUrl}/tamil-nadu/${district.slug}`,
+        lastModified: new Date(),
+      }));
+
+  // Tamil Nadu city and town pages
 const tamilNaduDistrictSlugs = new Set(
   loadzyLocations
     .filter(
@@ -416,20 +428,6 @@ const tamilNaduDistrictSlugs = new Set(
     .map((district) => district.slug)
 );
 
-// Tamil Nadu district pages
-const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
-  loadzyLocations
-    .filter(
-      (location) =>
-        location.type === "district" &&
-        location.parent === "tamil-nadu"
-    )
-    .map((district) => ({
-      url: `${baseUrl}/tamil-nadu/${district.slug}`,
-      lastModified: new Date(),
-    }));
-
-// Tamil Nadu city and town pages
 const tamilNaduLocationSitemap: MetadataRoute.Sitemap =
   loadzyLocations
     .filter(

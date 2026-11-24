@@ -434,8 +434,6 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           </div>
         </div>
       </section>
-
-      
       {/* FORWARD ROUTES */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
@@ -449,9 +447,8 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           freight charges and schedules must be confirmed.
         </p>
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-          
-        <Link
-          key="Puducherry to Chennai"
+
+        <Link          key="Puducherry to Chennai"
           href="/puducherry-transport/to-chennai-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
         >
@@ -741,12 +738,12 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
             Vehicle availability, freight charges and schedules must be confirmed.
           </p>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-            
+
         <Link
           key="Chennai to Puducherry"
           href="/chennai-transport/to-puducherry-transport"
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-teal-300"
-        >
+      >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
             Chennai to Puducherry
           </span>
@@ -1029,10 +1026,9 @@ When requesting a truck, provide pickup and delivery addresses, goods details, a
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Nearby Locations Around Puducherry
           </h2>
-          
+
 <p className="mt-4 max-w-3xl leading-7 text-slate-600">
-  Explore nearby localities when planning a transport enquiry.
-  Select a locality to open its corresponding transport page.
+  Explore nearby localities when planning a transport enquiry.  Select a locality to open its corresponding transport page.
 </p>
 
 
