@@ -372,7 +372,6 @@ const discoveredTransportPages = readdirSync(
       ...staticPages,
       ...discoveredTransportPages,
       ...additionalTransportPages,
-          ...discoveredTransportPages,
       ...bagalkotePages,
       ...completedTransportPages,
       ...ballariPages,
@@ -405,36 +404,44 @@ const discoveredTransportPages = readdirSync(
   );
 
   // Tamil Nadu district pages
-  const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
-    loadzyLocations
-      .filter(
-        (location) =>
-          location.type === "district" &&
-          location.parent === "tamil-nadu"
-      )
-      .map((district) => ({
-        url: `${baseUrl}/tamil-nadu/${district.slug}`,
-        lastModified: new Date(),
-      }));
+  
+  // Tamil Nadu district slugs
+const tamilNaduDistrictSlugs = new Set(
+  loadzyLocations
+    .filter(
+      (location) =>
+        location.type === "district" &&
+        location.parent === "tamil-nadu"
+    )
+    .map((district) => district.slug)
+);
 
-  // Tamil Nadu city and town pages
-  const tamilNaduLocationSitemap: MetadataRoute.Sitemap =
-    loadzyLocations
-      .filter(
-        (location) =>
-          (location.type === "city" || location.type === "town") &&
-          location.parent &&
-          loadzyLocations.some(
-            (district) =>
-              district.slug === location.parent &&
-              district.type === "district" &&
-              district.parent === "tamil-nadu"
-          )
-      )
-      .map((location) => ({
-        url: `${baseUrl}/tamil-nadu/${location.parent}/${location.slug}`,
-        lastModified: new Date(),
-      }));
+// Tamil Nadu district pages
+const tamilNaduDistrictSitemap: MetadataRoute.Sitemap =
+  loadzyLocations
+    .filter(
+      (location) =>
+        location.type === "district" &&
+        location.parent === "tamil-nadu"
+    )
+    .map((district) => ({
+      url: `${baseUrl}/tamil-nadu/${district.slug}`,
+      lastModified: new Date(),
+    }));
+
+// Tamil Nadu city and town pages
+const tamilNaduLocationSitemap: MetadataRoute.Sitemap =
+  loadzyLocations
+    .filter(
+      (location) =>
+        (location.type === "city" || location.type === "town") &&
+        location.parent &&
+        tamilNaduDistrictSlugs.has(location.parent)
+    )
+    .map((location) => ({
+      url: `${baseUrl}/tamil-nadu/${location.parent}/${location.slug}`,
+      lastModified: new Date(),
+    }));
 
   // Remove duplicate URLs while preserving every sitemap section
   return Array.from(

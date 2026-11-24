@@ -162586,5 +162586,51 @@
     ],
     "seoVerificationStatus": "needs-verification",
     "batchTag": "andhra-pradesh-2026-11"
+  },
+    {
+    "name": "Pammal",
+    "slug": "pammal-transport",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "routes": [
+      "Chennai",
+      "Tambaram",
+      "Kanchipuram",
+      "Sriperumbudur",
+      "Vellore",
+      "Bangalore",
+      "Pondicherry",
+      "Tiruvallur"
+    ],
+    "returnRoutes": [
+      "Chennai",
+      "Tambaram",
+      "Kanchipuram",
+      "Sriperumbudur",
+      "Vellore",
+      "Bangalore",
+      "Pondicherry",
+      "Tiruvallur"
+    ],
+    "nearbyAreas": [
+      "Pallavaram",
+      "Chromepet",
+      "Anakaputhur",
+      "Pozhichalur",
+      "Meenambakkam",
+      "Tambaram",
+      "Kundrathur",
+      "Madhanandapuram"
+    ],
+    "famousFor": [
+      "Residential area",
+      "Industrial and commercial transport"
+    ],
+    "goods": [
+      "Household goods",
+      "Commercial goods",
+      "Industrial goods",
+      "General cargo"
+    ]
   }
 ]

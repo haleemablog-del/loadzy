@@ -1,590 +1,526 @@
-import Link from "next/link";
 import type { Metadata } from "next";
+import Link from "next/link";
+import locations from "@/data/locations.json";
 
-type RoutePageProps = {
+type Location = {
+  name: string;
+  slug: string;
+  state: string;
+  district?: string;
+  routes?: string[];
+  returnRoutes?: string[];
+  nearbyAreas?: string[];
+  famousFor?: string[];
+  goods?: string[];
+};
+
+const locationData = locations as Location[];
+
+type Props = {
   params: Promise<{
     from: string;
     to: string;
   }>;
 };
 
-function formatCity(slug: string) {
-  return slug
+function cleanTransportSlug(value: string) {
+  return value
     .replace(/-transport$/, "")
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+    .replace(/-truck-booking$/, "")
+    .replace(/-goods-transport$/, "")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
 }
-const famousForBySlug: Record<string, string> = {
-  // Existing locations
-  ilkal: "Traditional Ilkal sarees and handloom weaving.",
-  bagalkote: "Agriculture, sugar production and regional trade.",
-  bengaluru: "Technology, manufacturing and commercial activity.",
-  badami: "Historic cave temples and heritage tourism.",
-  guledgudda: "Traditional Khana textile weaving.",
-  mysuru: "Silk, sandalwood crafts and cultural heritage.",
-  mangaluru: "Coastal trade, seafood and port-related commerce.",
-  hubballi: "Wholesale trade, commerce and logistics.",
-  dharwad: "Education, Dharwad peda and regional commerce.",
 
-  // Karnataka district locations
-  belagavi: "Sugar industry, agriculture and regional commerce.",
-  ballari: "Mining-related industry, steel and agriculture.",
-  vijayapura: "Agriculture, grapes and historic monuments.",
-  kalaburagi: "Tur dal production, agriculture and regional trade.",
-  bidar: "Bidriware metal craft and agricultural activity.",
-  raichur: "Paddy cultivation, cotton and agricultural trade.",
-  koppal: "Agriculture, industry and historic heritage.",
-  gadag: "Agriculture, textiles and historic temples.",
-  haveri: "Agriculture, cotton and regional trade.",
-  davanagere: "Cotton mills, textiles and agricultural commerce.",
-  chitradurga: "Agriculture, renewable energy and historic forts.",
-  tumakuru: "Industry, agriculture and commercial activity.",
-  hassan: "Coffee, agriculture and regional trade.",
-  kodagu: "Coffee, spices and plantation agriculture.",
-  chikmagalur: "Coffee plantations and spice cultivation.",
-  shimoga: "Arecanut, agriculture and forest-based products.",
-  shivamogga: "Arecanut, agriculture and forest-based products.",
-  udupi: "Coastal commerce, food businesses and tourism.",
-  chikkaballapur: "Silk, grapes and agricultural activity.",
-  kolar: "Gold-mining heritage, silk and agriculture.",
-  mandya: "Sugarcane cultivation and sugar production.",
-  chamarajanagar: "Agriculture, forest products and regional trade.",
-  yadvagiri: "Agriculture and regional commerce.",
-  yadgir: "Agriculture and regional commerce.",
-  vijayanagara: "Agriculture, industry and heritage tourism.",
-  bangalore: "Technology, manufacturing and commercial activity.",
-  bengaluruurban: "Technology, manufacturing and commercial activity.",
-  bengalururural: "Agriculture, manufacturing and regional commerce.",
-  ramnagara: "Silk production and agricultural activity.",
-  ramanagara: "Silk production and agricultural activity.",
-    chikkamagaluru: "Coffee plantations and spice cultivation.",
+function findLocation(slug: string) {
+  return locationData.find(
+    (location) => location.slug.toLowerCase() === slug.toLowerCase()
+  );
+}
 
-  
-};
-function getFamousFor(slug: string): string {
-  const normalizedSlug = slug
+function findLocationByName(name: string) {
+  const normalized = name.trim().toLowerCase();
+
+  return locationData.find(
+    (location) => location.name.trim().toLowerCase() === normalized
+  );
+}
+
+function getLocationSlug(name: string) {
+  const location = findLocationByName(name);
+
+  if (location) {
+    return location.slug;
+  }
+
+  return `${name
+    .trim()
     .toLowerCase()
-    .replace(/-transport$/, "");
-
-  return famousForBySlug[normalizedSlug] ||
-    "Local trade, businesses and regional transport needs. Specific products and industries should be verified before publication.";
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")}-transport`;
 }
 
+function getRouteHref(fromName: string, toName: string) {
+  return `/routes/${getLocationSlug(fromName)}/${getLocationSlug(toName)}`;
+}
 
-
+export const revalidate = 3600;
 
 export async function generateMetadata({
   params,
-}: RoutePageProps): Promise<Metadata> {
+}: Props): Promise<Metadata> {
   const { from, to } = await params;
 
-  const fromCity = formatCity(from);
-  const toCity = formatCity(to);
-return {
-  title: `${fromCity} to ${toCity} Truck Transport | LOADZY`,
-  description: `Book a truck from ${fromCity} to ${toCity} with LOADZY. Find transport for full loads, part loads, household shifting and commercial goods.`,
+  const fromLocation = findLocation(from);
+  const toLocation = findLocation(to);
 
-  alternates: {
-    canonical: `https://www.loadzyinfra.in/routes/${from}/${to}`,
-  },
+  const fromName = fromLocation?.name || cleanTransportSlug(from);
+  const toName = toLocation?.name || cleanTransportSlug(to);
 
-  openGraph: {
-    title: `${fromCity} to ${toCity} Truck Transport | LOADZY`,
-    description: `Book a truck from ${fromCity} to ${toCity} with LOADZY for full loads, part loads, household shifting and commercial transport.`,
-    url: `https://www.loadzyinfra.in/routes/${from}/${to}`,
-    siteName: "LOADZY",
-    type: "website",
-  },
-};
-}
+  const title = `${fromName} to ${toName} Transport | Truck Booking | LOADZY`;
 
-export default async function RoutePage({
-  params,
-}: RoutePageProps) {
-  const { from, to } = await params;
+  const description = `Book truck transport from ${fromName} to ${toName} with LOADZY. Get full load, part load, commercial goods transport and truck booking options.`;
 
-  const fromCity = formatCity(from);
-  const toCity = formatCity(to);
-
-  const routeName = `${fromCity} → ${toCity}`;
-    const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `${fromCity} to ${toCity} Truck Transport | LOADZY`,
-    description: `Book a truck from ${fromCity} to ${toCity} with LOADZY for full loads, part loads, house shifting and commercial goods.`,
-    url: `https://www.loadzyinfra.in/routes/${from}/${to}`,
-    about: {
-      "@type": "Service",
-      name: `${fromCity} to ${toCity} Truck Transport`,
-      provider: {
-        "@type": "Organization",
-        name: "LOADZY",
-        url: "https://www.loadzyinfra.in",
-      },
-      areaServed: [
-        {
-          "@type": "Place",
-          name: fromCity,
-        },
-        {
-          "@type": "Place",
-          name: toCity,
-        },
-      ],
+  return {
+    title,
+    description,
+    keywords: [
+      `${fromName} to ${toName} transport`,
+      `${fromName} to ${toName} truck booking`,
+      `${fromName} to ${toName} goods transport`,
+      `${fromName} to ${toName} lorry booking`,
+      `${fromName} to ${toName} freight`,
+      `${toName} to ${fromName} transport`,
+      `${toName} to ${fromName} truck booking`,
+    ],
+    alternates: {
+      canonical: `https://www.loadzyinfra.in/routes/${from}/${to}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.loadzyinfra.in/routes/${from}/${to}`,
+      siteName: "LOADZY",
+      locale: "en_IN",
+      type: "website",
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
+}
 
-  const trucks = [
-    "7 FT",
-    "10 FT",
-    "14 FT",
-    "17 FT / 20 FT",
-  ];
+export default async function RoutePage({ params }: Props) {
+  const { from, to } = await params;
 
-  const services = [
-  { name: "Full Load", href: "/full-load" },
-  { name: "Part Load", href: "/part-load" },
-  { name: "House Shifting", href: "/house-shifting" },
-  { name: "Packers & Movers", href: "/packers-movers" },
-];
+  const fromLocation = findLocation(from);
+  const toLocation = findLocation(to);
 
-  const benefits = [
-    "On-Time Delivery",
-    "Safe Delivery",
-    "Affordable Freight Price",
-    "Return Load Available",
-  ];
+  const fromName = fromLocation?.name || cleanTransportSlug(from);
+  const toName = toLocation?.name || cleanTransportSlug(to);
 
-  const faqs = [
-    {
-      question: `How can I book a truck from ${fromCity} to ${toCity}?`,
-      answer: `You can submit your pickup, delivery, load type and truck requirement through LOADZY. Our transport booking system helps connect your requirement with a suitable truck.`,
-    },
-    {
-      question: `What types of loads can I transport from ${fromCity} to ${toCity}?`,
-      answer: `LOADZY supports different transport requirements including household goods, commercial goods, part loads and full loads.`,
-    },
-    {
-      question: `Can I use LOADZY for house shifting?`,
-      answer: `Yes. LOADZY can be used for household shifting and transport requirements between ${fromCity} and ${toCity}.`,
-    },
-    {
-      question: `How do I find the right truck for my load?`,
-      answer: `Use the Find My Truck option and provide your pickup location, delivery location, load type and truck requirement.`,
-    },
-  ];
+  const popularRoutes = (fromLocation?.routes || [])
+    .filter(
+      (route) =>
+        route.trim().toLowerCase() !== toName.trim().toLowerCase()
+    )
+    .slice(0, 25);
 
-  const relatedRoutes = [
-    {
-      from: fromCity,
-      to: "Hyderabad",
-    },
-    {
-      from: fromCity,
-      to: "Coimbatore",
-    },
-    {
-      from: toCity,
-      to: fromCity,
-    },
-    {
-      from: toCity,
-      to: "Kochi",
-    },
-  ];
+  const returnRoutes = (fromLocation?.returnRoutes || [])
+    .filter(
+      (route) =>
+        route.trim().toLowerCase() !== toName.trim().toLowerCase()
+    )
+    .slice(0, 25);
+
+  const nearbyLocations = (fromLocation?.nearbyAreas || []).slice(0, 40);
+
+  const reverseRouteHref = getRouteHref(toName, fromName);
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen bg-slate-950 text-white">
 
       {/* HERO */}
-      <section className="bg-[#062c54] px-6 py-20 text-white">
-        <div className="mx-auto max-w-6xl text-center">
-
-          <div className="font-black tracking-widest text-[#1ee1d3]">
-            LOADZY TRANSPORT ROUTE
-          </div>
-
-          <h1 className="mt-4 text-4xl font-black md:text-6xl">
-            {fromCity} → {toCity} Truck Transport
-          </h1>
-
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
-            Book a truck from {fromCity} to {toCity} with LOADZY.
-            Find transport solutions for part loads, full loads,
-            household shifting and commercial goods.
-          </p>
-
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-
-            <a
-              href="/#book"
-              className="rounded-xl bg-[#1ee1d3] px-7 py-4 font-black text-[#06264a] transition hover:scale-105"
-            >
-              Get Transport Price →
-            </a>
-
-            <a
-              href="/load-search"
-              className="rounded-xl border border-white px-7 py-4 font-black text-white transition hover:bg-white hover:text-[#06264a]"
-            >
-              Find Available Loads →
-            </a>
-
-          </div>
-
+      <section className="mx-auto max-w-7xl px-6 py-16">
+        <div className="mb-8 text-sm text-slate-400">
+          <Link href="/" className="hover:text-white">
+            Home
+          </Link>
+          {" / "}
+          <span>Routes</span>
+          {" / "}
+          <span>
+            {fromName} to {toName}
+          </span>
         </div>
-      </section>
 
-      {/* ROUTE OVERVIEW */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-6xl">
+        <div className="grid gap-10 lg:grid-cols-2">
 
-          <div className="rounded-3xl bg-white p-8 shadow-sm md:p-12">
-
-            <div className="font-black tracking-widest text-[#08a99f]">
-              ROUTE OVERVIEW
-            </div>
-
-            <h2 className="mt-3 text-3xl font-black text-[#09264b] md:text-4xl">
-              Transport from {fromCity} to {toCity}
-            </h2>
-
-            <p className="mt-5 leading-8 text-slate-600">
-              Looking for reliable truck transport from {fromCity} to{" "}
-              {toCity}? LOADZY connects customers with transport
-              solutions for different load requirements.
+          {/* LEFT */}
+          <div>
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-teal-400">
+              LOADZY TRANSPORT ROUTE
             </p>
 
-            <p className="mt-4 leading-8 text-slate-600">
-              Whether you are moving household goods, transporting
-              commercial products, sending a part load or booking
-              a full truck, you can submit your requirement through
-              LOADZY.
+            <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+              {fromName} to {toName}
+              <span className="block text-teal-400">
+                Transport Service
+              </span>
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+              Looking for reliable goods transport from {fromName} to{" "}
+              {toName}? LOADZY helps you connect with truck transport
+              options for full load, part load, commercial goods and
+              household shifting requirements.
             </p>
 
-          </div>
-
-        </div>
-      </section>
-
-      
-{/* FAMOUS FOR BOTH LOCATIONS */}
-<section className="px-6 py-16">
-  <div className="mx-auto max-w-6xl">
-    <div className="text-center">
-      <div className="font-black tracking-widest text-[#08a99f]">
-        LOCAL INDUSTRIES & SPECIALITIES
-      </div>
-
-      <h2 className="mt-3 text-3xl font-black text-[#09264b] md:text-4xl">
-        What Are {fromCity} and {toCity} Famous For?
-      </h2>
-
-      <p className="mx-auto mt-4 max-w-3xl leading-7 text-slate-600">
-        Learn about the local specialities of both locations when planning
-        your transport requirements with LOADZY.
-      </p>
-    </div>
-
-    <div className="mt-10 grid gap-6 md:grid-cols-2">
-      <article className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
-        <p className="font-black tracking-widest text-[#08a99f]">
-          ORIGIN
-        </p>
-
-        <h3 className="mt-3 text-2xl font-black text-[#09264b]">
-          {fromCity}
-        </h3>
-
-        <p className="mt-4 leading-7 text-slate-600">
-          {getFamousFor(from)}
-        </p>
-      </article>
-
-      <article className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
-        <p className="font-black tracking-widest text-[#08a99f]">
-          DESTINATION
-        </p>
-
-        <h3 className="mt-3 text-2xl font-black text-[#09264b]">
-          {toCity}
-        </h3>
-
-        <p className="mt-4 leading-7 text-slate-600">
-          {getFamousFor(to)}
-        </p>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-      {/* TRUCK OPTIONS */}
-      <section className="bg-white px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-
-          <div className="text-center">
-
-            <div className="font-black tracking-widest text-[#08a99f]">
-              TRUCK OPTIONS
-            </div>
-
-            <h2 className="mt-3 text-4xl font-black text-[#09264b]">
-              Choose the right truck for your load
-            </h2>
-
-            <p className="mx-auto mt-4 max-w-2xl text-slate-600">
-              Different truck sizes can be suitable for different
-              transport requirements.
-            </p>
-
-          </div>
-
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-
-            {trucks.map((truck) => (
-              <div
-                key={truck}
-                className="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center transition hover:-translate-y-1 hover:shadow-md"
-              >
-                <div className="text-3xl">🚚</div>
-
-                <h3 className="mt-3 font-black text-[#09264b]">
-                  {truck} Truck
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Suitable for different load and transport
-                  requirements.
-                </p>
-
-              </div>
-            ))}
-
-          </div>
-
-        </div>
-      </section>
-
-      {/* SERVICES */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-
-          <div className="text-center">
-
-            <div className="font-black tracking-widest text-[#08a99f]">
-              LOADZY SERVICES
-            </div>
-
-            <h2 className="mt-3 text-4xl font-black text-[#09264b]">
-              Transport services available
-            </h2>
-
-          </div>
-
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-
-            {services.map((service) => (
+            <div className="mt-8 flex flex-wrap gap-4">
               <Link
-  href={service.href}
-               key={service.name}
-                className="rounded-2xl bg-white p-7 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                href="/contact"
+                className="rounded-xl bg-yellow-400 px-6 py-3 font-bold text-slate-950"
               >
-                <div className="text-2xl">🚚</div>
-
-                <h3 className="mt-3 font-black text-[#09264b]">
-                 {service.name}
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Transport solutions through LOADZY for your
-                  route requirement.
-                </p>
-
+                Book a Truck →
               </Link>
-            ))}
 
+              <Link
+                href="/"
+                className="rounded-xl border border-white/20 px-6 py-3 font-semibold"
+              >
+                Back to LOADZY
+              </Link>
+            </div>
           </div>
 
-        </div>
-      </section>
+          {/* RIGHT ENQUIRY CARD */}
+          <div className="rounded-2xl border border-white/10 bg-white/10 p-6">
 
-      {/* WHY LOADZY */}
-      <section className="bg-[#062c54] px-6 py-16 text-white">
-        <div className="mx-auto max-w-6xl">
+            <p className="text-sm font-semibold uppercase tracking-wider text-teal-400">
+              ROUTE ENQUIRY
+            </p>
 
-          <div className="text-center">
-
-            <div className="font-black tracking-widest text-[#1ee1d3]">
-              WHY LOADZY
-            </div>
-
-            <h2 className="mt-3 text-4xl font-black">
-              Transport made simple
+            <h2 className="mt-2 text-2xl font-bold">
+              Book a truck from {fromName} to {toName}
             </h2>
 
-          </div>
+            <p className="mt-4 text-slate-300">
+              Submit your transport requirement and our team can help
+              with suitable truck options.
+            </p>
 
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-6 rounded-xl bg-slate-900/70 p-5">
 
-            {benefits.map((benefit) => (
-              <div
-                key={benefit}
-                className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center"
-              >
-                <div className="text-2xl text-[#1ee1d3]">
-                  ✓
+              <div className="flex items-center justify-between gap-4">
+
+                <div>
+                  <p className="text-sm text-slate-400">
+                    Pickup
+                  </p>
+
+                  <p className="font-bold">
+                    {fromName}
+                  </p>
                 </div>
 
-                <h3 className="mt-3 font-black">
-                  {benefit}
+                <div className="text-2xl text-teal-400">
+                  →
+                </div>
+
+                <div className="text-right">
+                  <p className="text-sm text-slate-400">
+                    Delivery
+                  </p>
+
+                  <p className="font-bold">
+                    {toName}
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <Link
+              href="/contact"
+              className="mt-6 block rounded-xl bg-teal-500 px-6 py-4 text-center font-bold text-slate-950"
+            >
+              Get Transport Quote
+            </Link>
+
+          </div>
+        </div>
+      </section>
+
+      {/* TRANSPORT SERVICES */}
+      <section className="bg-white py-16 text-slate-900">
+        <div className="mx-auto max-w-7xl px-6">
+
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-teal-600">
+            TRANSPORT SERVICES
+          </p>
+
+          <h2 className="mt-3 text-3xl font-extrabold">
+            {fromName} to {toName} Transport Options
+          </h2>
+
+          <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+
+            {[
+              "Full Load Transport",
+              "Part Load Transport",
+              "Commercial Goods Transport",
+              "Household Shifting",
+            ].map((service) => (
+              <div
+                key={service}
+                className="rounded-xl border border-slate-200 p-5"
+              >
+                <h3 className="font-bold">
+                  {service}
                 </h3>
 
+                <p className="mt-2 text-sm text-slate-600">
+                  Transport solutions for requirements from{" "}
+                  {fromName} to {toName}.
+                </p>
               </div>
             ))}
 
           </div>
+        </div>
+      </section>
+
+      {/* POPULAR ROUTES */}
+      {popularRoutes.length > 0 && (
+        <section className="bg-white py-16 text-slate-900">
+          <div className="mx-auto max-w-7xl px-6">
+
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-teal-600">
+              POPULAR ROUTES
+            </p>
+
+            <h2 className="mt-3 text-3xl font-extrabold">
+              Popular Transport Routes from {fromName}
+            </h2>
+
+            <p className="mt-4 max-w-3xl text-slate-600">
+              Explore popular truck transport routes from {fromName} to
+              major cities and business locations.
+            </p>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+              {popularRoutes.map((route) => (
+                <Link
+                  key={route}
+                  href={getRouteHref(fromName, route)}
+                  className="flex items-center justify-between rounded-xl border border-slate-200 p-5 font-bold transition hover:border-teal-400 hover:text-teal-600"
+                >
+                  <span>
+                    {fromName} to {route}
+                  </span>
+
+                  <span className="text-teal-500">
+                    →
+                  </span>
+                </Link>
+              ))}
+
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* RETURN ROUTES */}
+      {returnRoutes.length > 0 && (
+        <section className="bg-slate-50 py-16 text-slate-900">
+          <div className="mx-auto max-w-7xl px-6">
+
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-teal-600">
+              RETURN ROUTES
+            </p>
+
+            <h2 className="mt-3 text-3xl font-extrabold">
+              Transport Routes to {fromName}
+            </h2>
+
+            <p className="mt-4 max-w-3xl text-slate-600">
+              Explore return-direction truck transport routes to{" "}
+              {fromName}. Vehicle availability, freight charges and
+              schedules must be confirmed.
+            </p>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+              {returnRoutes.map((route) => (
+                <Link
+                  key={route}
+                  href={getRouteHref(route, fromName)}
+                  className="flex items-center justify-between rounded-xl border border-slate-200 bg-white p-5 font-bold transition hover:border-teal-400 hover:text-teal-600"
+                >
+                  <span>
+                    {route} to {fromName}
+                  </span>
+
+                  <span className="text-teal-500">
+                    →
+                  </span>
+                </Link>
+              ))}
+
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* NEARBY LOCATIONS */}
+      {nearbyLocations.length > 0 && (
+        <section className="bg-white py-16 text-slate-900">
+          <div className="mx-auto max-w-7xl px-6">
+
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-teal-600">
+              NEARBY LOCATIONS
+            </p>
+
+            <h2 className="mt-3 text-3xl font-extrabold">
+              Nearby Transport Locations Around {fromName}
+            </h2>
+
+            <p className="mt-4 max-w-3xl text-slate-600">
+              Find transport services and truck booking options around{" "}
+              {fromName} and nearby business areas.
+            </p>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+
+              {nearbyLocations.map((area) => {
+                const nearbySlug = getLocationSlug(area);
+
+                return (
+                  <Link
+                    key={area}
+                    href={`/${nearbySlug}`}
+                    className="rounded-xl border border-slate-200 p-5 font-bold transition hover:border-teal-400 hover:text-teal-600"
+                  >
+                    {area} Transport →
+                  </Link>
+                );
+              })}
+
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* TRUCK BOOKING */}
+      <section className="bg-slate-50 py-16 text-slate-900">
+        <div className="mx-auto max-w-7xl px-6">
+
+          <h2 className="text-3xl font-extrabold">
+            {fromName} to {toName} Truck Booking
+          </h2>
+
+          <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
+            LOADZY provides a platform for transport enquiries between{" "}
+            {fromName} and {toName}. Depending on the requirement,
+            customers can enquire for full truck load, part load,
+            commercial transportation and household shifting services.
+            Truck availability, freight charges and schedules should be
+            confirmed before booking.
+          </p>
 
         </div>
       </section>
 
-      {/* FIND MY TRUCK */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-4xl rounded-3xl bg-white p-8 text-center shadow-sm md:p-12">
+      {/* OTHER ROUTES */}
+      <section className="bg-white py-16 text-slate-900">
+        <div className="mx-auto max-w-7xl px-6">
 
-          <div className="font-black tracking-widest text-[#08a99f]">
-            FIND MY TRUCK
-          </div>
-
-          <h2 className="mt-3 text-4xl font-black text-[#09264b]">
-            Need a truck for {routeName}?
+          <h2 className="text-3xl font-extrabold">
+            Other Routes
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-600">
-            Tell LOADZY your pickup location, delivery location,
-            load type and truck requirement. We can help connect
-            your transport requirement with a suitable truck.
-          </p>
+          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
 
-          <a
-            href="/#book"
-            className="mt-8 inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] transition hover:scale-105"
-          >
-            Find My Truck →
-          </a>
+            <Link
+              href={reverseRouteHref}
+              className="rounded-xl border border-slate-200 p-5 font-bold hover:border-teal-400"
+            >
+              {toName} to {fromName} Transport →
+            </Link>
 
+          </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="bg-white px-6 py-16">
-        <div className="mx-auto max-w-5xl">
+      <section className="bg-slate-50 py-16 text-slate-900">
+        <div className="mx-auto max-w-5xl px-6">
 
-          <div className="text-center">
-
-            <div className="font-black tracking-widest text-[#08a99f]">
-              FAQ
-            </div>
-
-            <h2 className="mt-3 text-4xl font-black text-[#09264b]">
-              {fromCity} to {toCity} Transport FAQs
-            </h2>
-
-          </div>
-
-          <div className="mt-10 space-y-4">
-
-            {faqs.map((faq) => (
-              <details
-                key={faq.question}
-                className="group rounded-2xl border border-slate-200 bg-slate-50 p-6"
-              >
-                <summary className="cursor-pointer list-none font-black text-[#09264b]">
-                  {faq.question}
-                  <span className="float-right text-[#08a99f]">
-                    +
-                  </span>
-                </summary>
-
-                <p className="mt-4 leading-7 text-slate-600">
-                  {faq.answer}
-                </p>
-
-              </details>
-            ))}
-
-          </div>
-
-        </div>
-      </section>
-
-            {/* RELATED ROUTES */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-
-          <div className="text-center">
-            <div className="font-black tracking-widest text-[#08a99f]">
-              RELATED ROUTES
-            </div>
-
-            <h2 className="mt-3 text-4xl font-black text-[#09264b]">
-              Explore more LOADZY routes
-            </h2>
-          </div>
-
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-
-            {relatedRoutes.map((route) => {
-              const fromSlug =
-                `${route.from.toLowerCase().trim().replace(/\s+/g, "-").replace(/-transport$/, "")}-transport`;
-
-              const toSlug =
-                `${route.to.toLowerCase().trim().replace(/\s+/g, "-").replace(/-transport$/, "")}-transport`;
-
-              return (
-                <Link
-                  key={`${fromSlug}-${toSlug}`}
-                  href={`/routes/${fromSlug}/${toSlug}`}
-                  className="rounded-2xl border border-slate-200 bg-white p-5 font-black text-[#09264b] shadow-sm transition hover:-translate-y-1 hover:border-[#1ee1d3] hover:shadow-md"
-                >
-                  🚚 {route.from} → {route.to}
-
-                  <span className="mt-2 block text-sm text-[#08a99f]">
-                    View Route →
-                  </span>
-                </Link>
-              );
-            })}
-
-          </div>
-
-        </div>
-      </section>
-
-      {/* FINAL CTA */}
-      <section className="bg-[#062c54] px-6 py-16 text-center text-white">
-
-        <div className="mx-auto max-w-3xl">
-
-          <h2 className="text-4xl font-black md:text-5xl">
-            Book a Truck from {fromCity} to {toCity}
-          </h2>
-
-          <p className="mt-4 leading-7 text-blue-100">
-            Submit your transport requirement and get started
-            with LOADZY.
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-teal-600">
+            FAQ
           </p>
 
-          <a
-            href="/#book"
-            className="mt-8 inline-block rounded-xl bg-[#1ee1d3] px-8 py-4 font-black text-[#06264a] transition hover:scale-105"
-          >
-            Book a Truck →
-          </a>
+          <h2 className="mt-3 text-3xl font-extrabold">
+            {fromName} to {toName} Transport FAQs
+          </h2>
 
+          <div className="mt-8 space-y-4">
+
+            <div className="rounded-xl border border-slate-200 bg-white p-6">
+
+              <h3 className="font-bold">
+                How can I book a truck from {fromName} to {toName}?
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                You can submit your transport requirement through LOADZY
+                to enquire about suitable truck transport options.
+              </p>
+
+            </div>
+
+            <div className="rounded-xl border border-slate-200 bg-white p-6">
+
+              <h3 className="font-bold">
+                What transport services are available from {fromName} to{" "}
+                {toName}?
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Depending on availability and requirement, customers can
+                enquire for full load, part load, commercial goods
+                transport and household shifting.
+              </p>
+
+            </div>
+
+            <div className="rounded-xl border border-slate-200 bg-white p-6">
+
+              <h3 className="font-bold">
+                Can I book a return truck from {toName} to {fromName}?
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Yes. LOADZY also provides a dedicated route page for the
+                reverse direction:{" "}
+
+                <Link
+                  href={reverseRouteHref}
+                  className="font-semibold text-teal-600 hover:underline"
+                >
+                  {toName} to {fromName} Transport
+                </Link>
+                .
+              </p>
+
+            </div>
+
+          </div>
         </div>
-
       </section>
 
     </main>
