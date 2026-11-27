@@ -20,6 +20,10 @@ type Location = {
 
 const locationData = locations as Location[];
 
+const locationMap = new Map(
+  locationData.map((location) => [location.slug, location])
+);
+
 type Props = {
   params: Promise<{
     slug: string;
@@ -28,14 +32,22 @@ type Props = {
 
 export const revalidate = 3600;
 
+export async function generateStaticParams() {
+  return locationData.map((location) => ({
+    slug: location.slug,
+  }));
+}
+
+function getLocation(slug: string) {
+  return locationMap.get(slug);
+}
+
 export async function generateMetadata({
   params,
 }: Props): Promise<Metadata> {
   const { slug } = await params;
 
-  const location = locationData.find(
-    (item) => item.slug === slug
-  );
+  const location = getLocation(slug);
 
   if (!location) {
     return {
@@ -45,9 +57,16 @@ export async function generateMetadata({
     };
   }
 
+  const pageUrl =
+    `https://www.loadzyinfra.in/${location.slug}`;
+
   return {
-    title: `${location.name} Transport Service | Truck Booking | LOADZY`,
-    description: `Find goods transport and truck booking options in ${location.name}. Explore full load, part load, commercial transport, household shifting and packers and movers with LOADZY.`,
+    title:
+      `${location.name} Transport Service | Truck Booking | LOADZY`,
+
+    description:
+      `Find goods transport and truck booking options in ${location.name}. Explore full load, part load, commercial transport, household shifting and packers and movers with LOADZY.`,
+
     keywords: [
       `${location.name} transport service`,
       `${location.name} truck booking`,
@@ -58,17 +77,24 @@ export async function generateMetadata({
       `${location.name} house shifting`,
       `${location.name} packers and movers`,
     ],
+
     alternates: {
-      canonical: `https://www.loadzyinfra.in/${location.slug}`,
+      canonical: pageUrl,
     },
+
     openGraph: {
-      title: `${location.name} Transport Service | LOADZY`,
-      description: `Submit a truck booking or goods transport enquiry from ${location.name}.`,
-      url: `https://www.loadzyinfra.in/${location.slug}`,
+      title:
+        `${location.name} Transport Service | LOADZY`,
+
+      description:
+        `Submit a truck booking or goods transport enquiry from ${location.name}.`,
+
+      url: pageUrl,
       siteName: "LOADZY",
       locale: "en_IN",
       type: "website",
     },
+
     robots: {
       index: true,
       follow: true,
@@ -81,24 +107,20 @@ export default async function LocationPage({
 }: Props) {
   const { slug } = await params;
 
-  const location = locationData.find(
-    (item) => item.slug === slug
-  );
+  const location = getLocation(slug);
 
   if (!location) {
     notFound();
   }
 
-  console.log(
-    "LOCATION PAGE RENDER:",
-    location.name,
-    location.slug
-  );
-
   return (
     <LocationTransportPage
       location={location}
-      form={<LocationTransportForm location={location} />}
+      form={
+        <LocationTransportForm
+          location={location}
+        />
+      }
     />
   );
 }

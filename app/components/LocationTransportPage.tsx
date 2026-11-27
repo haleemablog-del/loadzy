@@ -446,7 +446,7 @@ const nearbyAreas = uniqueList(location.nearbyAreas, 40);
         </div>
       </section>
 
-      {/* DESTINATIONS */}
+            {/* DESTINATIONS */}
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <p className="font-bold uppercase tracking-[0.18em] text-[#08A99F]">
           Intercity transport
@@ -457,6 +457,7 @@ const nearbyAreas = uniqueList(location.nearbyAreas, 40);
         </h2>
 
         <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+          Explore major cities and destinations from {name}.
           Choose a destination to explore transport information.
           Availability and route coverage must be confirmed for each
           enquiry.
@@ -470,7 +471,7 @@ const nearbyAreas = uniqueList(location.nearbyAreas, 40);
               className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
             >
               <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                {city} to {name}
+                {name} to {city}
               </span>
 
               <span className="ml-2 text-[#08A99F]">

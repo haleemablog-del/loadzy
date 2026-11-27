@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import locations from "@/data/locations.json";
+import TransportEnquiryForm from "./TransportEnquiryForm";
 
 type Location = {
   name: string;
