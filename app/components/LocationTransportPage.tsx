@@ -131,7 +131,24 @@ function uniqueList(values: string[] | undefined, limit: number) {
       .map((item) => item.trim())
   )].slice(0, limit);
 }
+  function getRouteUrl(from?: string | null, to?: string | null) {
+  const slugify = (value?: string | null) =>
+    (value ?? "")
+      .trim()
+      .toLowerCase()
+      .replace(/&/g, "and")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
 
+  const fromSlug = slugify(from);
+  const toSlug = slugify(to);
+
+  if (!fromSlug || !toSlug) {
+    return "#";
+  }
+
+  return `/routes/${fromSlug}-transport/${toSlug}-transport`;
+}
 export default function LocationTransportPage({
   location,
   form,
@@ -464,15 +481,15 @@ const nearbyAreas = uniqueList(location.nearbyAreas, 40);
         </p>
 
         <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-          {destinations.map((city) => (
+          {destinations.map((route) => (
             <Link
-              key={city}
-              href={getLocationUrl(city)}
+              key={route}
+              href={getRouteUrl(name, route)}
               className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-[#08A99F] hover:bg-teal-50"
             >
               <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-                {name} to {city}
-              </span>
+  {name} → {route}
+</span>
 
               <span className="ml-2 text-[#08A99F]">
                 →
@@ -498,14 +515,14 @@ const nearbyAreas = uniqueList(location.nearbyAreas, 40);
     </p>
 
     <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-      {returnRoutes.map((city) => (
+      {returnRoutes.map((route) => (
         <Link
-          key={city}
-          href={getLocationUrl(city)}
+          key={route}
+href={getRouteUrl(route, name)}
           className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-4 transition hover:border-teal-500 hover:shadow-sm"
         >
           <span className="font-semibold text-slate-800 group-hover:text-teal-800">
-            {city} to {name}
+            {route} → {name}
           </span>
 
           <span className="ml-2 text-[#08A99F]">

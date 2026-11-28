@@ -32,12 +32,6 @@ type Props = {
 
 export const revalidate = 3600;
 
-export async function generateStaticParams() {
-  return locationData.map((location) => ({
-    slug: location.slug,
-  }));
-}
-
 function getLocation(slug: string) {
   return locationMap.get(slug);
 }
@@ -84,7 +78,7 @@ export async function generateMetadata({
 
     openGraph: {
       title:
-        `${location.name} Transport Service | LOADZY`,
+        `${location.name} Transport Service | Truck Booking | LOADZY`,
 
       description:
         `Submit a truck booking or goods transport enquiry from ${location.name}.`,

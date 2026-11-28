@@ -17,26 +17,24 @@ type Location = {
 
 const locationData = locations as Location[];
 
+const locationBySlug = new Map(
+  locationData.map((location) => [location.slug, location])
+);
+
+export const revalidate = 86400;
+
 type Props = {
   params: Promise<{
     slug: string;
   }>;
 };
 
-export async function generateStaticParams() {
-  return locationData.map((location) => ({
-    slug: location.slug,
-  }));
-}
-
 export async function generateMetadata({
   params,
 }: Props): Promise<Metadata> {
   const { slug } = await params;
 
-  const location = locationData.find(
-    (item) => item.slug === slug
-  );
+  const location = locationBySlug.get(slug);
 
   if (!location) {
     return {};
@@ -82,9 +80,7 @@ export default async function LocationPage({
 }: Props) {
   const { slug } = await params;
 
-  const location = locationData.find(
-    (item) => item.slug === slug
-  );
+  const location = locationBySlug.get(slug);
 
   if (!location) {
     notFound();
